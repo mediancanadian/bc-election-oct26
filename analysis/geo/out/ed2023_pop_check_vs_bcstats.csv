@@ -1,0 +1,94 @@
+ed_name,ed_code,pop2021,bcstats,diff,pct
+Abbotsford South,ABS,60573,60630,-57,-0.09
+Abbotsford West,ABW,61933,61910,23,0.04
+Abbotsford-Mission,ABM,59347,59370,-23,-0.04
+Boundary-Similkameen,BDS,48143,48170,-27,-0.06
+Bulkley Valley-Stikine,BLS,20549,20555,-6,-0.03
+Burnaby Centre,BNC,53573,53625,-52,-0.1
+Burnaby East,BNE,54768,54495,273,0.5
+Burnaby North,BNO,53576,53605,-29,-0.05
+Burnaby South-Metrotown,BNS,52311,52280,31,0.06
+Burnaby-New Westminster,BNN,52941,52865,76,0.14
+Cariboo-Chilcotin,CBC,41348,41310,38,0.09
+Chilliwack North,CHN,52452,52530,-78,-0.15
+Chilliwack-Cultus Lake,CHC,53101,53050,51,0.1
+Columbia River-Revelstoke,CLR,40953,40810,143,0.35
+Coquitlam-Burke Mountain,CQB,60620,60730,-110,-0.18
+Coquitlam-Maillardville,CQM,57161,57045,116,0.2
+Courtenay-Comox,CRC,60378,60350,28,0.05
+Cowichan Valley,CWV,55240,55165,75,0.14
+Delta North,DLN,58679,58815,-136,-0.23
+Delta South,DLS,51927,51905,22,0.04
+Esquimalt-Colwood,ESC,58380,58410,-30,-0.05
+Fraser-Nicola,FRN,42665,42605,60,0.14
+Juan de Fuca-Malahat,JFM,44973,44980,-7,-0.02
+Kamloops Centre,KAC,60699,60680,19,0.03
+Kamloops-North Thompson,KAN,60410,60475,-65,-0.11
+Kelowna Centre,KEC,58930,59425,-495,-0.83
+Kelowna-Lake Country-Coldstream,KLC,59218,58705,513,0.87
+Kelowna-Mission,KLM,59735,59705,30,0.05
+Kootenay Central,KOC,41853,41975,-122,-0.29
+Kootenay-Monashee,KOM,41581,41485,96,0.23
+Kootenay-Rockies,KOR,41190,41335,-145,-0.35
+Ladysmith-Oceanside,LAO,56473,56340,133,0.24
+Langford-Highlands,LFH,48937,49050,-113,-0.23
+Langley-Abbotsford,LLA,56633,56225,408,0.73
+Langley-Walnut Grove,LWG,54896,54815,81,0.15
+Langley-Willowbrook,LWI,57520,57945,-425,-0.73
+Maple Ridge East,MAE,57790,57885,-95,-0.16
+Maple Ridge-Pitt Meadows,MAP,58766,58665,101,0.17
+Mid Island-Pacific Rim,MPR,58747,58795,-48,-0.08
+Nanaimo-Gabriola Island,NAI,59069,59140,-71,-0.12
+Nanaimo-Lantzville,NAL,56750,56880,-130,-0.23
+Nechako Lakes,NEC,25297,25290,7,0.03
+New Westminster-Coquitlam,NMC,57962,57990,-28,-0.05
+North Coast-Haida Gwaii,NOH,21982,21980,2,0.01
+North Island,NOI,58922,58935,-13,-0.02
+North Vancouver-Lonsdale,NVL,61898,61955,-57,-0.09
+North Vancouver-Seymour,NVS,61855,61845,10,0.02
+Oak Bay-Gordon Head,OBG,56350,56470,-120,-0.21
+Peace River North,PCN,40375,40380,-5,-0.01
+Peace River South,PCS,25635,25635,0,0.0
+Penticton-Summerland,PES,55306,55330,-24,-0.04
+Port Coquitlam,POC,61601,61500,101,0.16
+Port Moody-Burquitlam,POM,59667,59770,-103,-0.17
+Powell River-Sunshine Coast,POR,53248,53220,28,0.05
+Prince George-Mackenzie,PRM,41476,41490,-14,-0.03
+Prince George-North Cariboo,PRO,43308,43530,-222,-0.51
+Prince George-Valemount,PRV,41369,41080,289,0.7
+Richmond Centre,RCC,54474,54475,-1,-0.0
+Richmond-Bridgeport,RCB,54742,54725,17,0.03
+Richmond-Queensborough,RCQ,54999,54950,49,0.09
+Richmond-Steveston,RCS,56776,56775,1,0.0
+Saanich North and the Islands,SAN,57847,57890,-43,-0.07
+Saanich South,SAS,58787,58680,107,0.18
+Salmon Arm-Shuswap,SHU,62631,62550,81,0.13
+Skeena,SKE,30151,30145,6,0.02
+Surrey City Centre,SRC,57640,57175,465,0.81
+Surrey North,SUN,59928,59900,28,0.05
+Surrey South,SUS,56951,56905,46,0.08
+Surrey-Cloverdale,SRD,56681,56740,-59,-0.1
+Surrey-Fleetwood,SRF,60725,60175,550,0.91
+Surrey-Guildford,SRG,60718,61170,-452,-0.74
+Surrey-Newton,SRN,61468,61520,-52,-0.08
+Surrey-Panorama,SUP,58210,58235,-25,-0.04
+Surrey-Serpentine River,SUR,58702,59090,-388,-0.66
+Surrey-White Rock,SWR,59503,59535,-32,-0.05
+Vancouver-Fraserview,VFV,58624,58685,-61,-0.1
+Vancouver-Hastings,VHA,58024,58085,-61,-0.11
+Vancouver-Kensington,VKE,58587,58595,-8,-0.01
+Vancouver-Langara,VLA,55722,55720,2,0.0
+Vancouver-Little Mountain,VLM,57058,57030,28,0.05
+Vancouver-Point Grey,VNP,56932,56810,122,0.21
+Vancouver-Quilchena,VNQ,56847,56965,-118,-0.21
+Vancouver-Renfrew,VNR,56758,56920,-162,-0.28
+Vancouver-South Granville,VNS,56207,56130,77,0.14
+Vancouver-Strathcona,VNT,54608,54595,13,0.02
+Vancouver-West End,VNW,57342,57335,7,0.01
+Vancouver-Yaletown,VNY,55173,55310,-137,-0.25
+Vernon-Lumby,VRL,57314,57375,-61,-0.11
+Victoria-Beacon Hill,VTB,54501,54370,131,0.24
+Victoria-Swan Lake,VTS,54847,54785,62,0.11
+West Kelowna-Peachland,WKP,55591,55665,-74,-0.13
+West Vancouver-Capilano,WVC,62566,62585,-19,-0.03
+West Vancouver-Sea to Sky,WVS,62205,62140,65,0.1

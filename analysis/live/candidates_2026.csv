@@ -1,0 +1,354 @@
+ed_code,district,candidate,affiliation,incumbent,incumbent_same_district,mla_district_at_dissolution,mla_lims_affiliation_at_dissolution
+ABM,Abbotsford-Mission,Pam Alexis,BC NDP,N,,,
+ABM,Abbotsford-Mission,Virender Dass,OneBC,N,,,
+ABM,Abbotsford-Mission,Lakhwinder Jhaj,CentreBC,N,,,
+ABM,Abbotsford-Mission,Darryl Kropp,Conservative Party,N,,,
+ABM,Abbotsford-Mission,Jeff Monds,Libertarian,N,,,
+ABS,Abbotsford South,Leah Ballantyne,BC NDP,N,,,
+ABS,Abbotsford South,Bruce Banman,Conservative Party,Y,Y,Abbotsford South,Independent
+ABS,Abbotsford South,Robin Roy,OneBC,N,,,
+ABW,Abbotsford West,Gurpreet Chahal,CentreBC,N,,,
+ABW,Abbotsford West,Jules Côté,BC NDP,N,,,
+ABW,Abbotsford West,Korky Neufeld,Conservative Party,Y,Y,Abbotsford West,Conservative Party of British Columbia
+BDS,Boundary-Similkameen,Keith Pomeroy,OneBC,N,,,
+BDS,Boundary-Similkameen,Roly Russell,BC NDP,N,,,
+BDS,Boundary-Similkameen,Donegal Wilson,Conservative Party,Y,Y,Boundary-Similkameen,Independent
+BLS,Bulkley Valley-Stikine,Frankie Abel,BC NDP,N,,,
+BLS,Bulkley Valley-Stikine,Ed Ewald,Christian Heritage Party of BC,N,,,
+BLS,Bulkley Valley-Stikine,Sharon Hartwell,Conservative Party,Y,Y,Bulkley Valley-Stikine,Conservative Party of British Columbia
+BNC,Burnaby Centre,Joshua Domnich,Conservative Party,N,,,
+BNC,Burnaby Centre,Vikas Gautam,CentreBC,N,,,
+BNC,Burnaby Centre,Anne Kang,BC NDP,Y,Y,Burnaby Centre,British Columbia New Democratic Party
+BNC,Burnaby Centre,Shila Taheri,BC Green Party,N,,,
+BNE,Burnaby East,Rohini Reah Arora,BC NDP,Y,Y,Burnaby East,British Columbia New Democratic Party
+BNE,Burnaby East,De Ding,OneBC,N,,,
+BNE,Burnaby East,Javad Shushtarian,BC Green Party,N,,,
+BNE,Burnaby East,Peter Si,Conservative Party,N,,,
+BNN,Burnaby-New Westminster,Raj Chouhan,BC NDP,Y,Y,Burnaby-New Westminster,British Columbia New Democratic Party
+BNN,Burnaby-New Westminster,Joe Latam,Conservative Party,N,,,
+BNO,Burnaby North,Simon Chandler,Conservative Party,N,,,
+BNO,Burnaby North,Maddy Kennedy-Parrott,BC Green Party,N,,,
+BNO,Burnaby North,Janet Routledge,BC NDP,Y,Y,Burnaby North,British Columbia New Democratic Party
+BNO,Burnaby North,Jenny Yamagata,OneBC,N,,,
+BNS,Burnaby South-Metrotown,Paul Choi,BC NDP,Y,Y,Burnaby South-Metrotown,British Columbia New Democratic Party
+BNS,Burnaby South-Metrotown,Bryan Fockler,BC Green Party,N,,,
+BNS,Burnaby South-Metrotown,Andrew Rose,OneBC,N,,,
+BNS,Burnaby South-Metrotown,David Xie,Conservative Party,N,,,
+CBC,Cariboo-Chilcotin,Kathryn Askew,BC NDP,N,,,
+CBC,Cariboo-Chilcotin,Lorne Doerkson,Conservative Party,Y,Y,Cariboo-Chilcotin,Conservative Party of British Columbia
+CBC,Cariboo-Chilcotin,Douglas Gook,BC Green Party,N,,,
+CHC,Chilliwack-Cultus Lake,Kelli Paddon,BC NDP,N,,,
+CHC,Chilliwack-Cultus Lake,A'aliya Warbus,Conservative Party,Y,Y,Chilliwack-Cultus Lake,Independent
+CHN,Chilliwack North,Dan Grice,CentreBC,N,,,
+CHN,Chilliwack North,Heather Maahs,Conservative Party,Y,Y,Chilliwack North,Conservative Party of British Columbia
+CHN,Chilliwack North,Adila Shaukat,BC NDP,N,,,
+CLR,Columbia River-Revelstoke,Andrea Dunlop,BC NDP,N,,,
+CLR,Columbia River-Revelstoke,Scott McInnis,Conservative Party,Y,Y,Columbia River-Revelstoke,Conservative Party of British Columbia
+CLR,Columbia River-Revelstoke,Rana Nelson,BC Green Party,N,,,
+CQB,Coquitlam-Burke Mountain,Kaden Mann,CentreBC,N,,,
+CQB,Coquitlam-Burke Mountain,Valerie Morrison,BC Green Party,N,,,
+CQB,Coquitlam-Burke Mountain,Ryan Peterson,Conservative Party,N,,,
+CQB,Coquitlam-Burke Mountain,Jodie Wickens,BC NDP,Y,Y,Coquitlam-Burke Mountain,British Columbia New Democratic Party
+CQM,Coquitlam-Maillardville,Jennifer Blatherwick,BC NDP,Y,Y,Coquitlam-Maillardville,British Columbia New Democratic Party
+CQM,Coquitlam-Maillardville,Matt Liang,Conservative Party,N,,,
+CQM,Coquitlam-Maillardville,Nicola Spurling,BC Green Party,N,,,
+CRC,Courtenay-Comox,Will Cole-Hamilton,BC NDP,N,,,
+CRC,Courtenay-Comox,Jason Cook,CentreBC,N,,,
+CRC,Courtenay-Comox,Brennan Day,Conservative Party,Y,Y,Courtenay-Comox,Independent
+CRC,Courtenay-Comox,Jay Van Oostdam,BC Green Party,N,,,
+CWV,Cowichan Valley,Bert Chen,Conservative Party,N,,,
+CWV,Cowichan Valley,James Chumsa,Communist Party of BC,N,,,
+CWV,Cowichan Valley,Justin Douglas,BC Green Party,N,,,
+CWV,Cowichan Valley,Debra Toporowski,BC NDP,Y,Y,Cowichan Valley,British Columbia New Democratic Party
+DLN,Delta North,Monica Mohan,Conservative Party,N,,,
+DLN,Delta North,Kuldeep Rangi,CentreBC,N,,,
+DLN,Delta North,Todd Schierling,BC NDP,N,,,
+DLS,Delta South,Skadi Green,BC Green Party,N,,,
+DLS,Delta South,Jason McCormick,BC NDP,N,,,
+DLS,Delta South,Jim McMurtry,OneBC,N,,,
+DLS,Delta South,Ian Paton,Conservative Party,Y,Y,Delta South,Independent
+ESC,Esquimalt-Colwood,Sidney Coles,BC Green Party,N,,,
+ESC,Esquimalt-Colwood,Dave Johnston,Conservative Party,N,,,
+ESC,Esquimalt-Colwood,Darlene Rotchford,BC NDP,Y,Y,Esquimalt-Colwood,British Columbia New Democratic Party
+ESC,Esquimalt-Colwood,Sid Tobias,CentreBC,N,,,
+FRN,Fraser-Nicola,Jason Leboe,BC NDP,N,,,
+FRN,Fraser-Nicola,Tony Luck,Conservative Party,Y,Y,Fraser-Nicola,Conservative Party of British Columbia
+FRN,Fraser-Nicola,Patrick Michell,BC Green Party,N,,,
+JFM,Juan de Fuca-Malahat,Jeff Brown,Christian Heritage Party of BC,N,,,
+JFM,Juan de Fuca-Malahat,David Evans,BC Green Party,N,,,
+JFM,Juan de Fuca-Malahat,Shane Friesen,OneBC,N,,,
+JFM,Juan de Fuca-Malahat,Mike Hicks,Conservative Party,N,,,
+JFM,Juan de Fuca-Malahat,Dana Lajeunesse,BC NDP,Y,Y,Juan de Fuca-Malahat,British Columbia New Democratic Party
+KAC,Kamloops Centre,Annelise Beach,BC Green Party,N,,,
+KAC,Kamloops Centre,Rocky McAfee,OneBC,N,,,
+KAC,Kamloops Centre,Peter Milobar,Conservative Party,Y,Y,Kamloops Centre,Independent
+KAC,Kamloops Centre,Thaelo Proctor,Independent,N,,,
+KAC,Kamloops Centre,Mike Wisla,BC NDP,N,,,
+KAN,Kamloops-North Thompson,Kory Clark,BC NDP,N,,,
+KAN,Kamloops-North Thompson,Deborah Friesen,OneBC,N,,,
+KAN,Kamloops-North Thompson,Ward Stamer,Conservative Party,Y,Y,Kamloops-North Thompson,Conservative Party of British Columbia
+KEC,Kelowna Centre,Bill Desrosiers,OneBC,N,,,
+KEC,Kelowna Centre,Kristina Loewen,Conservative Party,Y,Y,Kelowna Centre,Conservative Party of British Columbia
+KEC,Kelowna Centre,Loyal Wooldridge,BC NDP,N,,,
+KLC,Kelowna-Lake Country-Coldstream,Binny Boparai,BC NDP,N,,,
+KLC,Kelowna-Lake Country-Coldstream,Carter Mochinski,BC Green Party,N,,,
+KLC,Kelowna-Lake Country-Coldstream,Pavneet Singh,Conservative Party,N,,,
+KLC,Kelowna-Lake Country-Coldstream,Alexandra Wright,OneBC,N,,,
+KLM,Kelowna-Mission,Gavin Dew,Conservative Party,Y,Y,Kelowna-Mission,Conservative Party of British Columbia
+KLM,Kelowna-Mission,Saoirse MacKinnon,BC Green Party,N,,,
+KLM,Kelowna-Mission,Abraham Nordine,OneBC,N,,,
+KLM,Kelowna-Mission,Miriam Rycroft,BC NDP,N,,,
+KOC,Kootenay Central,Brittny Anderson,BC NDP,Y,Y,Kootenay Central,British Columbia New Democratic Party
+KOC,Kootenay Central,Nicole Charlwood,BC Green Party,N,,,
+KOC,Kootenay Central,Hunter Corrigal,OneBC,N,,,
+KOC,Kootenay Central,Gordon Skulnec,Conservative Party,N,,,
+KOM,Kootenay-Monashee,Stephen Hill,OneBC,N,,,
+KOM,Kootenay-Monashee,Connie Larochelle,BC Green Party,N,,,
+KOM,Kootenay-Monashee,Warren Mirko,Conservative Party,N,,,
+KOM,Kootenay-Monashee,Steve Morissette,BC NDP,Y,Y,Kootenay-Monashee,British Columbia New Democratic Party
+KOR,Kootenay-Rockies,Norma Blissett,BC NDP,N,,,
+KOR,Kootenay-Rockies,Pete Davis,Conservative Party,Y,Y,Kootenay-Rockies,Conservative Party of British Columbia
+KOR,Kootenay-Rockies,Keenan Dennehy,BC Green Party,N,,,
+KOR,Kootenay-Rockies,Paul Heywood,CentreBC,N,,,
+KOR,Kootenay-Rockies,AJ Wolfe,OneBC,N,,,
+LAO,Ladysmith-Oceanside,Stephanie Higginson,BC NDP,Y,Y,Ladysmith-Oceanside,British Columbia New Democratic Party
+LAO,Ladysmith-Oceanside,Kris McNichol,Conservative Party,N,,,
+LAO,Ladysmith-Oceanside,Charlene Smylie,BC Green Party,N,,,
+LFH,Langford-Highlands,Sean Flynn,CentreBC,N,,,
+LFH,Langford-Highlands,Christian McCay,Christian Heritage Party of BC,N,,,
+LFH,Langford-Highlands,Christopher Moon,BC Green Party,N,,,
+LFH,Langford-Highlands,Ravi Parmar,BC NDP,Y,Y,Langford-Highlands,British Columbia New Democratic Party
+LFH,Langford-Highlands,Cindy Scott,Conservative Party,N,,,
+LFH,Langford-Highlands,Alex Thurlborn,Independent,N,,,
+LLA,Langley-Abbotsford,Harman Bhangu,Conservative Party,Y,Y,Langley-Abbotsford,Conservative Party of British Columbia
+LLA,Langley-Abbotsford,Shelly Jan,OneBC,N,,,
+LLA,Langley-Abbotsford,Alex Joehl,Libertarian,N,,,
+LLA,Langley-Abbotsford,Erin Osborne,BC NDP,N,,,
+LLA,Langley-Abbotsford,Melissa Snazell,BC Green Party,N,,,
+LWG,Langley-Walnut Grove,Holly Isaac,BC NDP,N,,,
+LWG,Langley-Walnut Grove,Sam Meyer,BC Green Party,N,,,
+LWG,Langley-Walnut Grove,Kyle Stevenson,CentreBC,N,,,
+LWG,Langley-Walnut Grove,Misty Van Popta,Conservative Party,Y,Y,Langley-Walnut Grove,Conservative Party of British Columbia
+LWI,Langley-Willowbrook,Shubham Joshi,OneBC,N,,,
+LWI,Langley-Willowbrook,Andrew Mercier,BC NDP,N,,,
+LWI,Langley-Willowbrook,Anisha Sandhu,BC Green Party,N,,,
+LWI,Langley-Willowbrook,Jody Toor,Conservative Party,Y,Y,Langley-Willowbrook,Conservative Party of British Columbia
+MAE,Maple Ridge East,Hudson Campbell,BC NDP,N,,,
+MAE,Maple Ridge East,Chris Hatchwell,Independent,N,,,
+MAE,Maple Ridge East,Daniel Kite,BC Green Party,N,,,
+MAE,Maple Ridge East,Lawrence Mok,Conservative Party,Y,Y,Maple Ridge East,Conservative Party of British Columbia
+MAP,Maple Ridge-Pitt Meadows,Lisa Beare,BC NDP,Y,Y,Maple Ridge-Pitt Meadows,British Columbia New Democratic Party
+MAP,Maple Ridge-Pitt Meadows,Susan Einarsson,OneBC,N,,,
+MAP,Maple Ridge-Pitt Meadows,Doug Morneau,Conservative Party,N,,,
+MAP,Maple Ridge-Pitt Meadows,Jordan Simmons,CentreBC,N,,,
+MPR,Mid Island-Pacific Rim,Joshua Dahling,Conservative Party,N,,,
+MPR,Mid Island-Pacific Rim,Gracie MacDonald,BC Green Party,N,,,
+MPR,Mid Island-Pacific Rim,Josie Osborne,BC NDP,Y,Y,Mid Island-Pacific Rim,British Columbia New Democratic Party
+NAI,Nanaimo-Gabriola Island,Mark MacDonald,Conservative Party,N,,,
+NAI,Nanaimo-Gabriola Island,Sheila Malcolmson,BC NDP,Y,Y,Nanaimo-Gabriola Island,British Columbia New Democratic Party
+NAI,Nanaimo-Gabriola Island,Anna Mary McKenzie,BC Green Party,N,,,
+NAL,Nanaimo-Lantzville,George Anderson,BC NDP,Y,Y,Nanaimo-Lantzville,British Columbia New Democratic Party
+NAL,Nanaimo-Lantzville,Kelsey Pringle,Conservative Party,N,,,
+NAL,Nanaimo-Lantzville,Pepper Saltman,Communist Party of BC,N,,,
+NAL,Nanaimo-Lantzville,Sharleen Weatherley,BC Green Party,N,,,
+NEC,Nechako Lakes,Diane Black,Conservative Party,N,,,
+NEC,Nechako Lakes,Jesse Gervais,BC NDP,N,,,
+NEC,Nechako Lakes,Clint Lambert,Other,N,,,
+NMC,New Westminster-Coquitlam,Maureen Curran,BC Green Party,N,,,
+NMC,New Westminster-Coquitlam,Michele Lau,Conservative Party,N,,,
+NMC,New Westminster-Coquitlam,Jennifer Whiteside,BC NDP,Y,Y,New Westminster-Coquitlam,British Columbia New Democratic Party
+NOH,North Coast-Haida Gwaii,Tamara Davidson,BC NDP,Y,Y,North Coast-Haida Gwaii,British Columbia New Democratic Party
+NOH,North Coast-Haida Gwaii,Rodney Proskiw,Conservative Party,N,,,
+NOH,North Coast-Haida Gwaii,Francis Racy,BC Green Party,N,,,
+NOI,North Island,Anna Kindy,Conservative Party,Y,Y,North Island,Conservative Party of British Columbia
+NOI,North Island,Richard Lambert,Independent,N,,,
+NOI,North Island,Sara Lopez,BC NDP,N,,,
+NOI,North Island,Benjamin Olsson,BC Green Party,N,,,
+NVL,North Vancouver-Lonsdale,Joshua A Singer Johnson,BC Green Party,N,,,
+NVL,North Vancouver-Lonsdale,Bowinn Ma,BC NDP,Y,Y,North Vancouver-Lonsdale,British Columbia New Democratic Party
+NVL,North Vancouver-Lonsdale,Trevor Withers,Conservative Party,N,,,
+NVS,North Vancouver-Seymour,Lynne Block,Conservative Party,Y,N,West Vancouver-Capilano,Conservative Party of British Columbia
+NVS,North Vancouver-Seymour,Susie Chant,BC NDP,Y,Y,North Vancouver-Seymour,British Columbia New Democratic Party
+NVS,North Vancouver-Seymour,Lori Climenhaga,CentreBC,N,,,
+NVS,North Vancouver-Seymour,Ben Holt,BC Green Party,N,,,
+OBG,Oak Bay-Gordon Head,Andrew Appleton,BC Green Party,N,,,
+OBG,Oak Bay-Gordon Head,Diana Gibson,BC NDP,Y,Y,Oak Bay-Gordon Head,British Columbia New Democratic Party
+OBG,Oak Bay-Gordon Head,Stan Sipos,Conservative Party,N,,,
+OBG,Oak Bay-Gordon Head,Andrew Weaver,CentreBC,N,,,
+PCN,Peace River North,Jordan Kealy,Independent,Y,Y,Peace River North,Independent
+PCN,Peace River North,Curtis Whitford,Conservative Party,N,,,
+PCS,Peace River South,Marsha Rose Dufresne,BC NDP,N,,,
+PCS,Peace River South,Larry Neufeld,Conservative Party,Y,Y,Peace River South,Conservative Party of British Columbia
+PCS,Peace River South,Helen Scott,Other,N,,,
+PES,Penticton-Summerland,Bradley Sean Bartsch,BC Green Party,N,,,
+PES,Penticton-Summerland,Warren Hamm,OneBC,N,,,
+PES,Penticton-Summerland,Tina Lee,BC NDP,N,,,
+PES,Penticton-Summerland,Tracy St Claire,Conservative Party,N,,,
+POC,Port Coquitlam,Keenan Adams,Conservative Party,N,,,
+POC,Port Coquitlam,Lee-Ann Bates,Other,N,,,
+POC,Port Coquitlam,Lewis C. Dahlby,Libertarian,N,,,
+POC,Port Coquitlam,Mike Farnworth,BC NDP,Y,Y,Port Coquitlam,British Columbia New Democratic Party
+POC,Port Coquitlam,Stephanie Hendy,BC Green Party,N,,,
+POM,Port Moody-Burquitlam,Wei Chou,BC Green Party,N,,,
+POM,Port Moody-Burquitlam,Rick Glumac,BC NDP,Y,Y,Port Moody-Burquitlam,British Columbia New Democratic Party
+POM,Port Moody-Burquitlam,John McEwen,Conservative Party,N,,,
+POM,Port Moody-Burquitlam,Freddy Rawji,CentreBC,N,,,
+POR,Powell River-Sunshine Coast,John Henderson,Conservative Party,N,,,
+POR,Powell River-Sunshine Coast,Griffin Leonard Lea,BC Green Party,N,,,
+POR,Powell River-Sunshine Coast,Randene Neill,BC NDP,Y,Y,Powell River-Sunshine Coast,British Columbia New Democratic Party
+PRM,Prince George-Mackenzie,Kiel Giddens,Conservative Party,Y,Y,Prince George-Mackenzie,Conservative Party of British Columbia
+PRM,Prince George-Mackenzie,Ian McMahon,BC NDP,N,,,
+PRM,Prince George-Mackenzie,Teri Young,BC Green Party,N,,,
+PRO,Prince George-North Cariboo,Denice Bardua,BC NDP,N,,,
+PRO,Prince George-North Cariboo,Sheldon Clare,Conservative Party,Y,Y,Prince George-North Cariboo,Conservative Party of British Columbia
+PRO,Prince George-North Cariboo,Randy Thompson,BC Green Party,N,,,
+PRV,Prince George-Valemount,Rosalyn Bird,Conservative Party,Y,Y,Prince George-Valemount,Independent
+PRV,Prince George-Valemount,Carol Bourque,BC NDP,N,,,
+PRV,Prince George-Valemount,Jodie Capling,BC Green Party,N,,,
+PRV,Prince George-Valemount,Mitchell Lukoni,OneBC,N,,,
+RCB,Richmond-Bridgeport,Linda Li,BC NDP,N,,,
+RCB,Richmond-Bridgeport,Teresa Wat,Conservative Party,Y,Y,Richmond-Bridgeport,Independent
+RCC,Richmond Centre,Lawrence Chen,CWP,N,,,
+RCC,Richmond Centre,Calvin Dang,BC Green Party,N,,,
+RCC,Richmond Centre,Sacha Peter,Conservative Party,N,,,
+RCC,Richmond Centre,Henry Yao,BC NDP,N,,,
+RCQ,Richmond-Queensborough,Luc Burns,BC Green Party,N,,,
+RCQ,Richmond-Queensborough,Dhar Grewal,BC NDP,N,,,
+RCQ,Richmond-Queensborough,Steve Kooner,Conservative Party,Y,Y,Richmond-Queensborough,Conservative Party of British Columbia
+RCS,Richmond-Steveston,Robert Evans,Independent,N,,,
+RCS,Richmond-Steveston,Bruce Kong,BC NDP,N,,,
+RCS,Richmond-Steveston,Barry Wosk,CentreBC,N,,,
+RCS,Richmond-Steveston,Keenan Yang,CWP,N,,,
+RCS,Richmond-Steveston,Gordon Zhang,Conservative Party,N,,,
+SAN,Saanich North and the Islands,Kala Bryson,BC NDP,N,,,
+SAN,Saanich North and the Islands,Emily Lowan,BC Green Party,N,,,
+SAN,Saanich North and the Islands,Richard Smith,CentreBC,N,,,
+SAN,Saanich North and the Islands,Ryan Windsor,Conservative Party,N,,,
+SAS,Saanich South,Lisa Lapointe,BC Green Party,N,,,
+SAS,Saanich South,Cathie Ounsted,Conservative Party,N,,,
+SAS,Saanich South,Richard Zussman,BC NDP,N,,,
+SHU,Salmon Arm-Shuswap,Gloria Morgan,BC NDP,N,,,
+SHU,Salmon Arm-Shuswap,Barbara Presch,OneBC,N,,,
+SHU,Salmon Arm-Shuswap,Denise Reimer,CentreBC,N,,,
+SHU,Salmon Arm-Shuswap,Jed Wiebe,BC Green Party,N,,,
+SHU,Salmon Arm-Shuswap,David L Williams,Conservative Party,Y,Y,Salmon Arm-Shuswap,Conservative Party of British Columbia
+SKE,Skeena,Nick Gottlieb,BC Green Party,N,,,
+SKE,Skeena,Claire Rattée,Conservative Party,Y,Y,Skeena,Conservative Party of British Columbia
+SKE,Skeena,Larry Eugene Taylor,OneBC,N,,,
+SKE,Skeena,Sarah Zimmerman,BC NDP,N,,,
+SRC,Surrey City Centre,Amna Shah,BC NDP,Y,Y,Surrey City Centre,British Columbia New Democratic Party
+SRC,Surrey City Centre,Raman Sharma,CentreBC,N,,,
+SRC,Surrey City Centre,Zeeshan Wahla,Conservative Party,N,,,
+SRC,Surrey City Centre,Oliver Wildfong,OneBC,N,,,
+SRD,Surrey-Cloverdale,Nicholas Cartmell,Conservative Party,N,,,
+SRD,Surrey-Cloverdale,Sargy Chima,CentreBC,N,,,
+SRD,Surrey-Cloverdale,Stephen Dooley,BC NDP,N,,,
+SRD,Surrey-Cloverdale,Travis Marchenski,OneBC,N,,,
+SRD,Surrey-Cloverdale,Pat McCutcheon,BC Green Party,N,,,
+SRF,Surrey-Fleetwood,Tim Binnema,BC Green Party,N,,,
+SRF,Surrey-Fleetwood,Jagrup Brar,BC NDP,Y,Y,Surrey-Fleetwood,British Columbia New Democratic Party
+SRF,Surrey-Fleetwood,Paul Brar,CentreBC,N,,,
+SRF,Surrey-Fleetwood,Carolyn Hofbauer,OneBC,N,,,
+SRF,Surrey-Fleetwood,Garry Purewal,Conservative Party,N,,,
+SRG,Surrey-Guildford,Garry Begg,BC NDP,Y,Y,Surrey-Guildford,British Columbia New Democratic Party
+SRG,Surrey-Guildford,Jodi Murphy,BC Green Party,N,,,
+SRG,Surrey-Guildford,Garry Thind,Conservative Party,N,,,
+SRG,Surrey-Guildford,James Yaroshuk,Other,N,,,
+SRN,Surrey-Newton,Harj Dhaliwal,Conservative Party,N,,,
+SRN,Surrey-Newton,Harman Preet Singh,CentreBC,N,,,
+SRN,Surrey-Newton,Jessie Sunner,BC NDP,Y,Y,Surrey-Newton,British Columbia New Democratic Party
+SUN,Surrey North,Jag Bhandari,Other,N,,,
+SUN,Surrey North,Parm Bhandol,CentreBC,N,,,
+SUN,Surrey North,Mandeep Singh Dhaliwal,Conservative Party,Y,Y,Surrey North,Conservative Party of British Columbia
+SUN,Surrey North,Yudhbir Gill,BC Green Party,N,,,
+SUN,Surrey North,Tanya Gupta,OneBC,N,,,
+SUN,Surrey North,Sahib Thind,BC NDP,N,,,
+SUP,Surrey-Panorama,Manav Manro,CentreBC,N,,,
+SUP,Surrey-Panorama,Nolen Scott,BC Green Party,N,,,
+SUP,Surrey-Panorama,Jinny Sims,BC NDP,N,,,
+SUP,Surrey-Panorama,Bryan Tepper,Conservative Party,Y,Y,Surrey-Panorama,Conservative Party of British Columbia
+SUR,Surrey-Serpentine River,Judy Higginbotham,CentreBC,N,,,
+SUR,Surrey-Serpentine River,Todd Holowchak,OneBC,N,,,
+SUR,Surrey-Serpentine River,Sikander Kang,BC NDP,N,,,
+SUR,Surrey-Serpentine River,Errol Povah,Freedom Party of BC,N,,,
+SUR,Surrey-Serpentine River,Jessy Sahota,Conservative Party,N,,,
+SUS,Surrey South,Denis R Hurtubise,Other,N,,,
+SUS,Surrey South,Megan Knight,Conservative Party,N,,,
+SUS,Surrey South,Bill McConnell,BC Green Party,N,,,
+SUS,Surrey South,Elenore Sturko,CentreBC,Y,N,Surrey-Cloverdale,Independent
+SUS,Surrey South,Parik Tahlan,BC NDP,N,,,
+SWR,Surrey-White Rock,Kevin Diakiw,Independent,N,,,
+SWR,Surrey-White Rock,Trevor Halford,Conservative Party,Y,Y,Surrey-White Rock,Conservative Party of British Columbia
+SWR,Surrey-White Rock,Amanda James,OneBC,N,,,
+SWR,Surrey-White Rock,Christine Kinnie,BC Green Party,N,,,
+SWR,Surrey-White Rock,Waqas Rana,CentreBC,N,,,
+SWR,Surrey-White Rock,Darryl Walker,BC NDP,N,,,
+VFV,Vancouver-Fraserview,Francoise Raunet,BC Green Party,N,,,
+VFV,Vancouver-Fraserview,Deep Sandhu,Conservative Party,N,,,
+VFV,Vancouver-Fraserview,Aman Singh,BC NDP,N,,,
+VHA,Vancouver-Hastings,Christian Bosio,CentreBC,N,,,
+VHA,Vancouver-Hastings,Kimball Cariou,Communist Party of BC,N,,,
+VHA,Vancouver-Hastings,Kyra Philbert,BC Green Party,N,,,
+VHA,Vancouver-Hastings,Niki Sharma,BC NDP,Y,Y,Vancouver-Hastings,British Columbia New Democratic Party
+VHA,Vancouver-Hastings,Phyllis Tang,Conservative Party,N,,,
+VHA,Vancouver-Hastings,Phil Webb,Libertarian,N,,,
+VKE,Vancouver-Kensington,Mable Elmore,BC NDP,Y,Y,Vancouver-Kensington,British Columbia New Democratic Party
+VKE,Vancouver-Kensington,Adam Hawk,BC Green Party,N,,,
+VKE,Vancouver-Kensington,Aron Lageri,Conservative Party,N,,,
+VLA,Vancouver-Langara,John Atoyebi,BC Green Party,N,,,
+VLA,Vancouver-Langara,Alan Beesley,CentreBC,N,,,
+VLA,Vancouver-Langara,Sunita Dhir,BC NDP,Y,Y,Vancouver-Langara,British Columbia New Democratic Party
+VLA,Vancouver-Langara,Jaime Stein,Conservative Party,N,,,
+VLM,Vancouver-Little Mountain,Christine Boyle,BC NDP,Y,Y,Vancouver-Little Mountain,British Columbia New Democratic Party
+VLM,Vancouver-Little Mountain,Sarah MacLeod,BC Green Party,N,,,
+VLM,Vancouver-Little Mountain,Alex Muir,Conservative Party,N,,,
+VNP,Vancouver-Point Grey,Michael Davis,CentreBC,N,,,
+VNP,Vancouver-Point Grey,David Eby,BC NDP,Y,Y,Vancouver-Point Grey,British Columbia New Democratic Party
+VNP,Vancouver-Point Grey,Alex McMillan,Conservative Party,N,,,
+VNP,Vancouver-Point Grey,Beatrice Sharpe,BC Green Party,N,,,
+VNQ,Vancouver-Quilchena,Carson Binda,Conservative Party,N,,,
+VNQ,Vancouver-Quilchena,Dallas Brodie,OneBC,Y,Y,Vancouver-Quilchena,Independent
+VNQ,Vancouver-Quilchena,Douglas Courtemanche,BC Green Party,N,,,
+VNQ,Vancouver-Quilchena,Petra Kuret,CentreBC,N,,,
+VNQ,Vancouver-Quilchena,Callista Ryan,BC NDP,N,,,
+VNR,Vancouver-Renfrew,Adrian Dix,BC NDP,Y,Y,Vancouver-Renfrew,British Columbia New Democratic Party
+VNR,Vancouver-Renfrew,Rebecca Haber,BC Green Party,N,,,
+VNR,Vancouver-Renfrew,Tom Ikonomou,Conservative Party,N,,,
+VNR,Vancouver-Renfrew,Lisa Prescott,CentreBC,N,,,
+VNS,Vancouver-South Granville,Maria J Cruz,BC Green Party,N,,,
+VNS,Vancouver-South Granville,Lara Honrado,BC NDP,N,,,
+VNS,Vancouver-South Granville,Lisa Phillips,Conservative Party,N,,,
+VNS,Vancouver-South Granville,Colin Smith,CentreBC,N,,,
+VNS,Vancouver-South Granville,Salvatore Vetro,OneBC,N,,,
+VNT,Vancouver-Strathcona,Amanda Burrows,BC NDP,N,,,
+VNT,Vancouver-Strathcona,Robert Crooks,Communist Party of BC,N,,,
+VNT,Vancouver-Strathcona,Jordan Zheng McIntosh,Conservative Party,N,,,
+VNT,Vancouver-Strathcona,Tanya Webking,BC Green Party,N,,,
+VNW,Vancouver-West End,Spencer Chandra Herbert,BC NDP,Y,Y,Vancouver-West End,British Columbia New Democratic Party
+VNW,Vancouver-West End,Scott MacDonald,BC Green Party,N,,,
+VNW,Vancouver-West End,Dion Weisner,Conservative Party,N,,,
+VNY,Vancouver-Yaletown,Sam Chandola,CentreBC,N,,,
+VNY,Vancouver-Yaletown,Margareta Dovgal,Conservative Party,N,,,
+VNY,Vancouver-Yaletown,Priyan Samarakoone,BC Green Party,N,,,
+VNY,Vancouver-Yaletown,Terry Yung,BC NDP,Y,Y,Vancouver-Yaletown,British Columbia New Democratic Party
+VRL,Vernon-Lumby,Kevin Acton,Conservative Party,N,,,
+VRL,Vernon-Lumby,Chantel Gibbs,OneBC,N,,,
+VRL,Vernon-Lumby,Harwinder Sandhu,BC NDP,Y,Y,Vernon-Lumby,British Columbia New Democratic Party
+VRL,Vernon-Lumby,Blair Visscher,BC Green Party,N,,,
+VTB,Victoria-Beacon Hill,Joachim Agou,Conservative Party,N,,,
+VTB,Victoria-Beacon Hill,Grace Lore,BC NDP,Y,Y,Victoria-Beacon Hill,British Columbia New Democratic Party
+VTB,Victoria-Beacon Hill,Rajinder S. Sahota,BC Green Party,N,,,
+VTS,Victoria-Swan Lake,Carolyn Howe,BC Green Party,N,,,
+VTS,Victoria-Swan Lake,Nina Krieger,BC NDP,Y,Y,Victoria-Swan Lake,British Columbia New Democratic Party
+VTS,Victoria-Swan Lake,Tim Taylor,Conservative Party,N,,,
+WKP,West Kelowna-Peachland,Adam Frank,BC Green Party,N,,,
+WKP,West Kelowna-Peachland,Macklin McCall,Conservative Party,Y,Y,West Kelowna-Peachland,Conservative Party of British Columbia
+WKP,West Kelowna-Peachland,George Morgan,BC NDP,N,,,
+WVC,West Vancouver-Capilano,Honieh Barzegari,BC NDP,N,,,
+WVC,West Vancouver-Capilano,Naomi Chocyk,OneBC,N,,,
+WVC,West Vancouver-Capilano,Caroline Elliott,Conservative Party,N,,,
+WVC,West Vancouver-Capilano,Arwa Shurab,BC Green Party,N,,,
+WVS,West Vancouver-Sea to Sky,Ayla Dumais,Conservative Party,N,,,
+WVS,West Vancouver-Sea to Sky,Michelle Livaja,BC NDP,N,,,
+WVS,West Vancouver-Sea to Sky,Jeremy Valeriote,BC Green Party,Y,Y,West Vancouver-Sea to Sky,British Columbia Green Party
+WVS,West Vancouver-Sea to Sky,Dan Wood,CentreBC,N,,,

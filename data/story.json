@@ -1,0 +1,1380 @@
+{
+ "meta": {
+  "snapshot_utc": "20261025T150040Z",
+  "boxes": 7237,
+  "boxes_total": 7268,
+  "source_time": "25/10/2026 01:49:02 AM",
+  "valid_votes": 1792235
+ },
+ "n_ridings": 93,
+ "majority": 47,
+ "seats": {
+  "CON": 64,
+  "NDP": 27,
+  "GRN": 2
+ },
+ "seats24": {
+  "CON": 44,
+  "NDP": 47,
+  "GRN": 2
+ },
+ "share": {
+  "CON": 48.05,
+  "NDP": 37.38,
+  "GRN": 10.97,
+  "CENTRE": 1.62,
+  "ONEBC": 1.51,
+  "OTH": 0.47
+ },
+ "rise_long": [
+  {
+   "year": 2001,
+   "BCLIB": 57.62,
+   "CON": 0.15,
+   "NDP": 21.56
+  },
+  {
+   "year": 2005,
+   "BCLIB": 45.8,
+   "CON": 0.55,
+   "NDP": 41.52
+  },
+  {
+   "year": 2009,
+   "BCLIB": 45.82,
+   "CON": 2.1,
+   "NDP": 42.15
+  },
+  {
+   "year": 2013,
+   "BCLIB": 44.13,
+   "CON": 4.75,
+   "NDP": 39.72
+  },
+  {
+   "year": 2017,
+   "BCLIB": 40.37,
+   "CON": 0.53,
+   "NDP": 40.29
+  },
+  {
+   "year": 2020,
+   "BCLIB": 33.77,
+   "CON": 1.91,
+   "NDP": 47.69
+  },
+  {
+   "year": 2024,
+   "BCLIB": 0.0,
+   "CON": 43.28,
+   "NDP": 44.87
+  },
+  {
+   "year": 2026,
+   "BCLIB": 0.0,
+   "CON": 48.05,
+   "NDP": 37.38,
+   "initial": true
+  }
+ ],
+ "rise": {
+  "years": [
+   {
+    "year": 2017,
+    "BCLIB": 40.37,
+    "CON": 0.53,
+    "NDP": 40.29,
+    "GRN": 16.83
+   },
+   {
+    "year": 2020,
+    "BCLIB": 33.77,
+    "CON": 1.91,
+    "NDP": 47.69,
+    "GRN": 15.09
+   },
+   {
+    "year": 2024,
+    "BCLIB": 0.0,
+    "CON": 43.28,
+    "NDP": 44.87,
+    "GRN": 8.24
+   },
+   {
+    "year": 2026,
+    "BCLIB": 0.0,
+    "CON": 48.05,
+    "NDP": 37.38,
+    "GRN": 10.97,
+    "initial": true
+   }
+  ],
+  "lib_ridings_2020": 29,
+  "lib_ridings_2020_con_lead": 29,
+  "ndp_ridings_2020_con_lead": 35,
+  "ndp_ridings_2020": 62,
+  "corr_right2020_con2024": 0.82,
+  "bcunited_candidates_2024": 0
+ },
+ "switched": [
+  {
+   "code": "BNC",
+   "name": "Burnaby Centre",
+   "region": "Metro Vancouver",
+   "area": "Burnaby",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 842
+  },
+  {
+   "code": "BNO",
+   "name": "Burnaby North",
+   "region": "Metro Vancouver",
+   "area": "Burnaby",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 769
+  },
+  {
+   "code": "CQB",
+   "name": "Coquitlam-Burke Mountain",
+   "region": "Metro Vancouver",
+   "area": "Coquitlam",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 2476
+  },
+  {
+   "code": "CQM",
+   "name": "Coquitlam-Maillardville",
+   "region": "Metro Vancouver",
+   "area": "Coquitlam",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 1569
+  },
+  {
+   "code": "CRC",
+   "name": "Courtenay-Comox",
+   "region": "Rest of Vancouver Island and Coast",
+   "area": "Courtenay-Comox",
+   "from_": "CON",
+   "to": "NDP",
+   "margin": 696
+  },
+  {
+   "code": "CWV",
+   "name": "Cowichan Valley",
+   "region": "Rest of Vancouver Island and Coast",
+   "area": "Cowichan Valley",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 150
+  },
+  {
+   "code": "DLN",
+   "name": "Delta North",
+   "region": "Metro Vancouver",
+   "area": "Delta",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 2371
+  },
+  {
+   "code": "JFM",
+   "name": "Juan de Fuca-Malahat",
+   "region": "Capital Region (Victoria)",
+   "area": "Juan de Fuca",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 768
+  },
+  {
+   "code": "LAO",
+   "name": "Ladysmith-Oceanside",
+   "region": "Rest of Vancouver Island and Coast",
+   "area": "Ladysmith",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 89
+  },
+  {
+   "code": "MAP",
+   "name": "Maple Ridge-Pitt Meadows",
+   "region": "Metro Vancouver",
+   "area": "Maple Ridge",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 850
+  },
+  {
+   "code": "NVS",
+   "name": "North Vancouver-Seymour",
+   "region": "Metro Vancouver",
+   "area": "North Vancouver",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 2466
+  },
+  {
+   "code": "POM",
+   "name": "Port Moody-Burquitlam",
+   "region": "Metro Vancouver",
+   "area": "Port Moody",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 1079
+  },
+  {
+   "code": "RCS",
+   "name": "Richmond-Steveston",
+   "region": "Metro Vancouver",
+   "area": "Richmond",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 3841
+  },
+  {
+   "code": "SAS",
+   "name": "Saanich South",
+   "region": "Capital Region (Victoria)",
+   "area": "Saanich",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 1227
+  },
+  {
+   "code": "SRC",
+   "name": "Surrey City Centre",
+   "region": "Metro Vancouver",
+   "area": "Surrey",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 395
+  },
+  {
+   "code": "SRF",
+   "name": "Surrey-Fleetwood",
+   "region": "Metro Vancouver",
+   "area": "Surrey",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 2169
+  },
+  {
+   "code": "SRG",
+   "name": "Surrey-Guildford",
+   "region": "Metro Vancouver",
+   "area": "Surrey",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 1472
+  },
+  {
+   "code": "SRN",
+   "name": "Surrey-Newton",
+   "region": "Metro Vancouver",
+   "area": "Surrey",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 1858
+  },
+  {
+   "code": "VFV",
+   "name": "Vancouver-Fraserview",
+   "region": "Metro Vancouver",
+   "area": "Vancouver",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 387
+  },
+  {
+   "code": "VLA",
+   "name": "Vancouver-Langara",
+   "region": "Metro Vancouver",
+   "area": "Vancouver",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 1650
+  },
+  {
+   "code": "VNY",
+   "name": "Vancouver-Yaletown",
+   "region": "Metro Vancouver",
+   "area": "Vancouver",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 844
+  },
+  {
+   "code": "VRL",
+   "name": "Vernon-Lumby",
+   "region": "Okanagan",
+   "area": "Vernon",
+   "from_": "NDP",
+   "to": "CON",
+   "margin": 3254
+  }
+ ],
+ "n_switched": 22,
+ "n_switched_metro": 16,
+ "switched_metro_areas": {
+  "Surrey": 4,
+  "Vancouver": 3,
+  "Burnaby": 2,
+  "Coquitlam": 2,
+  "Delta": 1,
+  "Maple Ridge": 1,
+  "North Vancouver": 1,
+  "Port Moody": 1,
+  "Richmond": 1
+ },
+ "place_types": [
+  {
+   "type": "Active core",
+   "n": 13,
+   "swing": 5.7,
+   "switched": 1
+  },
+  {
+   "type": "Transit suburb",
+   "n": 25,
+   "swing": 8.7,
+   "switched": 12
+  },
+  {
+   "type": "Car suburb",
+   "n": 20,
+   "swing": 9.0,
+   "switched": 2
+  },
+  {
+   "type": "Exurban and rural",
+   "n": 34,
+   "swing": 3.9,
+   "switched": 7
+  }
+ ],
+ "suburb_swing": 8.8,
+ "core_rural_swing": 4.4,
+ "suburb_switched": 14,
+ "surrey": {
+  "n": 10,
+  "con24": 6,
+  "con26": 10
+ },
+ "vancouver_suburbs": {
+  "n": 34,
+  "con24": 15,
+  "con26": 28,
+  "ndp24": 19,
+  "ndp26": 6
+ },
+ "who": {
+  "switched": {
+   "own": 70.6,
+   "drive": 82.0,
+   "vismin": 61.0,
+   "income": 92000.0,
+   "immig": 41.5,
+   "degree": 37.0,
+   "kids": 14.4,
+   "renters": 29.3,
+   "n": 21
+  },
+  "stayed_ndp": {
+   "own": 58.5,
+   "drive": 68.1,
+   "vismin": 31.1,
+   "income": 81000.0,
+   "immig": 30.9,
+   "degree": 40.5,
+   "kids": 12.7,
+   "renters": 41.6,
+   "n": 26
+  },
+  "stayed_con": {
+   "own": 73.9,
+   "drive": 89.3,
+   "vismin": 12.6,
+   "income": 91000.0,
+   "immig": 14.6,
+   "degree": 22.6,
+   "kids": 15.6,
+   "renters": 23.6,
+   "n": 43
+  }
+ },
+ "who_pooled": {
+  "switched": {
+   "own": 67.876,
+   "drive": 78.8489,
+   "vismin": 49.2053,
+   "immig": 38.2649,
+   "income": 92000.0,
+   "n": 21
+  },
+  "stayed_ndp": {
+   "own": 56.1661,
+   "drive": 68.6554,
+   "vismin": 34.1471,
+   "immig": 30.0843,
+   "income": 81000.0,
+   "n": 26
+  },
+  "stayed_con": {
+   "own": 73.7792,
+   "drive": 87.1087,
+   "vismin": 28.4768,
+   "immig": 24.1333,
+   "income": 91000.0,
+   "n": 43
+  }
+ },
+ "middle": {
+  "NDP": {
+   "n": 6,
+   "y2024": {
+    "NDP": 5,
+    "CON": 1,
+    "GRN": 0
+   },
+   "y2026": {
+    "NDP": 5,
+    "CON": 1,
+    "GRN": 0
+   },
+   "switched": 0
+  },
+  "LPC": {
+   "n": 42,
+   "y2024": {
+    "NDP": 31,
+    "CON": 10,
+    "GRN": 1
+   },
+   "y2026": {
+    "NDP": 16,
+    "CON": 25,
+    "GRN": 1
+   },
+   "switched": 15
+  },
+  "CPC": {
+   "n": 44,
+   "y2024": {
+    "NDP": 11,
+    "CON": 33,
+    "GRN": 0
+   },
+   "y2026": {
+    "NDP": 6,
+    "CON": 38,
+    "GRN": 0
+   },
+   "switched": 7
+  },
+  "GPC": {
+   "n": 1,
+   "y2024": {
+    "NDP": 0,
+    "CON": 0,
+    "GRN": 1
+   },
+   "y2026": {
+    "NDP": 0,
+    "CON": 0,
+    "GRN": 1
+   },
+   "switched": 0
+  }
+ },
+ "middle_ndp": {
+  "LPC": {
+   "y2024": 50.2,
+   "y2026": 39.7,
+   "con2024": 39.7,
+   "con2026": 45.2,
+   "n": 42
+  },
+  "CPC": {
+   "y2024": 38.7,
+   "y2026": 34.2,
+   "con2024": 49.8,
+   "con2026": 54.5,
+   "n": 43
+  },
+  "NDP_GPC": {
+   "y2024": 54.3,
+   "y2026": 47.5,
+   "con2024": 32.7,
+   "con2026": 31.9,
+   "n": 7
+  }
+ },
+ "middle_pooled": {
+  "LPC": {
+   "n": 42,
+   "y2024": {
+    "NDP": 49.9,
+    "CON": 39.1,
+    "GRN": 8.7
+   },
+   "y2026": {
+    "NDP": 39.3,
+    "CON": 44.7,
+    "GRN": 12.5
+   },
+   "seats24": {
+    "NDP": 31,
+    "CON": 10,
+    "GRN": 1
+   },
+   "seats26": {
+    "NDP": 16,
+    "CON": 25,
+    "GRN": 1
+   }
+  },
+  "CPC": {
+   "n": 44,
+   "y2024": {
+    "NDP": 39.0,
+    "CON": 49.0,
+    "GRN": 6.7
+   },
+   "y2026": {
+    "NDP": 34.8,
+    "CON": 53.6,
+    "GRN": 7.7
+   },
+   "seats24": {
+    "NDP": 11,
+    "CON": 33,
+    "GRN": 0
+   },
+   "seats26": {
+    "NDP": 6,
+    "CON": 38,
+    "GRN": 0
+   }
+  },
+  "NDP_GPC": {
+   "n": 7,
+   "y2024": {
+    "NDP": 51.9,
+    "CON": 31.0,
+    "GRN": 16.1
+   },
+   "y2026": {
+    "NDP": 43.1,
+    "CON": 31.3,
+    "GRN": 23.7
+   },
+   "seats24": {
+    "NDP": 5,
+    "CON": 1,
+    "GRN": 1
+   },
+   "seats26": {
+    "NDP": 5,
+    "CON": 1,
+    "GRN": 1
+   }
+  }
+ },
+ "income_groups": [
+  {
+   "n": 23,
+   "swing": 3.7,
+   "income": 72000.0,
+   "swings": [
+    -5.32,
+    0.22,
+    1.01,
+    1.63,
+    1.77,
+    1.84,
+    2.21,
+    2.38,
+    2.44,
+    2.67,
+    2.88,
+    3.07,
+    3.18,
+    3.97,
+    4.0,
+    4.42,
+    5.19,
+    5.7,
+    6.1,
+    6.97,
+    7.71,
+    8.37,
+    12.4
+   ]
+  },
+  {
+   "n": 23,
+   "swing": 5.7,
+   "income": 82000.0,
+   "swings": [
+    -4.56,
+    -3.14,
+    -1.51,
+    0.79,
+    1.01,
+    2.21,
+    3.73,
+    4.07,
+    4.07,
+    4.29,
+    5.6,
+    6.79,
+    6.93,
+    6.94,
+    7.32,
+    7.65,
+    7.74,
+    9.15,
+    10.4,
+    10.65,
+    11.81,
+    13.19,
+    16.36
+   ]
+  },
+  {
+   "n": 23,
+   "swing": 5.9,
+   "income": 92000.0,
+   "swings": [
+    -9.09,
+    -1.18,
+    1.2,
+    2.55,
+    3.19,
+    4.31,
+    4.59,
+    4.76,
+    4.86,
+    5.31,
+    5.34,
+    5.55,
+    6.67,
+    7.29,
+    7.78,
+    8.07,
+    8.08,
+    9.38,
+    9.85,
+    10.41,
+    11.59,
+    11.96,
+    12.35
+   ]
+  },
+  {
+   "n": 23,
+   "swing": 11.0,
+   "income": 104000.0,
+   "swings": [
+    5.43,
+    5.89,
+    6.93,
+    7.13,
+    8.19,
+    8.75,
+    8.9,
+    9.1,
+    9.55,
+    9.89,
+    10.31,
+    10.53,
+    11.13,
+    11.72,
+    12.59,
+    12.9,
+    12.94,
+    13.27,
+    13.61,
+    13.61,
+    14.64,
+    15.16,
+    21.28
+   ]
+  }
+ ],
+ "income_r": 0.57,
+ "middle_swing": {
+  "LPC": 8.9,
+  "CPC": 4.9,
+  "NDP_GPC": 2.9,
+  "NDP": 0.7,
+  "GPC": 16.4
+ },
+ "last_con_majority": {
+  "year": 1928,
+  "seats": 35,
+  "of": 48,
+  "share": 53.3,
+  "n_after": 26
+ },
+ "middle_flows": {
+  "NDP": {
+   "CON>CON": 1,
+   "NDP>NDP": 5
+  },
+  "LPC": {
+   "CON>CON": 10,
+   "GRN>GRN": 1,
+   "NDP>CON": 15,
+   "NDP>NDP": 16
+  },
+  "CPC": {
+   "CON>CON": 32,
+   "CON>NDP": 1,
+   "NDP>CON": 6,
+   "NDP>NDP": 5
+  },
+  "GPC": {
+   "GRN>GRN": 1
+  }
+ },
+ "flows": {
+  "con24": {
+   "LPC": [
+    13,
+    10,
+    18
+   ],
+   "CPC": [
+    89,
+    84,
+    93
+   ],
+   "NDP": [
+    3,
+    0,
+    8
+   ]
+  },
+  "ndp24": {
+   "LPC": [
+    80,
+    72,
+    84
+   ],
+   "CPC": [
+    0,
+    0,
+    8
+   ],
+   "NDP": [
+    83,
+    73,
+    90
+   ]
+  },
+  "grn24": {
+   "LPC": [
+    8,
+    4,
+    11
+   ],
+   "CPC": [
+    0,
+    0,
+    0
+   ],
+   "NDP": [
+    19,
+    11,
+    29
+   ]
+  },
+  "con26": {
+   "LPC": [
+    18,
+    14,
+    22
+   ],
+   "CPC": [
+    97,
+    93,
+    102
+   ],
+   "NDP": [
+    0,
+    0,
+    0
+   ]
+  },
+  "ndp26": {
+   "LPC": [
+    55,
+    47,
+    61
+   ],
+   "CPC": [
+    7,
+    0,
+    15
+   ],
+   "NDP": [
+    86,
+    78,
+    93
+   ]
+  },
+  "grn26": {
+   "LPC": [
+    13,
+    9,
+    17
+   ],
+   "CPC": [
+    0,
+    0,
+    0
+   ],
+   "NDP": [
+    21,
+    12,
+    31
+   ]
+  }
+ },
+ "why": {
+  "issues": [
+   {
+    "issue": "Cost of living",
+    "pct": 58,
+    "best": {
+     "CON": 33,
+     "NDP": 26
+    },
+    "gap": 7,
+    "moe": 4.7,
+    "lead": "CON"
+   },
+   {
+    "issue": "Health care",
+    "pct": 44,
+    "best": {
+     "NDP": 30,
+     "CON": 28
+    },
+    "gap": 2,
+    "moe": 4.7,
+    "lead": "even"
+   },
+   {
+    "issue": "Housing",
+    "pct": 28,
+    "best": {
+     "CON": 28,
+     "NDP": 27
+    },
+    "gap": 1,
+    "moe": 4.6,
+    "lead": "even"
+   }
+  ],
+  "issues_source": {
+   "pollster": "Angus Reid Institute",
+   "field": "2026-10-15 to 2026-10-19",
+   "url": "https://angusreid.org/wp-content/uploads/2026/10/2026.10.19_BC_Poll_3_tables.pdf",
+   "question": "Top issues facing the province (choose up to three)"
+  },
+  "best_source": {
+   "pollster": "Innovative Research Group",
+   "field": "2026-10-15 to 2026-10-19",
+   "url": "https://innovativeresearch.ca/wp-content/uploads/2026/10/IRG.34-2026-BC-Election-BLOG-POST-RELEASE.pdf",
+   "question": "Which party is best on each issue",
+   "n": 1000
+  },
+  "time_for_change": {
+   "pct": 53,
+   "reelect": 31,
+   "pollster": "Ipsos",
+   "field": "2026-10-20 to 2026-10-22",
+   "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/BC%20Call%20Poll%20Release.pdf"
+  }
+ },
+ "votes_seats": {
+  "CON": {
+   "votes": 48.05,
+   "seats": 68.8
+  },
+  "NDP": {
+   "votes": 37.38,
+   "seats": 29.0
+  },
+  "GRN": {
+   "votes": 10.97,
+   "seats": 2.2
+  }
+ },
+ "tipping": {
+  "seats_to_lose": 18,
+  "voters": 7509,
+  "pct_of_votes": 0.42,
+  "tipping_riding": "Coquitlam-Maillardville"
+ },
+ "indices": [
+  {
+   "year": 1928,
+   "lsq": 17.79,
+   "env": 2.21,
+   "ens": 1.68,
+   "top_share": 53.46,
+   "top_seats": 72.92,
+   "volatility": null
+  },
+  {
+   "year": 1933,
+   "lsq": 25.49,
+   "env": 3.19,
+   "ens": 1.81,
+   "top_share": 42.12,
+   "top_seats": 72.34,
+   "volatility": 37.4
+  },
+  {
+   "year": 1937,
+   "lsq": 23.25,
+   "env": 3.28,
+   "ens": 2.14,
+   "top_share": 37.34,
+   "top_seats": 64.58,
+   "volatility": 13.6
+  },
+  {
+   "year": 1941,
+   "lsq": 9.36,
+   "env": 3.14,
+   "ens": 2.95,
+   "top_share": 33.36,
+   "top_seats": 43.75,
+   "volatility": 7.6
+  },
+  {
+   "year": 1945,
+   "lsq": 19.28,
+   "env": 2.19,
+   "ens": 1.57,
+   "top_share": 55.84,
+   "top_seats": 77.08,
+   "volatility": 64.1
+  },
+  {
+   "year": 1949,
+   "lsq": 20.31,
+   "env": 2.0,
+   "ens": 1.46,
+   "top_share": 61.35,
+   "top_seats": 81.25,
+   "volatility": 5.8
+  },
+  {
+   "year": 1952,
+   "lsq": 13.98,
+   "env": 3.96,
+   "ens": 3.12,
+   "top_share": 30.78,
+   "top_seats": 39.58,
+   "volatility": 65.7
+  },
+  {
+   "year": 1953,
+   "lsq": 18.33,
+   "env": 3.37,
+   "ens": 2.31,
+   "top_share": 37.75,
+   "top_seats": 58.33,
+   "volatility": 11.2
+  },
+  {
+   "year": 1956,
+   "lsq": 25.15,
+   "env": 2.95,
+   "ens": 1.66,
+   "top_share": 45.84,
+   "top_seats": 75.0,
+   "volatility": 8.1
+  },
+  {
+   "year": 1960,
+   "lsq": 19.23,
+   "env": 3.27,
+   "ens": 2.09,
+   "top_share": 38.83,
+   "top_seats": 61.54,
+   "volatility": 8.0
+  },
+  {
+   "year": 1963,
+   "lsq": 19.33,
+   "env": 3.37,
+   "ens": 2.06,
+   "top_share": 40.83,
+   "top_seats": 63.46,
+   "volatility": 6.6
+  },
+  {
+   "year": 1966,
+   "lsq": 12.56,
+   "env": 2.76,
+   "ens": 2.19,
+   "top_share": 45.59,
+   "top_seats": 60.0,
+   "volatility": 11.1
+  },
+  {
+   "year": 1969,
+   "lsq": 19.27,
+   "env": 2.7,
+   "ens": 1.88,
+   "top_share": 46.79,
+   "top_seats": 69.09,
+   "volatility": 1.5
+  },
+  {
+   "year": 1972,
+   "lsq": 24.23,
+   "env": 3.37,
+   "ens": 1.92,
+   "top_share": 39.59,
+   "top_seats": 69.09,
+   "volatility": 18.3
+  },
+  {
+   "year": 1975,
+   "lsq": 11.88,
+   "env": 2.48,
+   "ens": 1.95,
+   "top_share": 49.24,
+   "top_seats": 63.64,
+   "volatility": 18.4
+  },
+  {
+   "year": 1979,
+   "lsq": 5.65,
+   "env": 2.24,
+   "ens": 1.98,
+   "top_share": 48.23,
+   "top_seats": 54.39,
+   "volatility": 8.0
+  },
+  {
+   "year": 1983,
+   "lsq": 9.64,
+   "env": 2.22,
+   "ens": 1.9,
+   "top_share": 49.76,
+   "top_seats": 61.4,
+   "volatility": 5.0
+  },
+  {
+   "year": 1986,
+   "lsq": 16.04,
+   "env": 2.33,
+   "ens": 1.77,
+   "top_share": 49.32,
+   "top_seats": 68.12,
+   "volatility": 4.1
+  },
+  {
+   "year": 1991,
+   "lsq": 23.18,
+   "env": 2.99,
+   "ens": 1.91,
+   "top_share": 40.71,
+   "top_seats": 68.0,
+   "volatility": 34.6
+  },
+  {
+   "year": 1996,
+   "lsq": 11.02,
+   "env": 2.9,
+   "ens": 2.15,
+   "top_share": 41.82,
+   "top_seats": 52.0,
+   "volatility": 24.9
+  },
+  {
+   "year": 2001,
+   "lsq": 32.97,
+   "env": 2.49,
+   "ens": 1.05,
+   "top_share": 57.63,
+   "top_seats": 97.47,
+   "volatility": 27.6
+  },
+  {
+   "year": 2005,
+   "lsq": 11.13,
+   "env": 2.55,
+   "ens": 1.95,
+   "top_share": 45.8,
+   "top_seats": 58.23,
+   "volatility": 20.5
+  },
+  {
+   "year": 2009,
+   "lsq": 10.32,
+   "env": 2.53,
+   "ens": 1.99,
+   "top_share": 45.82,
+   "top_seats": 57.65,
+   "volatility": 2.2
+  },
+  {
+   "year": 2013,
+   "lsq": 11.36,
+   "env": 2.76,
+   "ens": 2.03,
+   "top_share": 44.13,
+   "top_seats": 57.65,
+   "volatility": 4.2
+  },
+  {
+   "year": 2017,
+   "lsq": 12.49,
+   "env": 2.83,
+   "ens": 2.14,
+   "top_share": 40.37,
+   "top_seats": 49.43,
+   "volatility": 9.3
+  },
+  {
+   "year": 2020,
+   "lsq": 15.65,
+   "env": 2.74,
+   "ens": 1.87,
+   "top_share": 47.69,
+   "top_seats": 65.52,
+   "volatility": 8.8
+  },
+  {
+   "year": 2024,
+   "lsq": 7.02,
+   "env": 2.52,
+   "ens": 2.08,
+   "top_share": 44.87,
+   "top_seats": 50.54,
+   "volatility": 43.4
+  },
+  {
+   "year": 2026,
+   "lsq": 17.08,
+   "env": 2.61,
+   "ens": 1.79,
+   "top_share": 48.05,
+   "top_seats": 68.82,
+   "volatility": 10.6
+  }
+ ],
+ "votes_where_trailing": {
+  "CON": 23.6,
+  "NDP": 62.5,
+  "GRN": 87.3
+ },
+ "promises": [
+  {
+   "worry": "Cost of living",
+   "items": [
+    {
+     "short": "$1,000 a year in income-tax relief per person, from the 2027 tax year",
+     "detail": "\"Provide $1,000 a year in income-tax relief per person, or $2,000 for a couple\" (page 5): basic personal amount raised from $13,216 to $32,000, from the 2027 tax year, cutting tax \"by $1,000 or a little more for people who owe at least that much\" (page 59); people who owe less save less. About $2.9 billion a year.",
+     "page": "5, 59 to 60",
+     "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-18_compressed.pdf"
+    },
+    {
+     "short": "Up to $150 million a year for family benefits and child care",
+     "detail": "24-hour child care spaces, a higher BC Family Benefit and Affordable Child Care Benefit, and a multigenerational home renovation credit; phased in from $15 million in 2027/28 to the full amount from 2030/31 (costing table B1, page 64)",
+     "page": "7, 61, 64",
+     "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-18_compressed.pdf"
+    },
+    {
+     "short": "No tax increases while in government (party plan page)",
+     "detail": "\"Throughout the entirety of our government, we will not raise taxes on British Columbians.\" The pledge comes from the party's plan page and its September 27, 2026 release.",
+     "page": "plan page",
+     "url": "https://conservativebc.ca/plan/"
+    }
+   ]
+  },
+  {
+   "worry": "Health care",
+   "items": [
+    {
+     "short": "Publicly paid surgery elsewhere when waits pass set limits",
+     "detail": "\"Universal Health-Care Guarantee\": treatment through another qualified provider when surgical wait benchmarks are exceeded",
+     "page": "32, 61",
+     "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-18_compressed.pdf"
+    },
+    {
+     "short": "$50 million to keep rural ERs and maternity wards open",
+     "detail": "Rural Health Emergency Fund",
+     "page": "32, 61",
+     "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-18_compressed.pdf"
+    },
+    {
+     "short": "A 100-day review of reforms from other public systems to cut waits",
+     "detail": "\"Launch the 100-day Patients First review to identify reforms from other universal public systems that cut waits, expand capacity, keep ERs open, and strengthen rural services, without user fees.\"",
+     "page": "32",
+     "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-18_compressed.pdf"
+    }
+   ]
+  },
+  {
+   "worry": "Housing",
+   "items": [
+    {
+     "short": "Faster approvals for new homes",
+     "detail": "\"Approve homes in months, not years\"; zoning to match community plans",
+     "page": "6",
+     "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-18_compressed.pdf"
+    },
+    {
+     "short": "Cut construction charges and fix the building code",
+     "detail": "No charges named; step code overhaul",
+     "page": "5 to 6",
+     "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-18_compressed.pdf"
+    },
+    {
+     "short": "No target for homes built, rents or prices",
+     "detail": "The platform sets no number of homes and no target for rents or prices; its timeline is for approvals (\"Approve homes in months, not years\", page 6).",
+     "page": "5 to 7",
+     "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-18_compressed.pdf"
+    }
+   ]
+  }
+ ],
+ "platform": {
+  "title": "Lorne Doerkson's Plan for a Stronger BC, 2026",
+  "url": "https://conservativebc.ca/wp-content/uploads/2026/10/20261016_BCC_Platform2026_8-5x11-Draft-18_compressed.pdf",
+  "new_spending_full_year_billion": 1.425,
+  "tax_relief_four_years_billion": 11.1,
+  "deficit_2029_30_billion": 10.8
+ },
+ "next": {
+  "final_count": "November 6 to 10, 2026 (planned)",
+  "return_day": "November 18, 2026",
+  "swearing_in": "not announced",
+  "source": "https://elections.bc.ca/2026-provincial-election/",
+  "premier": "Lorne Doerkson (interim leader)"
+ },
+ "close": [
+  {
+   "name": "Burnaby South-Metrotown",
+   "lead": "NDP",
+   "second": "CON",
+   "votes": 66
+  },
+  {
+   "name": "Ladysmith-Oceanside",
+   "lead": "CON",
+   "second": "NDP",
+   "votes": 89
+  },
+  {
+   "name": "Kelowna Centre",
+   "lead": "CON",
+   "second": "NDP",
+   "votes": 132
+  },
+  {
+   "name": "Cowichan Valley",
+   "lead": "CON",
+   "second": "NDP",
+   "votes": 150
+  },
+  {
+   "name": "Burnaby East",
+   "lead": "NDP",
+   "second": "CON",
+   "votes": 241
+  },
+  {
+   "name": "Port Coquitlam",
+   "lead": "NDP",
+   "second": "CON",
+   "votes": 386
+  },
+  {
+   "name": "Vancouver-Fraserview",
+   "lead": "CON",
+   "second": "NDP",
+   "votes": 387
+  },
+  {
+   "name": "Surrey City Centre",
+   "lead": "CON",
+   "second": "NDP",
+   "votes": 395
+  }
+ ],
+ "n_within_150": 4,
+ "income_education": [
+  {
+   "income": "Higher income",
+   "education": "fewer degrees",
+   "n": 22,
+   "swing": 5.9,
+   "ndp_change": -6.1,
+   "grn_change": 0.7,
+   "switched": 4
+  },
+  {
+   "income": "Higher income",
+   "education": "more degrees",
+   "n": 26,
+   "swing": 10.4,
+   "ndp_change": -11.7,
+   "grn_change": 4.6,
+   "switched": 10
+  },
+  {
+   "income": "Lower income",
+   "education": "fewer degrees",
+   "n": 24,
+   "swing": 3.3,
+   "ndp_change": -2.7,
+   "grn_change": 0.3,
+   "switched": 4
+  },
+  {
+   "income": "Lower income",
+   "education": "more degrees",
+   "n": 20,
+   "swing": 6.3,
+   "ndp_change": -9.1,
+   "grn_change": 5.4,
+   "switched": 4
+  }
+ ],
+ "realignment": {
+  "hh_income_median": {
+   "r2024": 0.13,
+   "r2026": 0.36
+  },
+  "pct_bachelor_plus_25_64": {
+   "r2024": -0.51,
+   "r2026": -0.33
+  },
+  "density_per_km2": {
+   "r2024": -0.47,
+   "r2026": -0.4
+  },
+  "pct_hh_owner": {
+   "r2024": 0.56,
+   "r2026": 0.58
+  },
+  "pct_immigrants": {
+   "r2024": -0.3,
+   "r2026": -0.11
+  }
+ }
+}

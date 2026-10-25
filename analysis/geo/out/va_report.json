@@ -1,0 +1,30 @@
+{
+ "va2024": {
+  "polygons": 5778,
+  "eds": 93,
+  "site_based_points": 640,
+  "va_point_not_in_own_ed": 0,
+  "sva_not_in_own_ed": 0,
+  "kb_full": 62036,
+  "kb_web_topojson": 1715,
+  "area_km2": 1039594
+ },
+ "va2020": {
+  "polygons": 5658,
+  "eds": 87,
+  "site_based_points": 690,
+  "va_point_not_in_own_ed": 0,
+  "sva_not_in_own_ed": 0,
+  "kb_full": 36955,
+  "kb_web_topojson": 1675,
+  "area_km2": 1070123
+ },
+ "va2020_to_ed2023": {
+  "vas": 5658,
+  "rows": 5893,
+  "vas_missing": 0,
+  "split_vas": 233,
+  "pop_total": 5000878,
+  "sva_unmatched": 0
+ }
+}

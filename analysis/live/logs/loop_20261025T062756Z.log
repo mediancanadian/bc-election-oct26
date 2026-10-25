@@ -1,0 +1,46 @@
+2026-10-25T06:27:56Z loop start, hours=1.9, until 2026-10-25T08:21:56Z
+2026-10-25T06:27:56Z SKIPPED: last fetch was under 120s ago (polite-interval rule); nothing downloaded
+2026-10-25T06:27:56Z exit=0
+2026-10-25T06:33:12Z OK 20261025T063256Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T06:33:12Z exit=0
+2026-10-25T06:38:27Z OK 20261025T063812Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T06:38:27Z exit=0
+2026-10-25T06:43:43Z OK 20261025T064328Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T06:43:43Z exit=0
+2026-10-25T06:48:58Z OK 20261025T064843Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T06:48:58Z exit=0
+2026-10-25T06:54:14Z OK 20261025T065359Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T06:54:14Z exit=0
+2026-10-25T06:59:30Z OK 20261025T065914Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T06:59:30Z exit=0
+2026-10-25T07:04:45Z OK 20261025T070430Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:04:45Z exit=0
+2026-10-25T07:10:02Z OK 20261025T070945Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:10:02Z exit=0
+2026-10-25T07:15:17Z OK 20261025T071502Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:15:17Z exit=0
+2026-10-25T07:20:33Z OK 20261025T072018Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:20:33Z exit=0
+2026-10-25T07:25:49Z OK 20261025T072533Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:25:49Z exit=0
+2026-10-25T07:31:04Z OK 20261025T073049Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:31:04Z exit=0
+2026-10-25T07:36:20Z OK 20261025T073604Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:36:20Z exit=0
+2026-10-25T07:41:36Z OK 20261025T074120Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:41:36Z exit=0
+2026-10-25T07:46:51Z OK 20261025T074636Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:46:51Z exit=0
+2026-10-25T07:52:07Z OK 20261025T075151Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:52:07Z exit=0
+2026-10-25T07:57:22Z OK 20261025T075707Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T07:57:22Z exit=0
+2026-10-25T08:02:38Z OK 20261025T080222Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T08:02:38Z exit=0
+2026-10-25T08:07:54Z OK 20261025T080738Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T08:07:54Z exit=0
+2026-10-25T08:13:10Z OK 20261025T081254Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T08:13:10Z exit=0
+2026-10-25T08:18:25Z OK 20261025T081810Z: 6 files, 446 candidate rows, 93 districts with votes -> latest.csv, latest_summary.csv
+2026-10-25T08:18:25Z exit=0
+2026-10-25T08:18:25Z loop end

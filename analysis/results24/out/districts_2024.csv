@@ -1,0 +1,323 @@
+ed_code,ed_name,candidate,ballot_name,affiliation,party,votes,vote_share_pct,rank,elected,member_of_previous_parliament,votes_adv,votes_adv_ood,votes_final,votes_final_ood,votes_special,votes_deo,votes_mail,votes_atv,registered_voters,total_valid_votes,rejected_ballots,ballots_considered,turnout_pct,margin_votes,margin_pts,margin_pts_exact
+ABM,Abbotsford-Mission,"Gasper, Reann",Reann Gasper,Conservative Party,CON,13523,55.38,1,True,False,5867,282,6376,268,142,340,224,24,42692,24417,98,24515,57.42,2629,10.76,10.767
+ABM,Abbotsford-Mission,"Alexis, Pam",Pam Alexis,BC NDP,NDP,10894,44.62,2,False,True,5013,137,4690,161,277,246,355,15,42692,24417,98,24515,57.42,2629,10.76,10.767
+ABS,Abbotsford South,"Banman, Bruce",Bruce Banman,Conservative Party,CON,13053,61.61,1,True,True,5569,231,5913,325,454,322,221,18,41068,21188,54,21242,51.72,5599,26.43,26.425
+ABS,Abbotsford South,"Kooner, Sarah",Sarah Kooner,BC NDP,NDP,7454,35.18,2,False,False,3301,131,3127,130,241,214,298,12,41068,21188,54,21242,51.72,5599,26.43,26.425
+ABS,Abbotsford South,"Singh, Amandeep",Amandeep Singh,Independent,IND,681,3.21,3,False,False,263,15,324,21,30,21,7,0,41068,21188,54,21242,51.72,5599,26.43,26.425
+ABW,Abbotsford West,"Neufeld, Korky",Korky Neufeld,Conservative Party,CON,11483,58.35,1,True,False,5046,212,5224,320,122,320,227,12,37833,19678,47,19725,52.14,4228,21.48,21.486
+ABW,Abbotsford West,"Hutchison, Graeme",Graeme Hutchison,BC NDP,NDP,7255,36.87,2,False,False,3292,146,3007,162,91,217,327,13,37833,19678,47,19725,52.14,4228,21.48,21.486
+ABW,Abbotsford West,"Davison, James",James Davison,Independent,IND,940,4.78,3,False,False,406,10,446,16,13,28,20,1,37833,19678,47,19725,52.14,4228,21.48,21.486
+BDS,Boundary-Similkameen,"Wilson, Donegal",Donegal Wilson,Conservative Party,CON,11935,48.39,1,True,False,5937,140,5109,135,129,180,281,24,39371,24665,36,24701,62.74,1438,5.83,5.83
+BDS,Boundary-Similkameen,"Russell, Roly",Roly Russell,BC NDP,NDP,10497,42.56,2,False,True,5641,99,4040,65,166,121,347,18,39371,24665,36,24701,62.74,1438,5.83,5.83
+BDS,Boundary-Similkameen,"Eastwood, Kevin",Kevin Eastwood,BC Green Party,GRN,1454,5.89,3,False,False,718,14,609,18,51,16,26,2,39371,24665,36,24701,62.74,1438,5.83,5.83
+BDS,Boundary-Similkameen,"Taylor, Sean",Sean Taylor,Independent,IND,779,3.16,4,False,False,334,6,388,9,23,10,9,0,39371,24665,36,24701,62.74,1438,5.83,5.83
+BLS,Bulkley Valley-Stikine,"Hartwell, Sharon L.",Sharon L. Hartwell,Conservative Party,CON,4992,52.31,1,True,False,2160,41,1918,35,26,707,63,42,14895,9544,25,9569,64.24,1283,13.45,13.443
+BLS,Bulkley Valley-Stikine,"Cullen, Nathan",Nathan Cullen,BC NDP,NDP,3709,38.86,2,False,True,1589,33,1590,38,18,348,59,34,14895,9544,25,9569,64.24,1283,13.45,13.443
+BLS,Bulkley Valley-Stikine,"Wilhelm Marsden, Gamlakyeltxw",Gamlakyeltxw Wilhelm Marsden,BC Green Party,GRN,604,6.33,3,False,False,166,6,371,11,4,41,3,2,14895,9544,25,9569,64.24,1283,13.45,13.443
+BLS,Bulkley Valley-Stikine,"Taylor, Rod",Rod Taylor,Christian Heritage Party of B.C.,CHP,239,2.5,4,False,False,78,3,129,1,5,21,2,0,14895,9544,25,9569,64.24,1283,13.45,13.443
+BNC,Burnaby Centre,"Kang, Anne",Anne Kang,BC NDP,NDP,9780,57.28,1,True,True,3695,567,4360,278,189,223,445,23,34290,17074,108,17182,50.11,2486,14.56,14.56
+BNC,Burnaby Centre,"Kajal, Dharam",Dharam Kajal,Conservative Party,CON,7294,42.72,2,False,False,2630,383,3571,273,56,151,217,13,34290,17074,108,17182,50.11,2486,14.56,14.56
+BNE,Burnaby East,"Arora, Reah",Reah Arora,BC NDP,NDP,10490,51.85,1,True,False,4753,256,4544,161,117,122,507,30,36896,20232,41,20273,54.95,2292,11.33,11.329
+BNE,Burnaby East,"Chandler, Simon",Simon Chandler,Conservative Party,CON,8198,40.52,2,False,False,3426,184,3973,197,47,108,253,10,36896,20232,41,20273,54.95,2292,11.33,11.329
+BNE,Burnaby East,"Shushtarian, Tara",Tara Shushtarian,BC Green Party,GRN,1544,7.63,3,False,False,619,32,778,21,18,16,56,4,36896,20232,41,20273,54.95,2292,11.33,11.329
+BNN,Burnaby-New Westminster,"Chouhan, Raj",Raj Chouhan,BC NDP,NDP,10647,59.99,1,True,True,5280,161,3963,217,320,246,431,29,34794,17748,89,17837,51.26,4486,25.28,25.276
+BNN,Burnaby-New Westminster,"Suri, Deepak",Deepak Suri,Conservative Party,CON,6161,34.71,2,False,False,2834,106,2589,166,136,129,190,11,34794,17748,89,17837,51.26,4486,25.28,25.276
+BNN,Burnaby-New Westminster,"Ampong, Daniel Kofi",Daniel Kofi Ampong,Independent,IND,940,5.3,3,False,False,426,17,391,30,41,17,18,0,34794,17748,89,17837,51.26,4486,25.28,25.276
+BNO,Burnaby North,"Routledge, Janet",Janet Routledge,BC NDP,NDP,10724,53.26,1,True,True,5213,177,4332,161,171,140,508,22,37785,20136,47,20183,53.42,2066,10.26,10.26
+BNO,Burnaby North,"Wu, Michael",Michael Wu,Conservative Party,CON,8658,43.0,2,False,False,3994,135,3938,157,58,111,246,19,37785,20136,47,20183,53.42,2066,10.26,10.26
+BNO,Burnaby North,"Kendell, Martin",Martin Kendell,Independent,IND,754,3.74,3,False,False,324,13,362,15,9,12,18,1,37785,20136,47,20183,53.42,2066,10.26,10.26
+BNS,Burnaby South-Metrotown,"Choi, Paul",Paul Choi,BC NDP,NDP,7560,49.33,1,True,False,2911,253,3658,118,99,170,351,0,31434,15325,32,15357,48.85,1187,7.74,7.746
+BNS,Burnaby South-Metrotown,"Lee, Han",Han Lee,Conservative Party,CON,6373,41.59,2,False,False,2371,189,3227,147,50,153,236,0,31434,15325,32,15357,48.85,1187,7.74,7.746
+BNS,Burnaby South-Metrotown,"McLaren, Carrie",Carrie McLaren,BC Green Party,GRN,960,6.26,3,False,False,362,23,488,12,12,26,37,0,31434,15325,32,15357,48.85,1187,7.74,7.746
+BNS,Burnaby South-Metrotown,"Chia, Meiling",Meiling Chia,Unaffiliated,UNAF,290,1.89,4,False,False,83,4,126,4,10,41,22,0,31434,15325,32,15357,48.85,1187,7.74,7.746
+BNS,Burnaby South-Metrotown,"Abc RobinHood, MichaelAngelo",MichaelAngelo Abc Robinhood,Independent,IND,142,0.93,5,False,False,44,1,76,8,4,7,2,0,31434,15325,32,15357,48.85,1187,7.74,7.746
+CBC,Cariboo-Chilcotin,"Doerkson, Lorne",Lorne Doerkson,Conservative Party,CON,13714,69.59,1,True,True,6010,197,6686,144,180,217,262,18,32975,19706,92,19798,60.04,7722,39.18,39.186
+CBC,Cariboo-Chilcotin,"Moses, Michael",Michael Moses,BC NDP,NDP,5992,30.41,2,False,False,2463,67,2989,62,114,136,153,8,32975,19706,92,19798,60.04,7722,39.18,39.186
+CHC,Chilliwack-Cultus Lake,"Warbus, A'aliya",A'aliya Warbus,Conservative Party,CON,13656,54.58,1,True,False,5818,197,6551,238,194,276,362,20,41587,25022,83,25105,60.37,2290,9.16,9.152
+CHC,Chilliwack-Cultus Lake,"Paddon, Kelli",Kelli Paddon,BC NDP,NDP,11366,45.42,2,False,True,5390,117,4741,88,148,192,677,13,41587,25022,83,25105,60.37,2290,9.16,9.152
+CHN,Chilliwack North,"Maahs, Heather",Heather Maahs,Conservative Party,CON,11776,54.58,1,True,False,5034,265,5450,214,232,292,273,16,39227,21575,26,21601,55.07,3651,16.92,16.922
+CHN,Chilliwack North,"Coulter, Dan",Dan Coulter,BC NDP,NDP,8125,37.66,2,False,True,4030,99,2943,91,276,314,346,26,39227,21575,26,21601,55.07,3651,16.92,16.922
+CHN,Chilliwack North,"Cooper, Tim",Tim Cooper,BC Green Party,GRN,1187,5.5,3,False,False,556,23,464,16,60,29,35,4,39227,21575,26,21601,55.07,3651,16.92,16.922
+CHN,Chilliwack North,"Grice, Dan",Dan Grice,Independent,IND,487,2.26,4,False,False,262,3,178,1,14,9,19,1,39227,21575,26,21601,55.07,3651,16.92,16.922
+CLR,Columbia River-Revelstoke,"McInnis, Scott",Scott McInnis,Conservative Party,CON,8768,47.92,1,True,False,3602,400,3966,320,89,223,146,22,31366,18296,41,18337,58.46,670,3.66,3.662
+CLR,Columbia River-Revelstoke,"Dunlop, Andrea",Andrea Dunlop,BC NDP,NDP,8098,44.26,2,False,False,4069,146,3200,148,149,139,220,27,31366,18296,41,18337,58.46,670,3.66,3.662
+CLR,Columbia River-Revelstoke,"Beauchesne, Calvin",Calvin Beauchesne,BC Green Party,GRN,1430,7.82,3,False,False,581,45,684,50,16,20,31,3,31366,18296,41,18337,58.46,670,3.66,3.662
+CQB,Coquitlam-Burke Mountain,"Wickens, Jodie",Jodie Wickens,BC NDP,NDP,11020,50.85,1,True,False,5846,158,4173,140,53,137,482,31,39801,21672,94,21766,54.69,368,1.7,1.698
+CQB,Coquitlam-Burke Mountain,"Frolek, Stephen",Stephen Frolek,Conservative Party,CON,10652,49.15,2,False,False,5078,160,4652,183,35,179,357,8,39801,21672,94,21766,54.69,368,1.7,1.698
+CQM,Coquitlam-Maillardville,"Blatherwick, Jennifer",Jennifer Blatherwick,BC NDP,NDP,11972,51.8,1,True,False,5616,422,4856,190,247,155,456,30,40666,23114,26,23140,56.9,2826,12.23,12.226
+CQM,Coquitlam-Maillardville,"Najafi, Hamed",Hamed Najafi,Conservative Party,CON,9146,39.57,2,False,False,3930,322,4153,180,117,190,232,22,40666,23114,26,23140,56.9,2826,12.23,12.226
+CQM,Coquitlam-Maillardville,"Spurling, Nicola",Nicola Spurling,BC Green Party,GRN,1461,6.32,3,False,False,647,38,610,27,68,17,49,5,40666,23114,26,23140,56.9,2826,12.23,12.226
+CQM,Coquitlam-Maillardville,"Holowanky, Ken",Ken Holowanky,Independent,IND,535,2.31,4,False,False,227,11,243,9,23,7,14,1,40666,23114,26,23140,56.9,2826,12.23,12.226
+CRC,Courtenay-Comox,"Day, Brennan",Brennan Day,Conservative Party,CON,13481,38.83,1,True,False,6753,82,5255,115,183,594,469,30,50583,34718,37,34755,68.71,93,0.27,0.268
+CRC,Courtenay-Comox,"Leonard, Ronna-Rae",Ronna-Rae Leonard,BC NDP,NDP,13388,38.56,2,False,True,7095,67,4563,73,222,584,744,40,50583,34718,37,34755,68.71,93,0.27,0.268
+CRC,Courtenay-Comox,"Hamir, Arzeena",Arzeena Hamir,BC Green Party,GRN,7202,20.74,3,False,False,3633,36,2708,61,127,354,265,18,50583,34718,37,34755,68.71,93,0.27,0.268
+CRC,Courtenay-Comox,"Hedican, John",John Hedican,Independent,IND,504,1.45,4,False,False,220,4,197,6,38,26,10,3,50583,34718,37,34755,68.71,93,0.27,0.268
+CRC,Courtenay-Comox,"Howell, Devin",Devin Howell,Independent,IND,143,0.41,5,False,False,56,0,62,1,9,11,4,0,50583,34718,37,34755,68.71,93,0.27,0.268
+CWV,Cowichan Valley,"Toporowski, Debra",Debra Toporowski,BC NDP,NDP,11795,40.51,1,True,False,5124,118,4571,52,274,1176,459,21,45901,29118,39,29157,63.52,849,2.92,2.916
+CWV,Cowichan Valley,"Koury, John",John Koury,Conservative Party,CON,10946,37.59,2,False,False,4209,107,4743,101,131,1359,274,22,45901,29118,39,29157,63.52,849,2.92,2.916
+CWV,Cowichan Valley,"Lockwood, Cammy",Cammy Lockwood,BC Green Party,GRN,5773,19.83,3,False,False,2356,58,2459,39,118,563,161,19,45901,29118,39,29157,63.52,849,2.92,2.916
+CWV,Cowichan Valley,"Haythornthwaite, Eden",Eden Haythornthwaite,Independent,IND,341,1.17,4,False,False,120,2,158,3,18,27,13,0,45901,29118,39,29157,63.52,849,2.92,2.916
+CWV,Cowichan Valley,"Coleman, Jon",Jon Coleman,Unaffiliated,UNAF,263,0.9,5,False,False,93,3,117,2,14,28,6,0,45901,29118,39,29157,63.52,849,2.92,2.916
+DLN,Delta North,"Kahlon, Ravi",Ravi Kahlon,BC NDP,NDP,10988,52.73,1,True,True,5645,104,4569,90,88,161,313,18,36062,20838,38,20876,57.89,2607,12.51,12.511
+DLN,Delta North,"Veauli, Raj",Raj Veauli,Conservative Party,CON,8381,40.22,2,False,False,3962,82,3892,99,32,147,151,16,36062,20838,38,20876,57.89,2607,12.51,12.511
+DLN,Delta North,"Dickinson-Wilde, Nick",Nick Dickinson-Wilde,BC Green Party,GRN,1292,6.2,3,False,False,590,8,614,13,22,15,27,3,36062,20838,38,20876,57.89,2607,12.51,12.511
+DLN,Delta North,"Khan, Manqoosh",Manqoosh Khan,Freedom Party of BC,FPBC,177,0.85,4,False,False,77,3,88,3,2,3,1,0,36062,20838,38,20876,57.89,2607,12.51,12.511
+DLS,Delta South,"Paton, Ian",Ian Paton,Conservative Party,CON,14491,55.07,1,True,True,6439,118,6722,89,145,567,378,33,40611,26313,101,26414,65.04,2669,10.14,10.143
+DLS,Delta South,"McCormick, Jason",Jason McCormick,BC NDP,NDP,11822,44.93,2,False,False,5180,125,5437,88,150,411,409,22,40611,26313,101,26414,65.04,2669,10.14,10.143
+ESC,Esquimalt-Colwood,"Rotchford, Darlene",Darlene Rotchford,BC NDP,NDP,15238,51.47,1,True,False,7836,399,4989,182,118,654,1013,47,46799,29606,37,29643,63.34,6586,22.25,22.245
+ESC,Esquimalt-Colwood,"Wilson, John",John Wilson,Conservative Party,CON,8652,29.22,2,False,False,4441,163,3096,144,42,341,408,17,46799,29606,37,29643,63.34,6586,22.25,22.245
+ESC,Esquimalt-Colwood,"Currie, Camille",Camille Currie,BC Green Party,GRN,5716,19.31,3,False,False,2812,150,2095,96,37,259,243,24,46799,29606,37,29643,63.34,6586,22.25,22.245
+FRN,Fraser-Nicola,"Luck, Tony",Tony Luck,Conservative Party,CON,10326,54.34,1,True,False,4752,150,4826,172,115,170,127,14,33542,19004,27,19031,56.74,3409,17.94,17.938
+FRN,Fraser-Nicola,"Joe, Francyne",Francyne Joe,BC NDP,NDP,6917,36.4,2,False,False,3165,88,3136,91,116,133,172,16,33542,19004,27,19031,56.74,3409,17.94,17.938
+FRN,Fraser-Nicola,"Timms, Jonah",Jonah Timms,BC Green Party,GRN,1761,9.27,3,False,False,794,14,826,33,26,32,36,0,33542,19004,27,19031,56.74,3409,17.94,17.938
+JFM,Juan de Fuca-Malahat,"Lajeunesse, Dana",Dana Lajeunesse,BC NDP,NDP,9308,38.79,1,True,False,5155,98,3141,109,46,298,444,17,37078,23997,32,24029,64.81,141,0.59,0.588
+JFM,Juan de Fuca-Malahat,"Sapozhnikov, Marina",Marina Sapozhnikov,Conservative Party,CON,9167,38.2,2,False,False,4921,130,3316,153,27,335,267,18,37078,23997,32,24029,64.81,141,0.59,0.588
+JFM,Juan de Fuca-Malahat,"Evans, David",David Evans,BC Green Party,GRN,5522,23.01,3,False,False,3070,55,1977,62,22,154,168,14,37078,23997,32,24029,64.81,141,0.59,0.588
+KAC,Kamloops Centre,"Milobar, Peter",Peter Milobar,Conservative Party,CON,12372,48.83,1,True,True,5902,195,5029,195,488,235,304,24,44059,25338,36,25374,57.59,2003,7.91,7.905
+KAC,Kamloops Centre,"Grewal, Kamal",Kamal Grewal,BC NDP,NDP,10369,40.92,2,False,False,4762,146,4155,137,512,247,398,12,44059,25338,36,25374,57.59,2003,7.91,7.905
+KAC,Kamloops Centre,"Sunderman, Randy",Randy Sunderman,BC Green Party,GRN,2597,10.25,3,False,False,1139,39,1134,36,127,60,61,1,44059,25338,36,25374,57.59,2003,7.91,7.905
+KAN,Kamloops-North Thompson,"Stamer, Ward",Ward Stamer,Conservative Party,CON,17930,59.74,1,True,False,6480,610,9467,329,226,458,336,24,48598,30013,51,30064,61.86,8056,26.84,26.842
+KAN,Kamloops-North Thompson,"Genn, Maddi",Maddi Genn,BC NDP,NDP,9874,32.9,2,False,False,3384,338,5205,152,228,219,334,14,48598,30013,51,30064,61.86,8056,26.84,26.842
+KAN,Kamloops-North Thompson,"Cavers, Tristan",Tristan Cavers,BC Green Party,GRN,2209,7.36,3,False,False,699,51,1277,49,50,32,50,1,48598,30013,51,30064,61.86,8056,26.84,26.842
+KEC,Kelowna Centre,"Loewen, Kristina",Kristina Loewen,Conservative Party,CON,11033,42.85,1,True,False,5448,235,4337,251,114,281,347,20,45642,25750,33,25783,56.49,40,0.16,0.155
+KEC,Kelowna Centre,"Wooldridge, Loyal",Loyal Wooldridge,BC NDP,NDP,10993,42.69,2,False,False,5524,243,4195,161,142,203,511,14,45642,25750,33,25783,56.49,40,0.16,0.155
+KEC,Kelowna Centre,"Humer, Michael",Michael Humer,Unaffiliated,UNAF,2613,10.15,3,False,False,1427,29,948,23,34,57,91,4,45642,25750,33,25783,56.49,40,0.16,0.155
+KEC,Kelowna Centre,"Tippe, Bryce",Bryce Tippe,BC Green Party,GRN,1111,4.31,4,False,False,492,36,479,15,24,18,45,2,45642,25750,33,25783,56.49,40,0.16,0.155
+KLC,Kelowna-Lake Country-Coldstream,"Armstrong, Tara",Tara Armstrong,Conservative Party,CON,14303,53.92,1,True,False,7491,314,5252,461,107,272,382,24,45598,26528,32,26560,58.25,4953,18.67,18.671
+KLC,Kelowna-Lake Country-Coldstream,"Sears, Anna Warwick",Anna Warwick Sears,BC NDP,NDP,9350,35.25,2,False,False,4933,176,3438,192,123,132,348,8,45598,26528,32,26560,58.25,4953,18.67,18.671
+KLC,Kelowna-Lake Country-Coldstream,"Kraft, Kevin",Kevin Kraft,Independent,IND,1724,6.5,3,False,False,844,18,780,22,12,17,31,0,45598,26528,32,26560,58.25,4953,18.67,18.671
+KLC,Kelowna-Lake Country-Coldstream,"Rose, Andrew",Andrew Rose,BC Green Party,GRN,1151,4.34,4,False,False,558,24,462,46,29,9,22,1,45598,26528,32,26560,58.25,4953,18.67,18.671
+KLM,Kelowna-Mission,"Dew, Gavin",Gavin Dew,Conservative Party,CON,14071,51.49,1,True,False,6735,316,5735,261,338,268,395,23,45617,27329,43,27372,60.0,5158,18.88,18.874
+KLM,Kelowna-Mission,"Badohal, Harpreet",Harpreet Badohal,BC NDP,NDP,8913,32.61,2,False,False,4100,225,3651,130,286,111,391,19,45617,27329,43,27372,60.0,5158,18.88,18.874
+KLM,Kelowna-Mission,"Ramsay, Ashley",Ashley Ramsay,Unaffiliated,UNAF,2996,10.96,3,False,False,1461,36,1205,17,110,45,116,6,45617,27329,43,27372,60.0,5158,18.88,18.874
+KLM,Kelowna-Mission,"Young, Billy",Billy Young,BC Green Party,GRN,1349,4.94,4,False,False,541,33,626,34,70,5,35,5,45617,27329,43,27372,60.0,5158,18.88,18.874
+KOC,Kootenay Central,"Anderson, Brittny",Brittny Anderson,BC NDP,NDP,8716,39.63,1,True,True,3893,42,4051,65,124,248,268,25,34278,21996,38,22034,64.28,1749,7.96,7.951
+KOC,Kootenay Central,"Vandenberghe, Kelly",Kelly Vandenberghe,Conservative Party,CON,6967,31.67,2,False,False,3054,42,3508,81,63,73,126,20,34278,21996,38,22034,64.28,1749,7.96,7.951
+KOC,Kootenay Central,"Charlwood, Nicole",Nicole Charlwood,BC Green Party,GRN,4123,18.74,3,False,False,1628,23,2151,39,56,124,80,22,34278,21996,38,22034,64.28,1749,7.96,7.951
+KOC,Kootenay Central,"Mori, Corinne",Corinne Mori,Independent,IND,2190,9.96,4,False,False,873,10,1207,8,16,40,33,3,34278,21996,38,22034,64.28,1749,7.96,7.951
+KOM,Kootenay-Monashee,"Morissette, Steve",Steve Morissette,BC NDP,NDP,10202,52.04,1,True,False,3725,73,5525,86,163,305,325,0,32732,19603,43,19646,60.02,2586,13.19,13.192
+KOM,Kootenay-Monashee,"Byle, Glen",Glen Byle,Conservative Party,CON,7616,38.85,2,False,False,2508,100,4475,94,73,262,104,0,32732,19603,43,19646,60.02,2586,13.19,13.192
+KOM,Kootenay-Monashee,"Cavers, Donovan",Donovan Cavers,BC Green Party,GRN,1785,9.11,3,False,False,469,24,1147,35,26,45,39,0,32732,19603,43,19646,60.02,2586,13.19,13.192
+KOR,Kootenay-Rockies,"Davis, Pete",Pete Davis,Conservative Party,CON,8217,42.71,1,True,False,4309,22,3372,39,97,263,115,0,31684,19241,21,19262,60.79,2373,12.34,12.333
+KOR,Kootenay-Rockies,"Shypitka, Tom",Tom Shypitka,Independent,IND,5844,30.37,2,False,True,3220,10,2243,22,107,165,77,0,31684,19241,21,19262,60.79,2373,12.34,12.333
+KOR,Kootenay-Rockies,"Atwal, Sam",Sam Atwal,BC NDP,NDP,4184,21.75,3,False,False,2261,20,1551,29,82,112,129,0,31684,19241,21,19262,60.79,2373,12.34,12.333
+KOR,Kootenay-Rockies,"Wall, Kerri",Kerri Wall,BC Green Party,GRN,996,5.18,4,False,False,495,3,413,5,29,20,31,0,31684,19241,21,19262,60.79,2373,12.34,12.333
+LAO,Ladysmith-Oceanside,"Higginson, Stephanie",Stephanie Higginson,BC NDP,NDP,14144,41.49,1,True,False,6257,296,5903,142,209,358,930,49,49387,34092,24,34116,69.08,2047,6.01,6.004
+LAO,Ladysmith-Oceanside,"Fee, Brett",Brett Fee,Conservative Party,CON,12097,35.48,2,False,False,5280,343,4960,228,146,637,480,23,49387,34092,24,34116,69.08,2047,6.01,6.004
+LAO,Ladysmith-Oceanside,"Walker, Adam",Adam Walker,Independent,IND,5559,16.31,3,False,True,2697,39,2263,26,96,166,263,9,49387,34092,24,34116,69.08,2047,6.01,6.004
+LAO,Ladysmith-Oceanside,"Ferreira, Laura",Laura Ferreira,BC Green Party,GRN,2292,6.72,4,False,False,934,45,1051,39,45,43,129,6,49387,34092,24,34116,69.08,2047,6.01,6.004
+LFH,Langford-Highlands,"Parmar, Ravi",Ravi Parmar,BC NDP,NDP,11444,51.87,1,True,True,6058,192,3752,109,120,591,600,22,37389,22063,27,22090,59.08,3193,14.47,14.472
+LFH,Langford-Highlands,"Harris, Mike",Mike Harris,Conservative Party,CON,8251,37.4,2,False,False,4154,130,3059,98,52,474,263,21,37389,22063,27,22090,59.08,3193,14.47,14.472
+LFH,Langford-Highlands,"Cassels, Erin",Erin Cassels,BC Green Party,GRN,2368,10.73,3,False,False,1175,56,900,43,20,88,82,4,37389,22063,27,22090,59.08,3193,14.47,14.472
+LLA,Langley-Abbotsford,"Bhangu, Harman",Harman Bhangu,Conservative Party,CON,14341,55.65,1,True,False,5806,351,7024,233,211,348,341,27,43448,25770,66,25836,59.46,5650,21.92,21.925
+LLA,Langley-Abbotsford,"Aldag, John",John Aldag,BC NDP,NDP,8691,33.73,2,False,False,3792,171,3914,98,222,171,308,15,43448,25770,66,25836,59.46,5650,21.92,21.925
+LLA,Langley-Abbotsford,"Snazell, Melissa",Melissa Snazell,BC Green Party,GRN,1434,5.56,3,False,False,539,25,731,24,51,22,39,3,43448,25770,66,25836,59.46,5650,21.92,21.925
+LLA,Langley-Abbotsford,"Long, Karen",Karen Long,Independent,IND,1104,4.28,4,False,False,490,8,541,5,18,16,26,0,43448,25770,66,25836,59.46,5650,21.92,21.925
+LLA,Langley-Abbotsford,"Joehl, Alex",Alex Joehl,Libertarian,LBN,200,0.78,5,False,False,66,2,109,1,7,7,8,0,43448,25770,66,25836,59.46,5650,21.92,21.925
+LWG,Langley-Walnut Grove,"Van Popta, Misty",Misty Van Popta,Conservative Party,CON,12121,49.56,1,True,False,4910,212,6118,223,100,208,350,0,42213,24458,27,24485,58.0,1172,4.79,4.792
+LWG,Langley-Walnut Grove,"Dykeman, Megan",Megan Dykeman,BC NDP,NDP,10949,44.77,2,False,True,4627,167,5248,148,137,185,437,0,42213,24458,27,24485,58.0,1172,4.79,4.792
+LWG,Langley-Walnut Grove,"Mac Lean, Rylee",Rylee Mac Lean,BC Green Party,GRN,1254,5.13,3,False,False,517,28,620,22,11,19,37,0,42213,24458,27,24485,58.0,1172,4.79,4.792
+LWG,Langley-Walnut Grove,"Suarez Rubio, Carlos",Carlos Suarez Rubio,Independent,IND,134,0.55,4,False,False,46,2,73,4,5,1,3,0,42213,24458,27,24485,58.0,1172,4.79,4.792
+LWI,Langley-Willowbrook,"Toor, Jody",Jody Toor,Conservative Party,CON,10979,48.24,1,True,False,4818,255,4924,277,143,271,271,20,41088,22761,18,22779,55.44,867,3.81,3.809
+LWI,Langley-Willowbrook,"Mercier, Andrew",Andrew Mercier,BC NDP,NDP,10112,44.43,2,False,True,4867,221,4067,153,174,182,426,22,41088,22761,18,22779,55.44,867,3.81,3.809
+LWI,Langley-Willowbrook,"Arnason, Petrina",Petrina Arnason,BC Green Party,GRN,1670,7.34,3,False,False,816,23,709,25,34,23,35,5,41088,22761,18,22779,55.44,867,3.81,3.809
+MAE,Maple Ridge East,"Mok, Lawrence",Lawrence Mok,Conservative Party,CON,12058,47.02,1,True,False,4726,542,5789,333,89,297,257,25,44335,25645,49,25694,57.95,97,0.38,0.378
+MAE,Maple Ridge East,"D'Eith, Bob",Bob D'Eith,BC NDP,NDP,11961,46.64,2,False,True,5222,473,5043,191,170,299,542,21,44335,25645,49,25694,57.95,97,0.38,0.378
+MAE,Maple Ridge East,"Williams, Kylee",Kylee Williams,BC Green Party,GRN,1626,6.34,3,False,False,591,66,789,46,56,30,46,2,44335,25645,49,25694,57.95,97,0.38,0.378
+MAP,Maple Ridge-Pitt Meadows,"Beare, Lisa",Lisa Beare,BC NDP,NDP,14480,54.89,1,True,True,7740,193,5229,190,270,335,502,21,44850,26381,94,26475,59.03,2579,9.78,9.776
+MAP,Maple Ridge-Pitt Meadows,"Morden, Mike",Mike Morden,Conservative Party,CON,11901,45.11,2,False,False,5672,221,5010,224,171,350,237,16,44850,26381,94,26475,59.03,2579,9.78,9.776
+MPR,Mid Island-Pacific Rim,"Osborne, Josie",Josie Osborne,BC NDP,NDP,14042,48.74,1,True,True,6133,264,6540,156,123,259,541,26,47816,28810,58,28868,60.37,2676,9.29,9.288
+MPR,Mid Island-Pacific Rim,"Hayduk, Adam",Adam Hayduk,Conservative Party,CON,11366,39.45,2,False,False,4651,393,5404,252,61,312,260,33,47816,28810,58,28868,60.37,2676,9.29,9.288
+MPR,Mid Island-Pacific Rim,"Reid, Ross",Ross Reid,BC Green Party,GRN,3402,11.81,3,False,False,1148,95,1881,75,25,55,115,8,47816,28810,58,28868,60.37,2676,9.29,9.288
+NAI,Nanaimo-Gabriola Island,"Malcolmson, Sheila",Sheila Malcolmson,BC NDP,NDP,14663,52.75,1,True,True,7138,275,5639,224,369,257,728,33,46454,27798,57,27855,59.96,5030,18.1,18.095
+NAI,Nanaimo-Gabriola Island,"Parker, Dale",Dale Parker,Conservative Party,CON,9633,34.65,2,False,False,4410,257,4146,239,172,155,238,16,46454,27798,57,27855,59.96,5030,18.1,18.095
+NAI,Nanaimo-Gabriola Island,"Lambrecht, Shirley",Shirley Lambrecht,BC Green Party,GRN,3502,12.6,3,False,False,1590,75,1523,51,91,52,112,8,46454,27798,57,27855,59.96,5030,18.1,18.095
+NAL,Nanaimo-Lantzville,"Anderson, George",George Anderson,BC NDP,NDP,15307,51.75,1,True,False,7614,304,5223,186,447,688,812,33,44879,29580,40,29620,66.0,3620,12.24,12.238
+NAL,Nanaimo-Lantzville,"O'Mahony, Gwen",Gwen O'Mahony,Conservative Party,CON,11687,39.51,2,False,False,5480,191,4708,191,205,499,381,32,44879,29580,40,29620,66.0,3620,12.24,12.238
+NAL,Nanaimo-Lantzville,"Versaevel, Lia",Lia Versaevel,BC Green Party,GRN,2586,8.74,3,False,False,1286,60,918,42,95,70,111,4,44879,29580,40,29620,66.0,3620,12.24,12.238
+NEC,Nechako Lakes,"Rustad, John",John Rustad,Conservative Party,CON,7851,67.45,1,True,True,3664,59,3654,62,82,273,57,0,18407,11640,25,11665,63.37,4684,40.24,40.241
+NEC,Nechako Lakes,"Abraham, Murphy",Murphy Abraham,BC NDP,NDP,3167,27.21,2,False,False,1390,32,1444,49,123,69,60,0,18407,11640,25,11665,63.37,4684,40.24,40.241
+NEC,Nechako Lakes,"Gook, Douglas",Douglas Gook,BC Green Party,GRN,622,5.34,3,False,False,268,6,299,3,23,15,8,0,18407,11640,25,11665,63.37,4684,40.24,40.241
+NMC,New Westminster-Coquitlam,"Whiteside, Jennifer",Jennifer Whiteside,BC NDP,NDP,12757,59.13,1,True,True,5293,445,5482,263,223,347,668,36,40020,21575,56,21631,54.05,6319,29.29,29.289
+NMC,New Westminster-Coquitlam,"Massey, Ndellie",Ndellie Massey,Conservative Party,CON,6438,29.84,2,False,False,2519,253,2961,230,77,151,236,11,40020,21575,56,21631,54.05,6319,29.29,29.289
+NMC,New Westminster-Coquitlam,"Curran, Maureen",Maureen Curran,BC Green Party,GRN,2380,11.03,3,False,False,959,73,1072,60,52,67,89,8,40020,21575,56,21631,54.05,6319,29.29,29.289
+NOH,North Coast-Haida Gwaii,"Davidson, Tamara",Tamara Davidson,BC NDP,NDP,4863,64.92,1,True,False,1861,53,2623,61,47,149,69,0,15518,7491,51,7542,48.6,2235,29.84,29.836
+NOH,North Coast-Haida Gwaii,"Sankey, Christopher Jason",Christopher Jason Sankey,Conservative Party,CON,2628,35.08,2,False,False,1056,32,1339,43,23,99,36,0,15518,7491,51,7542,48.6,2235,29.84,29.836
+NOI,North Island,"Kindy, Anna",Anna Kindy,Conservative Party,CON,14100,47.07,1,True,False,6066,79,6768,120,109,605,327,26,48249,29958,31,29989,62.15,639,2.14,2.133
+NOI,North Island,"Babchuk, Michele",Michele Babchuk,BC NDP,NDP,13461,44.93,2,False,True,5200,105,6919,96,236,385,481,39,48249,29958,31,29989,62.15,639,2.14,2.133
+NOI,North Island,"Dedeluk, Nic",Nic Dedeluk,BC Green Party,GRN,2397,8.0,3,False,False,750,24,1407,32,35,56,86,7,48249,29958,31,29989,62.15,639,2.14,2.133
+NVL,North Vancouver-Lonsdale,"Ma, Bowinn",Bowinn Ma,BC NDP,NDP,16759,64.88,1,True,True,7592,377,7099,225,180,448,794,44,44034,25832,107,25939,58.91,7686,29.76,29.754
+NVL,North Vancouver-Lonsdale,"Splett, David",David Splett,Conservative Party,CON,9073,35.12,2,False,False,3775,258,4215,188,57,262,296,22,44034,25832,107,25939,58.91,7686,29.76,29.754
+NVS,North Vancouver-Seymour,"Chant, Susie",Susie Chant,BC NDP,NDP,16210,52.77,1,True,True,8059,315,6439,213,160,279,692,53,46159,30721,39,30760,66.64,5215,16.98,16.975
+NVS,North Vancouver-Seymour,"Chandola, Sam",Sam Chandola,Conservative Party,CON,10995,35.79,2,False,False,5209,248,4591,175,80,281,355,56,46159,30721,39,30760,66.64,5215,16.98,16.975
+NVS,North Vancouver-Seymour,"Baker, Mitchell",Mitchell Baker,Independent,IND,1794,5.84,3,False,False,825,28,809,20,30,25,53,4,46159,30721,39,30760,66.64,5215,16.98,16.975
+NVS,North Vancouver-Seymour,"Tripathy, Subhadarshi",Subhadarshi Tripathy,BC Green Party,GRN,1722,5.61,4,False,False,739,43,777,65,24,26,40,8,46159,30721,39,30760,66.64,5215,16.98,16.975
+OBG,Oak Bay-Gordon Head,"Gibson, Diana",Diana Gibson,BC NDP,NDP,14519,49.1,1,True,False,7254,278,4902,210,301,452,1043,79,42442,29570,55,29625,69.8,5977,20.21,20.213
+OBG,Oak Bay-Gordon Head,"Andrew, Stephen",Stephen Andrew,Conservative Party,CON,8542,28.89,2,False,False,4042,161,3171,142,141,337,506,42,42442,29570,55,29625,69.8,5977,20.21,20.213
+OBG,Oak Bay-Gordon Head,"Gunderson, Lisa",Lisa Gunderson,BC Green Party,GRN,6509,22.01,3,False,False,3285,127,2229,150,154,170,368,26,42442,29570,55,29625,69.8,5977,20.21,20.213
+PCN,Peace River North,"Kealy, Jordan",Jordan Kealy,Conservative Party,CON,11213,74.36,1,True,False,5553,47,5009,57,110,367,48,22,26413,15079,18,15097,57.16,8175,54.21,54.214
+PCN,Peace River North,"Davies, Dan",Dan Davies,Independent,IND,3038,20.15,2,False,True,1640,11,1176,14,66,91,31,9,26413,15079,18,15097,57.16,8175,54.21,54.214
+PCN,Peace River North,"McMahon, Ian",Ian McMahon,BC NDP,NDP,828,5.49,3,False,False,400,3,362,10,33,6,12,2,26413,15079,18,15097,57.16,8175,54.21,54.214
+PCS,Peace River South,"Neufeld, Larry",Larry Neufeld,Conservative Party,CON,7182,69.84,1,True,False,3465,50,3260,58,100,178,71,0,18206,10283,15,10298,56.56,4657,45.28,45.288
+PCS,Peace River South,"Bernier, Mike",Mike Bernier,Unaffiliated,UNAF,2525,24.56,2,False,True,1352,7,998,18,55,58,37,0,18206,10283,15,10298,56.56,4657,45.28,45.288
+PCS,Peace River South,"Bigsby, Marshall",Marshall Bigsby,BC NDP,NDP,576,5.6,3,False,False,240,5,270,6,32,15,8,0,18206,10283,15,10298,56.56,4657,45.28,45.288
+PES,Penticton-Summerland,"Boultbee, Amelia",Amelia Boultbee,Conservative Party,CON,11615,41.37,1,True,False,6270,59,4201,84,325,414,244,18,45707,28076,29,28105,61.49,317,1.13,1.129
+PES,Penticton-Summerland,"Lee, Tina",Tina Lee,BC NDP,NDP,11298,40.24,2,False,False,6249,48,3755,68,380,320,462,16,45707,28076,29,28105,61.49,317,1.13,1.129
+PES,Penticton-Summerland,"St Claire, Tracy",Tracy St Claire,Unaffiliated,UNAF,2720,9.69,3,False,False,1425,6,1068,8,63,71,77,2,45707,28076,29,28105,61.49,317,1.13,1.129
+PES,Penticton-Summerland,"Bartsch, Bradley",Bradley Bartsch,BC Green Party,GRN,1472,5.24,4,False,False,777,8,542,13,75,28,28,1,45707,28076,29,28105,61.49,317,1.13,1.129
+PES,Penticton-Summerland,"Harrington, Roger",Roger Harrington,Independent,IND,827,2.95,5,False,False,407,1,354,2,22,22,16,3,45707,28076,29,28105,61.49,317,1.13,1.129
+PES,Penticton-Summerland,"Paddon, Anna",Anna Paddon,Independent,IND,144,0.51,6,False,False,69,0,41,0,22,7,5,0,45707,28076,29,28105,61.49,317,1.13,1.129
+POC,Port Coquitlam,"Farnworth, Mike",Mike Farnworth,BC NDP,NDP,13843,53.87,1,True,True,6412,195,6118,159,229,162,537,31,44601,25698,38,25736,57.7,3876,15.08,15.083
+POC,Port Coquitlam,"Adams, Keenan",Keenan Adams,Conservative Party,CON,9967,38.79,2,False,False,4178,188,4910,173,83,152,264,19,44601,25698,38,25736,57.7,3876,15.08,15.083
+POC,Port Coquitlam,"Bremner-Akins, Adam",Adam Bremner-Akins,BC Green Party,GRN,1644,6.4,3,False,False,711,15,803,26,30,15,41,3,44601,25698,38,25736,57.7,3876,15.08,15.083
+POC,Port Coquitlam,"Dahlby, Lewis",Lewis Dahlby,Libertarian,LBN,244,0.95,4,False,False,118,2,106,4,9,1,3,1,44601,25698,38,25736,57.7,3876,15.08,15.083
+POM,Port Moody-Burquitlam,"Glumac, Rick",Rick Glumac,BC NDP,NDP,13488,52.06,1,True,True,6007,538,5295,318,73,502,720,35,44199,25908,45,25953,58.72,2995,11.56,11.56
+POM,Port Moody-Burquitlam,"van Aswegen, Kerry",Kerry van Aswegen,Conservative Party,CON,10493,40.5,2,False,False,4383,440,4598,353,46,301,360,12,44199,25908,45,25953,58.72,2995,11.56,11.56
+POM,Port Moody-Burquitlam,"Agtarap, Samantha",Samantha Agtarap,BC Green Party,GRN,1927,7.44,3,False,False,823,52,843,55,12,66,71,5,44199,25908,45,25953,58.72,2995,11.56,11.56
+POR,Powell River-Sunshine Coast,"Neill, Randene",Randene Neill,BC NDP,NDP,14474,49.62,1,True,False,6199,74,5582,92,140,1809,550,28,44009,29171,27,29198,66.35,4065,13.94,13.935
+POR,Powell River-Sunshine Coast,"Moore, Chris",Chris Moore,Conservative Party,CON,10409,35.68,2,False,False,4242,80,4310,109,72,1332,247,17,44009,29171,27,29198,66.35,4065,13.94,13.935
+POR,Powell River-Sunshine Coast,"Hergesheimer, Chris",Chris Hergesheimer,BC Green Party,GRN,3932,13.48,3,False,False,1453,34,1851,30,58,403,93,10,44009,29171,27,29198,66.35,4065,13.94,13.935
+POR,Powell River-Sunshine Coast,"Reid, Greg",Greg Reid,Independent,IND,356,1.22,4,False,False,125,1,177,2,7,30,14,0,44009,29171,27,29198,66.35,4065,13.94,13.935
+PRM,Prince George-Mackenzie,"Giddens, Kiel",Kiel Giddens,Conservative Party,CON,11307,60.92,1,True,False,5166,235,5185,196,91,274,138,22,31239,18560,28,18588,59.5,6065,32.68,32.678
+PRM,Prince George-Mackenzie,"McCrory, Shar",Shar McCrory,BC NDP,NDP,5242,28.24,2,False,False,2452,75,2261,97,121,104,130,2,31239,18560,28,18588,59.5,6065,32.68,32.678
+PRM,Prince George-Mackenzie,"Steidle, James",James Steidle,BC Green Party,GRN,1576,8.49,3,False,False,662,27,766,31,25,35,29,1,31239,18560,28,18588,59.5,6065,32.68,32.678
+PRM,Prince George-Mackenzie,"Weber, Rachael",Rachael Weber,Unaffiliated,UNAF,435,2.34,4,False,False,201,7,210,6,2,6,2,1,31239,18560,28,18588,59.5,6065,32.68,32.678
+PRO,Prince George-North Cariboo,"Clare, Sheldon",Sheldon Clare,Conservative Party,CON,11430,56.82,1,True,False,4506,193,6014,202,70,284,161,0,33572,20116,18,20134,59.97,7036,34.98,34.977
+PRO,Prince George-North Cariboo,"Oakes, Coralee",Coralee Oakes,Independent,IND,4394,21.84,2,False,True,1919,40,2093,33,59,151,99,0,33572,20116,18,20134,59.97,7036,34.98,34.977
+PRO,Prince George-North Cariboo,"Bardua, Denice",Denice Bardua,BC NDP,NDP,3426,17.03,3,False,False,1444,48,1603,66,49,100,116,0,33572,20116,18,20134,59.97,7036,34.98,34.977
+PRO,Prince George-North Cariboo,"Thompson, Randy",Randy Thompson,BC Green Party,GRN,866,4.31,4,False,False,331,20,447,13,10,26,19,0,33572,20116,18,20134,59.97,7036,34.98,34.977
+PRV,Prince George-Valemount,"Bird, Rosalyn",Rosalyn Bird,Conservative Party,CON,9018,55.19,1,True,False,3254,189,4914,177,174,181,114,15,30564,16339,43,16382,53.6,3309,20.25,20.252
+PRV,Prince George-Valemount,"Pountney, Clay",Clay Pountney,BC NDP,NDP,5709,34.94,2,False,False,2248,86,2777,87,188,144,169,10,30564,16339,43,16382,53.6,3309,20.25,20.252
+PRV,Prince George-Valemount,"Johansson, Gwen",Gwen Johansson,BC Green Party,GRN,1612,9.87,3,False,False,624,30,828,29,60,20,18,3,30564,16339,43,16382,53.6,3309,20.25,20.252
+RCB,Richmond-Bridgeport,"Wat, Teresa",Teresa Wat,Conservative Party,CON,9908,58.19,1,True,True,3645,307,4552,228,27,767,382,0,35127,17027,54,17081,48.63,3987,23.42,23.416
+RCB,Richmond-Bridgeport,"Li, Linda",Linda Li,BC NDP,NDP,5921,34.77,2,False,False,2195,187,2940,101,34,178,286,0,35127,17027,54,17081,48.63,3987,23.42,23.416
+RCB,Richmond-Bridgeport,"Revóczi, Tamás",Tamás Revóczi,BC Green Party,GRN,547,3.21,3,False,False,178,23,282,14,2,22,26,0,35127,17027,54,17081,48.63,3987,23.42,23.416
+RCB,Richmond-Bridgeport,"Chan, Glynnis Hoi Sum",Glynnis Hoi Sum Chan,Independent,IND,519,3.05,4,False,False,184,14,247,15,1,49,9,0,35127,17027,54,17081,48.63,3987,23.42,23.416
+RCB,Richmond-Bridgeport,"Smith, Charlie",Charlie Smith,Independent,IND,132,0.78,5,False,False,55,2,53,1,3,7,11,0,35127,17027,54,17081,48.63,3987,23.42,23.416
+RCC,Richmond Centre,"Chan, Hon",Hon Chan,Conservative Party,CON,8426,51.99,1,True,False,3922,138,3137,163,48,710,308,0,33153,16208,61,16269,49.07,2465,15.21,15.209
+RCC,Richmond Centre,"Yao, Henry",Henry Yao,BC NDP,NDP,5961,36.78,2,False,True,2768,106,2301,110,73,288,315,0,33153,16208,61,16269,49.07,2465,15.21,15.209
+RCC,Richmond Centre,"Yuan, Wendy",Wendy Yuan,Unaffiliated,UNAF,1028,6.34,3,False,False,433,10,348,13,9,179,36,0,33153,16208,61,16269,49.07,2465,15.21,15.209
+RCC,Richmond Centre,"Cheung, Dickens",Dickens Cheung,Independent,IND,556,3.43,4,False,False,244,5,202,16,13,56,20,0,33153,16208,61,16269,49.07,2465,15.21,15.209
+RCC,Richmond Centre,"Ho, Sunny",Sunny Ho,Independent,IND,237,1.46,5,False,False,116,4,86,5,3,17,6,0,33153,16208,61,16269,49.07,2465,15.21,15.209
+RCQ,Richmond-Queensborough,"Kooner, Steve",Steve Kooner,Conservative Party,CON,10052,50.91,1,True,False,3834,385,4872,238,44,400,267,12,37364,19744,63,19807,53.01,1339,6.78,6.782
+RCQ,Richmond-Queensborough,"Singh, Aman",Aman Singh,BC NDP,NDP,8713,44.13,2,False,True,3444,310,4254,154,49,152,331,19,37364,19744,63,19807,53.01,1339,6.78,6.782
+RCQ,Richmond-Queensborough,"Wu, Cindy",Cindy Wu,Independent,IND,721,3.65,3,False,False,244,26,380,16,12,29,14,0,37364,19744,63,19807,53.01,1339,6.78,6.782
+RCQ,Richmond-Queensborough,"Povah, Errol E.",Errol E. Povah,Independent,IND,258,1.31,4,False,False,77,8,149,9,4,4,7,0,37364,19744,63,19807,53.01,1339,6.78,6.782
+RCS,Richmond-Steveston,"Greene, Kelly",Kelly Greene,BC NDP,NDP,10332,44.27,1,True,True,4889,163,4335,103,136,248,436,22,39067,23337,52,23389,59.87,484,2.07,2.074
+RCS,Richmond-Steveston,"Mollineaux, Michelle",Michelle Mollineaux,Conservative Party,CON,9848,42.2,2,False,False,4400,234,4199,154,51,447,346,17,39067,23337,52,23389,59.87,484,2.07,2.074
+RCS,Richmond-Steveston,"Lee, Jackie",Jackie Lee,Unaffiliated,UNAF,2354,10.09,3,False,False,891,33,1197,17,23,101,90,2,39067,23337,52,23389,59.87,484,2.07,2.074
+RCS,Richmond-Steveston,"Vaudandaine, Elodie",Elodie Vaudandaine,BC Green Party,GRN,803,3.44,4,False,False,375,17,344,11,12,13,28,3,39067,23337,52,23389,59.87,484,2.07,2.074
+SAN,Saanich North and the Islands,"Botterell, Rob",Rob Botterell,BC Green Party,GRN,12308,36.15,1,True,False,6381,98,4627,124,175,251,616,36,49437,34046,41,34087,68.95,1350,3.96,3.965
+SAN,Saanich North and the Islands,"Riddell, Sarah",Sarah Riddell,BC NDP,NDP,10958,32.19,2,False,False,5812,105,3881,90,180,195,661,34,49437,34046,41,34087,68.95,1350,3.96,3.965
+SAN,Saanich North and the Islands,"Busch, David",David Busch,Conservative Party,CON,10145,29.8,3,False,False,5498,85,3606,83,133,280,440,20,49437,34046,41,34087,68.95,1350,3.96,3.965
+SAN,Saanich North and the Islands,"Haysom, Amy",Amy Haysom,Independent,IND,635,1.87,4,False,False,237,8,343,3,19,7,18,0,49437,34046,41,34087,68.95,1350,3.96,3.965
+SAS,Saanich South,"Popham, Lana",Lana Popham,BC NDP,NDP,15338,49.76,1,True,True,6428,622,6109,269,264,607,1009,30,45655,30826,44,30870,67.62,5335,17.31,17.307
+SAS,Saanich South,"Kubel, Adam",Adam Kubel,Conservative Party,CON,10003,32.45,2,False,False,3996,343,4440,236,135,417,414,22,45655,30826,44,30870,67.62,5335,17.31,17.307
+SAS,Saanich South,"Taylor, Ned",Ned Taylor,BC Green Party,GRN,5485,17.79,3,False,False,2153,213,2413,103,124,210,259,10,45655,30826,44,30870,67.62,5335,17.31,17.307
+SHU,Salmon Arm-Shuswap,"Williams, David L.",David L. Williams,Conservative Party,CON,16566,52.11,1,True,False,7014,170,8298,208,207,352,283,34,51806,31788,31,31819,61.42,6889,21.67,21.672
+SHU,Salmon Arm-Shuswap,"Lindgren, Sylvia",Sylvia Lindgren,BC NDP,NDP,9677,30.44,2,False,False,4615,82,4141,75,227,194,327,16,51806,31788,31,31819,61.42,6889,21.67,21.672
+SHU,Salmon Arm-Shuswap,"McCune, Greg",Greg McCune,Independent,IND,2922,9.19,3,False,False,1338,12,1393,14,63,51,50,1,51806,31788,31,31819,61.42,6889,21.67,21.672
+SHU,Salmon Arm-Shuswap,"Wiebe, Jed",Jed Wiebe,BC Green Party,GRN,2250,7.08,4,False,False,963,17,1103,28,55,43,40,1,51806,31788,31,31819,61.42,6889,21.67,21.672
+SHU,Salmon Arm-Shuswap,"Roy, Sherry",Sherry Roy,Independent,IND,373,1.17,5,False,False,132,1,204,5,19,11,1,0,51806,31788,31,31819,61.42,6889,21.67,21.672
+SKE,Skeena,"Rattée, Claire",Claire Rattée,Conservative Party,CON,6243,51.2,1,True,False,2770,33,3150,54,74,106,45,11,21885,12194,23,12217,55.82,824,6.76,6.757
+SKE,Skeena,"Zimmerman, Sarah",Sarah Zimmerman,BC NDP,NDP,5419,44.44,2,False,False,2389,36,2512,50,124,167,92,49,21885,12194,23,12217,55.82,824,6.76,6.757
+SKE,Skeena,"Young, Teri",Teri Young,BC Green Party,GRN,406,3.33,3,False,False,156,3,213,7,15,8,3,1,21885,12194,23,12217,55.82,824,6.76,6.757
+SKE,Skeena,"Jeffrey, Irwin",Irwin Jeffrey,Christian Heritage Party of B.C.,CHP,126,1.03,4,False,False,46,0,65,1,11,3,0,0,21885,12194,23,12217,55.82,824,6.76,6.757
+SRC,Surrey City Centre,"Shah, Amna",Amna Shah,BC NDP,NDP,6726,46.7,1,True,False,3099,239,2520,262,177,102,301,26,32195,14404,26,14430,44.82,232,1.62,1.611
+SRC,Surrey City Centre,"Wahla, Zeeshan",Zeeshan Wahla,Conservative Party,CON,6494,45.08,2,False,False,2850,186,2793,308,87,113,150,7,32195,14404,26,14430,44.82,232,1.62,1.611
+SRC,Surrey City Centre,"Boyd, Colin",Colin Boyd,BC Green Party,GRN,877,6.09,3,False,False,410,30,329,37,30,11,28,2,32195,14404,26,14430,44.82,232,1.62,1.611
+SRC,Surrey City Centre,"Naguib, Saeed",Saeed Naguib,Independent,IND,160,1.11,4,False,False,79,8,52,10,6,0,5,0,32195,14404,26,14430,44.82,232,1.62,1.611
+SRC,Surrey City Centre,"Abbott, Ryan",Ryan Abbott,Communist Party of BC,COMM,147,1.02,5,False,False,49,9,61,8,9,5,6,0,32195,14404,26,14430,44.82,232,1.62,1.611
+SRD,Surrey-Cloverdale,"Sturko, Elenore",Elenore Sturko,Conservative Party,CON,10268,48.31,1,True,True,5028,219,4315,175,74,187,254,16,38069,21253,16,21269,55.87,586,2.75,2.757
+SRD,Surrey-Cloverdale,"Starchuk, Mike",Mike Starchuk,BC NDP,NDP,9682,45.56,2,False,True,4952,171,3819,97,81,119,423,20,38069,21253,16,21269,55.87,586,2.75,2.757
+SRD,Surrey-Cloverdale,"McCutcheon, Pat",Pat McCutcheon,BC Green Party,GRN,1150,5.41,3,False,False,570,19,483,7,15,14,41,1,38069,21253,16,21269,55.87,586,2.75,2.757
+SRD,Surrey-Cloverdale,"Meilleur, Judy",Judy Meilleur,Freedom Party of BC,FPBC,153,0.72,4,False,False,65,1,70,3,10,2,1,1,38069,21253,16,21269,55.87,586,2.75,2.757
+SRF,Surrey-Fleetwood,"Brar, Jagrup",Jagrup Brar,BC NDP,NDP,9923,48.61,1,True,True,4675,298,4189,159,147,105,336,14,37753,20414,26,20440,54.14,753,3.69,3.689
+SRF,Surrey-Fleetwood,"Gill, Avtar",Avtar Gill,Conservative Party,CON,9170,44.92,2,False,False,4009,293,4255,197,100,102,199,15,37753,20414,26,20440,54.14,753,3.69,3.689
+SRF,Surrey-Fleetwood,"Binnema, Tim",Tim Binnema,BC Green Party,GRN,1321,6.47,3,False,False,628,44,533,34,32,14,35,1,37753,20414,26,20440,54.14,753,3.69,3.689
+SRG,Surrey-Guildford,"Begg, Garry",Garry Begg,BC NDP,NDP,8947,46.93,1,True,True,4348,206,3626,140,152,70,391,14,37612,19066,24,19090,50.76,22,0.12,0.115
+SRG,Surrey-Guildford,"Randhawa, Honveer Singh",Honveer Singh Randhawa,Conservative Party,CON,8925,46.81,2,False,False,4234,215,3873,173,44,100,274,12,37612,19066,24,19090,50.76,22,0.12,0.115
+SRG,Surrey-Guildford,"Sahota, Manjeet Singh",Manjeet Singh Sahota,BC Green Party,GRN,824,4.32,3,False,False,404,23,327,18,14,6,31,1,37612,19066,24,19090,50.76,22,0.12,0.115
+SRG,Surrey-Guildford,"Qurban, Kabir",Kabir Qurban,Independent,IND,370,1.94,4,False,False,145,11,192,8,2,4,8,0,37612,19066,24,19090,50.76,22,0.12,0.115
+SRN,Surrey-Newton,"Sunner, Jessie",Jessie Sunner,BC NDP,NDP,7924,51.17,1,True,False,3693,153,3323,146,154,128,312,15,30549,15486,36,15522,50.81,1266,8.18,8.175
+SRN,Surrey-Newton,"Bal, Tegjot",Tegjot Bal,Conservative Party,CON,6658,42.99,2,False,False,2851,117,3182,167,54,129,148,10,30549,15486,36,15522,50.81,1266,8.18,8.175
+SRN,Surrey-Newton,"Birring, Amrit",Amrit Birring,Freedom Party of BC,FPBC,371,2.4,3,False,False,163,6,174,9,9,7,3,0,30549,15486,36,15522,50.81,1266,8.18,8.175
+SRN,Surrey-Newton,"Lehal, Japreet",Japreet Lehal,Unaffiliated,UNAF,344,2.22,4,False,False,142,5,176,8,2,3,7,1,30549,15486,36,15522,50.81,1266,8.18,8.175
+SRN,Surrey-Newton,"Randhawa, Joginder Singh",Joginder Singh Randhawa,Independent,IND,189,1.22,5,False,False,90,3,81,1,7,5,2,0,30549,15486,36,15522,50.81,1266,8.18,8.175
+SUN,Surrey North,"Dhaliwal, Mandeep",Mandeep Dhaliwal,Conservative Party,CON,7954,50.67,1,True,False,3017,277,4080,227,42,136,163,12,31511,15698,33,15731,49.92,1159,7.38,7.383
+SUN,Surrey North,"Singh, Rachna",Rachna Singh,BC NDP,NDP,6795,43.29,2,False,True,2831,284,3039,185,67,90,283,16,31511,15698,33,15731,49.92,1159,7.38,7.383
+SUN,Surrey North,"Sandhu, Sim",Sim Sandhu,BC Green Party,GRN,662,4.22,3,False,False,225,27,347,21,5,11,24,2,31511,15698,33,15731,49.92,1159,7.38,7.383
+SUN,Surrey North,"Hundal, Kiran",Kiran Hundal,Freedom Party of BC,FPBC,162,1.03,4,False,False,51,7,91,5,2,2,4,0,31511,15698,33,15731,49.92,1159,7.38,7.383
+SUN,Surrey North,"Nijjar, Hobby",Hobby Nijjar,Independent,IND,125,0.8,5,False,False,50,4,60,6,0,1,4,0,31511,15698,33,15731,49.92,1159,7.38,7.383
+SUP,Surrey-Panorama,"Tepper, Bryan",Bryan Tepper,Conservative Party,CON,8735,49.6,1,True,False,3779,265,4046,212,56,184,186,7,32742,17611,41,17652,53.91,263,1.49,1.493
+SUP,Surrey-Panorama,"Sims, Jinny",Jinny Sims,BC NDP,NDP,8472,48.11,2,False,True,3779,276,3761,154,64,118,295,25,32742,17611,41,17652,53.91,263,1.49,1.493
+SUP,Surrey-Panorama,"Rai, Paramjit",Paramjit Rai,Freedom Party of BC,FPBC,404,2.29,3,False,False,155,10,221,5,4,4,4,1,32742,17611,41,17652,53.91,263,1.49,1.493
+SUR,Surrey-Serpentine River,"Hepner, Linda",Linda Hepner,Conservative Party,CON,9782,49.7,1,True,False,3653,859,4360,470,38,149,240,13,36196,19683,39,19722,54.49,435,2.21,2.21
+SUR,Surrey-Serpentine River,"Dhillon, Baltej Singh",Baltej Singh Dhillon,BC NDP,NDP,9347,47.49,2,False,False,3598,882,3999,363,66,106,311,22,36196,19683,39,19722,54.49,435,2.21,2.21
+SUR,Surrey-Serpentine River,"McMurtry, Jim",Jim McMurtry,Independent,IND,554,2.81,3,False,False,221,48,239,21,4,9,8,4,36196,19683,39,19722,54.49,435,2.21,2.21
+SUS,Surrey South,"Chapman, Brent",Brent Chapman,Conservative Party,CON,13056,58.83,1,True,False,5369,603,5312,389,188,723,443,29,39633,22192,119,22311,56.29,3920,17.66,17.664
+SUS,Surrey South,"Ghaffar, Haroon",Haroon Ghaffar,BC NDP,NDP,9136,41.17,2,False,False,3842,369,3658,210,166,453,419,19,39633,22192,119,22311,56.29,3920,17.66,17.664
+SWR,Surrey-White Rock,"Halford, Trevor",Trevor Halford,Conservative Party,CON,14667,52.31,1,True,True,7193,219,5381,196,385,719,552,22,45467,28036,106,28142,61.9,1969,7.02,7.023
+SWR,Surrey-White Rock,"Walker, Darryl",Darryl Walker,BC NDP,NDP,12698,45.29,2,False,False,6321,155,4561,114,402,519,597,29,45467,28036,106,28142,61.9,1969,7.02,7.023
+SWR,Surrey-White Rock,"Tassie, Damyn",Damyn Tassie,Libertarian,LBN,671,2.39,3,False,False,285,6,245,13,75,21,25,1,45467,28036,106,28142,61.9,1969,7.02,7.023
+VFV,Vancouver-Fraserview,"Chow, George",George Chow,BC NDP,NDP,11896,57.18,1,True,True,5565,348,4541,244,321,255,595,27,39801,20804,61,20865,52.42,4278,20.56,20.563
+VFV,Vancouver-Fraserview,"Sanghera, Jag S",Jag S Sanghera,Conservative Party,CON,7618,36.62,2,False,False,3428,221,3193,171,136,182,278,9,39801,20804,61,20865,52.42,4278,20.56,20.563
+VFV,Vancouver-Fraserview,"Raunet, Francoise",Francoise Raunet,BC Green Party,GRN,1290,6.2,3,False,False,541,34,561,36,41,22,55,0,39801,20804,61,20865,52.42,4278,20.56,20.563
+VHA,Vancouver-Hastings,"Sharma, Niki",Niki Sharma,BC NDP,NDP,14237,64.15,1,True,True,4620,1100,7015,389,146,249,673,45,41189,22194,52,22246,54.01,8846,39.86,39.858
+VHA,Vancouver-Hastings,"Burdge, Jacob",Jacob Burdge,Conservative Party,CON,5391,24.29,2,False,False,1665,339,2929,129,71,81,169,8,41189,22194,52,22246,54.01,8846,39.86,39.858
+VHA,Vancouver-Hastings,"Burns, Bridget",Bridget Burns,BC Green Party,GRN,2409,10.85,3,False,False,706,179,1267,76,35,37,103,6,41189,22194,52,22246,54.01,8846,39.86,39.858
+VHA,Vancouver-Hastings,"Kiss, Zsolt",Zsolt Kiss,Independent,IND,157,0.71,4,False,False,36,7,99,6,8,1,0,0,41189,22194,52,22246,54.01,8846,39.86,39.858
+VKE,Vancouver-Kensington,"Elmore, Mable",Mable Elmore,BC NDP,NDP,11713,60.9,1,True,True,4884,538,5044,392,107,211,523,14,37396,19232,53,19285,51.57,5652,29.38,29.389
+VKE,Vancouver-Kensington,"Mohsin, Syed",Syed Mohsin,Conservative Party,CON,6061,31.52,2,False,False,2468,271,2782,239,19,111,161,10,37396,19232,53,19285,51.57,5652,29.38,29.389
+VKE,Vancouver-Kensington,"Fox, Amy",Amy Fox,BC Green Party,GRN,1458,7.58,3,False,False,568,50,686,59,13,29,51,2,37396,19232,53,19285,51.57,5652,29.38,29.389
+VLA,Vancouver-Langara,"Dhir, Sunita",Sunita Dhir,BC NDP,NDP,8506,48.43,1,True,False,4103,203,3162,180,121,224,481,32,33961,17562,39,17601,51.83,419,2.38,2.386
+VLA,Vancouver-Langara,"Breguet, Bryan",Bryan Breguet,Conservative Party,CON,8087,46.05,2,False,False,3927,146,3124,195,74,242,353,26,33961,17562,39,17601,51.83,419,2.38,2.386
+VLA,Vancouver-Langara,"Price, Scottford",Scottford Price,BC Green Party,GRN,969,5.52,3,False,False,425,24,377,32,28,28,54,1,33961,17562,39,17601,51.83,419,2.38,2.386
+VLM,Vancouver-Little Mountain,"Boyle, Christine",Christine Boyle,BC NDP,NDP,15636,62.11,1,True,False,6256,1039,6488,355,240,301,907,50,41259,25173,61,25234,61.16,7932,31.51,31.51
+VLM,Vancouver-Little Mountain,"Coupar, John",John Coupar,Conservative Party,CON,7704,30.6,2,False,False,2467,546,3794,238,113,162,368,16,41259,25173,61,25234,61.16,7932,31.51,31.51
+VLM,Vancouver-Little Mountain,"Hayko, Wendy",Wendy Hayko,BC Green Party,GRN,1833,7.28,3,False,False,698,94,841,59,60,19,59,3,41259,25173,61,25234,61.16,7932,31.51,31.51
+VNP,Vancouver-Point Grey,"Eby, David",David Eby,BC NDP,NDP,12538,56.77,1,True,True,5974,545,4569,241,96,201,855,57,34880,22085,40,22125,63.43,4916,22.26,22.259
+VNP,Vancouver-Point Grey,"Ratchford, Paul",Paul Ratchford,Conservative Party,CON,7622,34.51,2,False,False,3640,259,2889,199,42,109,453,31,34880,22085,40,22125,63.43,4916,22.26,22.259
+VNP,Vancouver-Point Grey,"Singh, Devyani",Devyani Singh,BC Green Party,GRN,1925,8.72,3,False,False,854,81,754,41,31,33,123,8,34880,22085,40,22125,63.43,4916,22.26,22.259
+VNQ,Vancouver-Quilchena,"Brodie, Dallas",Dallas Brodie,Conservative Party,CON,11464,51.58,1,True,False,4819,434,4298,233,136,886,611,47,38080,22227,32,22259,58.45,2815,12.67,12.665
+VNQ,Vancouver-Quilchena,"Ryan, Callista",Callista Ryan,BC NDP,NDP,8649,38.91,2,False,False,3387,327,3341,198,182,604,558,52,38080,22227,32,22259,58.45,2815,12.67,12.665
+VNQ,Vancouver-Quilchena,"Barkusky, Michael",Michael Barkusky,BC Green Party,GRN,1729,7.78,3,False,False,670,45,711,56,41,119,77,10,38080,22227,32,22259,58.45,2815,12.67,12.665
+VNQ,Vancouver-Quilchena,"Wang, Caroline Ying-Mei",Caroline Ying-Mei Wang,Independent,IND,385,1.73,4,False,False,132,12,168,8,18,26,21,0,38080,22227,32,22259,58.45,2815,12.67,12.665
+VNR,Vancouver-Renfrew,"Dix, Adrian",Adrian Dix,BC NDP,NDP,10983,63.22,1,True,True,5162,447,4380,232,159,142,440,21,36116,17374,47,17421,48.24,5656,32.56,32.554
+VNR,Vancouver-Renfrew,"Ikonomou, Tom",Tom Ikonomou,Conservative Party,CON,5327,30.66,2,False,False,2445,218,2242,142,37,59,172,12,36116,17374,47,17421,48.24,5656,32.56,32.554
+VNR,Vancouver-Renfrew,"Taylor, Lawrence",Lawrence Taylor,BC Green Party,GRN,1064,6.12,3,False,False,447,47,466,28,20,12,39,5,36116,17374,47,17421,48.24,5656,32.56,32.554
+VNS,Vancouver-South Granville,"Bailey, Brenda",Brenda Bailey,BC NDP,NDP,17208,64.31,1,True,True,7695,919,6322,342,258,382,1221,69,42014,26758,55,26813,63.82,10530,39.35,39.353
+VNS,Vancouver-South Granville,"Lageri, Aron",Aron Lageri,Conservative Party,CON,6678,24.96,2,False,False,2967,362,2510,206,92,201,320,20,42014,26758,55,26813,63.82,10530,39.35,39.353
+VNS,Vancouver-South Granville,"Hawk, Adam",Adam Hawk,BC Green Party,GRN,2872,10.73,3,False,False,1214,124,1176,80,49,55,160,14,42014,26758,55,26813,63.82,10530,39.35,39.353
+VNT,Vancouver-Strathcona,"Phillip, Joan",Joan Phillip,BC NDP,NDP,13673,68.17,1,True,True,5511,620,6220,361,232,318,392,19,39177,20057,64,20121,51.36,10243,51.07,51.069
+VNT,Vancouver-Strathcona,"Muller, Scott",Scott Muller,Conservative Party,CON,3430,17.1,2,False,False,1150,186,1661,150,86,94,96,7,39177,20057,64,20121,51.36,10243,51.07,51.069
+VNT,Vancouver-Strathcona,"de Weerdt, Simon",Simon de Weerdt,BC Green Party,GRN,2618,13.05,3,False,False,858,88,1142,74,38,59,323,36,39177,20057,64,20121,51.36,10243,51.07,51.069
+VNT,Vancouver-Strathcona,"Cariou, Kimball",Kimball Cariou,Communist Party of BC,COMM,336,1.68,4,False,False,100,12,177,9,21,8,9,0,39177,20057,64,20121,51.36,10243,51.07,51.069
+VNW,Vancouver-West End,"Chandra Herbert, Spencer",Spencer Chandra Herbert,BC NDP,NDP,13143,63.01,1,True,True,6998,280,4072,165,123,527,941,37,39011,20857,37,20894,53.56,7466,35.79,35.796
+VNW,Vancouver-West End,"Ellacott, Jon",Jon Ellacott,Conservative Party,CON,5677,27.22,2,False,False,2391,247,2191,148,25,362,301,12,39011,20857,37,20894,53.56,7466,35.79,35.796
+VNW,Vancouver-West End,"O'Dwyer, Eoin",Eoin O'Dwyer,BC Green Party,GRN,1893,9.08,3,False,False,880,41,716,26,16,78,129,7,39011,20857,37,20894,53.56,7466,35.79,35.796
+VNW,Vancouver-West End,"Turnbull, Carl",Carl Turnbull,Independent,IND,144,0.69,4,False,False,59,2,60,2,10,5,4,2,39011,20857,37,20894,53.56,7466,35.79,35.796
+VNY,Vancouver-Yaletown,"Yung, Terry",Terry Yung,BC NDP,NDP,9018,49.76,1,True,False,4871,429,2451,312,56,189,682,28,36210,18123,32,18155,50.14,1161,6.41,6.406
+VNY,Vancouver-Yaletown,"De Genova, Melissa",Melissa De Genova,Conservative Party,CON,7857,43.35,2,False,False,4287,324,2248,341,34,167,427,29,36210,18123,32,18155,50.14,1161,6.41,6.406
+VNY,Vancouver-Yaletown,"Mackenzie, Dana-Lyn",Dana-Lyn Mackenzie,BC Green Party,GRN,1248,6.89,3,False,False,651,54,381,53,28,26,53,2,36210,18123,32,18155,50.14,1161,6.41,6.406
+VRL,Vernon-Lumby,"Sandhu, Harwinder",Harwinder Sandhu,BC NDP,NDP,11837,42.69,1,True,True,6257,45,4416,62,341,264,436,16,45810,27729,56,27785,60.65,476,1.72,1.717
+VRL,Vernon-Lumby,"Giesbrecht, Dennis",Dennis Giesbrecht,Conservative Party,CON,11361,40.97,2,False,False,5692,96,4709,111,269,197,275,12,45810,27729,56,27785,60.65,476,1.72,1.717
+VRL,Vernon-Lumby,"Acton, Kevin",Kevin Acton,Unaffiliated,UNAF,4266,15.38,3,False,False,2143,12,1829,19,115,52,93,3,45810,27729,56,27785,60.65,476,1.72,1.717
+VRL,Vernon-Lumby,"Johnson, Robert",Robert Johnson,Libertarian,LBN,265,0.96,4,False,False,132,1,80,3,43,3,3,0,45810,27729,56,27785,60.65,476,1.72,1.717
+VTB,Victoria-Beacon Hill,"Lore, Grace",Grace Lore,BC NDP,NDP,13634,47.35,1,True,True,6984,349,3889,159,445,482,1282,44,43860,28792,54,28846,65.77,3990,13.85,13.858
+VTB,Victoria-Beacon Hill,"Furstenau, Sonia",Sonia Furstenau,BC Green Party,GRN,9644,33.5,2,False,True,4958,212,3013,124,298,292,713,34,43860,28792,54,28846,65.77,3990,13.85,13.858
+VTB,Victoria-Beacon Hill,"Thielmann, Tim",Tim Thielmann,Conservative Party,CON,5514,19.15,3,False,False,2786,138,1614,80,204,197,466,29,43860,28792,54,28846,65.77,3990,13.85,13.858
+VTS,Victoria-Swan Lake,"Krieger, Nina",Nina Krieger,BC NDP,NDP,14273,56.03,1,True,False,6277,753,5018,231,532,415,1005,42,40752,25474,51,25525,62.63,8374,32.87,32.873
+VTS,Victoria-Swan Lake,"Winter, Christina",Christina Winter,BC Green Party,GRN,5899,23.16,2,False,False,2362,363,2361,144,209,141,308,11,40752,25474,51,25525,62.63,8374,32.87,32.873
+VTS,Victoria-Swan Lake,"Taylor, Tim",Tim Taylor,Conservative Party,CON,5146,20.2,3,False,False,2147,238,1996,139,220,139,244,23,40752,25474,51,25525,62.63,8374,32.87,32.873
+VTS,Victoria-Swan Lake,"Crooks, Robert",Robert Crooks,Communist Party of BC,COMM,156,0.61,4,False,False,49,10,67,4,11,5,9,1,40752,25474,51,25525,62.63,8374,32.87,32.873
+WKP,West Kelowna-Peachland,"McCall, Macklin",Macklin McCall,Conservative Party,CON,13475,50.85,1,True,False,7152,149,4989,166,171,471,352,25,45467,26499,34,26533,58.36,6081,22.95,22.948
+WKP,West Kelowna-Peachland,"Smith, Krystal",Krystal Smith,BC NDP,NDP,7394,27.9,2,False,False,3924,70,2634,71,150,194,345,6,45467,26499,34,26533,58.36,6081,22.95,22.948
+WKP,West Kelowna-Peachland,"Johnston, Stephen",Stephen Johnston,Unaffiliated,UNAF,5630,21.25,3,False,False,3087,25,2117,20,100,126,150,5,45467,26499,34,26533,58.36,6081,22.95,22.948
+WVC,West Vancouver-Capilano,"Block, Lynne",Lynne Block,Conservative Party,CON,12049,46.67,1,True,False,5999,223,4474,258,136,396,510,53,44114,25816,42,25858,58.62,5043,19.53,19.534
+WVC,West Vancouver-Capilano,"Eftekhar, Sara",Sara Eftekhar,BC NDP,NDP,7006,27.14,2,False,False,3183,130,2771,159,133,177,421,32,44114,25816,42,25858,58.62,5043,19.53,19.534
+WVC,West Vancouver-Capilano,"Kirkpatrick, Karin",Karin Kirkpatrick,Independent,IND,5326,20.63,3,False,True,2460,51,2351,40,70,102,241,11,44114,25816,42,25858,58.62,5043,19.53,19.534
+WVC,West Vancouver-Capilano,"Kaario, Archie",Archie Kaario,BC Green Party,GRN,1435,5.56,4,False,False,642,33,611,31,28,32,48,10,44114,25816,42,25858,58.62,5043,19.53,19.534
+WVS,West Vancouver-Sea to Sky,"Valeriote, Jeremy",Jeremy Valeriote,BC Green Party,GRN,10438,38.08,1,True,False,3574,104,5756,163,54,520,226,41,44308,27413,40,27453,61.96,676,2.47,2.466
+WVS,West Vancouver-Sea to Sky,"Fulmer, Yuri",Yuri Fulmer,Conservative Party,CON,9762,35.61,2,False,False,4088,175,4579,208,40,360,278,34,44308,27413,40,27453,61.96,676,2.47,2.466
+WVS,West Vancouver-Sea to Sky,"Ford, Jen",Jen Ford,BC NDP,NDP,7213,26.31,3,False,False,3004,93,3319,114,80,320,264,19,44308,27413,40,27453,61.96,676,2.47,2.466

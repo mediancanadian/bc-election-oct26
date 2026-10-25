@@ -1,0 +1,126 @@
+{
+ "access_date_local_ET": "2026-10-24",
+ "note": "All fetches with generic UA 'Mozilla/5.0 (compatible; research-bot)', no cookies, via agent proxy. Times UTC.",
+ "sources": [
+  {
+   "url": "https://elections.bc.ca/2026-provincial-election/",
+   "accessed_utc": "2026-10-24T10:04Z",
+   "file": "raw/eb_2026-provincial-election_.html",
+   "use": "key dates, advance turnout PDF link"
+  },
+  {
+   "url": "https://elections.bc.ca/news/final-voting-day-is-saturday-october-24/",
+   "accessed_utc": "2026-10-24T10:05Z",
+   "file": "raw/news_final-voting-day-is-saturday-october-24.html",
+   "use": "names results.elections.bc.ca as preliminary results site"
+  },
+  {
+   "url": "https://results.elections.bc.ca/",
+   "accessed_utc": "2026-10-24T10:05Z",
+   "file": "raw/site/root.html",
+   "use": "301 -> static results page (pre-8 p.m.)"
+  },
+  {
+   "url": "https://elections.bc.ca/resources/results/provincial-election-results/",
+   "accessed_utc": "2026-10-24T10:05Z",
+   "file": "raw/eb_results_page.html",
+   "use": "static archive page"
+  },
+  {
+   "url": "https://electionsbcenr.blob.core.windows.net/electionsbcenr/?restype=container&comp=list",
+   "accessed_utc": "2026-10-24T10:06Z",
+   "file": "raw/blob/list.xml",
+   "use": "ENR container listing (125 blobs, no 2026 result files)"
+  },
+  {
+   "url": "https://electionsbcenr.blob.core.windows.net/electionsbcenr/replaceCanName.js",
+   "accessed_utc": "2026-10-24T10:07Z",
+   "file": "raw/blob/replaceCanName.js",
+   "use": "2026 results-page script (Last-Modified 2026-10-13), targets #tblReport"
+  },
+  {
+   "url": "https://electionsbcenr.blob.core.windows.net/electionsbcenr/counting-processes.pdf",
+   "accessed_utc": "2026-10-24T10:07Z",
+   "file": "raw/blob/electionsbcenr_counting-processes.pdf",
+   "use": "2026 counting process (Last-Modified 2026-10-23)"
+  },
+  {
+   "url": "https://electionsbcenr.blob.core.windows.net/electionsbcenr/electionresults.css",
+   "accessed_utc": "2026-10-24T10:07Z",
+   "file": "raw/blob/electionsbcenr_electionresults.css",
+   "use": "results page field/column ids (Last-Modified 2026-10-20)"
+  },
+  {
+   "url": "https://electionsbcenr.blob.core.windows.net/electionsbcenr/Results_7097_GE-2024-10-19_Party.html",
+   "accessed_utc": "2026-10-24T10:09Z",
+   "file": null,
+   "use": "2024 URL pattern test: 404 (removed)"
+  },
+  {
+   "url": "https://elections.bc.ca/2026-provincial-election/candidate-list/",
+   "accessed_utc": "2026-10-24T10:04Z",
+   "file": "raw/eb_2026-provincial-election_candidate-list_.html",
+   "use": "candidate list (353 rows)"
+  },
+  {
+   "url": "https://elections.bc.ca/2026election/2026-provincial-general-election-candidates.csv",
+   "accessed_utc": "2026-10-24T10:11Z",
+   "file": "raw/candidates_2026_ebc.csv",
+   "use": "official candidate CSV (cp1252; contains agent contact columns, not copied to outputs)"
+  },
+  {
+   "url": "https://elections.bc.ca/news/candidates-finalized-for-british-columbias-44th-provincial-general-election/",
+   "accessed_utc": "2026-10-24T10:06Z",
+   "file": "raw/news_candidates-finalized-for-british-columbias-44th-provincial-general-election.html",
+   "use": "355 at close; party counts"
+  },
+  {
+   "url": "https://elections.bc.ca/news/2026-provincial-general-election-candidates/ (+ -update, -update-2, -update-3)",
+   "accessed_utc": "2026-10-24T10:10Z",
+   "file": "raw/news_2026-provincial-general-election-candidates*.html",
+   "use": "4 withdrawals (still on ballot), 2 additions"
+  },
+  {
+   "url": "https://www.leg.bc.ca/members/current-party-standings",
+   "accessed_utc": "2026-10-24T10:12Z",
+   "file": "raw/leg/standings.html",
+   "use": "static standings text (NDP 47, CP 39, Green 2, Ind 5, total 93) - conflicts with LIMS"
+  },
+  {
+   "url": "https://api.lims.leg.bc.ca/graphql (allMemberParliaments parliamentId 43; allMemberElections year 2024; allParliaments)",
+   "accessed_utc": "2026-10-24T10:14Z",
+   "file": "raw/leg/mp43.json, raw/leg/resign_elect.json, raw/leg/parl.json",
+   "use": "Legislative Assembly LIMS member records (API behind dyn.leg.bc.ca)"
+  },
+  {
+   "url": "https://elections.bc.ca/2026election/2026-advance-voting-turnout.pdf",
+   "accessed_utc": "2026-10-24T10:16Z",
+   "file": "raw/turnout/adv2026.pdf",
+   "use": "2026 advance turnout by district and day + registered voters as of Oct 14 (Last-Modified 2026-10-22 16:33 UTC)"
+  },
+  {
+   "url": "https://elections.bc.ca/resources/results/voter-turnout/",
+   "accessed_utc": "2026-10-24T10:17Z",
+   "file": "raw/turnout/voter_turnout_page.html",
+   "use": "2024 registered voters 3,609,288; turnout 58.45%"
+  },
+  {
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf",
+   "accessed_utc": "earlier session (file in ../history/raw/ge2024_sov/)",
+   "file": "../history/raw/ge2024_sov/statement-of-votes-2024-provincial-election.pdf",
+   "use": "2024 advance ballots by district, registered by district"
+  },
+  {
+   "url": "https://www.elections.bc.ca/docs/rpt/Report_of_the_CEO_PGE2024.pdf",
+   "accessed_utc": "earlier session (../history/raw/ceo2024/)",
+   "file": "../history/raw/ceo2024/Report_of_the_CEO_PGE2024.pdf",
+   "use": "2024 advance turnout by day"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/43rd_Parliament_of_British_Columbia",
+   "accessed_utc": "2026-10-24T10:13Z",
+   "file": null,
+   "use": "SECONDARY, non-official: event dates in house_changes (flagged unverified)"
+  }
+ ]
+}

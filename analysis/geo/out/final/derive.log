@@ -1,0 +1,36 @@
+  land_lakes/web round 0: max area diff 1.59% (NOH), >0.9%: 7
+  land_lakes/web round 1: max area diff 1.55% (SAN), >0.9%: 4
+  land_lakes/web round 2: max area diff 1.22% (CHC), >0.9%: 2
+  land_lakes/web round 3: max area diff 1.03% (NOH), >0.9%: 2
+  land_lakes/web round 4: max area diff 0.97% (NOH), >0.9%: 0
+  over size limit, K -> 0.0192
+  land_lakes/web round 0: max area diff 1.59% (NOH), >0.9%: 7
+  land_lakes/web round 1: max area diff 1.50% (SAN), >0.9%: 5
+  land_lakes/web round 2: max area diff 1.18% (CHC), >0.9%: 2
+  land_lakes/web round 3: max area diff 1.19% (CHC), >0.9%: 2
+  land_lakes/web round 4: max area diff 0.95% (NOH), >0.9%: 0
+  over size limit, K -> 0.02304
+  land_lakes/web round 0: max area diff 2.15% (SAN), >0.9%: 9
+  land_lakes/web round 1: max area diff 1.43% (SAN), >0.9%: 6
+  land_lakes/web round 2: max area diff 1.20% (CHC), >0.9%: 4
+  land_lakes/web round 3: max area diff 1.22% (CHC), >0.9%: 3
+  land_lakes/web round 4: max area diff 0.96% (NOH), >0.9%: 0
+  over size limit, K -> 0.02765
+  land_lakes/web round 0: max area diff 1.95% (LAO), >0.9%: 16
+  land_lakes/web round 1: max area diff 1.57% (VNP), >0.9%: 4
+  land_lakes/web round 2: max area diff 1.21% (CHC), >0.9%: 5
+  land_lakes/web round 3: max area diff 1.18% (CHC), >0.9%: 3
+  land_lakes/web round 4: max area diff 1.22% (CHC), >0.9%: 1
+  land_lakes/web round 5: max area diff 0.96% (NOH), >0.9%: 0
+land_lakes web {'geojson_4326': 382332, 'topojson_4326': 209930, 'geojson_3005': 374209} 0.96 93 93 93
+Traceback (most recent call last):
+  File "analysis/geo/scripts/11_final_derive.py", line 169, in <module>
+    rep, per = run_variant(variant, mfn, name, cfg)
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "analysis/geo/scripts/11_final_derive.py", line 134, in run_variant
+    out, res, am = L.valid_pipeline(base, cfg["K"], cfg["TMIN"], cfg["TMAX"], mult, grids, log=lambda x: None, init_am=am)
+                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "analysis/geo/scripts/simplify_lib.py", line 314, in valid_pipeline
+    raise RuntimeError("could not make valid")
+RuntimeError: could not make valid
+EXIT 1

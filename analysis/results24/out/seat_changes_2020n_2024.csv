@@ -1,0 +1,47 @@
+ed_code,ed_name,winner_party,second_party,margin_pts,winner_share_pct,notional_winner_2020,notional_second_2020,notional_margin_pts_2020,NDP_pct,LIB_pct,GRN_pct,CON_pct,changed,change_type
+ABM,Abbotsford-Mission,CON,NDP,10.76,55.38,NDP,LIB,10.89,46.23,35.34,10.95,5.74,True,NDP->CON
+ABS,Abbotsford South,CON,NDP,26.43,61.61,LIB,NDP,10.74,34.24,44.98,11.09,2.39,True,LIB->CON (right-of-centre label change)
+ABW,Abbotsford West,CON,NDP,21.48,58.35,LIB,NDP,7.7,37.25,44.95,8.47,8.85,True,LIB->CON (right-of-centre label change)
+BDS,Boundary-Similkameen,CON,NDP,5.83,48.39,NDP,LIB,13.2,49.87,36.67,0.01,11.18,True,NDP->CON
+BLS,Bulkley Valley-Stikine,CON,NDP,13.45,52.31,NDP,LIB,25.45,51.77,26.32,0.0,0.0,True,NDP->CON
+CBC,Cariboo-Chilcotin,CON,NDP,39.18,69.59,LIB,NDP,19.74,32.08,51.82,11.19,0.05,True,LIB->CON (right-of-centre label change)
+CHC,Chilliwack-Cultus Lake,CON,NDP,9.16,54.58,NDP,LIB,7.32,36.87,29.55,8.4,2.59,True,NDP->CON
+CHN,Chilliwack North,CON,NDP,16.92,54.58,NDP,LIB,8.91,39.9,30.99,10.13,15.17,True,NDP->CON
+CLR,Columbia River-Revelstoke,CON,NDP,3.66,47.92,LIB,NDP,11.08,38.04,49.12,12.83,0.0,True,LIB->CON (right-of-centre label change)
+CRC,Courtenay-Comox,CON,NDP,0.27,38.83,NDP,LIB,20.89,50.62,29.73,19.65,0.0,True,NDP->CON
+DLS,Delta South,CON,NDP,10.14,55.07,LIB,NDP,16.49,34.52,51.01,14.46,0.0,True,LIB->CON (right-of-centre label change)
+FRN,Fraser-Nicola,CON,NDP,17.94,54.34,NDP,LIB,6.36,42.14,35.78,12.4,1.31,True,NDP->CON
+KAC,Kamloops Centre,CON,NDP,7.91,48.83,LIB,NDP,0.9,40.29,41.19,15.53,2.84,True,LIB->CON (right-of-centre label change)
+KAN,Kamloops-North Thompson,CON,NDP,26.84,59.74,LIB,NDP,16.15,33.52,49.67,11.72,4.67,True,LIB->CON (right-of-centre label change)
+KEC,Kelowna Centre,CON,NDP,0.16,42.85,LIB,NDP,17.65,32.33,49.98,15.29,0.0,True,LIB->CON (right-of-centre label change)
+KLC,Kelowna-Lake Country-Coldstream,CON,NDP,18.67,53.92,LIB,NDP,17.97,30.79,48.76,14.89,3.63,True,LIB->CON (right-of-centre label change)
+KLM,Kelowna-Mission,CON,NDP,18.88,51.49,LIB,NDP,20.64,31.16,51.8,17.03,0.0,True,LIB->CON (right-of-centre label change)
+KOR,Kootenay-Rockies,CON,IND,12.34,42.71,LIB,NDP,24.94,32.59,57.53,9.88,0.0,True,LIB->CON (right-of-centre label change)
+LLA,Langley-Abbotsford,CON,NDP,21.92,55.65,LIB,NDP,7.39,35.28,42.67,11.34,7.76,True,LIB->CON (right-of-centre label change)
+LWG,Langley-Walnut Grove,CON,NDP,4.79,49.56,NDP,LIB,15.53,46.1,30.57,11.94,10.13,True,NDP->CON
+LWI,Langley-Willowbrook,CON,NDP,3.81,48.24,NDP,LIB,17.04,49.42,32.38,10.39,7.8,True,NDP->CON
+MAE,Maple Ridge East,CON,NDP,0.38,47.02,NDP,LIB,19.76,54.7,34.94,10.36,0.0,True,NDP->CON
+NEC,Nechako Lakes,CON,NDP,40.24,67.45,LIB,NDP,17.9,34.34,52.24,0.0,0.0,True,LIB->CON (right-of-centre label change)
+NOI,North Island,CON,NDP,2.14,47.07,NDP,LIB,26.7,50.75,24.05,19.26,5.95,True,NDP->CON
+PCN,Peace River North,CON,IND,54.21,74.36,LIB,CON,21.46,9.92,55.77,0.0,34.31,True,LIB->CON (right-of-centre label change)
+PCS,Peace River South,CON,UNAF,45.28,69.84,LIB,CON,20.66,15.64,51.19,0.0,30.53,True,LIB->CON (right-of-centre label change)
+PES,Penticton-Summerland,CON,NDP,1.13,41.37,LIB,NDP,8.55,38.8,47.35,11.48,0.02,True,LIB->CON (right-of-centre label change)
+PRM,Prince George-Mackenzie,CON,NDP,32.68,60.92,LIB,NDP,17.94,33.67,51.61,11.1,0.0,True,LIB->CON (right-of-centre label change)
+PRO,Prince George-North Cariboo,CON,IND,34.98,56.82,LIB,NDP,21.09,31.37,52.46,8.17,7.37,True,LIB->CON (right-of-centre label change)
+PRV,Prince George-Valemount,CON,NDP,20.25,55.19,LIB,NDP,23.04,29.03,52.07,15.82,0.24,True,LIB->CON (right-of-centre label change)
+RCB,Richmond-Bridgeport,CON,NDP,23.42,58.19,LIB,NDP,10.0,40.51,50.51,7.98,0.99,True,LIB->CON (right-of-centre label change)
+RCC,Richmond Centre,CON,NDP,15.21,51.99,NDP,LIB,6.72,52.34,45.62,2.04,0.0,True,NDP->CON
+RCQ,Richmond-Queensborough,CON,NDP,6.78,50.91,NDP,LIB,5.4,46.63,41.23,7.14,5.0,True,NDP->CON
+SHU,Salmon Arm-Shuswap,CON,NDP,21.67,52.11,LIB,NDP,17.23,34.07,51.3,14.63,0.01,True,LIB->CON (right-of-centre label change)
+SKE,Skeena,CON,NDP,6.76,51.2,LIB,NDP,7.61,44.45,52.06,0.0,0.0,True,LIB->CON (right-of-centre label change)
+SRD,Surrey-Cloverdale,CON,NDP,2.75,48.31,NDP,LIB,17.09,53.06,35.97,8.76,1.94,True,NDP->CON
+SUN,Surrey North,CON,NDP,7.38,50.67,NDP,LIB,28.07,63.39,35.32,0.0,0.0,True,NDP->CON
+SUP,Surrey-Panorama,CON,NDP,1.49,49.6,NDP,LIB,20.45,58.67,38.22,1.46,0.0,True,NDP->CON
+SUR,Surrey-Serpentine River,CON,NDP,2.21,49.7,NDP,LIB,11.04,51.23,40.19,5.84,1.79,True,NDP->CON
+SUS,Surrey South,CON,NDP,17.66,58.83,LIB,NDP,20.15,35.14,55.29,9.3,0.0,True,LIB->CON (right-of-centre label change)
+SWR,Surrey-White Rock,CON,NDP,7.02,52.31,LIB,NDP,0.82,38.69,39.51,14.24,0.0,True,LIB->CON (right-of-centre label change)
+VLA,Vancouver-Langara,NDP,CON,2.38,48.43,LIB,NDP,2.43,44.01,46.44,8.52,0.0,True,LIB->NDP
+VNQ,Vancouver-Quilchena,CON,NDP,12.67,51.58,LIB,NDP,28.52,28.39,56.91,14.62,0.0,True,LIB->CON (right-of-centre label change)
+VNY,Vancouver-Yaletown,NDP,CON,6.41,49.76,LIB,NDP,3.82,40.66,44.48,11.42,1.99,True,LIB->NDP
+WKP,West Kelowna-Peachland,CON,NDP,22.95,50.85,LIB,NDP,22.9,31.32,54.22,10.58,0.0,True,LIB->CON (right-of-centre label change)
+WVC,West Vancouver-Capilano,CON,NDP,19.53,46.67,LIB,NDP,24.67,29.52,54.19,15.54,0.0,True,LIB->CON (right-of-centre label change)

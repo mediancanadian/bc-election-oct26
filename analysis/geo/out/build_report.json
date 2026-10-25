@@ -1,0 +1,136 @@
+{
+ "full": {
+  "check": {
+   "invalid": 0,
+   "overlap_m2": 0.0,
+   "interior_gap_m2": 0.0,
+   "n": 93
+  },
+  "kb": 22054.4
+ },
+ "web": {
+  "k": 0.004,
+  "tmin_m": 15,
+  "tmax_m": 2000,
+  "check": {
+   "invalid": 0,
+   "overlap_m2": 0.0,
+   "interior_gap_m2": 0.0,
+   "n": 93
+  },
+  "kb_geojson": 363.1,
+  "kb_topojson": 100.4,
+  "max_abs_area_err_pct": 0.3
+ },
+ "slide": {
+  "k": 0.02,
+  "tmin_m": 30,
+  "tmax_m": 1000,
+  "check": {
+   "invalid": 0,
+   "overlap_m2": 0.0,
+   "interior_gap_m2": 0.0,
+   "n": 93
+  },
+  "kb_geojson": 192.5,
+  "kb_topojson": 61.2
+ },
+ "insets": {
+  "metro_vancouver": {
+   "rd": "MVRD",
+   "districts": [
+    "BNC",
+    "BNE",
+    "BNN",
+    "BNO",
+    "BNS",
+    "CQB",
+    "CQM",
+    "DLN",
+    "DLS",
+    "LLA",
+    "LWG",
+    "LWI",
+    "NMC",
+    "NVL",
+    "NVS",
+    "POC",
+    "POM",
+    "RCB",
+    "RCC",
+    "RCQ",
+    "RCS",
+    "SRC",
+    "SRD",
+    "SRF",
+    "SRG",
+    "SRN",
+    "SUN",
+    "SUP",
+    "SUR",
+    "SUS",
+    "SWR",
+    "VFV",
+    "VHA",
+    "VKE",
+    "VLA",
+    "VLM",
+    "VNP",
+    "VNQ",
+    "VNR",
+    "VNS",
+    "VNT",
+    "VNW",
+    "VNY",
+    "WVC"
+   ],
+   "frame_districts": 56,
+   "kb": 55.7,
+   "kb_frame": 70.9
+  },
+  "capital_region": {
+   "rd": "CAPRD",
+   "districts": [
+    "ESC",
+    "JFM",
+    "LFH",
+    "OBG",
+    "SAN",
+    "SAS",
+    "VTB",
+    "VTS"
+   ],
+   "frame_districts": 13,
+   "kb": 19.7,
+   "kb_frame": 33.5
+  },
+  "kelowna": {
+   "rd": "RDCO",
+   "districts": [
+    "KEC",
+    "KLC",
+    "KLM",
+    "WKP"
+   ],
+   "frame_districts": 10,
+   "kb": 14.8,
+   "kb_frame": 28.1
+  }
+ },
+ "ed2015": {
+  "check_full": {
+   "invalid": 0,
+   "overlap_m2": 0.0,
+   "interior_gap_m2": 0.0,
+   "n": 87
+  },
+  "check_web": {
+   "invalid": 0,
+   "overlap_m2": 0.0,
+   "interior_gap_m2": 0.0,
+   "n": 87
+  },
+  "kb_web_geojson": 341.7,
+  "kb_web_topojson": 89.9
+ }
+}

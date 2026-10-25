@@ -1,0 +1,88 @@
+ed_code,ed_name,winner_party,winner,winner_votes,winner_share_pct,second_party,second,second_votes,second_share_pct,margin_votes,margin_pts,total_valid_votes,rejected_ballots,registered_voters,ballots_considered,turnout_pct,sitting_mla_candidates,recount_note,judicial_recount
+ABM,Abbotsford-Mission,NDP,"Alexis, Pam",10364,41.07,LIB,"Gibson, Simon",9620,38.12,744,2.95,25235,152,47500,25387,53.45,Simon Gibson (LIB),,False
+ABS,Abbotsford South,LIB,"Banman, Bruce",9730,44.69,NDP,"Johal, Inder",7706,35.39,2024,9.3,21773,210,45365,21983,48.46,,,False
+ABW,Abbotsford West,LIB,"de Jong, Michael",8880,45.51,NDP,"Rai, Preet",7119,36.49,1761,9.02,19511,170,39390,19681,49.96,Michael de Jong (LIB),,False
+BDS,Boundary-Similkameen,NDP,"Russell, Roly",10500,49.85,LIB,"Veintimilla, Petra",7735,36.72,2765,13.13,21063,208,37421,21271,56.84,,,False
+BND,Burnaby-Deer Lake,NDP,"Kang, Anne",9190,56.62,LIB,"Chan, Glynnis Hoi Sum",5163,31.81,4027,24.81,16231,138,37388,16369,43.78,Anne Kang (NDP),,False
+BNE,Burnaby-Edmonds,NDP,"Chouhan, Raj",11063,62.01,LIB,"Atwal, Tripat",4754,26.65,6309,35.36,17840,196,40655,18036,44.36,Raj Chouhan (NDP),,False
+BNL,Burnaby-Lougheed,NDP,"Chen, Katrina",12574,60.25,LIB,"Malik, Tariq",5386,25.81,7188,34.44,20869,193,39671,21062,53.09,Katrina Chen (NDP),,False
+BNN,Burnaby North,NDP,"Routledge, Janet",12894,57.8,LIB,"Dong, Raymond",6846,30.69,6048,27.11,22308,176,43737,22484,51.41,Janet Routledge (NDP),,False
+CBC,Cariboo-Chilcotin,LIB,"Doerkson, Lorne",6600,51.25,NDP,"Andrews, Scott",4180,32.46,2420,18.79,12879,72,25616,12951,50.56,,,False
+CBN,Cariboo North,LIB,"Oakes, Coralee",5367,48.42,NDP,"Elliott, Scott",3809,34.36,1558,14.06,11084,45,22173,11129,50.19,Coralee Oakes (LIB),,False
+CHC,Chilliwack,NDP,"Coulter, Dan",7349,41.56,LIB,"Martin, John",5102,28.85,2247,12.71,17683,216,38054,17899,47.04,John Martin (LIB),,False
+CHK,Chilliwack-Kent,NDP,"Paddon, Kelli",8268,36.42,LIB,"Throness, Laurie",6964,30.68,1304,5.74,22702,280,44170,22982,52.03,Laurie Throness (LIB),,False
+CLR,Columbia River-Revelstoke,LIB,"Clovechok, Doug",7034,48.03,NDP,"Cherlet, Nicole",5708,38.97,1326,9.06,14646,102,26915,14748,54.79,Doug Clovechok (LIB),,False
+CQB,Coquitlam-Burke Mountain,NDP,"Donnelly, Fin",12627,54.94,LIB,"Isaacs, Joan",8324,36.22,4303,18.72,22984,148,45869,23132,50.43,Joan Isaacs (LIB),,False
+CQM,Coquitlam-Maillardville,NDP,"Robinson, Selina",12278,59.7,LIB,"Davis, Will",5882,28.6,6396,31.1,20565,187,39542,20752,52.48,Selina Robinson (NDP),,False
+CRC,Courtenay-Comox,NDP,"Leonard, Ronna-Rae",14663,50.56,LIB,"Day, Brennan",8655,29.85,6008,20.71,28999,187,47485,29186,61.46,Ronna-Rae Leonard (NDP),,False
+CWV,Cowichan Valley,GRN,"Furstenau, Sonia",13059,44.21,NDP,"Douglas, Rob",11875,40.2,1184,4.01,29540,150,49606,29690,59.85,Sonia Furstenau (GRN),,False
+DLN,Delta North,NDP,"Kahlon, Ravi",12215,56.78,LIB,"Sunner, Jet",7179,33.37,5036,23.41,21514,150,38311,21664,56.55,Ravi Kahlon (NDP),,False
+DLS,Delta South,LIB,"Paton, Ian",12828,51.7,NDP,"Reid, Bruce",8404,33.87,4424,17.83,24813,101,37442,24914,66.54,Ian Paton (LIB),,False
+ESM,Esquimalt-Metchosin,NDP,"Dean, Mitzi",15070,59.32,GRN,"MacKinnon, Andy",6140,24.17,8930,35.15,25404,120,41859,25524,60.98,Mitzi Dean (NDP),,False
+FRN,Fraser-Nicola,LIB,"Tegart, Jackie",5696,41.64,NDP,"Sumexheltza, Aaron",5414,39.58,282,2.06,13679,89,26913,13768,51.16,Jackie Tegart (LIB),,False
+KAN,Kamloops-North Thompson,LIB,"Milobar, Peter",9341,40.99,NDP,"Hunter, Sadie",9145,40.13,196,0.86,22787,159,45346,22946,50.6,Peter Milobar (LIB),,False
+KAS,Kamloops-South Thompson,LIB,"Stone, Todd Graham",13453,51.14,NDP,"Thomas, Anna",8575,32.6,4878,18.54,26304,176,46884,26480,56.48,Todd Graham Stone (LIB),,False
+KLA,Kelowna-Lake Country,LIB,"Letnick, Norm",14679,55.73,NDP,"Kulik, Justin",7121,27.04,7558,28.69,26338,124,53991,26462,49.01,Norm Letnick (LIB),,False
+KLM,Kelowna-Mission,LIB,"Merrifield, Renee",13483,50.76,NDP,"Smith, Krystal",8605,32.39,4878,18.37,26564,272,50759,26836,52.87,,,False
+KLW,Kelowna West,LIB,"Stewart, Ben",12991,49.89,NDP,"Hawes, Spring",8854,34.0,4137,15.89,26039,200,53689,26239,48.87,Ben Stewart (LIB),,False
+KOE,Kootenay East,LIB,"Shypitka, Tom",9897,57.9,NDP,"Stetski, Wayne",5499,32.17,4398,25.73,17093,101,32648,17194,52.66,Tom Shypitka (LIB),,False
+KOW,Kootenay West,NDP,"Conroy, Katrine",10822,61.15,GRN,"Duncan, Andrew",3040,17.18,7782,43.97,17697,97,33658,17794,52.87,Katrine Conroy (NDP),,False
+LJF,Langford-Juan de Fuca,NDP,"Horgan, John",18073,67.89,GRN,"Baird, Gord",4437,16.67,13636,51.22,26620,122,48316,26742,55.35,John Horgan (NDP),,False
+LLY,Langley,NDP,"Mercier, Andrew",11089,47.17,LIB,"Polak, Mary",8014,34.09,3075,13.08,23508,168,45181,23676,52.4,Mary Polak (LIB),,False
+LYE,Langley East,NDP,"Dykeman, Megan",13169,42.56,LIB,"Kunst, Margaret",10385,33.56,2784,9.0,30941,297,53536,31238,58.35,,,False
+MAM,Maple Ridge-Mission,NDP,"D'Eith, Bob",13915,55.27,LIB,"Meadus, Chelsa",8412,33.41,5503,21.86,25176,326,47901,25502,53.24,Bob D'Eith (NDP),,False
+MAP,Maple Ridge-Pitt Meadows,NDP,"Beare, Lisa",15877,63.41,LIB,"Ashlie, Cheryl",9163,36.59,6714,26.82,25040,458,45442,25498,56.11,Lisa Beare (NDP),,False
+MPR,Mid Island-Pacific Rim,NDP,"Osborne, Josie",14298,58.22,GRN,"Jolicoeur, Evan",4991,20.32,9307,37.9,24560,262,45588,24822,54.45,,,False
+NAN,Nanaimo,NDP,"Malcolmson, Sheila",14344,54.49,GRN,"Versaevel, Lia Marie Constance",6078,23.09,8266,31.4,26325,222,48148,26547,55.14,Sheila Malcolmson (NDP),,False
+NCW,Nanaimo-North Cowichan,NDP,"Routley, Doug",12787,49.48,GRN,"Istace, Chris",7700,29.8,5087,19.68,25841,269,46455,26110,56.2,Doug Routley (NDP),,False
+NEC,Nechako Lakes,LIB,"Rustad, John",4611,52.24,NDP,"Sam, Anne Marie",3031,34.34,1580,17.9,8826,55,17794,8881,49.91,John Rustad (LIB),,False
+NEL,Nelson-Creston,NDP,"Anderson, Brittny",7296,41.78,GRN,"Charlwood, Nicole",5611,32.13,1685,9.65,17462,85,30051,17547,58.39,,,False
+NEW,New Westminster,NDP,"Whiteside, Jennifer",15903,60.25,GRN,"Sy, Cyrus",5020,19.02,10883,41.23,26395,146,47226,26541,56.2,,,False
+NOC,North Coast,NDP,"Rice, Jennifer",4544,72.82,LIB,"Jones Jr, Roy S",1429,22.9,3115,49.92,6240,105,15686,6345,40.45,Jennifer Rice (NDP),,False
+NOI,North Island,NDP,"Babchuk, Michele",12467,50.75,LIB,"Facey, Norm",5904,24.04,6563,26.71,24564,96,45726,24660,53.93,,,False
+NVL,North Vancouver-Lonsdale,NDP,"Ma, Bowinn",15878,59.87,LIB,"Anglin, Lyn",7274,27.43,8604,32.44,26521,179,45632,26700,58.51,Bowinn Ma (NDP),,False
+NVS,North Vancouver-Seymour,NDP,"Chant, Susie",12891,46.84,LIB,"Thornthwaite, Jane",9827,35.7,3064,11.14,27523,189,42316,27712,65.49,Jane Thornthwaite (LIB),,False
+OBG,Oak Bay-Gordon Head,NDP,"Rankin, Murray",14748,51.12,GRN,"Duncan, Nicole",7362,25.52,7386,25.6,28849,129,42749,28978,67.79,,,False
+PAQ,Parksville-Qualicum,NDP,"Walker, Adam",13207,42.0,LIB,"Stilwell, Michelle",11155,35.47,2052,6.53,31447,223,48986,31670,64.65,Michelle Stilwell (LIB),,False
+PCN,Peace River North,LIB,"Davies, Dan",6746,55.76,CON,"Bolin, Trevor",4150,34.3,2596,21.46,12098,86,26216,12184,46.48,Dan Davies (LIB),,False
+PCS,Peace River South,LIB,"Bernier, Mike",3862,51.19,CON,"Connolly, Kathleen",2303,30.53,1559,20.66,7544,42,18211,7586,41.66,Mike Bernier (LIB),,False
+PEN,Penticton,LIB,"Ashton, Dan",13217,48.19,NDP,"Boot, Toni",10343,37.71,2874,10.48,27429,130,49176,27559,56.04,Dan Ashton (LIB),,False
+POC,Port Coquitlam,NDP,"Farnworth, Mike",15370,64.14,LIB,"Zargham, Mehran",5009,20.9,10361,43.24,23965,146,44358,24111,54.36,Mike Farnworth (NDP),,False
+POM,Port Moody-Coquitlam,NDP,"Glumac, Rick",12783,53.75,LIB,"Robertson, James",7253,30.5,5530,23.25,23782,165,41031,23947,58.36,Rick Glumac (NDP),,False
+POR,Powell River-Sunshine Coast,NDP,"Simons, Nicholas",12701,50.88,GRN,"Darwin, Kim",8104,32.47,4597,18.41,24961,182,41921,25143,59.98,Nicholas Simons (NDP),,False
+PRM,Prince George-Mackenzie,LIB,"Morris, Mike",8543,50.8,NDP,"Atkinson, Joan",5717,33.99,2826,16.81,16818,150,34587,16968,49.06,Mike Morris (LIB),,False
+PRV,Prince George-Valemount,LIB,"Bond, Shirley",9703,55.62,NDP,"Parent, Laura",4717,27.04,4986,28.58,17445,110,37020,17555,47.42,Shirley Bond (LIB),,False
+RNC,Richmond North Centre,LIB,"Wat, Teresa",7675,51.26,NDP,"Dela Torre, Jaeden",5964,39.83,1711,11.43,14972,146,37459,15118,40.36,Teresa Wat (LIB),,False
+RQE,Richmond-Queensborough,NDP,"Singh, Aman",9406,47.65,LIB,"Johal, Jas",7728,39.15,1678,8.5,19738,154,40138,19892,49.56,Jas Johal (LIB),,False
+RSC,Richmond South Centre,NDP,"Yao, Henry",6743,50.67,LIB,"Loo, Alexa",6564,49.33,179,1.34,13307,207,33685,13514,40.12,,,False
+RST,Richmond-Steveston,NDP,"Greene, Kelly",10733,52.07,LIB,"Pitcairn, Matt",9398,45.59,1335,6.48,20614,192,37092,20806,56.09,,,False
+SAN,Saanich North and the Islands,GRN,"Olsen, Adam",17897,51.97,NDP,"King, Zeb",9990,29.01,7907,22.96,34434,159,51126,34593,67.66,Adam Olsen (GRN),,False
+SAS,Saanich South,NDP,"Popham, Lana",15190,55.67,LIB,"Sharma, Rishi",6608,24.22,8582,31.45,27286,159,42148,27445,65.12,Lana Popham (NDP),,False
+SHU,Shuswap,LIB,"Kyllo, Greg",13300,51.35,NDP,"Lindgren, Sylvia",8816,34.04,4484,17.31,25900,213,47758,26113,54.68,Greg Kyllo (LIB),,False
+SKE,Skeena,LIB,"Ross, Ellis",5810,52.06,NDP,"Halbauer, Nicole",4961,44.45,849,7.61,11160,59,21621,11219,51.89,Ellis Ross (LIB),,False
+SKN,Stikine,NDP,"Cullen, Nathan",3745,51.77,LIB,"Sebastian, Gordon",1904,26.32,1841,25.45,7234,54,14537,7288,50.13,,,False
+SRC,Surrey-Cloverdale,NDP,"Starchuk, Mike",12992,52.1,LIB,"Hunt, Marvin",8758,35.12,4234,16.98,24935,206,45575,25141,55.16,Marvin Hunt (LIB),,False
+SRF,Surrey-Fleetwood,NDP,"Brar, Jagrup",11457,60.93,LIB,"Thind, Garry",5776,30.72,5681,30.21,18804,138,37309,18942,50.77,Jagrup Brar (NDP),,False
+SRG,Surrey-Green Timbers,NDP,"Singh, Rachna",8171,59.59,LIB,"Atwal, Dilraj",5540,40.41,2631,19.18,13711,224,29526,13935,47.2,Rachna Singh (NDP),,False
+SUG,Surrey-Guildford,NDP,"Begg, Garry",10403,60.59,LIB,"Hans, Dave",5139,29.93,5264,30.66,17169,148,37905,17317,45.69,Garry Begg (NDP),,False
+SUN,Surrey-Newton,NDP,"Bains, Harry",8893,62.64,LIB,"Boparai, Paul",3911,27.55,4982,35.09,14197,111,29867,14308,47.91,Harry Bains (NDP),,False
+SUP,Surrey-Panorama,NDP,"Sims, Jinny",12336,55.07,LIB,"Cheema, Gulzar",9607,42.89,2729,12.18,22401,240,43835,22641,51.65,Jinny Sims (NDP),,False
+SUS,Surrey South,LIB,"Cadieux, Stephanie",12970,47.36,NDP,"Greaves, Pauline",11794,43.06,1176,4.3,27387,377,52640,27764,52.74,Stephanie Cadieux (LIB),,False
+SWH,Surrey-Whalley,NDP,"Ralston, Bruce",10994,70.94,LIB,"Khan, Shaukat",4052,26.15,6942,44.79,15497,236,38764,15733,40.59,Bruce Ralston (NDP),,False
+SWR,Surrey-White Rock,LIB,"Halford, Trevor",10718,39.51,NDP,"Smith, Bryn",10494,38.69,224,0.82,27124,266,44733,27390,61.23,,,False
+VFA,Vancouver-Fairview,NDP,"Heyman, George",15538,56.07,LIB,"Affleck, George",7570,27.32,7968,28.75,27710,318,45891,28028,61.08,George Heyman (NDP),,False
+VFC,Vancouver-False Creek,NDP,"Bailey, Brenda",11484,46.77,LIB,"Sullivan, Sam",9217,37.54,2267,9.23,24554,201,48482,24755,51.06,Sam Sullivan (LIB),,False
+VFV,Vancouver-Fraserview,NDP,"Chow, George",12247,56.37,LIB,"Grewal, David",7511,34.57,4736,21.8,21727,170,43602,21897,50.22,George Chow (NDP),,False
+VHA,Vancouver-Hastings,NDP,"Sharma, Niki",13362,60.56,GRN,"Burns, Bridget",4312,19.54,9050,41.02,22064,192,43322,22256,51.37,,,False
+VKE,Vancouver-Kensington,NDP,"Elmore, Mable",12481,59.97,LIB,"Lepage, Paul",5255,25.25,7226,34.72,20812,231,41346,21043,50.89,Mable Elmore (NDP),,False
+VKI,Vancouver-Kingsway,NDP,"Dix, Adrian",12297,67.81,LIB,"Anderson, Cole",3919,21.61,8378,46.2,18135,175,41144,18310,44.5,Adrian Dix (NDP),,False
+VLA,Vancouver-Langara,LIB,"Lee, Michael",9888,48.51,NDP,"Truong, Tesicca Chi-Ying",8431,41.36,1457,7.15,20383,180,41581,20563,49.45,Michael Lee (LIB),,False
+VMP,Vancouver-Mount Pleasant,NDP,"Mark, Melanie",14530,66.95,GRN,"Tatham, Kelly",4356,20.07,10174,46.88,21702,212,45644,21914,48.01,Melanie Mark (NDP),,False
+VNP,Vancouver-Point Grey,NDP,"Eby, David",12602,51.32,LIB,"Bowen, Mark",7712,31.41,4890,19.91,24555,96,41122,24651,59.95,David Eby (NDP),,False
+VNQ,Vancouver-Quilchena,LIB,"Wilkinson, Andrew",12157,56.04,NDP,"McQuillan, Heather",6197,28.56,5960,27.48,21695,112,38584,21807,56.52,Andrew Wilkinson (LIB),,False
+VNW,Vancouver-West End,NDP,"Chandra Herbert, Spencer",12439,62.31,LIB,"Ellacott, Jon",4014,20.11,8425,42.2,19962,104,38762,20066,51.77,Spencer Chandra Herbert (NDP),,False
+VRM,Vernon-Monashee,NDP,"Sandhu, Harwinder",10222,36.56,LIB,"Foster, Eric",9798,35.05,424,1.51,27956,96,53169,28052,52.76,Eric Foster (LIB),,False
+VTB,Victoria-Beacon Hill,NDP,"Lore, Grace",16474,54.61,GRN,"Neilson, Jenn",9031,29.93,7443,24.68,30169,244,49484,30413,61.46,,,False
+VTS,Victoria-Swan Lake,NDP,"Fleming, Rob",14186,59.35,GRN,"Holthuis, Annemieke",6638,27.77,7548,31.58,23901,175,40790,24076,59.02,Rob Fleming (NDP),,False
+WVC,West Vancouver-Capilano,LIB,"Kirkpatrick, Karin",12734,53.55,NDP,"Hill, Amelia",7194,30.25,5540,23.3,23778,228,41315,24006,58.1,,,False
+WVS,West Vancouver-Sea to Sky,LIB,"Sturdy, Jordan",9249,37.54,GRN,"Valeriote, Jeremy",9189,37.3,60,0.24,24635,137,43546,24772,56.89,Jordan Sturdy (LIB),Judicial recount Nov 16-17 2020 (Justice Crerar); margin 41 -> 60 (2020 CEO report),True

@@ -1,0 +1,580 @@
+{
+ "generated_utc": "2026-10-24T14:46:58+00:00",
+ "sources": [
+  {
+   "file": "raw/bcgw/ed2023.geojson",
+   "layer": "WHSE_ADMIN_BOUNDARIES.EBC_ELECTORAL_DISTS_BS11_SVW",
+   "features": 93,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_ADMIN_BOUNDARIES.EBC_ELECTORAL_DISTS_BS11_SVW&outputFormat=application/json&srsName=EPSG:3005 (paged, count=1000, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:03:34Z",
+   "licence": {
+    "name": "Elections BC Open Data Licence",
+    "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+    "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/provincial-electoral-districts-electoral-boundaries-redistribution-2023",
+   "publisher": "BC Geographic Warehouse (openmaps.gov.bc.ca WFS), data from Elections BC",
+   "bytes": 23460177,
+   "sha256": "d87fcd64173b3871dd3c2a295eba7a061f3d29f2616abe435a78807059612fac"
+  },
+  {
+   "file": "raw/bcgw/ed2015.geojson",
+   "layer": "WHSE_ADMIN_BOUNDARIES.EBC_ELECTORAL_DISTS_BS10_SVW",
+   "features": 87,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_ADMIN_BOUNDARIES.EBC_ELECTORAL_DISTS_BS10_SVW&outputFormat=application/json&srsName=EPSG:3005 (paged, count=1000, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:03:37Z",
+   "licence": {
+    "name": "Elections BC Open Data Licence",
+    "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+    "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/provincial-electoral-districts-electoral-boundaries-redistribution-2015",
+   "publisher": "BC Geographic Warehouse (openmaps.gov.bc.ca WFS), data from Elections BC",
+   "bytes": 14316663,
+   "sha256": "1e78d2173600be5a2a5a78ea612e936e0e745c970f6e4358d9e6c656f290c094"
+  },
+  {
+   "file": "raw/bcgw/va2024.geojson",
+   "layer": "WHSE_ADMIN_BOUNDARIES.EBC_VOTING_AREAS_BS11_POLY_SVW",
+   "features": 5778,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_ADMIN_BOUNDARIES.EBC_VOTING_AREAS_BS11_POLY_SVW&outputFormat=application/json&srsName=EPSG:3005 (paged, count=1000, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:03:54Z",
+   "licence": {
+    "name": "Elections BC Open Data Licence",
+    "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+    "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/provincial-electoral-district-voting-areas-gazetted-09-19-2024",
+   "publisher": "BC Geographic Warehouse (openmaps.gov.bc.ca WFS), data from Elections BC",
+   "bytes": 67567896,
+   "sha256": "ae13071d30138358756e38203b33d4a1822ccb00c4b7ddbcdeb5981518b733d0"
+  },
+  {
+   "file": "raw/bcgw/va2017.geojson",
+   "layer": "WHSE_ADMIN_BOUNDARIES.EBC_VOTING_AREAS_BS10_POLY_SVW",
+   "features": 5658,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_ADMIN_BOUNDARIES.EBC_VOTING_AREAS_BS10_POLY_SVW&outputFormat=application/json&srsName=EPSG:3005 (paged, count=1000, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:04:06Z",
+   "licence": {
+    "name": "Elections BC Open Data Licence",
+    "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+    "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/provincial-electoral-district-voting-areas-gazetted-02-23-2017",
+   "publisher": "BC Geographic Warehouse (openmaps.gov.bc.ca WFS), data from Elections BC",
+   "bytes": 40938207,
+   "sha256": "faa42622ee39cd961520c32b571dd8964b44f7cbad30a6160f565ac272daee77"
+  },
+  {
+   "file": "raw/bcgw/sbva2024.geojson",
+   "layer": "WHSE_ADMIN_BOUNDARIES.EBC_SBP_VOTING_AREAS_BS11_SVW",
+   "features": 640,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_ADMIN_BOUNDARIES.EBC_SBP_VOTING_AREAS_BS11_SVW&outputFormat=application/json&srsName=EPSG:3005 (paged, count=1000, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:04:07Z",
+   "licence": {
+    "name": "Elections BC Open Data Licence",
+    "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+    "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/provincial-site-based-voting-areas-gazetted-09-19-2024",
+   "publisher": "BC Geographic Warehouse (openmaps.gov.bc.ca WFS), data from Elections BC",
+   "bytes": 547135,
+   "sha256": "72b08149dc4d76cf4615114c1fdb5f4eebdc2c6230e2f30814b13b225dcedb58"
+  },
+  {
+   "file": "raw/bcgw/sbva2017.geojson",
+   "layer": "WHSE_ADMIN_BOUNDARIES.EBC_SBP_VOTING_AREAS_BS10_SVW",
+   "features": 690,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_ADMIN_BOUNDARIES.EBC_SBP_VOTING_AREAS_BS10_SVW&outputFormat=application/json&srsName=EPSG:3005 (paged, count=1000, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:04:08Z",
+   "licence": {
+    "name": "Elections BC Open Data Licence",
+    "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+    "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/provincial-site-based-voting-areas-gazetted-02-23-2017",
+   "publisher": "BC Geographic Warehouse (openmaps.gov.bc.ca WFS), data from Elections BC",
+   "bytes": 590065,
+   "sha256": "190ff6c63b0b76954c842d0391869faaf688d5323ffee0d91f61c891c40ef6a9"
+  },
+  {
+   "file": "raw/bcgw/vavp2024.geojson",
+   "layer": "WHSE_HUMAN_CULTURAL_ECONOMIC.EBC_VAVP_GE2024_SV",
+   "features": 5778,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_HUMAN_CULTURAL_ECONOMIC.EBC_VAVP_GE2024_SV&outputFormat=application/json&srsName=EPSG:3005 (paged, count=1000, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:04:26Z",
+   "licence": {
+    "name": "Elections BC Open Data Licence",
+    "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+    "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/2024-provincial-general-election-voting-areas-to-voting-place-assignment",
+   "publisher": "BC Geographic Warehouse (openmaps.gov.bc.ca WFS), data from Elections BC",
+   "bytes": 68665429,
+   "sha256": "df4c07a62c28920bd50ce66b2d1c4263df1b05b78bf381799c36ac7813b3e71e"
+  },
+  {
+   "file": "raw/bcgw/regional_districts.geojson",
+   "layer": "WHSE_LEGAL_ADMIN_BOUNDARIES.ABMS_REGIONAL_DISTRICTS_SP",
+   "features": 28,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_LEGAL_ADMIN_BOUNDARIES.ABMS_REGIONAL_DISTRICTS_SP&outputFormat=application/json&srsName=EPSG:3005 (paged, count=1000, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:04:30Z",
+   "licence": {
+    "name": "Open Government Licence - British Columbia",
+    "url": "https://www2.gov.bc.ca/gov/content/data/policy-standards/open-data/open-government-licence-bc"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/regional-districts-legally-defined-administrative-areas-of-bc",
+   "publisher": "BC Geographic Warehouse (openmaps.gov.bc.ca WFS)",
+   "bytes": 19061772,
+   "sha256": "00e0993c5596f9ae1158d646b46136bd9dccd16de4dbd7f0db0505d2b904d1d3"
+  },
+  {
+   "file": "raw/statcan/2021_92-151_x_bc.csv",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/4ed0c389-43ed-4b00-b1be-7c259f47b6a0/resource/6c8eeb86-bb56-48e8-b734-0d25d6a51a7b/download/2021_92-151_x_bc.csv",
+   "accessed_utc": "2026-10-24T10:09:22+00:00",
+   "description": "Statistics Canada 2021 Census Geographic Attribute File (92-151-X), filtered to B.C., republished on BC Data Catalogue (dataset census-geographic-attribute-file)",
+   "licence": {
+    "name": "Statistics Canada Open Licence",
+    "url": "https://www.statcan.gc.ca/en/reference/licence"
+   },
+   "publisher": "Statistics Canada (via BC Data Catalogue, dataset census-geographic-attribute-file)",
+   "bytes": 34391852,
+   "sha256": "c641741be401a3e1eae88ecc4c693c6beb5c605f73178bd4415b11c23b7dedfc"
+  },
+  {
+   "file": "raw/statcan/db_digital.geojson",
+   "features": 52423,
+   "url": "https://geo.statcan.gc.ca/geo_wa/rest/services/2021/Digital_boundary_files/MapServer/13/query?where=PRUID='59'&outFields=DBUID,DGUID,DBRPLAMX,DBRPLAMY,LANDAREA,PRUID&outSR=3347&f=geojson (paged by resultOffset, 1000)",
+   "accessed_utc": "2026-10-24T10:09:27+00:00",
+   "licence": {
+    "name": "Open Government Licence - Canada",
+    "url": "https://open.canada.ca/en/open-government-licence-canada"
+   },
+   "description": "Statistics Canada 2021 Census boundary file, db digital",
+   "publisher": "Statistics Canada (geo.statcan.gc.ca ArcGIS REST)",
+   "bytes": 135796527,
+   "sha256": "ecfcebad56e7a40b8471b9763b1e61fa708407a664763a98fc1569d422840130"
+  },
+  {
+   "file": "raw/statcan/da_cartographic.geojson",
+   "features": 7848,
+   "url": "https://geo.statcan.gc.ca/geo_wa/rest/services/2021/Cartographic_boundary_files/MapServer/12/query?where=PRUID='59'&outFields=DAUID,DGUID,LANDAREA,PRUID&outSR=3347&f=geojson (OBJECTIDs from returnIdsOnly, fetched in batches via objectIds)",
+   "accessed_utc": "2026-10-24T10:43:02+00:00",
+   "licence": {
+    "name": "Open Government Licence - Canada",
+    "url": "https://open.canada.ca/en/open-government-licence-canada"
+   },
+   "description": "Statistics Canada 2021 Census boundary file, da cartographic",
+   "publisher": "Statistics Canada (geo.statcan.gc.ca ArcGIS REST)",
+   "bytes": 161701541,
+   "sha256": "baab019f378a90f506c951f05f6dbc43694598ea75137df9245a49b9010d41e4"
+  },
+  {
+   "file": "raw/statcan/da_digital.geojson",
+   "features": 7848,
+   "url": "https://geo.statcan.gc.ca/geo_wa/rest/services/2021/Digital_boundary_files/MapServer/12/query?where=PRUID='59'&outFields=DAUID,DGUID,LANDAREA,PRUID&outSR=3347&f=geojson (OBJECTIDs from returnIdsOnly, fetched in batches via objectIds)",
+   "accessed_utc": "2026-10-24T11:01:12+00:00",
+   "licence": {
+    "name": "Open Government Licence - Canada",
+    "url": "https://open.canada.ca/en/open-government-licence-canada"
+   },
+   "description": "Statistics Canada 2021 Census boundary file, da digital",
+   "publisher": "Statistics Canada (geo.statcan.gc.ca ArcGIS REST)",
+   "bytes": 45309038,
+   "sha256": "b453d8669721d1d96c2d7c151cf3bc8bf732a95950ed7ea664f33cb5bcab7fe8"
+  },
+  {
+   "file": "raw/fwa/fwa_lakes_ge100ha.geojson",
+   "layer": "WHSE_BASEMAPPING.FWA_LAKES_POLY",
+   "features": 1630,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_BASEMAPPING.FWA_LAKES_POLY&CQL_FILTER=AREA_HA>=100&outputFormat=application/json&srsName=EPSG:3005 (paged, 200)",
+   "accessed_utc": "2026-10-24T10:45:52+00:00",
+   "licence": {
+    "name": "Open Government Licence - British Columbia",
+    "url": "https://www2.gov.bc.ca/gov/content/data/policy-standards/open-data/open-government-licence-bc"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/freshwater-atlas-lakes",
+   "publisher": "GeoBC Freshwater Atlas via BC Geographic Warehouse (openmaps.gov.bc.ca WFS)",
+   "bytes": 63019163,
+   "sha256": "99823c72d4fa04f0f1ef1f7a5335b109fb56ebe1c5b84cd5ef416c63fa939cf6"
+  },
+  {
+   "file": "raw/fwa/fwa_manmade_ge100ha.geojson",
+   "layer": "WHSE_BASEMAPPING.FWA_MANMADE_WATERBODIES_POLY",
+   "features": 5,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_BASEMAPPING.FWA_MANMADE_WATERBODIES_POLY&CQL_FILTER=AREA_HA>=100&outputFormat=application/json&srsName=EPSG:3005 (paged, 200)",
+   "accessed_utc": "2026-10-24T10:45:52+00:00",
+   "licence": {
+    "name": "Open Government Licence - British Columbia",
+    "url": "https://www2.gov.bc.ca/gov/content/data/policy-standards/open-data/open-government-licence-bc"
+   },
+   "catalogue": "https://catalogue.data.gov.bc.ca/dataset/freshwater-atlas-manmade-waterbodies",
+   "publisher": "GeoBC Freshwater Atlas via BC Geographic Warehouse (openmaps.gov.bc.ca WFS)",
+   "bytes": 52966,
+   "sha256": "1913d71d31d8b27cec014a2f6ff7778b62da9e456ddc9726641adf7e5da9e252"
+  },
+  {
+   "file": "(read, not copied) analysis/census/maps/ed2023_full_clipped_3005.gpkg",
+   "publisher": "census thread build: Elections BC 2023 districts (this thread's raw/bcgw/ed2023.geojson) clipped to the union of FWA watershed groups (WHSE_BASEMAPPING.FWA_WATERSHED_GROUPS_POLY, 1:20,000)",
+   "licence": [
+    {
+     "name": "Elections BC Open Data Licence",
+     "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+     "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+    },
+    {
+     "name": "Open Government Licence - British Columbia",
+     "url": "https://www2.gov.bc.ca/gov/content/data/policy-standards/open-data/open-government-licence-bc"
+    }
+   ],
+   "sha256": "227b90e68593184ff836024233f764bfd623166f9d562838eb74b094ba71d0f8"
+  },
+  {
+   "file": "raw/bcdc/edva_conversiontable2017to2024.xlsx",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/fb26db04-780c-4229-a147-da4fd5311d36/resource/7dec2191-33e8-46b6-83cc-ad773b57742d/download/edva_conversiontable2017to2024.xlsx",
+   "accessed_utc": "2026-10-24T10:26:13Z",
+   "licence": {
+    "name": "Elections BC Open Data Licence",
+    "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+    "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+   },
+   "publisher": "Elections BC via BC Data Catalogue (edva-conversion-tables)",
+   "bytes": 346068,
+   "sha256": "e7f174cd8f9640711ed292733fb1e3468301859aad3408b8137aedec70ee87bd"
+  },
+  {
+   "file": "raw/bcdc/edva_conversiontable2024to2017.xlsx",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/fb26db04-780c-4229-a147-da4fd5311d36/resource/4d6da956-a849-48ea-a64e-cea0238c36c2/download/edva_conversiontable2024to2017.xlsx",
+   "accessed_utc": "2026-10-24T10:26:13Z",
+   "licence": {
+    "name": "Elections BC Open Data Licence",
+    "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+    "note": "Elections BC layers in the BC Data Catalogue are published under this licence (not OGL-BC); copy saved at raw/ebc/EBC-Open-Data-Licence.pdf"
+   },
+   "publisher": "Elections BC via BC Data Catalogue (edva-conversion-tables)",
+   "bytes": 350178,
+   "sha256": "25a194f06f27b73e8b5aefbb589327072b83830b0fbab299c24a3a76672c10e9"
+  },
+  {
+   "file": "raw/ebc/EBC-Open-Data-Licence.pdf",
+   "url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+   "accessed_utc": "2026-10-24T10:26:13Z",
+   "publisher": "Elections BC",
+   "bytes": 176681,
+   "sha256": "f82a8cf8de781b2cbb5b0cccd69e3769d542d3395cb5124e241ffaa4e5b1c98c"
+  }
+ ],
+ "blocked_or_unused": [
+  {
+   "url": "https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/files-fichiers/lda_000b21a_e.zip (and other www12 zip downloads)",
+   "result": "HTTP 403, Cloudflare browser challenge; not usable from a script. Same data taken from StatCan's geo.statcan.gc.ca ArcGIS REST service instead."
+  },
+  {
+   "url": "https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21",
+   "result": "Page fetch declined in this session; not used."
+  }
+ ],
+ "outputs": [
+  {
+   "file": "out/build_report.json",
+   "kb": 1.8
+  },
+  {
+   "file": "out/da2021_cartographic_bc.geojson",
+   "kb": 107812.1
+  },
+  {
+   "file": "out/da2021_digital_bc.geojson",
+   "kb": 31843.0
+  },
+  {
+   "file": "out/da2021_digital_bc.source.txt",
+   "kb": 0.0
+  },
+  {
+   "file": "out/da_to_ed2023.csv",
+   "kb": 272.3
+  },
+  {
+   "file": "out/da_to_ed2023_detail.csv",
+   "kb": 379.0
+  },
+  {
+   "file": "out/db2021_digital_bc.geojson",
+   "kb": 100275.6
+  },
+  {
+   "file": "out/db_to_ed2023.csv",
+   "kb": 2696.2
+  },
+  {
+   "file": "out/ed2015.geojson",
+   "kb": 13421.3
+  },
+  {
+   "file": "out/ed2015_web.geojson",
+   "kb": 341.7
+  },
+  {
+   "file": "out/ed2015_web.topojson",
+   "kb": 89.9
+  },
+  {
+   "file": "out/ed2023.geojson",
+   "kb": 22054.4
+  },
+  {
+   "file": "out/ed2023_area_pop.csv",
+   "kb": 8.4
+  },
+  {
+   "file": "out/ed2023_pop2021_from_db.csv",
+   "kb": 1.1
+  },
+  {
+   "file": "out/ed2023_pop_check_vs_bcstats.csv",
+   "kb": 4.1
+  },
+  {
+   "file": "out/ed2023_regions.csv",
+   "kb": 7.5
+  },
+  {
+   "file": "out/ed2023_slide720.geojson",
+   "kb": 192.5
+  },
+  {
+   "file": "out/ed2023_slide720.topojson",
+   "kb": 61.2
+  },
+  {
+   "file": "out/ed2023_web.geojson",
+   "kb": 363.1
+  },
+  {
+   "file": "out/ed2023_web.topojson",
+   "kb": 100.4
+  },
+  {
+   "file": "out/inset_capital_region.geojson",
+   "kb": 292.3
+  },
+  {
+   "file": "out/inset_capital_region_frame_web.geojson",
+   "kb": 33.5
+  },
+  {
+   "file": "out/inset_capital_region_web.geojson",
+   "kb": 19.7
+  },
+  {
+   "file": "out/inset_kelowna.geojson",
+   "kb": 211.4
+  },
+  {
+   "file": "out/inset_kelowna_frame_web.geojson",
+   "kb": 28.1
+  },
+  {
+   "file": "out/inset_kelowna_web.geojson",
+   "kb": 14.8
+  },
+  {
+   "file": "out/inset_metro_vancouver.geojson",
+   "kb": 613.9
+  },
+  {
+   "file": "out/inset_metro_vancouver_frame_web.geojson",
+   "kb": 70.9
+  },
+  {
+   "file": "out/inset_metro_vancouver_web.geojson",
+   "kb": 55.7
+  },
+  {
+   "file": "out/sva2020_points.geojson",
+   "kb": 190.9
+  },
+  {
+   "file": "out/sva2020_to_ed2023.csv",
+   "kb": 33.3
+  },
+  {
+   "file": "out/sva2024_points.geojson",
+   "kb": 177.2
+  },
+  {
+   "file": "out/test_map.png",
+   "kb": 212.4
+  },
+  {
+   "file": "out/va2020.geojson",
+   "kb": 36954.8
+  },
+  {
+   "file": "out/va2020_to_ed2023.csv",
+   "kb": 207.6
+  },
+  {
+   "file": "out/va2020_web.topojson",
+   "kb": 1674.8
+  },
+  {
+   "file": "out/va2024.geojson",
+   "kb": 62035.6
+  },
+  {
+   "file": "out/va2024_web.topojson",
+   "kb": 1715.3
+  },
+  {
+   "file": "out/va_report.json",
+   "kb": 0.5
+  },
+  {
+   "file": "out/final/FINAL_ed2023_label_points.csv",
+   "kb": 8.0
+  },
+  {
+   "file": "out/final/FINAL_ed2023_label_points.geojson",
+   "kb": 33.4
+  },
+  {
+   "file": "out/final/FINAL_ed2023_label_points_3005.geojson",
+   "kb": 33.2
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_3005.gpkg",
+   "kb": 56068.0
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_lakes_3005.gpkg",
+   "kb": 68668.0
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_lakes_slide720_3005.geojson",
+   "kb": 478.7
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_lakes_slide720_3005.topojson",
+   "kb": 254.2
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_lakes_slide720_4326.geojson",
+   "kb": 483.8
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_lakes_slide720_4326.topojson",
+   "kb": 256.7
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_lakes_web_3005.geojson",
+   "kb": 368.3
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_lakes_web_4326.geojson",
+   "kb": 364.9
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_lakes_web_4326.topojson",
+   "kb": 205.2
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_slide720_3005.geojson",
+   "kb": 382.4
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_slide720_3005.topojson",
+   "kb": 200.4
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_slide720_4326.geojson",
+   "kb": 389.1
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_slide720_4326.topojson",
+   "kb": 202.0
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_web_3005.geojson",
+   "kb": 348.6
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_web_4326.geojson",
+   "kb": 357.2
+  },
+  {
+   "file": "out/final/FINAL_ed2023_land_web_4326.topojson",
+   "kb": 192.5
+  },
+  {
+   "file": "out/final/FINAL_inset_capital_region_3005.geojson",
+   "kb": 18.3
+  },
+  {
+   "file": "out/final/FINAL_inset_capital_region_4326.geojson",
+   "kb": 18.1
+  },
+  {
+   "file": "out/final/FINAL_inset_capital_region_frame_3005.geojson",
+   "kb": 28.1
+  },
+  {
+   "file": "out/final/FINAL_inset_capital_region_frame_4326.geojson",
+   "kb": 26.6
+  },
+  {
+   "file": "out/final/FINAL_inset_kelowna_3005.geojson",
+   "kb": 4.6
+  },
+  {
+   "file": "out/final/FINAL_inset_kelowna_4326.geojson",
+   "kb": 4.4
+  },
+  {
+   "file": "out/final/FINAL_inset_kelowna_frame_3005.geojson",
+   "kb": 9.3
+  },
+  {
+   "file": "out/final/FINAL_inset_kelowna_frame_4326.geojson",
+   "kb": 9.0
+  },
+  {
+   "file": "out/final/FINAL_inset_metro_vancouver_3005.geojson",
+   "kb": 33.9
+  },
+  {
+   "file": "out/final/FINAL_inset_metro_vancouver_4326.geojson",
+   "kb": 33.1
+  },
+  {
+   "file": "out/final/FINAL_inset_metro_vancouver_frame_3005.geojson",
+   "kb": 37.8
+  },
+  {
+   "file": "out/final/FINAL_inset_metro_vancouver_frame_4326.geojson",
+   "kb": 36.3
+  },
+  {
+   "file": "out/final/FINAL_lakes_ge50km2_3005.gpkg",
+   "kb": 12792.0
+  },
+  {
+   "file": "out/final/FINAL_verification.json",
+   "kb": 7.7
+  },
+  {
+   "file": "out/final/FINAL_verification_per_district.csv",
+   "kb": 101.6
+  },
+  {
+   "file": "out/final/final_artifacts_removed.csv",
+   "kb": 0.1
+  },
+  {
+   "file": "out/final/final_lakes_by_district.csv",
+   "kb": 4.1
+  }
+ ],
+ "request_headers": "User-Agent: bc2026-geo only; no personal details sent."
+}

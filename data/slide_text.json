@@ -1,0 +1,42 @@
+{
+ "order": [
+  "result",
+  "majority",
+  "how",
+  "where",
+  "who",
+  "middle",
+  "why",
+  "promises"
+ ],
+ "kickers": {
+  "result": "The Median Canadian · Week 3 · October 25, 2026",
+  "majority": "The result",
+  "how": "How they got here",
+  "where": "Where it changed",
+  "who": "By household income",
+  "middle": "The middle ground",
+  "why": "Before the vote",
+  "promises": "What comes next"
+ },
+ "headlines": {
+  "result": "B.C. elects Conservatives",
+  "majority": "Conservatives rose from 44 seats to 64",
+  "how": "Conservatives had 2% of the vote in 2020",
+  "where": "Vancouver's suburbs went Conservative",
+  "who": "Higher-income ridings moved the most",
+  "middle": "Federal Liberal areas swung Conservative",
+  "why": "Conservatives rated best on cost of living",
+  "promises": "What Conservatives promised"
+ },
+ "lines": {
+  "result": "The party's first majority since 1928, after nine years of NDP government.",
+  "majority": "Their margin over the NDP was 10.7 points, against 1.6 points the other way in 2024.",
+  "how": "In 2024, they took the BC Liberals' place as the NDP's main rival.",
+  "where": "Conservatives were elected in 28 of 34 suburban ridings, up from 15 in 2024.",
+  "who": "On average, ridings at every income level moved toward the Conservatives.",
+  "middle": "Three of every four seats the Conservatives added were in these ridings.",
+  "why": "It was the top worry, and ratings were about even on the other two.",
+  "promises": "The Conservative platform's answer to each top worry."
+ }
+}

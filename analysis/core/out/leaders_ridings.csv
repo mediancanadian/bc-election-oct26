@@ -1,0 +1,24 @@
+district_code,district_name,candidate,party,party_code,votes,share_pct,leading,boxes_reported,boxes_total,status,source_time,snapshot_utc
+CBC,Cariboo-Chilcotin,Lorne Doerkson,Conservative Party,CON,14218,77.09,Y,89,89,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+CBC,Cariboo-Chilcotin,Kathryn Askew,BC NDP,NDP,3123,16.93,N,89,89,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+CBC,Cariboo-Chilcotin,Douglas Gook,BC Green Party,GRN,1103,5.98,N,89,89,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+PCN,Peace River North,Curtis Whitford,Conservative Party,CON,8957,85.75,Y,66,66,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+PCN,Peace River North,Jordan Kealy,Independent,OTH,1489,14.25,N,66,66,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+SAN,Saanich North and the Islands,Emily Lowan,BC Green Party,GRN,14481,48.48,Y,105,105,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+SAN,Saanich North and the Islands,Ryan Windsor,Conservative Party,CON,9464,31.69,N,105,105,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+SAN,Saanich North and the Islands,Kala Bryson,BC NDP,NDP,5225,17.49,N,105,105,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+SAN,Saanich North and the Islands,Richard Smith,CentreBC,CENTRE,698,2.34,N,105,105,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+SUS,Surrey South,Megan Knight,Conservative Party,CON,12557,61.39,Y,82,82,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+SUS,Surrey South,Parik Tahlan,BC NDP,NDP,4535,22.17,N,82,82,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+SUS,Surrey South,Elenore Sturko,CentreBC,CENTRE,2074,10.14,N,82,82,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+SUS,Surrey South,Bill McConnell,BC Green Party,GRN,1021,4.99,N,82,82,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+SUS,Surrey South,Denis R Hurtubise,Unaffiliated,OTH,266,1.3,N,82,82,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+VNP,Vancouver-Point Grey,David Eby,BC NDP,NDP,7811,42.97,Y,70,70,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+VNP,Vancouver-Point Grey,Alex McMillan,Conservative Party,CON,7273,40.01,N,70,70,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+VNP,Vancouver-Point Grey,Beatrice Sharpe,BC Green Party,GRN,2448,13.47,N,70,70,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+VNP,Vancouver-Point Grey,Michael Davis,CentreBC,CENTRE,647,3.56,N,70,70,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+VNQ,Vancouver-Quilchena,Carson Binda,Conservative Party,CON,10956,55.02,Y,69,69,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+VNQ,Vancouver-Quilchena,Callista Ryan,BC NDP,NDP,5269,26.46,N,69,69,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+VNQ,Vancouver-Quilchena,Douglas Courtemanche,BC Green Party,GRN,1844,9.26,N,69,69,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+VNQ,Vancouver-Quilchena,Petra Kuret,CentreBC,CENTRE,1038,5.21,N,69,69,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z
+VNQ,Vancouver-Quilchena,Dallas Brodie,OneBC,ONEBC,805,4.04,N,69,69,In Progress,25/10/2026 01:49:02 AM,20261025T150040Z

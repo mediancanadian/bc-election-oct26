@@ -1,0 +1,1434 @@
+{
+ "downloads": [
+  {
+   "pollster": "cardinal_research",
+   "url": "https://cardinalresearch.ca/?research=british-columbia-provincial-poll-oct-2025",
+   "file": "raw/cardinal_research/cardinal_oct2025.html",
+   "http": "000 (proxy CONNECT 502)",
+   "bytes": 0,
+   "accessed_utc": "2026-10-24 (session)",
+   "err": ""
+  },
+  {
+   "pollster": "wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_British_Columbia_general_election",
+   "file": "raw/wikipedia/opinion_polling.html",
+   "http": "404",
+   "bytes": 52930,
+   "accessed_utc": "2026-10-24 (session)",
+   "err": ""
+  },
+  {
+   "pollster": "wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election",
+   "file": "raw/wikipedia/election_2026.html",
+   "http": "200",
+   "bytes": 975485,
+   "accessed_utc": "2026-10-24 (session)",
+   "err": ""
+  },
+  {
+   "pollster": "Forum Research",
+   "dates": "Oct 23, 2026",
+   "url": "https://www.forumresearch.com/news/2026/10/conservatives-on-track-for-majority-government-in-british-columbia",
+   "file": "raw/forum_research/conservatives_on_track_for_majority_government_in_british_columbia.html",
+   "http": "200",
+   "bytes": 3336,
+   "accessed_utc": "2026-10-24T10:03:55Z",
+   "err": ""
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "dates": "Oct 21\u201323, 2026",
+   "url": "https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/6adc1db0f13a4f502b3e5b9a_British_Columbia_October_23_2026_Public.pdf",
+   "file": "raw/mainstreet_research/6adc1db0f13a4f502b3e5b9a_british_columbia_october_23_2026_public.pdf",
+   "http": "200",
+   "bytes": 1733823,
+   "accessed_utc": "2026-10-24T10:03:56Z",
+   "err": ""
+  },
+  {
+   "pollster": "Research Co.",
+   "dates": "Oct 21\u201323, 2026",
+   "url": "https://researchco.ca/2026/10/23/bcpoli-oct23/",
+   "file": "raw/research_co/bcpoli_oct23.html",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:03:56Z",
+   "err": ""
+  },
+  {
+   "pollster": "Research Co.",
+   "dates": "Oct 21\u201323, 2026",
+   "url": "https://researchco.ca/wp-content/uploads/2026/10/Tables_Politics_BC_23Oct2026.pdf",
+   "file": "raw/research_co/tables_politics_bc_23oct2026.pdf",
+   "http": "200",
+   "bytes": 180591,
+   "accessed_utc": "2026-10-24T10:03:57Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pallas Data",
+   "dates": "Oct 22, 2026",
+   "url": "https://pallas-data.ca/2026/10/24/pallas-british-columbia-poll-conservatives-45-ndp-39-green-12/",
+   "file": "raw/pallas_data/pallas_british_columbia_poll_conservatives_45_ndp_39_green_12.html",
+   "http": "200",
+   "bytes": 599272,
+   "accessed_utc": "2026-10-24T10:03:58Z",
+   "err": ""
+  },
+  {
+   "pollster": "Ipsos",
+   "dates": "Oct 20\u201322, 2026",
+   "url": "https://www.ipsos.com/en-ca/bc-conservatives-knocking-door-majority-government",
+   "file": "raw/ipsos/bc_conservatives_knocking_door_majority_government.html",
+   "http": "200",
+   "bytes": 51549,
+   "accessed_utc": "2026-10-24T10:03:58Z",
+   "err": ""
+  },
+  {
+   "pollster": "Leger",
+   "dates": "Oct 20\u201322, 2026",
+   "url": "https://documents.leger360.com/hubfs/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/10.%20October%202026/Media%20Release%20-%20BC%20Election%20Polling%20October%2022%2c%202026%20-%20SHORT.pdf",
+   "file": "raw/leger/a_20release_20_20bc_20election_20polling_20october_2022_2c_202026_20_20short.pdf",
+   "http": "200",
+   "bytes": 1450017,
+   "accessed_utc": "2026-10-24T10:03:59Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pollara",
+   "dates": "Oct 15\u201321, 2026",
+   "url": "https://www.pollara.com/bc-conservatives-lead-by-five-heading-into-election-day/",
+   "file": "raw/pollara/bc_conservatives_lead_by_five_heading_into_election_day.html",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:03:59Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pollara",
+   "dates": "Oct 15\u201321, 2026",
+   "url": "https://www.pollara.com/wp-content/uploads/2026/10/BC_2026_Election_Syndicate_Wave_3_Final_xtabs.pdf",
+   "file": "raw/pollara/bc_2026_election_syndicate_wave_3_final_xtabs.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:03:59Z",
+   "err": ""
+  },
+  {
+   "pollster": "Innovative Research",
+   "dates": "Oct 15\u201319, 2026",
+   "url": "https://innovativeresearch.ca/wp-content/uploads/2026/10/IRG.34-2026-BC-Election-BLOG-POST-RELEASE.pdf",
+   "file": "raw/innovative_research/irg_34_2026_bc_election_blog_post_release.pdf",
+   "http": "200",
+   "bytes": 1721126,
+   "accessed_utc": "2026-10-24T10:04:00Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Oct 15\u201319, 2026",
+   "url": "https://angusreid.org/b-c-election-2026-bc-conservatives-lead-slightly-as-two-way-race-narrows-and-campaign-enters-final-days/",
+   "file": "raw/angus_reid/nservatives_lead_slightly_as_two_way_race_narrows_and_campaign_enters_final_days.html",
+   "http": "200",
+   "bytes": 214378,
+   "accessed_utc": "2026-10-24T10:04:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Oct 15\u201319, 2026",
+   "url": "https://angusreid.org/wp-content/uploads/2026/10/2026.10.19_BC_Poll_3_tables.pdf",
+   "file": "raw/angus_reid/2026_10_19_bc_poll_3_tables.pdf",
+   "http": "200",
+   "bytes": 433725,
+   "accessed_utc": "2026-10-24T10:04:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "dates": "Oct 17\u201318, 2026",
+   "url": "https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/6ad861a55f3843e8a922c51f_British_Columbia_October_18_2026_Public.pdf",
+   "file": "raw/mainstreet_research/6ad861a55f3843e8a922c51f_british_columbia_october_18_2026_public.pdf",
+   "http": "200",
+   "bytes": 1913443,
+   "accessed_utc": "2026-10-24T10:04:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pollara",
+   "dates": "Oct 15\u201318, 2026",
+   "url": "https://www.youtube.com/watch?v=J6OrzY6cb4k",
+   "file": "raw/pollara/watch.html",
+   "http": "429",
+   "bytes": 3271,
+   "accessed_utc": "2026-10-24T10:04:02Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pollara",
+   "dates": "Oct 8\u201313, 2026",
+   "url": "https://www.youtube.com/watch?v=SHxG-ec1Ocw",
+   "file": "raw/pollara/watch.html",
+   "http": "429",
+   "bytes": 3272,
+   "accessed_utc": "2026-10-24T10:04:03Z",
+   "err": ""
+  },
+  {
+   "pollster": "Leger",
+   "dates": "Oct 9\u201312, 2026",
+   "url": "https://leger360.com/bc-election-2026-poll-october/",
+   "file": "raw/leger/bc_election_2026_poll_october.html",
+   "http": "200",
+   "bytes": 344608,
+   "accessed_utc": "2026-10-24T10:04:03Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pallas Data",
+   "dates": "Oct 10\u201311, 2026",
+   "url": "https://pallas-data.ca/2026/10/13/pallas-british-columbia-poll-conservative-43-ndp-38-green-11-onebc-5-and-doerkson-leads-eby-on-best-premier/",
+   "file": "raw/pallas_data/l_conservative_43_ndp_38_green_11_onebc_5_and_doerkson_leads_eby_on_best_premier.html",
+   "http": "200",
+   "bytes": 605268,
+   "accessed_utc": "2026-10-24T10:04:04Z",
+   "err": ""
+  },
+  {
+   "pollster": "Research Co.",
+   "dates": "Oct 9\u201311, 2026",
+   "url": "https://researchco.ca/2026/10/13/bcpoli-oct13/",
+   "file": "raw/research_co/bcpoli_oct13.html",
+   "http": "200",
+   "bytes": 142700,
+   "accessed_utc": "2026-10-24T10:04:04Z",
+   "err": ""
+  },
+  {
+   "pollster": "Ipsos",
+   "dates": "Oct 7\u201311, 2026",
+   "url": "https://www.ipsos.com/en-ca/bc-conservatives-fractured-front-runners",
+   "file": "raw/ipsos/bc_conservatives_fractured_front_runners.html",
+   "http": "200",
+   "bytes": 52414,
+   "accessed_utc": "2026-10-24T10:04:05Z",
+   "err": ""
+  },
+  {
+   "pollster": "Liaison Strategies",
+   "dates": "Oct 7\u20138, 2026",
+   "url": "https://press.liaisonstrategies.ca/bc-conservatives-lead-ndp-43-to-37-as-eby-approval-falls/",
+   "file": "raw/liaison_strategies/bc_conservatives_lead_ndp_43_to_37_as_eby_approval_falls.html",
+   "http": "200",
+   "bytes": 23510,
+   "accessed_utc": "2026-10-24T10:04:05Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pollara",
+   "dates": "Oct 1\u20137, 2026",
+   "url": "https://www.youtube.com/watch?v=iMbYgS9VZPw&list=TLGGwl7A1tvH9vQxNDEwMjAyNg",
+   "file": "raw/pollara/watch.html",
+   "http": "429",
+   "bytes": 3379,
+   "accessed_utc": "2026-10-24T10:04:06Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Oct 1\u20133, 2026",
+   "url": "https://angusreid.org/bc-election-as-voters-begin-to-lock-in-conservatives-hold-five-point-lead-over-gaining-ndp/",
+   "file": "raw/angus_reid/n_as_voters_begin_to_lock_in_conservatives_hold_five_point_lead_over_gaining_ndp.html",
+   "http": "200",
+   "bytes": 1076610,
+   "accessed_utc": "2026-10-24T10:04:06Z",
+   "err": ""
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "dates": "Sep 30 - Oct 1, 2026",
+   "url": "https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/6ac48198ecd4d93eff6c39ef_British_Columbia_October_2026_Public.pdf",
+   "file": "raw/mainstreet_research/6ac48198ecd4d93eff6c39ef_british_columbia_october_2026_public.pdf",
+   "http": "200",
+   "bytes": 819814,
+   "accessed_utc": "2026-10-24T10:04:07Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pollara",
+   "dates": "Sep 23\u201330, 2026",
+   "url": "https://pollarastrategicinsights.substack.com/p/even-flow",
+   "file": "raw/pollara/even_flow.html",
+   "http": "200",
+   "bytes": 211411,
+   "accessed_utc": "2026-10-24T10:04:07Z",
+   "err": ""
+  },
+  {
+   "pollster": "Ipsos",
+   "dates": "Sep 25\u201329, 2026",
+   "url": "https://www.ipsos.com/en-ca/bc-conservative-support-rallies-without-kerry-lynne-findlay",
+   "file": "raw/ipsos/bc_conservative_support_rallies_without_kerry_lynne_findlay.html",
+   "http": "200",
+   "bytes": 53876,
+   "accessed_utc": "2026-10-24T10:04:07Z",
+   "err": ""
+  },
+  {
+   "pollster": "Innovative Research",
+   "dates": "Sep 25\u201328, 2026",
+   "url": "https://innovativeresearch.ca/wp-content/uploads/2026/09/CTM2609-W4-BC-Election-Short-Deck-RELEASE.pdf",
+   "file": "raw/innovative_research/ctm2609_w4_bc_election_short_deck_release.pdf",
+   "http": "200",
+   "bytes": 1500765,
+   "accessed_utc": "2026-10-24T10:04:08Z",
+   "err": ""
+  },
+  {
+   "pollster": "Leger",
+   "dates": "Sep 24\u201328, 2026",
+   "url": "https://vancouversun.com/news/new-leger-poll-finds-majority-in-bc-think-ndp-has-done-poorly-but-not-sold-on-conservatives",
+   "file": "raw/leger/oll_finds_majority_in_bc_think_ndp_has_done_poorly_but_not_sold_on_conservatives.html",
+   "http": "200",
+   "bytes": 324842,
+   "accessed_utc": "2026-10-24T10:04:09Z",
+   "err": ""
+  },
+  {
+   "pollster": "Liaison Strategies",
+   "dates": "Sep 26\u201327, 2026",
+   "url": "https://press.liaisonstrategies.ca/bc-conservatives-40-ndp-39-housing-frustration-runs-deep/",
+   "file": "raw/liaison_strategies/bc_conservatives_40_ndp_39_housing_frustration_runs_deep.html",
+   "http": "200",
+   "bytes": 26811,
+   "accessed_utc": "2026-10-24T10:04:09Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Sep 22\u201324, 2026",
+   "url": "https://angusreid.org/ballot-backlash-bc-conservatives-open-8-point-lead-after-snap-election-call-but-electorate-far-from-locked-in/",
+   "file": "raw/angus_reid/ves_open_8_point_lead_after_snap_election_call_but_electorate_far_from_locked_in.html",
+   "http": "200",
+   "bytes": 1448599,
+   "accessed_utc": "2026-10-24T10:04:09Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Sep 22\u201324, 2026",
+   "url": "https://angusreid.org/wp-content/uploads/2026/09/2026.09.24_BC_Elxn_1_PR_tables.pdf",
+   "file": "raw/angus_reid/2026_09_24_bc_elxn_1_pr_tables.pdf",
+   "http": "200",
+   "bytes": 130070,
+   "accessed_utc": "2026-10-24T10:04:09Z",
+   "err": ""
+  },
+  {
+   "pollster": "Liaison Strategies",
+   "dates": "Sep 21\u201322",
+   "url": "https://press.liaisonstrategies.ca/bc-ndp-leads-conservatives-41-to-36-as-election-begins/",
+   "file": "raw/liaison_strategies/bc_ndp_leads_conservatives_41_to_36_as_election_begins.html",
+   "http": "200",
+   "bytes": 24975,
+   "accessed_utc": "2026-10-24T10:04:10Z",
+   "err": ""
+  },
+  {
+   "pollster": "Innovative Research",
+   "dates": "Sep 4\u201318, 2026",
+   "url": "https://innovativeresearch.ca/wp-content/uploads/2026/09/CTM2609-BC-Report-RELEASE-2.pdf",
+   "file": "raw/innovative_research/ctm2609_bc_report_release_2.pdf",
+   "http": "200",
+   "bytes": 1247273,
+   "accessed_utc": "2026-10-24T10:04:11Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Sep 8\u201315, 2026",
+   "url": "https://angusreid.org/election-speculation-bcndp-conservative-eby-klf/",
+   "file": "raw/angus_reid/election_speculation_bcndp_conservative_eby_klf.html",
+   "http": "200",
+   "bytes": 1137855,
+   "accessed_utc": "2026-10-24T10:04:11Z",
+   "err": ""
+  },
+  {
+   "pollster": "Ipsos",
+   "dates": "Sep 8\u201314, 2026",
+   "url": "https://www.ipsos.com/en-ca/bc-conservative-support-scatters-under-kerry-lynne-findlay",
+   "file": "raw/ipsos/bc_conservative_support_scatters_under_kerry_lynne_findlay.html",
+   "http": "200",
+   "bytes": 53423,
+   "accessed_utc": "2026-10-24T10:04:11Z",
+   "err": ""
+  },
+  {
+   "pollster": "Research Co.",
+   "dates": "Aug 12\u201314, 2026",
+   "url": "https://researchco.ca/2026/08/18/bcpoli-aug2026/",
+   "file": "raw/research_co/bcpoli_aug2026.html",
+   "http": "200",
+   "bytes": 137740,
+   "accessed_utc": "2026-10-24T10:04:12Z",
+   "err": ""
+  },
+  {
+   "pollster": "604 Polling",
+   "dates": "Jul 31 \u2013 Aug 8, 2026",
+   "url": "https://604polling.ca/#results",
+   "file": "raw/604_polling/results.html",
+   "http": "200",
+   "bytes": 19288,
+   "accessed_utc": "2026-10-24T10:04:12Z",
+   "err": ""
+  },
+  {
+   "pollster": "Yorkville Strategies",
+   "dates": "Jul 28 \u2013 Aug 3, 2026",
+   "url": "https://www.linkedin.com/posts/dimitri-pantazopoulos-03526a7_new-yorkville-strategies-survey-bc-conservatives-activity-7493045498778574848-g9KQ/",
+   "file": "raw/yorkville_strategies/w_yorkville_strategies_survey_bc_conservatives_activity_7493045498778574848_g9kq.html",
+   "http": "200",
+   "bytes": 1081815,
+   "accessed_utc": "2026-10-24T10:04:13Z",
+   "err": ""
+  },
+  {
+   "pollster": "Yorkville Strategies",
+   "dates": "Jul 28 \u2013 Aug 3, 2026",
+   "url": "https://www.sitkamedia.ca/bc-ndp-lead-conservatives-by-six-points-poll-shows/",
+   "file": "raw/yorkville_strategies/bc_ndp_lead_conservatives_by_six_points_poll_shows.html",
+   "http": "200",
+   "bytes": 80256,
+   "accessed_utc": "2026-10-24T10:04:13Z",
+   "err": ""
+  },
+  {
+   "pollster": "Fairview Strategy",
+   "dates": "Jul 6\u201317, 2026",
+   "url": "https://canadianpolling.ca/BC-2024",
+   "file": "raw/fairview_strategy/bc_2024.html",
+   "http": "200",
+   "bytes": 314436,
+   "accessed_utc": "2026-10-24T10:04:14Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Jun 1\u201312, 2026",
+   "url": "https://angusreid.org/bc-politics-new-conservative-leader/",
+   "file": "raw/angus_reid/bc_politics_new_conservative_leader.html",
+   "http": "200",
+   "bytes": 1773598,
+   "accessed_utc": "2026-10-24T10:04:17Z",
+   "err": ""
+  },
+  {
+   "pollster": "Research Co.",
+   "dates": "Jun 3\u20135, 2026",
+   "url": "https://researchco.ca/2026/06/08/bcpoli-june2026/",
+   "file": "raw/research_co/bcpoli_june2026.html",
+   "http": "200",
+   "bytes": 138995,
+   "accessed_utc": "2026-10-24T10:04:17Z",
+   "err": ""
+  },
+  {
+   "pollster": "Leger",
+   "dates": "Jun 1\u20132, 2026",
+   "url": "https://documents.leger360.com/hubfs/\u00c9tudes%20M\u00e9diatiques/\u00c9tudes%20M\u00e9diatiques%20-%202026/\u00c9tudes%20Juin%202026/Leger%20Poll%20-%20BC%20Pulse%20Check%20June%202026.pdf",
+   "file": "raw/leger/leger_20poll_20_20bc_20pulse_20check_20june_202026.pdf",
+   "http": "200",
+   "bytes": 1120549,
+   "accessed_utc": "2026-10-24T10:04:18Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Apr 24\u201328, 2026",
+   "url": "https://angusreid.org/bc-ndp-eby-conservatives-dripa-undrip-reconciliation-property-rights-land-title/",
+   "file": "raw/angus_reid/bc_ndp_eby_conservatives_dripa_undrip_reconciliation_property_rights_land_title.html",
+   "http": "200",
+   "bytes": 193039,
+   "accessed_utc": "2026-10-24T10:04:19Z",
+   "err": ""
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "dates": "Apr 9\u201313, 2026",
+   "url": "https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/69dfa83b30c109ebd9686d02_BC_Survey_April2026_Teaser.pdf",
+   "file": "raw/mainstreet_research/69dfa83b30c109ebd9686d02_bc_survey_april2026_teaser.pdf",
+   "http": "200",
+   "bytes": 990831,
+   "accessed_utc": "2026-10-24T10:04:19Z",
+   "err": ""
+  },
+  {
+   "pollster": "Leger",
+   "dates": "Apr 3\u20136, 2026",
+   "url": "https://5233025.fs1.hubspotusercontent-na1.net/hubfs/5233025/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/4.%20%C3%89M%20-%20Avril%202026/20260410%20-%20AB%20-%20BC%20Government%20Poll/LEGER_BC%20Gov%20Report%20Card_EN_Apr2026.pdf",
+   "file": "raw/leger/leger_bc_20gov_20report_20card_en_apr2026.pdf",
+   "http": "200",
+   "bytes": 1395482,
+   "accessed_utc": "2026-10-24T10:04:19Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Mar 11\u201317, 2026",
+   "url": "https://angusreid.org/bc-eby-musqueam-cowichan-property-rights-conservative-leadership/",
+   "file": "raw/angus_reid/bc_eby_musqueam_cowichan_property_rights_conservative_leadership.html",
+   "http": "200",
+   "bytes": 196857,
+   "accessed_utc": "2026-10-24T10:04:19Z",
+   "err": ""
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "dates": "Mar 11\u201313, 2026",
+   "url": "https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/69b8b3ba2cbf41965308eea3_BC_Mainstreet_March2026_public_Final.pdf",
+   "file": "raw/mainstreet_research/69b8b3ba2cbf41965308eea3_bc_mainstreet_march2026_public_final.pdf",
+   "http": "200",
+   "bytes": 2687807,
+   "accessed_utc": "2026-10-24T10:04:20Z",
+   "err": ""
+  },
+  {
+   "pollster": "Innovative Research",
+   "dates": "Feb 6\u2013Mar 3, 2026",
+   "url": "https://innovativeresearch.ca/wp-content/uploads/2026/03/CTM2602-BC-Budget-Report-FINAL.pdf",
+   "file": "raw/innovative_research/ctm2602_bc_budget_report_final.pdf",
+   "http": "404",
+   "bytes": 376776,
+   "accessed_utc": "2026-10-24T10:04:22Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "Pallas Data",
+   "dates": "Feb 12\u201327, 2026",
+   "url": "https://files.constantcontact.com/f737aa99901/13d6b1a7-0809-454a-a8fe-f71830064bed.pdf",
+   "file": "raw/pallas_data/13d6b1a7_0809_454a_a8fe_f71830064bed.pdf",
+   "http": "200",
+   "bytes": 1877951,
+   "accessed_utc": "2026-10-24T10:04:22Z",
+   "err": ""
+  },
+  {
+   "pollster": "One Persuasion",
+   "dates": "Feb 21\u201324, 2026",
+   "url": "https://x.com/RobShaw_BC/status/2031751527573111178",
+   "file": "raw/one_persuasion/2031751527573111178.html",
+   "http": "200",
+   "bytes": 151302,
+   "accessed_utc": "2026-10-24T10:04:23Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pallas Data",
+   "dates": "Feb 12\u201314, 2026",
+   "url": "https://pallas-data.ca/2026/02/19/pallas-british-columbia-poll-ndp-42-conservative-37-green-13/",
+   "file": "raw/pallas_data/pallas_british_columbia_poll_ndp_42_conservative_37_green_13.html",
+   "http": "200",
+   "bytes": 599899,
+   "accessed_utc": "2026-10-24T10:04:24Z",
+   "err": ""
+  },
+  {
+   "pollster": "Leger",
+   "dates": "Jan 23\u201326, 2026",
+   "url": "https://leger360.com/wp-content/uploads/2026/02/LEGER_BCGovReportCard_Jan2026.pdf",
+   "file": "raw/leger/leger_bcgovreportcard_jan2026.pdf",
+   "http": "200",
+   "bytes": 1055822,
+   "accessed_utc": "2026-10-24T10:04:24Z",
+   "err": ""
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "dates": "Dec 17\u201318, 2025",
+   "url": "https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/69497c7df02eea7fc8befc0c_Mainstreet_BC_Con_Leadership_Dec_2025_Public.pdf",
+   "file": "raw/mainstreet_research/69497c7df02eea7fc8befc0c_mainstreet_bc_con_leadership_dec_2025_public.pdf",
+   "http": "200",
+   "bytes": 540152,
+   "accessed_utc": "2026-10-24T10:04:25Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pallas Data",
+   "dates": "Dec 11\u201313, 2025",
+   "url": "https://pallas-data.ca/2025/12/22/pallas-british-columbia-poll-ndp-44-conservative-39-greens-9-onebc-7/",
+   "file": "raw/pallas_data/pallas_british_columbia_poll_ndp_44_conservative_39_greens_9_onebc_7.html",
+   "http": "200",
+   "bytes": 600451,
+   "accessed_utc": "2026-10-24T10:04:26Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Nov 26 \u2013 Dec 1, 2025",
+   "url": "https://angusreid.org/government-satisfaction-december-2025/",
+   "file": "raw/angus_reid/government_satisfaction_december_2025.html",
+   "http": "200",
+   "bytes": 220138,
+   "accessed_utc": "2026-10-24T10:04:29Z",
+   "err": ""
+  },
+  {
+   "pollster": "Yorkville Strategies",
+   "dates": "Nov 24\u201325, 2025",
+   "url": "https://x.com/DPinBC/status/1993828038497403065",
+   "file": "raw/yorkville_strategies/1993828038497403065.html",
+   "http": "200",
+   "bytes": 146665,
+   "accessed_utc": "2026-10-24T10:04:29Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Oct 23\u201325, 2025",
+   "url": "https://angusreid.org/bc-politics-john-rustad-bc-conservatives-bcndp-david-eby/",
+   "file": "raw/angus_reid/bc_politics_john_rustad_bc_conservatives_bcndp_david_eby.html",
+   "http": "200",
+   "bytes": 189063,
+   "accessed_utc": "2026-10-24T10:04:30Z",
+   "err": ""
+  },
+  {
+   "pollster": "Abacus Data",
+   "dates": "Oct 9\u201315, 2025",
+   "url": "https://abacusdata.ca/abacus-data-bc-poll-eby-government-holds-the-edge-a-year-after-the-provincial-election/",
+   "file": "raw/abacus_data/_data_bc_poll_eby_government_holds_the_edge_a_year_after_the_provincial_election.html",
+   "http": "200",
+   "bytes": 85692,
+   "accessed_utc": "2026-10-24T10:04:31Z",
+   "err": ""
+  },
+  {
+   "pollster": "Leger",
+   "dates": "Oct 10\u201312, 2025",
+   "url": "https://leger360.com/wp-content/uploads/2025/10/Media-Release-BC-Gov-Report-Card-Oct-2025.pdf",
+   "file": "raw/leger/media_release_bc_gov_report_card_oct_2025.pdf",
+   "http": "200",
+   "bytes": 852994,
+   "accessed_utc": "2026-10-24T10:04:31Z",
+   "err": ""
+  },
+  {
+   "pollster": "Cardinal Research",
+   "dates": "Oct 4\u20136, 2025",
+   "url": "https://cardinalresearch.ca/?research=british-columbia-provincial-poll-oct-2025",
+   "file": "raw/cardinal_research/cardinalresearch_ca.html",
+   "http": "000",
+   "bytes": 0,
+   "accessed_utc": "2026-10-24T10:04:31Z",
+   "err": "curl: (56) CONNECT tunnel failed, response 502"
+  },
+  {
+   "pollster": "Research Co.",
+   "dates": "Oct 1\u20133, 2025",
+   "url": "https://researchco.ca/2025/10/06/bcpoli-oct2025/",
+   "file": "raw/research_co/bcpoli_oct2025.html",
+   "http": "200",
+   "bytes": 137615,
+   "accessed_utc": "2026-10-24T10:04:31Z",
+   "err": ""
+  },
+  {
+   "pollster": "Angus Reid",
+   "dates": "Aug 28 \u2013 Sep 5, 2025",
+   "url": "https://angusreid.org/cross-canada-outlook-sept-25-british-columbia/",
+   "file": "raw/angus_reid/cross_canada_outlook_sept_25_british_columbia.html",
+   "http": "200",
+   "bytes": 183293,
+   "accessed_utc": "2026-10-24T10:04:37Z",
+   "err": ""
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "dates": "Jun 23\u201324, 2025",
+   "url": "https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/685c59c0dc441ffa6e3e5211_Mainstreet_BC_June_2025_Public.pdf",
+   "file": "raw/mainstreet_research/685c59c0dc441ffa6e3e5211_mainstreet_bc_june_2025_public.pdf",
+   "http": "200",
+   "bytes": 565701,
+   "accessed_utc": "2026-10-24T10:04:38Z",
+   "err": ""
+  },
+  {
+   "pollster": "Research Co.",
+   "dates": "Jun 7\u20139, 2025",
+   "url": "https://researchco.ca/2025/06/16/bcpoli-4/",
+   "file": "raw/research_co/bcpoli_4.html",
+   "http": "200",
+   "bytes": 137290,
+   "accessed_utc": "2026-10-24T10:04:38Z",
+   "err": ""
+  },
+  {
+   "pollster": "Leger",
+   "dates": "May 23\u201325, 2025",
+   "url": "https://leger360.com/wp-content/uploads/2025/06/BC-Gov-Report-Card-June-2025.pdf",
+   "file": "raw/leger/bc_gov_report_card_june_2025.pdf",
+   "http": "200",
+   "bytes": 1975817,
+   "accessed_utc": "2026-10-24T10:04:38Z",
+   "err": ""
+  },
+  {
+   "pollster": "Canadian Election Study",
+   "dates": "Apr 29 \u2013 May 13, 2025",
+   "url": "https://doi.org/10.7910/DVN/2YAQ8D",
+   "file": "raw/canadian_election_study/2yaq8d.html",
+   "http": "202",
+   "bytes": 0,
+   "accessed_utc": "2026-10-24T10:04:38Z",
+   "err": ""
+  },
+  {
+   "pollster": "Liaison Strategies",
+   "dates": "May 2\u20134, 2025",
+   "url": "https://press.liaisonstrategies.ca/bc-conservatives-lead-ndp-47-to-45/",
+   "file": "raw/liaison_strategies/bc_conservatives_lead_ndp_47_to_45.html",
+   "http": "200",
+   "bytes": 18734,
+   "accessed_utc": "2026-10-24T10:04:39Z",
+   "err": ""
+  },
+  {
+   "pollster": "Research Co.",
+   "dates": "Mar 3\u20135, 2025",
+   "url": "https://researchco.ca/2025/03/11/bcpoli-3/",
+   "file": "raw/research_co/bcpoli_3.html",
+   "http": "200",
+   "bytes": 136710,
+   "accessed_utc": "2026-10-24T10:04:39Z",
+   "err": ""
+  },
+  {
+   "pollster": "Pallas Data",
+   "dates": "Feb 15, 2025",
+   "url": "https://files.constantcontact.com/f737aa99901/1dd1cfd4-cd65-4515-aec0-27599a26da58.pdf",
+   "file": "raw/pallas_data/1dd1cfd4_cd65_4515_aec0_27599a26da58.pdf",
+   "http": "200",
+   "bytes": 2909521,
+   "accessed_utc": "2026-10-24T10:04:40Z",
+   "err": ""
+  },
+  {
+   "pollster": "Leger",
+   "dates": "Jan 24\u201326, 2025",
+   "url": "https://leger360.com/wp-content/uploads/2025/02/Media-Report-BC-Government-Report-Card-February-5-2025.pdf",
+   "file": "raw/leger/media_report_bc_government_report_card_february_5_2025.pdf",
+   "http": "200",
+   "bytes": 2501541,
+   "accessed_utc": "2026-10-24T10:04:40Z",
+   "err": ""
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "dates": "Oct 10\u201312, 2026",
+   "url": "https://cdn.prod.website-files.com/66c8dfb086a015b3b519e988/6ad12bf6cab94d5f98ddeead_Surrey_South_October_2026.pdf",
+   "file": "raw/mainstreet_research/6ad12bf6cab94d5f98ddeead_surrey_south_october_2026.pdf",
+   "http": "200",
+   "bytes": 1335001,
+   "accessed_utc": "2026-10-24T10:04:40Z",
+   "err": ""
+  },
+  {
+   "pollster": "ipsos",
+   "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/BC%20Political%20Release%20for%20Sept%2015_0.pdf",
+   "file": "raw/ipsos/2026-09_BC_Political_Release_for_Sept_15_0.pdf",
+   "http": "200",
+   "bytes": 164990,
+   "accessed_utc": "2026-10-24T10:09:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "ipsos",
+   "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Tables%20for%20Release%20Sept%2015_0.pdf",
+   "file": "raw/ipsos/2026-09_Tables_for_Release_Sept_15_0.pdf",
+   "http": "200",
+   "bytes": 354461,
+   "accessed_utc": "2026-10-24T10:09:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "ipsos",
+   "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/BC%20Call%20Poll%20Release.pdf",
+   "file": "raw/ipsos/2026-10_BC_Call_Poll_Release.pdf",
+   "http": "200",
+   "bytes": 180025,
+   "accessed_utc": "2026-10-24T10:09:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "ipsos",
+   "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/BC%20Call%20Poll%20Tables.pdf",
+   "file": "raw/ipsos/2026-10_BC_Call_Poll_Tables.pdf",
+   "http": "200",
+   "bytes": 371312,
+   "accessed_utc": "2026-10-24T10:09:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "ipsos",
+   "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/BC%20Poll%201%20Release.pdf",
+   "file": "raw/ipsos/2026-10_BC_Poll_1_Release.pdf",
+   "http": "200",
+   "bytes": 190071,
+   "accessed_utc": "2026-10-24T10:09:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "ipsos",
+   "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/BC%20Poll%201%20Tables.pdf",
+   "file": "raw/ipsos/2026-10_BC_Poll_1_Tables.pdf",
+   "http": "200",
+   "bytes": 368822,
+   "accessed_utc": "2026-10-24T10:09:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "ipsos",
+   "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/BC%20Poll%202%20Release.pdf",
+   "file": "raw/ipsos/2026-10_BC_Poll_2_Release.pdf",
+   "http": "200",
+   "bytes": 195973,
+   "accessed_utc": "2026-10-24T10:09:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "ipsos",
+   "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/BC%20Poll%202%20Tables.pdf",
+   "file": "raw/ipsos/2026-10_BC_Poll_2_Tables.pdf",
+   "http": "200",
+   "bytes": 403515,
+   "accessed_utc": "2026-10-24T10:09:01Z",
+   "err": ""
+  },
+  {
+   "pollster": "forum_research",
+   "url": "https://www.forumresearch.com/assets/index-PR6rHVi_.js",
+   "file": "raw/forum_research/app.js.download",
+   "http": "200",
+   "bytes": 1329504,
+   "accessed_utc": "2026-10-24T10:10:41Z",
+   "err": ""
+  },
+  {
+   "pollster": "forum_research",
+   "url": "https://www.forumresearch.com/api/news/2026/10/conservatives-on-track-for-majority-government-in-british-columbia",
+   "file": "raw/forum_research/forum_bc_2026-10-23.json",
+   "http": "200",
+   "bytes": 3923,
+   "accessed_utc": "2026-10-24T10:10:50Z",
+   "err": ""
+  },
+  {
+   "pollster": "forum_research",
+   "url": "https://www.forumresearch.com/news/attachments/23310996-1c29-403c-ad66-c0c0c3899c67.pdf",
+   "file": "raw/forum_research/forum_bc_release_20261023.pdf",
+   "http": "200",
+   "bytes": 457676,
+   "accessed_utc": "2026-10-24T10:10:59Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/10/2026.10.05_BC_Elxn_2.pdf",
+   "file": "raw/angus_reid/2026.10.05_BC_Elxn_2.pdf",
+   "http": "200",
+   "bytes": 471911,
+   "accessed_utc": "2026-10-24T10:11:44Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/10/2026.10.05_BC_Elxn_2_tables.pdf",
+   "file": "raw/angus_reid/2026.10.05_BC_Elxn_2_tables.pdf",
+   "http": "200",
+   "bytes": 272325,
+   "accessed_utc": "2026-10-24T10:11:44Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2025/10/2025.10.26_BC_Rustad_tables.pdf",
+   "file": "raw/angus_reid/2025.10.26_BC_Rustad_tables.pdf",
+   "http": "200",
+   "bytes": 433445,
+   "accessed_utc": "2026-10-24T10:11:44Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2025/10/2025.10.26_BC_Rustad.pdf",
+   "file": "raw/angus_reid/2025.10.26_BC_Rustad.pdf",
+   "http": "200",
+   "bytes": 383884,
+   "accessed_utc": "2026-10-24T10:11:45Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/05/2026.05.05_BC_tables.pdf",
+   "file": "raw/angus_reid/2026.05.05_BC_tables.pdf",
+   "http": "200",
+   "bytes": 303658,
+   "accessed_utc": "2026-10-24T10:11:45Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/05/2026.05.05_BC.pdf",
+   "file": "raw/angus_reid/2026.05.05_BC.pdf",
+   "http": "200",
+   "bytes": 459153,
+   "accessed_utc": "2026-10-24T10:11:45Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/09/2026.09.23_BC_Elxn_1.pdf",
+   "file": "raw/angus_reid/2026.09.23_BC_Elxn_1.pdf",
+   "http": "200",
+   "bytes": 531880,
+   "accessed_utc": "2026-10-24T10:11:46Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/09/2026.09.24_BC_Elxn_1_PR_tables.pdf",
+   "file": "raw/angus_reid/2026.09.24_BC_Elxn_1_PR_tables.pdf",
+   "http": "200",
+   "bytes": 130070,
+   "accessed_utc": "2026-10-24T10:11:46Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2025/09/2025.09.11_Cross_canada_Press_release_tables.pdf",
+   "file": "raw/angus_reid/2025.09.11_Cross_canada_Press_release_tables.pdf",
+   "http": "200",
+   "bytes": 183154,
+   "accessed_utc": "2026-10-24T10:11:46Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2025/09/2025.09.11_Canada_Outlook_BC.pdf",
+   "file": "raw/angus_reid/2025.09.11_Canada_Outlook_BC.pdf",
+   "http": "200",
+   "bytes": 404735,
+   "accessed_utc": "2026-10-24T10:11:47Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/06/2026.06.16_BC_final.pdf",
+   "file": "raw/angus_reid/2026.06.16_BC_final.pdf",
+   "http": "200",
+   "bytes": 462123,
+   "accessed_utc": "2026-10-24T10:11:47Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/06/2026.06.15_BC_release_tables.pdf",
+   "file": "raw/angus_reid/2026.06.15_BC_release_tables.pdf",
+   "http": "200",
+   "bytes": 143357,
+   "accessed_utc": "2026-10-24T10:11:47Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/03/2026.04.01_BC_tables.pdf",
+   "file": "raw/angus_reid/2026.04.01_BC_tables.pdf",
+   "http": "200",
+   "bytes": 416967,
+   "accessed_utc": "2026-10-24T10:11:48Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/03/2026.04.01_BC_Spotlight.pdf",
+   "file": "raw/angus_reid/2026.04.01_BC_Spotlight.pdf",
+   "http": "200",
+   "bytes": 567726,
+   "accessed_utc": "2026-10-24T10:11:48Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/09/2026.09.17_BC_Spotlight_final.pdf",
+   "file": "raw/angus_reid/2026.09.17_BC_Spotlight_final.pdf",
+   "http": "200",
+   "bytes": 456462,
+   "accessed_utc": "2026-10-24T10:11:48Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/09/2026.09.15_BC_solo.pdf",
+   "file": "raw/angus_reid/2026.09.15_BC_solo.pdf",
+   "http": "200",
+   "bytes": 98618,
+   "accessed_utc": "2026-10-24T10:11:48Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/10/2026.10.19_BC_Poll_3_tables.pdf",
+   "file": "raw/angus_reid/2026.10.19_BC_Poll_3_tables.pdf",
+   "http": "200",
+   "bytes": 433725,
+   "accessed_utc": "2026-10-24T10:11:49Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/10/2026.10.20_BC_Elxn3.pdf",
+   "file": "raw/angus_reid/2026.10.20_BC_Elxn3.pdf",
+   "http": "200",
+   "bytes": 483937,
+   "accessed_utc": "2026-10-24T10:11:49Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2025/12/2025.12.16_provincial_outlook_PR_TABLES.pdf",
+   "file": "raw/angus_reid/2025.12.16_provincial_outlook_PR_TABLES.pdf",
+   "http": "200",
+   "bytes": 167174,
+   "accessed_utc": "2026-10-24T10:11:49Z",
+   "err": ""
+  },
+  {
+   "pollster": "angus_reid",
+   "url": "https://angusreid.org/wp-content/uploads/2026/02/2025.12.18_Provincial_outlook.pdf",
+   "file": "raw/angus_reid/2025.12.18_Provincial_outlook.pdf",
+   "http": "200",
+   "bytes": 590779,
+   "accessed_utc": "2026-10-24T10:11:50Z",
+   "err": ""
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2025/10/Tables_Politics_BC_06Oct2025.pdf",
+   "file": "raw/research_co/Tables_Politics_BC_06Oct2025.pdf",
+   "http": "200",
+   "bytes": 104393,
+   "accessed_utc": "2026-10-24T10:11:50Z",
+   "err": ""
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2025/10/Release_Politics_BC_06Oct2025.pdf",
+   "file": "raw/research_co/Release_Politics_BC_06Oct2025.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:11:50Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2025/03/Tables_Politics_BC_11Mar2025.pdf",
+   "file": "raw/research_co/Tables_Politics_BC_11Mar2025.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:11:51Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2025/03/Release_Politics_BC_11Mar2025.pdf",
+   "file": "raw/research_co/Release_Politics_BC_11Mar2025.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:11:51Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2026/10/Tables_Politics_BC_13Oct2026.pdf",
+   "file": "raw/research_co/Tables_Politics_BC_13Oct2026.pdf",
+   "http": "200",
+   "bytes": 163519,
+   "accessed_utc": "2026-10-24T10:11:51Z",
+   "err": ""
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2026/10/Release_Politics_BC_13Oct2026.pdf",
+   "file": "raw/research_co/Release_Politics_BC_13Oct2026.pdf",
+   "http": "200",
+   "bytes": 378082,
+   "accessed_utc": "2026-10-24T10:11:52Z",
+   "err": ""
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2026/08/Tables_Politics_BC__18Aug2026.pdf",
+   "file": "raw/research_co/Tables_Politics_BC__18Aug2026.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:11:52Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2026/08/Release_Politics_BC__18Aug2026.pdf",
+   "file": "raw/research_co/Release_Politics_BC__18Aug2026.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:11:52Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2026/06/Tables_Politics__BC_08Jun2026.pdf",
+   "file": "raw/research_co/Tables_Politics__BC_08Jun2026.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:11:53Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2026/06/Release_Politics__BC_08Jun2026.pdf",
+   "file": "raw/research_co/Release_Politics__BC_08Jun2026.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:11:53Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2025/06/Tables_Politics_BC_16Jun2025.pdf",
+   "file": "raw/research_co/Tables_Politics_BC_16Jun2025.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:11:53Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2025/06/Release_Politics_BC_16Jun2025.pdf",
+   "file": "raw/research_co/Release_Politics_BC_16Jun2025.pdf",
+   "http": "200",
+   "bytes": 239532,
+   "accessed_utc": "2026-10-24T10:11:53Z",
+   "err": ""
+  },
+  {
+   "pollster": "leger",
+   "url": "https://documents.leger360.com/hubfs/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/10.%20October%202026/Media%20Release%20-%20BC%20Election%20Polling%20October%2013%2c%202026.pdf",
+   "file": "raw/leger/Media_20Release_20-_20BC_20Election_20Polling_20October_2013_2c_202026.pdf",
+   "http": "200",
+   "bytes": 971827,
+   "accessed_utc": "2026-10-24T10:11:54Z",
+   "err": ""
+  },
+  {
+   "pollster": "liaison_strategies",
+   "url": "https://press.liaisonstrategies.ca/content/files/2026/10/2026.10.09-British-Columbia-Charts.pdf",
+   "file": "raw/liaison_strategies/2026.10.09-British-Columbia-Charts.pdf",
+   "http": "200",
+   "bytes": 1001115,
+   "accessed_utc": "2026-10-24T10:11:54Z",
+   "err": ""
+  },
+  {
+   "pollster": "liaison_strategies",
+   "url": "https://press.liaisonstrategies.ca/content/files/2026/10/2026.10.09-British-Columbia-Tables.pdf",
+   "file": "raw/liaison_strategies/2026.10.09-British-Columbia-Tables.pdf",
+   "http": "200",
+   "bytes": 2151072,
+   "accessed_utc": "2026-10-24T10:11:55Z",
+   "err": ""
+  },
+  {
+   "pollster": "liaison_strategies",
+   "url": "https://press.liaisonstrategies.ca/content/files/2025/05/LS-BC-2025---May-2.pdf",
+   "file": "raw/liaison_strategies/LS-BC-2025---May-2.pdf",
+   "http": "200",
+   "bytes": 4567313,
+   "accessed_utc": "2026-10-24T10:11:57Z",
+   "err": ""
+  },
+  {
+   "pollster": "liaison_strategies",
+   "url": "https://press.liaisonstrategies.ca/content/files/2026/09/2026.09.29-BC-Charts.pdf",
+   "file": "raw/liaison_strategies/2026.09.29-BC-Charts.pdf",
+   "http": "200",
+   "bytes": 2595120,
+   "accessed_utc": "2026-10-24T10:11:57Z",
+   "err": ""
+  },
+  {
+   "pollster": "liaison_strategies",
+   "url": "https://press.liaisonstrategies.ca/content/files/2026/09/2026.09.29-BC-Tables.pdf",
+   "file": "raw/liaison_strategies/2026.09.29-BC-Tables.pdf",
+   "http": "200",
+   "bytes": 7808475,
+   "accessed_utc": "2026-10-24T10:11:59Z",
+   "err": ""
+  },
+  {
+   "pollster": "liaison_strategies",
+   "url": "https://press.liaisonstrategies.ca/content/files/2026/09/2026.09.23-BC-Charts.pdf",
+   "file": "raw/liaison_strategies/2026.09.23-BC-Charts.pdf",
+   "http": "200",
+   "bytes": 1184072,
+   "accessed_utc": "2026-10-24T10:11:59Z",
+   "err": ""
+  },
+  {
+   "pollster": "liaison_strategies",
+   "url": "https://press.liaisonstrategies.ca/content/files/2026/09/2026.09.23-BC-Tables.pdf",
+   "file": "raw/liaison_strategies/2026.09.23-BC-Tables.pdf",
+   "http": "200",
+   "bytes": 2709087,
+   "accessed_utc": "2026-10-24T10:12:00Z",
+   "err": ""
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/2026/10/23/bcpoli-oct23/",
+   "file": "raw/research_co/bcpoli_oct23.html",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:12:58Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/api/v1/file/a7556639-645c-4f7e-a737-531e01a81bf8.pdf",
+   "file": "raw/pollara/pollara_wave1_tables.pdf",
+   "http": "200",
+   "bytes": 324388,
+   "accessed_utc": "2026-10-24T10:13:27Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/archive",
+   "file": "raw/pollara/substack_archive.html",
+   "http": "200",
+   "bytes": 237561,
+   "accessed_utc": "2026-10-24T10:13:28Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/after-the-thrill-is-gone",
+   "file": "raw/pollara/substack_after-the-thrill-is-gone.html",
+   "http": "200",
+   "bytes": 185710,
+   "accessed_utc": "2026-10-24T10:13:34Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/bad-moon-rising",
+   "file": "raw/pollara/substack_bad-moon-rising.html",
+   "http": "200",
+   "bytes": 171751,
+   "accessed_utc": "2026-10-24T10:13:34Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/carry-on-my-wayward-son",
+   "file": "raw/pollara/substack_carry-on-my-wayward-son.html",
+   "http": "200",
+   "bytes": 164196,
+   "accessed_utc": "2026-10-24T10:13:34Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/dont-stand-so-close-to-me",
+   "file": "raw/pollara/substack_dont-stand-so-close-to-me.html",
+   "http": "200",
+   "bytes": 198136,
+   "accessed_utc": "2026-10-24T10:13:34Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/i-shaw-the-sign",
+   "file": "raw/pollara/substack_i-shaw-the-sign.html",
+   "http": "200",
+   "bytes": 207051,
+   "accessed_utc": "2026-10-24T10:13:35Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/lets-stay-together-999",
+   "file": "raw/pollara/substack_lets-stay-together-999.html",
+   "http": "200",
+   "bytes": 226975,
+   "accessed_utc": "2026-10-24T10:13:35Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/mambo-numero-cinq",
+   "file": "raw/pollara/substack_mambo-numero-cinq.html",
+   "http": "200",
+   "bytes": 213884,
+   "accessed_utc": "2026-10-24T10:13:35Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/message-in-a-bottle",
+   "file": "raw/pollara/substack_message-in-a-bottle.html",
+   "http": "200",
+   "bytes": 201262,
+   "accessed_utc": "2026-10-24T10:13:36Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/somebody-told-me",
+   "file": "raw/pollara/substack_somebody-told-me.html",
+   "http": "200",
+   "bytes": 191425,
+   "accessed_utc": "2026-10-24T10:13:36Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/stuck-in-the-middle-with-you",
+   "file": "raw/pollara/substack_stuck-in-the-middle-with-you.html",
+   "http": "200",
+   "bytes": 199851,
+   "accessed_utc": "2026-10-24T10:13:36Z",
+   "err": ""
+  },
+  {
+   "pollster": "pollara",
+   "url": "https://pollarastrategicinsights.substack.com/p/the-final-countdowns",
+   "file": "raw/pollara/substack_the-final-countdowns.html",
+   "http": "200",
+   "bytes": 147259,
+   "accessed_utc": "2026-10-24T10:13:37Z",
+   "err": ""
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2026/10/Release_Politics_BC_23Oct2026.pdf",
+   "file": "raw/research_co/Release_Politics_BC_23Oct2026.pdf",
+   "http": "200",
+   "bytes": 384162,
+   "accessed_utc": "2026-10-24T10:13:43Z",
+   "err": ""
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2025/10/Release_Politics_BC_06Oct2025.pdf",
+   "file": "raw/research_co/Release_Politics_BC_06Oct2025.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:14:29Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2025/03/Tables_Politics_BC_11Mar2025.pdf",
+   "file": "raw/research_co/Tables_Politics_BC_11Mar2025.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:15:14Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2026/08/Tables_Politics_BC__18Aug2026.pdf",
+   "file": "raw/research_co/Tables_Politics_BC__18Aug2026.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:16:00Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2026/06/Tables_Politics__BC_08Jun2026.pdf",
+   "file": "raw/research_co/Tables_Politics__BC_08Jun2026.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:16:45Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "research_co",
+   "url": "https://researchco.ca/wp-content/uploads/2025/06/Tables_Politics_BC_16Jun2025.pdf",
+   "file": "raw/research_co/Tables_Politics_BC_16Jun2025.pdf",
+   "http": "429",
+   "bytes": 1168,
+   "accessed_utc": "2026-10-24T10:17:30Z",
+   "err": "",
+   "note": "non-PDF error page deleted after download"
+  },
+  {
+   "pollster": "leger",
+   "url": "https://leger360.com/in-the-news-bc-election-polling-september-2026/",
+   "file": "raw/leger/leger_sept2026_page.html",
+   "http": "200",
+   "bytes": 344471,
+   "accessed_utc": "2026-10-24T10:19:21Z",
+   "err": ""
+  },
+  {
+   "pollster": "leger",
+   "url": "https://leger360.com/bc-election-2026-october22-poll/",
+   "file": "raw/leger/leger_oct22_page.html",
+   "http": "200",
+   "bytes": 342175,
+   "accessed_utc": "2026-10-24T10:19:21Z",
+   "err": ""
+  },
+  {
+   "pollster": "leger",
+   "url": "https://documents.leger360.com/hubfs/%C3%89tudes%20M%C3%A9diatiques/%C3%89tudes%20M%C3%A9diatiques%20-%202026/9.%20%C3%89tudes%20m%C3%A9diatiques%20septembre%202026/BC%20Politics/Media%20Release%20-%20BC%20Election%20Polling%20September%2029%2c%202026.pdf",
+   "file": "raw/leger/leger_bc_sept29_2026.pdf",
+   "http": "200",
+   "bytes": 1276797,
+   "accessed_utc": "2026-10-24T10:19:34Z",
+   "err": ""
+  }
+ ],
+ "meta": {
+  "built_utc": "2026-10-24T10:33:44Z",
+  "purpose": "BC 2026 provincial voting-intention polls, official releases",
+  "index_only": "Wikipedia 2026 British Columbia general election page (opinion polling section) used only to locate releases",
+  "not_fetched": {
+   "https://www.pollara.com/bc-conservatives-lead-by-five-heading-into-election-day/": "HTTP 429; WebFetch permission not answered",
+   "https://researchco.ca/2026/10/23/bcpoli-oct23/": "HTTP 429 after retries; release PDF and tables obtained instead",
+   "Research Co. tables PDFs Mar 2025, Jun 2025, Jun 2026, Aug 2026": "HTTP 429; release HTML pages used",
+   "YouTube Hotel Pacifico episodes (Pollara)": "HTTP 429"
+  },
+  "derived": "raw/_img/*.png and raw/mainstreet_research/img/*.png are page renders of downloaded PDFs; *.txt are text extractions (scripts/totext.py)",
+  "no_personal_data_sent": true
+ }
+}

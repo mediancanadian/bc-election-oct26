@@ -1,0 +1,181 @@
+2026 candidates 353 ridings 93
+2026 total valid 1792235
+p
+CENTRE     1.62
+CON       48.05
+GRN       10.97
+NDP       37.38
+ONEBC      1.51
+OTH        0.47
+Name: votes, dtype: float64
+leading {'CON': 64, 'NDP': 27, 'GRN': 2}
+votes per riding led {'CON': 13457.0, 'NDP': 24811.0, 'GRN': 98296.0}
+two-party CON share 2026 56.25
+boxes 7237 of 7268
+adv boxes 588 of 588
+incomplete ridings
+        0    1  left    p  margin       mpts
+ed                                         
+FRN   76   79     3  CON    4939  30.583937
+LFH   75   78     3  NDP    1149   5.886572
+NOI  105  108     3  CON    1311   5.318674
+PRO   68   70     2  CON    8414  50.229837
+SHU  104  117    13  CON    7084  26.610571
+VNS   74   81     7  NDP    3938  17.913028
+party file sums {'GP': 196593, 'NDP': 669901, 'CP': 861258, 'OTHER': 64483, 'Total Valid Votes': 1792235, 'Rejected Ballots': 4380, 'Total Votes Considered': 1796615}
+2024 shares {'CHP': 0.02, 'COMM': 0.03, 'CON': 43.28, 'FPBC': 0.06, 'GRN': 8.24, 'IND': 2.24, 'LBN': 0.07, 'NDP': 44.87, 'UNAF': 1.21}
+2024 other share (not CON/NDP/GRN) 3.61
+2024 seats {'NDP': 47, 'CON': 44, 'GRN': 2}
+2024 two-party CON 49.1
+    year  seats_in_house  maxshare  ...  seats_BCLIB  share_LEFT  share_CON
+19  1996              75     41.82  ...           33       39.45       0.00
+20  2001              79     57.62  ...           77       21.56       0.00
+21  2005              79     45.80  ...           46       41.52       0.55
+22  2009              85     45.82  ...           49       42.15       2.10
+23  2013              85     44.13  ...           49       39.72       4.75
+24  2017              87     40.37  ...           43       40.29       0.53
+25  2020              87     47.69  ...           28       47.69       1.91
+26  2024              93     44.87  ...            0       44.87      43.28
+
+[8 rows x 8 columns]
+years with any party share >= 48.05: [1928, 1945, 1949, 1975, 1979, 1983, 1986, 2001]
+years with any party seats >= 64: [2001]
+CON-family share by year >= 43: [[1928.0, 53.6], [2024.0, 43.28]]
+LEFT share < 37.38: [[1963.0, 27.8], [1966.0, 33.62], [1969.0, 33.92], [2001.0, 21.56]]
+           party_as_printed family   votes  vote_share_pct  printed_pct  seats
+0        Conservative Party    CON  192867           53.31        53.30     35
+1               Independent    OTH    3658            1.01         1.01      0
+2  Independent Conservative    CON    1064            0.29         0.29      0
+3        Independent Farmer    OTH     128            0.04         0.04      0
+4        Independent Labour    OTH     316            0.09         0.09      0
+5  Independent Labour Party    OTH   17908            4.95         4.95      1
+6       Independent Liberal    LIB    1001            0.28         0.28      0
+7             Liberal Party    LIB  144872           40.04        40.04     12
+{'Metro Vancouver': 46, 'Interior and North': 20, 'Rest of Vancouver Island': 8, 'Capital Region': 8, 'Okanagan': 6, 'Fraser Valley': 5}
+                     region   n  CON24  CON26  NDP24  NDP26  GRN24  GRN26  CONs24  CONs26  NDPs24  NDPs26  swing_mean  swing_min  swing_max  n_toward_CON  swing_pooled
+0            Capital Region   8   29.2   30.9   46.7   37.2   23.8   29.0       0       2       7       5         6.3       -5.3       16.4             7           6.9
+1             Fraser Valley   5   56.7   60.2   40.3   33.9    1.1    0.0       5       5       0       0         5.6        4.3        6.9             5           5.5
+2        Interior and North  20   51.8   56.0   33.0   29.0    9.2   10.3      16      16       3       3         4.0       -9.1       21.3            17           4.7
+3           Metro Vancouver  46   42.3   48.4   50.6   39.2    4.9    8.8      16      32      30      14         9.0        1.0       15.2            46           9.8
+4                  Okanagan   6   46.9   52.2   36.9   36.2    3.1    7.0       5       6       1       0         3.2       -1.2        8.4             5           3.1
+5  Rest of Vancouver Island   8   38.5   42.2   45.7   45.6   12.8   11.6       2       3       6       5         2.3       -1.5        4.8             7           2.4
+Green ran by region 2024/2026 {'grn24_ran': {'Capital Region': 8, 'Fraser Valley': 1, 'Interior and North': 16, 'Metro Vancouver': 32, 'Okanagan': 4, 'Rest of Vancouver Island': 8}, 'grn26_ran': {'Capital Region': 8, 'Fraser Valley': 0, 'Interior and North': 14, 'Metro Vancouver': 38, 'Okanagan': 5, 'Rest of Vancouver Island': 8}}
+flips 22
+                             name                    region win24 lead26
+ed_code                                                                 
+CRC               Courtenay-Comox  Rest of Vancouver Island   CON    NDP
+JFM          Juan de Fuca-Malahat            Capital Region   NDP    CON
+SAS                 Saanich South            Capital Region   NDP    CON
+BNC                Burnaby Centre           Metro Vancouver   NDP    CON
+BNO                 Burnaby North           Metro Vancouver   NDP    CON
+CQB      Coquitlam-Burke Mountain           Metro Vancouver   NDP    CON
+CQM       Coquitlam-Maillardville           Metro Vancouver   NDP    CON
+DLN                   Delta North           Metro Vancouver   NDP    CON
+MAP      Maple Ridge-Pitt Meadows           Metro Vancouver   NDP    CON
+NVS       North Vancouver-Seymour           Metro Vancouver   NDP    CON
+POM         Port Moody-Burquitlam           Metro Vancouver   NDP    CON
+RCS            Richmond-Steveston           Metro Vancouver   NDP    CON
+SRC            Surrey City Centre           Metro Vancouver   NDP    CON
+SRF              Surrey-Fleetwood           Metro Vancouver   NDP    CON
+SRG              Surrey-Guildford           Metro Vancouver   NDP    CON
+SRN                 Surrey-Newton           Metro Vancouver   NDP    CON
+VFV          Vancouver-Fraserview           Metro Vancouver   NDP    CON
+VLA             Vancouver-Langara           Metro Vancouver   NDP    CON
+VNY            Vancouver-Yaletown           Metro Vancouver   NDP    CON
+VRL                  Vernon-Lumby                  Okanagan   NDP    CON
+CWV               Cowichan Valley  Rest of Vancouver Island   NDP    CON
+LAO           Ladysmith-Oceanside  Rest of Vancouver Island   NDP    CON
+incumbents 79 unmatched 0 []
+incumbents trailing 21
+    ed_code             candidate         affiliation incumbent_same_district    mla_lims_affiliation_at_dissolution
+19      BNC             Anne Kang              BC NDP                       Y  British Columbia New Democratic Party
+29      BNO       Janet Routledge              BC NDP                       Y  British Columbia New Democratic Party
+49      CQB         Jodie Wickens              BC NDP                       Y  British Columbia New Democratic Party
+50      CQM  Jennifer Blatherwick              BC NDP                       Y  British Columbia New Democratic Party
+55      CRC           Brennan Day  Conservative Party                       Y                            Independent
+60      CWV      Debra Toporowski              BC NDP                       Y  British Columbia New Democratic Party
+79      JFM       Dana Lajeunesse              BC NDP                       Y  British Columbia New Democratic Party
+112     LAO   Stephanie Higginson              BC NDP                       Y  British Columbia New Democratic Party
+138     MAP            Lisa Beare              BC NDP                       Y  British Columbia New Democratic Party
+169     NVS           Susie Chant              BC NDP                       Y  British Columbia New Democratic Party
+176     PCN          Jordan Kealy         Independent                       Y                            Independent
+191     POM           Rick Glumac              BC NDP                       Y  British Columbia New Democratic Party
+237     SRC             Amna Shah              BC NDP                       Y  British Columbia New Democratic Party
+247     SRF           Jagrup Brar              BC NDP                       Y  British Columbia New Democratic Party
+251     SRG            Garry Begg              BC NDP                       Y  British Columbia New Democratic Party
+257     SRN         Jessie Sunner              BC NDP                       Y  British Columbia New Democratic Party
+276     SUS        Elenore Sturko            CentreBC                       N                            Independent
+298     VLA           Sunita Dhir              BC NDP                       Y  British Columbia New Democratic Party
+308     VNQ         Dallas Brodie               OneBC                       Y                            Independent
+331     VNY            Terry Yung              BC NDP                       Y  British Columbia New Democratic Party
+334     VRL      Harwinder Sandhu              BC NDP                       Y  British Columbia New Democratic Party
+{'BC NDP': 17, 'Conservative Party': 1, 'Independent': 1, 'CentreBC': 1, 'OneBC': 1}
+CENTRE ridings 35 votes 28998 share where ran 4.24
+                 ed_name             name     sh  rank
+222  Oak Bay-Gordon Head    Andrew Weaver  10.43   4.0
+349         Surrey South   Elenore Sturko  10.14   3.0
+10       Abbotsford West  Gurpreet Chahal   9.21   3.0
+278   Richmond-Steveston       Barry Wosk   7.98   3.0
+ vote > margin 4 ['Courtenay-Comox', 'Oak Bay-Gordon Head', 'Surrey City Centre', 'Vancouver-Point Grey']
+ONEBC ridings 33 votes 26991 share where ran 4.13
+                             ed_name              name     sh  rank
+120  Kelowna-Lake Country-Coldstream  Alexandra Wright  11.38   3.0
+262          Prince George-Valemount   Mitchell Lukoni   7.96   4.0
+14              Boundary-Similkameen     Keith Pomeroy   6.85   3.0
+8                   Abbotsford South         Robin Roy   6.59   3.0
+ vote > margin 6 ['Burnaby East', 'Burnaby South-Metrotown', 'Kelowna Centre', 'Kootenay Central', 'Penticton-Summerland', 'Surrey City Centre']
+Sturko Surrey South CentreBC 10.14 3 lead margin 8022 39.22
+Brodie Vancouver-Quilchena OneBC 4.04 5 lead margin 5687 28.56
+Eby Vancouver-Point Grey BC NDP 42.97 1 lead margin 538 2.96
+Doerkson Cariboo-Chilcotin Conservative Party 77.09 1 lead margin 11095 60.16
+Lowan Saanich North and the Islands BC Green Party 48.48 1 lead margin 5017 16.8
+Kealy Peace River North Independent 14.25 2 lead margin 7468 71.49
+                name       p  votes     sh
+384        David Eby     NDP   7811  42.97
+385    Alex McMillan     CON   7273  40.01
+386  Beatrice Sharpe     GRN   2448  13.47
+383    Michael Davis  CENTRE    647   3.56
+                     ed_name    p second  margin  mpts
+ed                                                    
+BNS  Burnaby South-Metrotown  NDP    CON      66  0.50
+LAO      Ladysmith-Oceanside  CON    NDP      89  0.30
+KEC           Kelowna Centre  CON    NDP     132  0.59
+CWV          Cowichan Valley  CON    NDP     150  0.58
+BNE             Burnaby East  NDP    CON     241  1.38
+POC           Port Coquitlam  NDP    CON     386  1.79
+VFV     Vancouver-Fraserview  CON    NDP     387  2.38
+SRC       Surrey City Centre  CON    NDP     395  3.28
+BLS   Bulkley Valley-Stikine  CON    NDP     461  5.43
+KOC         Kootenay Central  NDP    CON     466  2.42
+VNP     Vancouver-Point Grey  NDP    CON     538  2.96
+CRC          Courtenay-Comox  NDP    CON     696  2.34
+under 1pt 4 under 5pt 18 2024 under 5 22
+{'CPC': 44, 'LPC': 42, 'NDP': 6, 'GPC': 1}
+CPC 44 dNDP -4.6 dCON 4.8 swing 4.9 CON lead 38 NDP lead 6 other 0 flips 7 pooled dNDP -4.2
+GPC 1 dNDP -14.7 dCON 1.9 swing 16.4 CON lead 0 NDP lead 0 other 1 flips 0 pooled dNDP -14.7
+LPC 42 dNDP -10.5 dCON 5.5 swing 8.9 CON lead 25 NDP lead 16 other 1 flips 15 pooled dNDP -10.6
+NDP 6 dNDP -5.5 dCON -1.2 swing 0.7 CON lead 1 NDP lead 5 other 0 flips 0 pooled dNDP -6.8
+r(LPC share, dNDP) -0.586
+poll CON 43.84 count 48.05 diff 4.21
+poll NDP 38.87 count 37.38 diff -1.49
+poll GRN 12.0 count 10.97 diff -1.03
+poll CENTRE 1.71 count 1.62
+poll ONEBC 2.4 count 1.51
+Metro count {'CON': np.float64(48.4), 'NDP': np.float64(39.2), 'GRN': np.float64(8.8)} polled {'CON': 44.0, 'NDP': 40.43, 'GRN': 11.5}
+Island incl qathet 16 {'CON': np.float64(36.8), 'NDP': np.float64(41.5), 'GRN': np.float64(19.9)} polled(Island cols) {'CON': 34.89, 'NDP': 42.19, 'GRN': 18.67}
+Island excl qathet 15 {'CON': np.float64(36.6), 'NDP': np.float64(41.0), 'GRN': np.float64(20.5)} polled(Island cols) {'CON': 34.89, 'NDP': 42.19, 'GRN': 18.67}
+Capital only 8 {'CON': np.float64(30.9), 'NDP': np.float64(37.2), 'GRN': np.float64(29.0)} polled(Island cols) {'CON': 34.89, 'NDP': 42.19, 'GRN': 18.67}
+frozen 2026-10-24T03:41:31-07:00 (PDT) {'uniform': {'CON': 58, 'NDP': 33, 'GRN': 2}, 'proportional': {'CON': 60, 'NDP': 31, 'GRN': 2}}
+uni right 81
+prop right 83
+uniform tossups 13 {'CON': 11, 'NDP': 2}
+proportional tossups 13 {'CON': 10, 'NDP': 3}
+2026 ballots considered 1796615 valid 1792235 registered 7476364 24.03
+2024 registered 3609288
+2024 adv+final valid 1843088 51.07
+2024 adv+adv_ood+final+deo+special valid 1986936 55.05
+2024 all valid 2105341 ballots considered 2109658
+A down in 82 median -3.45 {'Capital Region': -1.4, 'Fraser Valley': -5.7, 'Interior and North': -5.4, 'Metro Vancouver': -3.5, 'Okanagan': -3.5, 'Rest of Vancouver Island': -2.6} r(dturn, swing) 0.166
+A (2026 ballots incl rejected) down in 82 median -3.32 {'Capital Region': -1.2, 'Fraser Valley': -5.6, 'Interior and North': -5.2, 'Metro Vancouver': -3.4, 'Okanagan': -3.4, 'Rest of Vancouver Island': -2.5} 0.164
+B down in 93 median -7.09 {'Capital Region': -5.5, 'Fraser Valley': -8.6, 'Interior and North': -8.0, 'Metro Vancouver': -7.1, 'Okanagan': -6.7, 'Rest of Vancouver Island': -7.1} r(dturn, swing) 0.248
+B (2026 ballots incl rejected) down in 93 median -7.0 {'Capital Region': -5.4, 'Fraser Valley': -8.4, 'Interior and North': -7.9, 'Metro Vancouver': -7.0, 'Okanagan': -6.6, 'Rest of Vancouver Island': -7.0} 0.249

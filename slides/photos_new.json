@@ -1,0 +1,170 @@
+{
+ "a1": {
+  "file_page": "https://commons.wikimedia.org/wiki/File:Over_British_Columbia,_Coquitlam_(504714)_(24238326286).jpg",
+  "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Over_British_Columbia%2C_Coquitlam_%28504714%29_%2824238326286%29.jpg/3840px-Over_British_Columbia%2C_Coquitlam_%28504714%29_%2824238326286%29.jpg",
+  "author": "Robert Linsdell from St. Andrews, Canada",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+  "credit": "Photo: Robert Linsdell from St. Andrews, Canada, CC BY 2.0",
+  "original_pixels": "3931x2211",
+  "slide": "suburbs, slide 3 or 5 (second choice after richmond)",
+  "fit": "Plane-window aerial titled Coquitlam: low-rise houses, a small tower cluster and the Fraser River in the 720 column, mountains on top; hazy and muted, reads as suburbs but weaker than richmond.",
+  "pixels": "3840x2160"
+ },
+ "richmond": {
+  "file_page": "https://commons.wikimedia.org/wiki/File:Richmond,_British_Columbia.jpg",
+  "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Richmond%2C_British_Columbia.jpg/3840px-Richmond%2C_British_Columbia.jpg",
+  "author": "Quintin Soloviev",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Photo: Quintin Soloviev, CC BY 4.0",
+  "original_pixels": "8000x5334",
+  "slide": "retry of the chosen Richmond file; suits slide 3 or 5 (suburbs)",
+  "fit": "Drone view of Richmond City Centre: mid-rise towers, low-rise blocks and trees, mountains behind; towers fill the centre 720 column, sky band on top for text; reads as suburb, not downtown Vancouver.",
+  "pixels": "3840x2560"
+ },
+ "d1": {
+  "file_page": "https://commons.wikimedia.org/wiki/File:Legislative_Chamber_inside_the_British_Columbia_Parliament_Buildings.jpg",
+  "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Legislative_Chamber_inside_the_British_Columbia_Parliament_Buildings.jpg/3840px-Legislative_Chamber_inside_the_British_Columbia_Parliament_Buildings.jpg",
+  "author": "Hayden Soloviev",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Photo: Hayden Soloviev, CC BY 4.0",
+  "original_pixels": "5712x4284",
+  "slide": "Legislature variant (chamber interior), differs from the cover and slide 2",
+  "fit": "Empty legislative chamber, symmetrical: Speaker's chair, Canadian and B.C. flags and red aisle sit dead centre in the 720 column; no people, no text; ceiling gives room for a headline.",
+  "pixels": "3840x2880"
+ },
+ "_not_obtained": {
+  "note": "Licence checked on the file page (wikitext) but NOT downloaded: upload.wikimedia.org kept answering HTTP 429 (robot policy) from this machine. Not visually checked unless stated.",
+  "kelowna": {
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kelowna_view_from_Knox_Mtn.jpg",
+   "licence": "CC BY 2.0",
+   "credit": "Photo: Sunny Goel, CC BY 2.0",
+   "original_pixels": "3563x2673",
+   "use_width": 1920
+  },
+  "vancouver": {
+   "file_page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Vancouver,_BC.jpg",
+   "licence": "CC BY 4.0",
+   "credit": "Photo: Quintin Soloviev, CC BY 4.0",
+   "original_pixels": "6662x4442",
+   "use_width": 3840
+  },
+  "A_suburbs": [
+   {
+    "file_page": "https://commons.wikimedia.org/wiki/File:Metrotown_aerial_view_2025.jpg",
+    "licence": "CC BY 4.0",
+    "credit": "Photo: Canmenwalker, CC BY 4.0",
+    "original_pixels": "2016x1512",
+    "use_width": 1920,
+    "why": "aerial of Metrotown, Burnaby"
+   },
+   {
+    "file_page": "https://commons.wikimedia.org/wiki/File:Surrey_Central_(2025).jpg",
+    "licence": "CC BY 4.0",
+    "credit": "Photo: Northwest, CC BY 4.0",
+    "original_pixels": "5183x1992",
+    "use_width": 3840,
+    "why": "aerial around Surrey Central station (towers plus low-rise)"
+   },
+   {
+    "file_page": "https://commons.wikimedia.org/wiki/File:Metrotown_deer_lake.jpg",
+    "licence": "CC0",
+    "credit": "Photo: Burnabyboi1011, CC0",
+    "original_pixels": "3938x2280",
+    "use_width": 3840,
+    "why": "Metrotown towers over Deer Lake park; seen at 1920 px: no houses, person silhouette outside the 720 column"
+   }
+  ],
+  "B_cost_of_living": [
+   {
+    "file_page": "https://commons.wikimedia.org/wiki/File:Whole_Foods_Market_Healthiest_Grocery_Store_(26214279360).jpg",
+    "licence": "CC BY 2.0",
+    "credit": "Photo: GoToVan from Vancouver, Canada, CC BY 2.0",
+    "original_pixels": "6144x4096",
+    "use_width": 3840,
+    "why": "grocery store at Park Royal, West Vancouver"
+   },
+   {
+    "file_page": "https://commons.wikimedia.org/wiki/File:Heirloom_cherry_tomatoes_at_Wholefoods_(9735849795).jpg",
+    "licence": "CC BY 2.0",
+    "credit": "Photo: Ruth Hartnup from Vancouver, Canada, CC BY 2.0",
+    "original_pixels": "4000x3000",
+    "use_width": 3840,
+    "why": "produce display, Vancouver"
+   },
+   {
+    "file_page": "https://commons.wikimedia.org/wiki/File:Chinese_supermarket_Vancouver_island_Canada_(29786680817).jpg",
+    "licence": "CC BY 2.0",
+    "credit": "Photo: dronepicr, CC BY 2.0",
+    "original_pixels": "4160x6240",
+    "use_width": 1920,
+    "why": "grocery in Victoria Chinatown, native portrait"
+   }
+  ],
+  "C_homes": [
+   {
+    "file_page": "https://commons.wikimedia.org/wiki/File:South_Surrey_house_20200926_102924_(50386517626).jpg",
+    "licence": "CC BY 2.0",
+    "credit": "Photo: waferboard, CC BY 2.0",
+    "original_pixels": "9136x3824",
+    "use_width": 3840,
+    "why": "South Surrey street panorama"
+   }
+  ],
+  "D_legislature_more": [
+   {
+    "file_page": "https://commons.wikimedia.org/wiki/File:BC-Legislative-Assembly-Chamber.jpg",
+    "licence": "CC BY 2.0",
+    "credit": "Photo: Sam from Vancouver, Canada, CC BY 2.0",
+    "original_pixels": "4272x2848",
+    "use_width": 3840,
+    "why": "chamber interior (2009)"
+   },
+   {
+    "file_page": "https://commons.wikimedia.org/wiki/File:BC-Legislature.jpg",
+    "licence": "Public domain",
+    "credit": "Photo: Makaristos, public domain",
+    "original_pixels": "3072x2304",
+    "use_width": 1920,
+    "why": "chamber interior"
+   }
+  ],
+  "gas_price_sign": "none found in B.C. under a free licence at usable size",
+  "rejected_after_viewing": "File:Wohnhäuser_surrey_20260612_1.jpg (CC BY 4.0) shows Surrey City Centre towers over a vacant lot, not houses"
+ },
+ "_needs_approval": {
+  "note": "CC BY-SA: needs approval before use. Not downloaded, not visually checked.",
+  "items": [
+   {
+    "need": "B shopping street",
+    "file_page": "https://commons.wikimedia.org/wiki/File:St_Johns_St_and_Williams_St_in_Port_Moody.JPG",
+    "licence": "CC BY-SA 3.0 (or GFDL)",
+    "credit": "Photo: ChrisStubbs, CC BY-SA 3.0",
+    "original_pixels": "3072x2304"
+   },
+   {
+    "need": "C homes",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Murrayville_02_murrays_crescent.jpg",
+    "licence": "CC BY-SA 3.0",
+    "credit": "Photo: James.bc, CC BY-SA 3.0",
+    "original_pixels": "3800x2700"
+   },
+   {
+    "need": "A suburbs",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Port_Moody.jpg",
+    "licence": "CC BY-SA 4.0",
+    "credit": "Photo: Northwest, CC BY-SA 4.0",
+    "original_pixels": "6635x2220"
+   },
+   {
+    "need": "D chamber",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Legislative_Assembly_of_British_Columbia_-_20190510.jpg",
+    "licence": "CC BY-SA 4.0",
+    "credit": "Photo: Sikander, CC BY-SA 4.0",
+    "original_pixels": "4032x3024"
+   }
+  ]
+ }
+}

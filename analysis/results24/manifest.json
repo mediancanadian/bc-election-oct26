@@ -1,0 +1,225 @@
+{
+ "generated_utc_from": "scratch/dl.log",
+ "user_agent": "Mozilla/5.0 (X11; Linux x86_64) research-script",
+ "files": [
+  {
+   "file": "raw/ebc_va_results/provincial_voting_results_by_va.csv",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/44914a35-de9a-4830-ac48-870001ef8935/resource/fb40239e-b718-4a79-b18f-7a62139d9792/download/provincial_voting_results_by_va.csv",
+   "accessed_utc": "2026-10-24T10:03:27Z",
+   "http_status": 200,
+   "bytes": 30441429,
+   "sha256": "43fe8718ee9ac24e21e5ca60a1e1043bcc59e10da1779c261ef6a3973f7319a2",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_va_results/provincial-voting-results-data-dictionary.pdf",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/44914a35-de9a-4830-ac48-870001ef8935/resource/0641be6c-1287-4625-a707-ea3f54710a04/download/provincial-voting-results-data-dictionary.pdf",
+   "accessed_utc": "2026-10-24T10:03:29Z",
+   "http_status": 200,
+   "bytes": 188893,
+   "sha256": "e979bb3c78ac8a27f7c727e257a39d8a6d3483b84f6a39f7dce04df0e5a9c31f",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_vp_results/provincial_voting_results_by_voting_place.csv",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/44914a35-de9a-4830-ac48-870001ef8935/resource/4e7be8e3-0805-4f39-87f3-47c4c29e262d/download/provincial_voting_results_by_voting_place.csv",
+   "accessed_utc": "2026-10-24T10:03:29Z",
+   "http_status": 200,
+   "bytes": 1589548,
+   "sha256": "5bb97786bb664ca8567e90c8486a062bc3f0b18af062ad457eab7cfb3b2e1291",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_edva_conv/edva_conversiontable2017to2024.xlsx",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/fb26db04-780c-4229-a147-da4fd5311d36/resource/7dec2191-33e8-46b6-83cc-ad773b57742d/download/edva_conversiontable2017to2024.xlsx",
+   "accessed_utc": "2026-10-24T10:03:30Z",
+   "http_status": 200,
+   "bytes": 346068,
+   "sha256": "e7f174cd8f9640711ed292733fb1e3468301859aad3408b8137aedec70ee87bd",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_edva_conv/edva_conversiontable2024to2017.xlsx",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/fb26db04-780c-4229-a147-da4fd5311d36/resource/4d6da956-a849-48ea-a64e-cea0238c36c2/download/edva_conversiontable2024to2017.xlsx",
+   "accessed_utc": "2026-10-24T10:03:31Z",
+   "http_status": 200,
+   "bytes": 350178,
+   "sha256": "25a194f06f27b73e8b5aefbb589327072b83830b0fbab299c24a3a76672c10e9",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_regvoters/provincial_registered_voter_counts.csv",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/60bf8c02-1436-49fc-b350-f985618d6881/resource/c332d1dc-67aa-4a6a-883f-18a50751844d/download/provincial_registered_voter_counts.csv",
+   "accessed_utc": "2026-10-24T10:03:32Z",
+   "http_status": 200,
+   "bytes": 4066226,
+   "sha256": "289b4409c6d0bc7c554000fbdfd45a38b6190ee46f1cb608fc3ed5c1a0c08ed0",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_regvoters/provincial-registered-voter-counts-data-dictionary.pdf",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/60bf8c02-1436-49fc-b350-f985618d6881/resource/9a188e3f-93ec-485c-a795-1842d53fc9a3/download/provincial-registered-voter-counts-data-dictionary.pdf",
+   "accessed_utc": "2026-10-24T10:03:33Z",
+   "http_status": 200,
+   "bytes": 161279,
+   "sha256": "d9bf34f1b0a6920e1ce38c9002c273a5650376f659737b0378d23274b89c05ed",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_sov/statement-of-votes-2024-provincial-election.pdf",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf",
+   "accessed_utc": "2026-10-24T10:03:34Z",
+   "http_status": 200,
+   "bytes": 3857759,
+   "sha256": "a5fc8d619d7ef017d02ee0d19c94e82a39e4520d35d1ce7aa9221fa5522fe17f",
+   "licence": "Elections BC publication (copyright Elections BC; no open licence stated on the PDF)"
+  },
+  {
+   "file": "raw/ebc_sov/statement-of-votes-2020-provincial-general-election.pdf",
+   "url": "https://elections.bc.ca/docs/rpt/statement-of-votes-2020-provincial-general-election.pdf",
+   "accessed_utc": "2026-10-24T10:03:35Z",
+   "http_status": 200,
+   "bytes": 4050858,
+   "sha256": "3aaef3fd6ee151def91e2c574068f27c1b70e4dd88a385d98c5be8c14b1e3b1e",
+   "licence": "Elections BC publication (copyright Elections BC; no open licence stated on the PDF)"
+  },
+  {
+   "file": "raw/ebc_licence/EBC-Open-Data-Licence.pdf",
+   "url": "https://elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+   "accessed_utc": "2026-10-24T10:03:36Z",
+   "http_status": 200,
+   "bytes": 176681,
+   "sha256": "f82a8cf8de781b2cbb5b0cccd69e3769d542d3395cb5124e241ffaa4e5b1c98c",
+   "licence": "Licence text itself"
+  },
+  {
+   "file": "raw/ebc_va_shp_2017/edvas02232017.zip",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/f309df17-0462-40c0-bb11-b76c1cb83024/resource/712d1b73-24b8-4fb3-b491-50227e1cd720/download/edvas02232017.zip",
+   "accessed_utc": "2026-10-24T10:03:36Z",
+   "http_status": 200,
+   "bytes": 20467013,
+   "sha256": "a3841457c11ddf4dd02762e6af30ab27d554b8ab02bbb80a1a3f1b93cc04c1e2",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_ceo_reports/Report_of_the_CEO_PGE2024.pdf",
+   "url": "https://www.elections.bc.ca/docs/rpt/Report_of_the_CEO_PGE2024.pdf",
+   "accessed_utc": "2026-10-24T10:04:58Z",
+   "http_status": 200,
+   "bytes": 16855336,
+   "sha256": "5efba5bd0250915ab4112e151e4cc70fb8c35e1e58775cd8394c0afe5e9ce530",
+   "licence": "Elections BC publication (copyright Elections BC; no open licence stated on the PDF)"
+  },
+  {
+   "file": "raw/ebc_ceo_reports/Report-of-the-CEO-PGE2024-Vol-II.pdf",
+   "url": "https://elections.bc.ca/docs/rpt/Report-of-the-CEO-PGE2024-Vol-II.pdf",
+   "accessed_utc": "2026-10-24T10:05:00Z",
+   "http_status": 200,
+   "bytes": 24000485,
+   "sha256": "ee009ae4fff0b04f66af6fdd78d1bdf4bbc76d328435bb0e05706354bc0567df",
+   "licence": "Elections BC publication (copyright Elections BC; no open licence stated on the PDF)"
+  },
+  {
+   "file": "raw/ebc_ceo_reports/2020-provincial-general-election-report.pdf",
+   "url": "https://www.elections.bc.ca/docs/rpt/2020-provincial-general-election-report.pdf",
+   "accessed_utc": "2026-10-24T10:05:01Z",
+   "http_status": 200,
+   "bytes": 67950900,
+   "sha256": "2db4736896116d8e20033ca42ff6ced8fa06d44fe915d9adb9d525dd03fa9581",
+   "licence": "Elections BC publication (copyright Elections BC; no open licence stated on the PDF)"
+  },
+  {
+   "file": "raw/bcgw_ed2023/ed2023_bs11.geojson",
+   "url": "https://openmaps.gov.bc.ca/geo/pub/WHSE_ADMIN_BOUNDARIES.EBC_ELECTORAL_DISTS_BS11_SVW/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=pub:WHSE_ADMIN_BOUNDARIES.EBC_ELECTORAL_DISTS_BS11_SVW&outputFormat=application/json&srsName=EPSG:3005",
+   "accessed_utc": "2026-10-24T10:06:03Z",
+   "http_status": 200,
+   "bytes": 21828811,
+   "sha256": "c1851c8058541ce16739bbb644ad967cfe5defb01d399fb1cc04c84b12b91e88",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/statcan_gaf2021/2021_92-151_X.zip",
+   "url": "https://www12.statcan.gc.ca/census-recensement/2021/geo/aip-pia/attribute-attribs/files-fichiers/2021_92-151_X.zip",
+   "accessed_utc": "2026-10-24T10:06:15Z",
+   "http_status": 403,
+   "bytes": 21905,
+   "sha256": null,
+   "licence": ""
+  },
+  {
+   "file": "raw/bcgw_va2024/va2024_bs11.geojson",
+   "url": "https://openmaps.gov.bc.ca/geo/pub/WHSE_ADMIN_BOUNDARIES.EBC_VOTING_AREAS_BS11_POLY_SVW/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=pub:WHSE_ADMIN_BOUNDARIES.EBC_VOTING_AREAS_BS11_POLY_SVW&outputFormat=application/json&srsName=EPSG:3005",
+   "accessed_utc": "2026-10-24T10:06:32Z",
+   "http_status": 200,
+   "bytes": 62884815,
+   "sha256": "d57c00acbb9af638425ae6e0519aa2363fb83e8fe1060117834f5f427e628168",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_sva_shp_2017/svas02232017.zip",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/6590d65d-efcb-46d5-be23-0f19cd35a5d2/resource/4224467b-33e2-4edf-ad3d-026ae1ba9f1b/download/svas02232017.zip",
+   "accessed_utc": "2026-10-24T10:08:07Z",
+   "http_status": 200,
+   "bytes": 48087,
+   "sha256": "e89a21f87c1a5de204345944696e2791c9e3efec248598052a8924f6802ebba9",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/ebc_voting_places/ebc_voting_places_sp.csv",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/2e12376d-f68c-4c33-ac4f-82d1b5a65dc2/resource/b130ea8e-bd51-48f8-bdf6-60c55acbfbbf/download/ebc_voting_places_sp.csv",
+   "accessed_utc": "2026-10-24T10:08:08Z",
+   "http_status": 200,
+   "bytes": 1094879,
+   "sha256": "ab460cf0eacfc606260cb8753ff5942ea2a586942ef9a149c0a1b9d85234b038",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/bcgw_vavp2024/vavp_ge2024.geojson",
+   "url": "https://openmaps.gov.bc.ca/geo/pub/WHSE_HUMAN_CULTURAL_ECONOMIC.EBC_VAVP_GE2024_SV/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=pub:WHSE_HUMAN_CULTURAL_ECONOMIC.EBC_VAVP_GE2024_SV&outputFormat=application/json&srsName=EPSG:3005",
+   "accessed_utc": "2026-10-24T10:08:08Z",
+   "http_status": 200,
+   "bytes": 63909061,
+   "sha256": "aab613e2dfa1d4ae43c4870015dea5f44702e1756a3930a3b608575a5439304e",
+   "licence": "Elections BC Open Data Licence (https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)"
+  },
+  {
+   "file": "raw/bcebc_reports/BCEBC-Final-Report-April-3-2023.pdf",
+   "url": "https://elections.bc.ca/docs/rpt/BCEBC-Final-Report-April-3-2023.pdf",
+   "accessed_utc": "2026-10-24T10:09:20Z",
+   "http_status": 200,
+   "bytes": 20981201,
+   "sha256": "36149cbe18740c72af50d6d4ba68be2338b15bfdd3420177e0cd88f47761ad94",
+   "licence": "Elections BC / BC Electoral Boundaries Commission publication (no open licence stated)"
+  },
+  {
+   "file": "raw/bcebc_reports/2023-electoral-district-names-codes.pdf",
+   "url": "https://elections.bc.ca/docs/2023-electoral-district-names-codes.pdf",
+   "accessed_utc": "2026-10-24T10:09:23Z",
+   "http_status": 200,
+   "bytes": 125674,
+   "sha256": "45ba7ff1b8e2a9e25b4ea6c1e3f633790c3450b713fdbb92a4cc8041374c7d6a",
+   "licence": "Elections BC / BC Electoral Boundaries Commission publication (no open licence stated)"
+  },
+  {
+   "file": "raw/leg_bc/current-party-standings.html",
+   "url": "https://www.leg.bc.ca/members/current-party-standings",
+   "accessed_utc": "2026-10-24T10:16:08Z",
+   "http_status": 200,
+   "bytes": 92860,
+   "sha256": "3306b66148ca27210b657cd2b7bff76ee0e188089ddb407762db950d3d10c927",
+   "licence": "Legislative Assembly of BC website/API; copyright Legislative Assembly (see https://www.leg.bc.ca disclaimer/copyright)"
+  },
+  {
+   "file": "raw/leg_bc/constituency_members.json",
+   "url": "https://api.lims.leg.bc.ca/graphql (POST allConstituencies with memberParliaments)",
+   "accessed_utc": "2026-10-24T10:17:12Z",
+   "http_status": 200,
+   "bytes": 86013,
+   "sha256": "015e440c4ca0c59abcde54c8f39b78cbc2300f379cc59eaa51d1a9699af59e94",
+   "licence": "Legislative Assembly of BC website/API; copyright Legislative Assembly (see https://www.leg.bc.ca disclaimer/copyright)"
+  },
+  {
+   "note": "StatCan 2021 Geographic Attribute File (dissemination block population) at https://www12.statcan.gc.ca/census-recensement/2021/geo/aip-pia/attribute-attribs/files-fichiers/2021_92-151_X.zip returned HTTP 403 (bot-check page) on 2026-10-24T10:06:15Z; not used, file deleted."
+  }
+ ]
+}

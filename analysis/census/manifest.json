@@ -1,0 +1,233 @@
+{
+ "built_utc": "2026-10-24T10:42:31+00:00",
+ "licences": {
+  "statcan": "Statistics Canada Open Licence https://www.statcan.gc.ca/eng/reference/licence",
+  "bc": "Open Government Licence - British Columbia https://www2.gov.bc.ca/gov/content/data/policy-standards/open-data/open-government-licence-bc"
+ },
+ "access_notes": {
+  "www12.statcan.gc.ca (Census Profile CSV, boundary zips)": "403 bot-check page from shell, not used",
+  "api.statcan.gc.ca SDMX (DF_DA, DF_ADA)": "works (SDMX-CSV); used for DA/ADA pop 2016/2021 and land area",
+  "catalogue.data.gov.bc.ca": "works; BC Stats PED93 2021 profile",
+  "openmaps.gov.bc.ca WFS": "works; FWA watershed groups (land), ED 2023",
+  "ftp.geobc.gov.bc.ca (BC Boundary Terrestrial gpkg)": "connection reset via proxy, not used"
+ },
+ "downloads": [
+  {
+   "file": "raw/bcstats/census_profile_2021_ped93_part1.csv",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/da0326f2-2191-4345-84d3-d14cd6ee76eb/resource/a32273fb-0f47-4f11-a57d-49a20c398daa/download/census_profile_2021_ped93_part1.csv",
+   "accessed_utc": "2026-10-24T10:11:22Z",
+   "sha256": "f4629acb4ea88e1470ee514007d9192896164728d6c985bbcef079f01206dd4e",
+   "publisher": "BC Stats (BC Data Catalogue: census-profiles-for-bc-provincial-electoral-districts)",
+   "licence": "Statistics Canada Open Licence (as stated on the BC Data Catalogue record)"
+  },
+  {
+   "file": "raw/bcstats/census_profile_2021_ped93_part2.csv",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/da0326f2-2191-4345-84d3-d14cd6ee76eb/resource/3363ce8b-8f28-4ec0-be57-cefe0d178f6b/download/census_profile_2021_ped93_part2.csv",
+   "accessed_utc": "2026-10-24T10:11:23Z",
+   "sha256": "82396e3864e4ec6f9358a97ee726bc60b3dc74079fc67eec53e2859720f63de6",
+   "publisher": "BC Stats (BC Data Catalogue: census-profiles-for-bc-provincial-electoral-districts)",
+   "licence": "Statistics Canada Open Licence (as stated on the BC Data Catalogue record)"
+  },
+  {
+   "file": "raw/bcstats/98-401-x2021005_english_meta.txt",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/da0326f2-2191-4345-84d3-d14cd6ee76eb/resource/47683f66-9d74-4104-87a7-66728136ccd7/download/98-401-x2021005_english_meta.txt",
+   "accessed_utc": "2026-10-24T10:11:24Z",
+   "sha256": "f85f7bda812a1107bd91b89485c97c520a77e51acc810860428819804e6d8e9d",
+   "publisher": "BC Stats (BC Data Catalogue: census-profiles-for-bc-provincial-electoral-districts)",
+   "licence": "Statistics Canada Open Licence (as stated on the BC Data Catalogue record)"
+  },
+  {
+   "file": "raw/bcgw/fwa_watershed_groups.geojson",
+   "layer": "WHSE_BASEMAPPING.FWA_WATERSHED_GROUPS_POLY",
+   "features": 246,
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_BASEMAPPING.FWA_WATERSHED_GROUPS_POLY&outputFormat=application/json&srsName=EPSG:3005 (paged, count=20, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:11:25Z",
+   "sha256": "414882185458878a83a4325ba1c634bbc460f11d1d2bdca995d4017408a383ee",
+   "publisher": "GeoBC, Freshwater Atlas (1:20,000)",
+   "licence": "Open Government Licence - British Columbia"
+  },
+  {
+   "file": "raw/statcan_sdmx/da_pop_area.csv",
+   "url": "https://api.statcan.gc.ca/census-recensement/profile/sdmx/rest/data/STC_CP,DF_DA/A5.<300 BC DGUIDs joined by +>.1.1+2+7.1 (Accept: SDMX-CSV 1.0)",
+   "accessed_utc": "2026-10-24T10:14:13Z",
+   "sha256": "d59e004c4853438b6eeee633768570076e1391fec847666c133ed6b280832fef",
+   "rows": 23544,
+   "das_requested": 7848,
+   "publisher": "Statistics Canada, Census Profile 2021 SDMX web service (dataflow STC_CP DF_DA v1.3)",
+   "licence": "Statistics Canada Open Licence"
+  },
+  {
+   "file": "raw/statcan_sdmx/ada_pop_area_bc.csv",
+   "url": "https://api.statcan.gc.ca/census-recensement/profile/sdmx/rest/data/STC_CP,DF_ADA/A5..1.1+2+7.1?startPeriod=2021 (Accept: SDMX-CSV 1.0; rows filtered to BC ADAs 2021S051659*)",
+   "accessed_utc": "2026-10-24T10:38:37Z",
+   "sha256": "d1341b3ffefbbc638f609e7441e72be0be0372183b263c14012a5a177f33757c",
+   "rows": 3024,
+   "publisher": "Statistics Canada, Census Profile 2021 SDMX web service (dataflow STC_CP DF_ADA v1.3)",
+   "licence": "Statistics Canada Open Licence"
+  }
+ ],
+ "inputs_read_in_place": [
+  {
+   "file": "(read in place) analysis/geo/raw/bcgw/ed2023.geojson",
+   "layer": "WHSE_ADMIN_BOUNDARIES.EBC_ELECTORAL_DISTS_BS11_SVW",
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs (see geo/raw/bcgw/manifest_bcgw.json)",
+   "accessed_utc": "2026-10-24T10:03:34Z",
+   "licence": "Open Government Licence - British Columbia",
+   "publisher": "Elections BC via BC Geographic Warehouse"
+  },
+  {
+   "file": "(read in place) analysis/geo/raw/statcan/2021_92-151_x_bc.csv",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/4ed0c389-43ed-4b00-b1be-7c259f47b6a0/resource/6c8eeb86-bb56-48e8-b734-0d25d6a51a7b/download/2021_92-151_x_bc.csv",
+   "accessed_utc": "see geo/raw/statcan/manifest_statcan.json",
+   "licence": "Statistics Canada Open Licence",
+   "publisher": "Statistics Canada GAF 2021, BC extract on BC Data Catalogue"
+  },
+  {
+   "file": "(read in place) analysis/geo/out/da_to_ed2023.csv, db_to_ed2023.csv, ed2023_pop2021_from_db.csv",
+   "url": "geo thread output (scripts/03_da_to_ed2023.py)",
+   "licence": "derived"
+  },
+  {
+   "file": "(read in place) analysis/live/raw/candidates_2026_ebc.csv",
+   "url": "Elections BC 2026 candidate list (live thread)",
+   "licence": "Elections BC open data licence",
+   "use": "ED codes and names for 2026 only"
+  },
+  {
+   "file": "raw/statcan_sdmx/dataflows.xml, dsd_da.xml",
+   "url": "https://api.statcan.gc.ca/census-recensement/profile/sdmx/rest/dataflow/STC_CP/DF_DA/latest?references=all",
+   "accessed_utc": "2026-10-24T10:03Z",
+   "licence": "Statistics Canada Open Licence"
+  }
+ ],
+ "outputs": {
+  "out/bcstats_ped93_tidy.csv.gz": {
+   "bytes": 11714977,
+   "sha256": "3e57d7ad3bb3b72b3ec867e478fe0970b98ae641911682c963a3f774c733eebb"
+  },
+  "out/checks.json": {
+   "bytes": 950,
+   "sha256": "31734b52570e15ac635f7354f712a15e1a299af3ca036f2a4f5630ef1ff8fcb7"
+  },
+  "out/ed2023_profile.csv": {
+   "bytes": 117759,
+   "sha256": "7b86bcb23c4847f60e00f4f264294c928ccb4c66efd160e2c442fab60fec600c"
+  },
+  "out/ed2023_profile_long.csv": {
+   "bytes": 2511430,
+   "sha256": "74e8bbe760245f018e0156eb8be3c081eee1c6eb4555be704e3ec6d54946af2d"
+  },
+  "out/suppression_log.csv": {
+   "bytes": 7113725,
+   "sha256": "f37ff06c12d761a5d64632b2f3d4d48912620d7df3c14b25eb04dcbef0e1e0f6"
+  },
+  "maps/bc_land_fwa_3005.gpkg": {
+   "bytes": 45154304,
+   "sha256": "dbb86ec8f009c722369dbe3f190c4a6bb399e2f996d8fa5fb9818daccfce6875"
+  },
+  "maps/check_area_clipped_s10m.csv": {
+   "bytes": 9497,
+   "sha256": "d10d323a512c9f063027e44ef22f5e2990587751bd79733f3c05930cb4ebe063"
+  },
+  "maps/check_area_clipped_s25m.csv": {
+   "bytes": 9443,
+   "sha256": "d4256fd1936ab5e42e4b4adec191aaf9ab02bdc78825e5c6fd5a67a245aa9dcd"
+  },
+  "maps/check_area_unclipped_s10m.csv": {
+   "bytes": 9394,
+   "sha256": "fa101a460e43b22bc0656302bcb0c3b382629a076ed36468597ed5e725298542"
+  },
+  "maps/check_area_unclipped_s25m.csv": {
+   "bytes": 9367,
+   "sha256": "f370d8378f05f4fd921bf89d988d8c0ba57eb93b4185f419e3df0491ebee8d28"
+  },
+  "maps/check_simplify_s10m.json": {
+   "bytes": 2323,
+   "sha256": "6a3f2f3ba7f7f6511de593500e41e2716ee9bf99d2a3e6692f2e38895eac373e"
+  },
+  "maps/check_simplify_s25m.json": {
+   "bytes": 2327,
+   "sha256": "86ace6ba0267fbb62ab3e53b1705c951488fe28ef03d545459ce9b03680600a5"
+  },
+  "maps/ed2023_clipped_s10m_3005.geojson": {
+   "bytes": 29852860,
+   "sha256": "1fb5681a575394828a2fa7d1bb7d7798ccf6d73ee007bd8ff4b8baff4e452490"
+  },
+  "maps/ed2023_clipped_s10m_3005.gpkg": {
+   "bytes": 11280384,
+   "sha256": "5174db96fd291494c955695a59a8694754989c68243393fa0821d5079a4b6bba"
+  },
+  "maps/ed2023_clipped_s25m_3005.gpkg": {
+   "bytes": 5869568,
+   "sha256": "73043398dfdb01e319f83c080b528d08b4aad6f33c74d651a6bfe095ee5b0e0c"
+  },
+  "maps/ed2023_full_clipped_3005.gpkg": {
+   "bytes": 57413632,
+   "sha256": "227b90e68593184ff836024233f764bfd623166f9d562838eb74b094ba71d0f8"
+  },
+  "maps/ed2023_full_unclipped_3005.gpkg": {
+   "bytes": 13230080,
+   "sha256": "eaee12b8794a1ae3a08c8aba3671acfa73e1141b6d98370c1adce7c2dfe85def"
+  },
+  "maps/ed2023_label_points.csv": {
+   "bytes": 7681,
+   "sha256": "7f5811f5d5ca45326eb354c13e9b4385a766e0f3f6c23f7ef0cb6d69eaa008b8"
+  },
+  "maps/ed2023_label_points_3005.gpkg": {
+   "bytes": 118784,
+   "sha256": "d4f3a0a5887dad09e8d067bf9cfe81d99d45161f184f749aa9a4dbb40e312001"
+  },
+  "maps/ed2023_unclipped_s10m_3005.geojson": {
+   "bytes": 6612150,
+   "sha256": "6e3562b73fef8901f0949359a7794bf699764e8e22662aed05b07fab04b09488"
+  },
+  "maps/ed2023_unclipped_s10m_3005.gpkg": {
+   "bytes": 2772992,
+   "sha256": "5ff67d0d7b0a6455ed2b282fe840e49c57adc14556eee743808b96baf412c184"
+  },
+  "maps/ed2023_unclipped_s25m_3005.gpkg": {
+   "bytes": 1699840,
+   "sha256": "2cb3dc153869f5cb2507fbd52658a4f38434305bc3db6857af58757cc8f0ba85"
+  },
+  "maps/checks/check_capital_region_s10m_1440px.png": {
+   "bytes": 270979,
+   "sha256": "9f4a4d68a8ffee37a5ceab4cdb1e9d65c7bc614bae251e7e0ce0fe0d29aa9144"
+  },
+  "maps/checks/check_capital_region_s10m_720px.png": {
+   "bytes": 110031,
+   "sha256": "61490423bd742f741c1dd9a63c0013817c43db2ce3a65428f09bee3e572d6c6a"
+  },
+  "maps/checks/check_kelowna_s10m_1440px.png": {
+   "bytes": 147704,
+   "sha256": "f186ce7158d295473b4f805236c9dc3624f6ae550ec6fb8a50e6c5080906a95c"
+  },
+  "maps/checks/check_kelowna_s10m_720px.png": {
+   "bytes": 62388,
+   "sha256": "4f84cb16069b0786410f84e5b42dd8430604d9345b0b94cfa69ac68c5f793781"
+  },
+  "maps/checks/check_metro_vancouver_s10m_1440px.png": {
+   "bytes": 421462,
+   "sha256": "697f03a1d1f0cbf058d09aee1e451a40ec9c0dd193abe7c8e1dd2415302d94a8"
+  },
+  "maps/checks/check_metro_vancouver_s10m_720px.png": {
+   "bytes": 181891,
+   "sha256": "623fc2de59c95238f030eb36292c4c2a8196fa04559989d9b711502128d7d32b"
+  },
+  "maps/checks/check_province_s10m_1440px.png": {
+   "bytes": 429952,
+   "sha256": "e9e72f275c0051ec0fb8131e98345e9cefa5d1a844c84dbdd53579bf31505dc6"
+  },
+  "maps/checks/check_province_s10m_720px.png": {
+   "bytes": 159481,
+   "sha256": "90b809243edcec9a3b98c233748ef4b3b4bf05a05334abc76c5f0897a734f3ce"
+  }
+ },
+ "scripts": [
+  "01_download.py",
+  "02_download_da_sdmx.py",
+  "10_maps_clip.py",
+  "11_maps_simplify_verify.py",
+  "12_maps_render_labels.py",
+  "20_build_profile.py"
+ ]
+}

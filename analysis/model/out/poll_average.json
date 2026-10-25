@@ -1,0 +1,148 @@
+{
+ "rule": "last poll per pollster, field end >= 2026-09-22, simple average",
+ "province": {
+  "NDP": 38.87,
+  "CON": 43.84,
+  "GRN": 12.0,
+  "CENTRE": 1.71,
+  "ONEBC": 2.4,
+  "OTH": 1.18
+ },
+ "n_pollsters": {
+  "NDP": 10,
+  "CON": 10,
+  "GRN": 10,
+  "CENTRE": 7,
+  "ONEBC": 7
+ },
+ "regional": {
+  "Metro Vancouver": {
+   "NDP": {
+    "avg": 40.43,
+    "n": 7,
+    "pollsters": [
+     "Liaison Strategies",
+     "Angus Reid",
+     "Pollara",
+     "Leger",
+     "Ipsos",
+     "Pallas Data",
+     "Research Co."
+    ]
+   },
+   "CON": {
+    "avg": 44.0,
+    "n": 7,
+    "pollsters": [
+     "Liaison Strategies",
+     "Angus Reid",
+     "Pollara",
+     "Leger",
+     "Ipsos",
+     "Pallas Data",
+     "Research Co."
+    ]
+   },
+   "GRN": {
+    "avg": 11.5,
+    "n": 2,
+    "pollsters": [
+     "Pollara",
+     "Leger"
+    ]
+   }
+  },
+  "Capital Region": {
+   "NDP": {
+    "avg": 42.19,
+    "n": 7,
+    "pollsters": [
+     "Liaison Strategies",
+     "Pollara",
+     "Leger",
+     "Ipsos",
+     "Pallas Data",
+     "Research Co.",
+     "Forum Research"
+    ]
+   },
+   "CON": {
+    "avg": 34.89,
+    "n": 7,
+    "pollsters": [
+     "Liaison Strategies",
+     "Pollara",
+     "Leger",
+     "Ipsos",
+     "Pallas Data",
+     "Research Co.",
+     "Forum Research"
+    ]
+   },
+   "GRN": {
+    "avg": 18.67,
+    "n": 6,
+    "pollsters": [
+     "Pollara",
+     "Leger",
+     "Ipsos",
+     "Pallas Data",
+     "Research Co.",
+     "Forum Research"
+    ]
+   }
+  }
+ },
+ "polls_used": [
+  {
+   "pollster": "Liaison Strategies",
+   "field_start": "2026-10-07",
+   "field_end": "2026-10-08"
+  },
+  {
+   "pollster": "Angus Reid",
+   "field_start": "2026-10-15",
+   "field_end": "2026-10-19"
+  },
+  {
+   "pollster": "Innovative Research",
+   "field_start": "2026-10-15",
+   "field_end": "2026-10-19"
+  },
+  {
+   "pollster": "Pollara",
+   "field_start": "2026-10-15",
+   "field_end": "2026-10-21"
+  },
+  {
+   "pollster": "Leger",
+   "field_start": "2026-10-20",
+   "field_end": "2026-10-22"
+  },
+  {
+   "pollster": "Ipsos",
+   "field_start": "2026-10-20",
+   "field_end": "2026-10-22"
+  },
+  {
+   "pollster": "Pallas Data",
+   "field_start": "2026-10-22",
+   "field_end": "2026-10-22"
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "field_start": "2026-10-21",
+   "field_end": "2026-10-23"
+  },
+  {
+   "pollster": "Research Co.",
+   "field_start": "2026-10-21",
+   "field_end": "2026-10-23"
+  },
+  {
+   "pollster": "Forum Research",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-23"
+  }
+ ]
+}

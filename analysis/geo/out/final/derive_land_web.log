@@ -1,0 +1,8 @@
+  land/web round 0: max area diff 1.95% (LAO), >0.9%: 16
+  land/web round 1: max area diff 1.57% (VNP), >0.9%: 7
+  land/web round 2: max area diff 1.22% (NOI), >0.9%: 7
+  land/web round 3: max area diff 1.18% (CHC), >0.9%: 4
+  land/web round 4: max area diff 1.22% (CHC), >0.9%: 2
+  land/web round 5: max area diff 0.96% (NOH), >0.9%: 0
+land web {'geojson_4326': 365794, 'topojson_4326': 197103, 'geojson_3005': 356972} 0.963
+EXIT 0

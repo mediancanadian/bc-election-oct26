@@ -1,0 +1,94 @@
+ed_code,ed_name,regional_district,rd_abbr,area_share_in_rd,pop_share_in_rd,inset
+ABM,Abbotsford-Mission,Fraser Valley Regional District,FVRD,1.0,1.0,
+ABS,Abbotsford South,Fraser Valley Regional District,FVRD,1.0,1.0,
+ABW,Abbotsford West,Fraser Valley Regional District,FVRD,1.0,1.0,
+BDS,Boundary-Similkameen,Regional District of Kootenay Boundary,RDKB,0.45,0.277,
+BLS,Bulkley Valley-Stikine,Regional District of Kitimat-Stikine,RDKS,0.355,0.361,
+BNC,Burnaby Centre,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+BNE,Burnaby East,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+BNN,Burnaby-New Westminster,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+BNO,Burnaby North,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+BNS,Burnaby South-Metrotown,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+CBC,Cariboo-Chilcotin,Cariboo Regional District,CRD,0.798,0.822,
+CHC,Chilliwack-Cultus Lake,Fraser Valley Regional District,FVRD,1.0,1.0,
+CHN,Chilliwack North,Fraser Valley Regional District,FVRD,1.0,1.0,
+CLR,Columbia River-Revelstoke,Regional District of East Kootenay,RDEK,0.396,0.603,
+CQB,Coquitlam-Burke Mountain,Metro Vancouver Regional District,MVRD,0.978,1.0,Metro Vancouver
+CQM,Coquitlam-Maillardville,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+CRC,Courtenay-Comox,Comox Valley Regional District,CMXRD,1.0,1.0,
+CWV,Cowichan Valley,Cowichan Valley Regional District,CVRD,1.0,1.0,
+DLN,Delta North,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+DLS,Delta South,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+ESC,Esquimalt-Colwood,Capital Regional District,CAPRD,1.0,1.0,Capital Region
+FRN,Fraser-Nicola,Thompson-Nicola Regional District,TNRD,0.429,0.351,
+JFM,Juan de Fuca-Malahat,Capital Regional District,CAPRD,0.867,0.574,Capital Region
+KAC,Kamloops Centre,Thompson-Nicola Regional District,TNRD,1.0,1.0,
+KAN,Kamloops-North Thompson,Thompson-Nicola Regional District,TNRD,1.0,1.0,
+KEC,Kelowna Centre,Regional District of Central Okanagan,RDCO,1.0,1.0,Central Okanagan (Kelowna)
+KLC,Kelowna-Lake Country-Coldstream,Regional District of Central Okanagan,RDCO,0.5,0.808,Central Okanagan (Kelowna)
+KLM,Kelowna-Mission,Regional District of Central Okanagan,RDCO,0.999,1.0,Central Okanagan (Kelowna)
+KOC,Kootenay Central,Regional District of Central Kootenay,RDCK,1.0,1.0,
+KOM,Kootenay-Monashee,Regional District of Central Kootenay,RDCK,0.673,0.497,
+KOR,Kootenay-Rockies,Regional District of East Kootenay,RDEK,1.0,1.0,
+LAO,Ladysmith-Oceanside,Regional District of Nanaimo,RDN,0.763,0.736,
+LFH,Langford-Highlands,Capital Regional District,CAPRD,1.0,1.0,Capital Region
+LLA,Langley-Abbotsford,Metro Vancouver Regional District,MVRD,0.838,0.879,Metro Vancouver
+LWG,Langley-Walnut Grove,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+LWI,Langley-Willowbrook,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+MAE,Maple Ridge East,Fraser Valley Regional District,FVRD,0.6,0.106,
+MAP,Maple Ridge-Pitt Meadows,Fraser Valley Regional District,FVRD,0.881,0.001,
+MPR,Mid Island-Pacific Rim,Regional District of Alberni-Clayoquot,RDAC,0.745,0.571,
+NAI,Nanaimo-Gabriola Island,Regional District of Nanaimo,RDN,0.999,1.0,
+NAL,Nanaimo-Lantzville,Regional District of Nanaimo,RDN,1.0,1.0,
+NEC,Nechako Lakes,Regional District of Bulkley-Nechako,RDBN,1.0,0.994,
+NMC,New Westminster-Coquitlam,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+NOH,North Coast-Haida Gwaii,Regional District of Kitimat-Stikine,RDKS,0.155,0.01,
+NOI,North Island,Regional District of Mount Waddington,RDMW,0.686,0.184,
+NVL,North Vancouver-Lonsdale,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+NVS,North Vancouver-Seymour,Metro Vancouver Regional District,MVRD,0.998,1.0,Metro Vancouver
+OBG,Oak Bay-Gordon Head,Capital Regional District,CAPRD,1.0,1.0,Capital Region
+PCN,Peace River North,Peace River Regional District,PRRD,1.0,0.889,
+PCS,Peace River South,Peace River Regional District,PRRD,1.0,1.0,
+PES,Penticton-Summerland,Regional District of Okanagan-Similkameen,RDOS,1.0,1.0,
+POC,Port Coquitlam,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+POM,Port Moody-Burquitlam,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+POR,Powell River-Sunshine Coast,qathet Regional District,qRD,0.312,0.371,
+PRM,Prince George-Mackenzie,Regional District of Fraser-Fort George,RDFFG,1.0,1.0,
+PRO,Prince George-North Cariboo,Cariboo Regional District,CRD,0.923,0.668,
+PRV,Prince George-Valemount,Regional District of Fraser-Fort George,RDFFG,0.843,0.994,
+RCB,Richmond-Bridgeport,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+RCC,Richmond Centre,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+RCQ,Richmond-Queensborough,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+RCS,Richmond-Steveston,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SAN,Saanich North and the Islands,Capital Regional District,CAPRD,1.0,1.0,Capital Region
+SAS,Saanich South,Capital Regional District,CAPRD,1.0,1.0,Capital Region
+SHU,Salmon Arm-Shuswap,Columbia Shuswap Regional District,CSRD,0.69,0.651,
+SKE,Skeena,Regional District of Kitimat-Stikine,RDKS,1.0,1.0,
+SRC,Surrey City Centre,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SRD,Surrey-Cloverdale,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SRF,Surrey-Fleetwood,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SRG,Surrey-Guildford,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SRN,Surrey-Newton,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SUN,Surrey North,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SUP,Surrey-Panorama,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SUR,Surrey-Serpentine River,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SUS,Surrey South,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+SWR,Surrey-White Rock,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VFV,Vancouver-Fraserview,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VHA,Vancouver-Hastings,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VKE,Vancouver-Kensington,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VLA,Vancouver-Langara,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VLM,Vancouver-Little Mountain,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VNP,Vancouver-Point Grey,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VNQ,Vancouver-Quilchena,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VNR,Vancouver-Renfrew,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VNS,Vancouver-South Granville,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VNT,Vancouver-Strathcona,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VNW,Vancouver-West End,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VNY,Vancouver-Yaletown,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+VRL,Vernon-Lumby,Regional District of North Okanagan,RDNO,1.0,1.0,
+VTB,Victoria-Beacon Hill,Capital Regional District,CAPRD,1.0,1.0,Capital Region
+VTS,Victoria-Swan Lake,Capital Regional District,CAPRD,1.0,1.0,Capital Region
+WKP,West Kelowna-Peachland,Regional District of Central Okanagan,RDCO,1.0,1.0,Central Okanagan (Kelowna)
+WVC,West Vancouver-Capilano,Metro Vancouver Regional District,MVRD,1.0,1.0,Metro Vancouver
+WVS,West Vancouver-Sea to Sky,Squamish-Lillooet Regional District,SLRD,0.79,0.744,

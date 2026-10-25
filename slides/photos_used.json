@@ -1,0 +1,120 @@
+{
+ "cover": {
+  "key": "1.1",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Victoria_BC%2C_Canada_-_panoramio_%285%29.jpg/1920px-Victoria_BC%2C_Canada_-_panoramio_%285%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Victoria_BC,_Canada_-_panoramio_(5).jpg",
+  "author": "MARELBU",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "credit": "Photo: MARELBU, CC BY 3.0",
+  "ok": true
+ },
+ "legislature": {
+  "key": "1.4",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Parliament_Building_-_panoramio_%282%29.jpg/1920px-Parliament_Building_-_panoramio_%282%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Parliament_Building_-_panoramio_(2).jpg",
+  "author": "Paulo Kegles",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "credit": "Photo: Paulo Kegles, CC BY 3.0",
+  "ok": true
+ },
+ "legislature2": {
+  "key": "1.5",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/British_Columbia_parliament_2017.jpg/1920px-British_Columbia_parliament_2017.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:British_Columbia_parliament_2017.jpg",
+  "author": "Mantas Volungevicius",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "credit": "Photo: Mantas Volungevicius, CC BY 2.0",
+  "ok": true
+ },
+ "richmond": {
+  "key": "2.1",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Richmond%2C_British_Columbia.jpg/1920px-Richmond%2C_British_Columbia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Richmond,_British_Columbia.jpg",
+  "author": "Quintin Soloviev",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "credit": "Photo: Quintin Soloviev, CC BY 4.0",
+  "ok": false
+ },
+ "vancouver": {
+  "key": "2.2",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Skyline_of_Vancouver%2C_BC.jpg/1920px-Skyline_of_Vancouver%2C_BC.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Vancouver,_BC.jpg",
+  "author": "Quintin Soloviev",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "credit": "Photo: Quintin Soloviev, CC BY 4.0",
+  "ok": false
+ },
+ "vancouver2": {
+  "key": "2.3",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Skyline_of_Vancouver%2C_Canada.jpg/3840px-Skyline_of_Vancouver%2C_Canada.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Vancouver,_Canada.jpg",
+  "author": "Quintin Soloviev",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "credit": "Photo: Quintin Soloviev, CC BY 4.0",
+  "ok": true
+ },
+ "kelowna": {
+  "key": "3.1",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kelowna_view_from_Knox_Mtn.jpg/1920px-Kelowna_view_from_Knox_Mtn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kelowna_view_from_Knox_Mtn.jpg",
+  "author": "Sunny Goel",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "credit": "Photo: Sunny Goel, CC BY 2.0",
+  "ok": false
+ },
+ "nanaimo": {
+  "key": "4.1",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Nanaimo_Boat_Basin_%26_Harbour_%2850318199153%29.jpg/3840px-Nanaimo_Boat_Basin_%26_Harbour_%2850318199153%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nanaimo_Boat_Basin_%26_Harbour_(50318199153).jpg",
+  "author": "Gerry Thomasen from Nanaimo, Canada",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "credit": "Photo: Gerry Thomasen from Nanaimo, Canada, CC BY 2.0",
+  "ok": true
+ },
+ "condos": {
+  "key": "6.1",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/MC2_South_Tower_%26_W1_Condominiums_2024.JPG/1920px-MC2_South_Tower_%26_W1_Condominiums_2024.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:MC2_South_Tower_%26_W1_Condominiums_2024.JPG",
+  "author": "Canmenwalker",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "credit": "Photo: Canmenwalker, CC BY 4.0",
+  "ok": true
+ },
+ "rowhouses": {
+  "key": "6.3",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Colourful_Boxes_%2850208150566%29.jpg/1920px-Colourful_Boxes_%2850208150566%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Colourful_Boxes_(50208150566).jpg",
+  "author": "Dennis Sylvester Hurd",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "credit": "Photo: Dennis Sylvester Hurd, CC BY 2.0",
+  "ok": true
+ },
+ "legislature3": {
+  "key": "1.3",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Legislative_Assembly_of_British_Columbia_Vancouver_island_%2829786723167%29.jpg/1920px-Legislative_Assembly_of_British_Columbia_Vancouver_island_%2829786723167%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Legislative_Assembly_of_British_Columbia_Vancouver_island_(29786723167).jpg",
+  "author": "dronepicr",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "credit": "Photo: dronepicr, CC BY 2.0",
+  "ok": true
+ },
+ "metrotown": {
+  "page": "https://commons.wikimedia.org/wiki/File:Metrotown_deer_lake.jpg",
+  "author": "Burnabyboi1011",
+  "licence": "CC0",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "credit": "Photo: Burnabyboi1011, CC0",
+  "ok": true
+ }
+}

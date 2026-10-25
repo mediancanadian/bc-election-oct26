@@ -1,0 +1,5 @@
+  land_lakes/web round 0: max area diff 1.06% (CQB), >0.9%: 1
+  land_lakes/web round 1: max area diff 1.09% (CQB), >0.9%: 1
+  land_lakes/web round 2: max area diff 0.97% (VLA), >0.9%: 0
+land_lakes web {'geojson_4326': 373667, 'topojson_4326': 210096, 'geojson_3005': 377167} 0.931
+EXIT 0

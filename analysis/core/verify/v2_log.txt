@@ -1,0 +1,111 @@
+2-party swing summary {'count': 93.0, 'mean': 6.57, 'std': 4.99, 'min': -9.09, '25%': 3.19, '50%': 6.88, '75%': 9.89, 'max': 21.28}
+          trait   lo_mean    hi_mean    lo_med     hi_med  swing_lo  swing_hi     r  n_lo  n_hi
+0        income   70941.7   105782.6   72000.0   104000.0       3.9      11.0  0.57    24    23
+1    home value  437916.7  1444782.6  424000.0  1290000.0       3.2      11.1  0.55    24    23
+2    indigenous       1.5       16.7       1.6       14.4       9.3       2.7 -0.48    24    23
+3    immigrants      10.2       51.2      10.1       51.6       2.9       8.6  0.43    24    23
+4    univ 25-64      17.5       53.3      18.4       49.8       3.2       8.1  0.41    24    23
+5      univ 15+      14.5       44.7      15.4       41.4       3.2       8.5  0.38    24    23
+6       vis min       5.5       72.8       5.3       74.8       3.9       8.6  0.39    24    23
+7   south asian       1.5       26.0       1.3       16.1       3.2       8.7  0.31    24    23
+8       chinese       0.6       32.4       0.6       31.8       2.8       8.3  0.24    24    23
+9       renters      18.9       49.9      18.9       45.9       6.1       6.0 -0.05    24    23
+10   median age      38.1       51.4      38.8       50.2       7.7       6.0 -0.08    25    22
+11         men+      47.7       50.9      47.8       51.0       8.2       5.1 -0.23    26    23
+same CON/NDP/GRN set 68 r income 0.575
+same set and no 2024 IND/UNAF 38 r income 0.606
+same set and 2024 IND/UNAF<5 56 r income 0.616
+same set and 2024 IND/UNAF<10 60 r income 0.62
+r income in Metro 0.703 46
+full model pct_bachelor_plus_25_64 income b 3.51 t 4.82 others t [1.78 1.4  3.89 0.61]
+ no region income b 3.41 t 5.44
+full model pct_bachelor_plus_15plus income b 3.51 t 4.85 others t [1.87 1.33 3.81 0.65]
+ no region income b 3.4 t 5.48
+pct_immigrants all 93 with income: t 4.08 | +region t 1.28
+pct_immigrants same-field 68 with income: t 3.49 | +region t 2.14
+pct_vm_total all 93 with income: t 3.24 | +region t 0.16
+pct_vm_total same-field 68 with income: t 2.68 | +region t 0.91
+pct_vm_chinese all 93 with income: t 2.81 | +region t 0.25
+pct_vm_chinese same-field 68 with income: t 2.15 | +region t 0.37
+pct_bachelor_plus_25_64 all 93 with income: t 4.05 | +region t 1.81
+pct_bachelor_plus_25_64 same-field 68 with income: t 3.68 | +region t 2.35
+pct_vm_south_asian all 93 with income: t 1.58 | +region t 0.55
+pct_vm_south_asian same-field 68 with income: t 1.5 | +region t 0.95
+pct_men_plus all 93 with income: t -2.75 | +region t -2.33
+pct_men_plus same-field 68 with income: t -1.12 | +region t -1.2
+r renters vs 2026 two-party CON level -0.54
+pct_bachelor_plus_25_64 r dGRN 0.397 r dCON 0.093 r dNDP -0.53
+pct_bachelor_plus_15plus r dGRN 0.41 r dCON 0.055 r dNDP -0.503
+median_dwelling_value r dGRN 0.251 r dCON 0.246 r dNDP -0.551
+hh_income_median r dGRN -0.003 r dCON 0.372 r dNDP -0.449
+dGRN r univ, Green ran both 59 0.397
+r men+ swing -0.229
+dturnA r swing 0.166 r dCON -0.102 r dNDP -0.236
+dturnB r swing 0.248 r dCON -0.034 r dNDP -0.298
+                                name win24 lead26  dCON  dNDP  swing  ind24  grn24_ran  grn26_ran
+ed_code                                                                                          
+WVC          West Vancouver-Capilano   CON    CON  20.2  -6.6   13.3   20.6       True       True
+KOR                 Kootenay-Rockies   CON    CON  13.6   5.4    1.2   30.4       True       True
+PRO      Prince George-North Cariboo   CON    CON  13.6   3.1    0.8   21.8       True       True
+DLN                      Delta North   NDP    CON  13.4 -12.1   13.6    0.0       True      False
+RCS               Richmond-Steveston   NDP    CON  12.0  -9.3   12.0   10.1       True      False
+SRN                    Surrey-Newton   NDP    CON  11.5 -10.5   11.6    3.4      False      False
+WKP           West Kelowna-Peachland   CON    CON  11.5   1.8    3.2   21.2      False       True
+PCN                Peace River North   CON    CON  11.4  -5.5    6.9   20.2      False      False
+NVS          North Vancouver-Seymour   NDP    CON  11.0 -15.3   15.2    5.8       True       True
+RCB              Richmond-Bridgeport   CON    CON  10.1  -3.1    5.7    3.8       True      False
+CQM          Coquitlam-Maillardville   NDP    CON  10.0 -10.3   11.1    2.3       True       True
+VRL                     Vernon-Lumby   NDP    CON   9.8  -4.9    8.4   15.4      False       True
+BNN          Burnaby-New Westminster   NDP    NDP   9.6  -4.3    7.6    5.3      False      False
+SUP                  Surrey-Panorama   CON    CON   9.2 -14.6   12.9    0.0      False       True
+LAO              Ladysmith-Oceanside   NDP    CON   9.1   2.8    4.1   16.3       True       True
+ridings with 2024 IND/UNAF >= 5%:
+                                    name  ind24  dCON  dNDP  swing lead26
+ed_code                                                                  
+BNN              Burnaby-New Westminster    5.3   9.6  -4.3    7.6    NDP
+KEC                       Kelowna Centre   10.2   5.5   5.1    0.2    CON
+KLC      Kelowna-Lake Country-Coldstream    6.5  -6.4  -2.6   -1.2    CON
+KLM                      Kelowna-Mission   11.0   7.3  -4.8    6.7    CON
+KOC                     Kootenay Central   10.0   5.4  -0.1    4.0    NDP
+KOR                     Kootenay-Rockies   30.4  13.6   5.4    1.2    CON
+LAO                  Ladysmith-Oceanside   16.3   9.1   2.8    4.1    CON
+NVS              North Vancouver-Seymour    5.8  11.0 -15.3   15.2    CON
+PCN                    Peace River North   20.2  11.4  -5.5    6.9    CON
+PCS                    Peace River South   24.6   7.8   9.8   -9.1    CON
+PES                 Penticton-Summerland   13.2   4.2   0.9    1.8    CON
+PRO          Prince George-North Cariboo   21.8  13.6   3.1    0.8    CON
+RCC                      Richmond Centre   11.2   5.7  -2.9    4.4    CON
+RCS                   Richmond-Steveston   10.1  12.0  -9.3   12.0    CON
+SHU                   Salmon Arm-Shuswap   10.4   2.8  -2.2    2.9    CON
+VRL                         Vernon-Lumby   15.4   9.8  -4.9    8.4    CON
+WKP               West Kelowna-Peachland   21.2  11.5   1.8    3.2    CON
+WVC              West Vancouver-Capilano   20.6  20.2  -6.6   13.3    CON
+Green entry/exit ridings 24
+                             name              region  g24   g26  dNDP  swing win24 lead26
+ed_code                                                                                   
+BDS          Boundary-Similkameen  Interior and North  5.9   0.0  -1.9    3.2   CON    CON
+BLS        Bulkley Valley-Stikine  Interior and North  6.3   0.0   6.7   -4.6   CON    CON
+BNC                Burnaby Centre     Metro Vancouver  0.0   8.2 -15.7   10.6   NDP    CON
+BNO                 Burnaby North     Metro Vancouver  0.0   9.1 -11.1    7.8   NDP    CON
+CBC             Cariboo-Chilcotin  Interior and North  0.0   6.0 -13.5   12.4   CON    CON
+CHN              Chilliwack North       Fraser Valley  5.5   0.0  -4.7    5.2   CON    CON
+CQB      Coquitlam-Burke Mountain     Metro Vancouver  0.0   6.0 -11.6    8.1   NDP    CON
+DLN                   Delta North     Metro Vancouver  6.2   0.0 -12.1   13.6   NDP    CON
+DLS                   Delta South     Metro Vancouver  0.0   8.2 -16.3   12.6   CON    CON
+KAN       Kamloops-North Thompson  Interior and North  7.4   0.0  -4.2    4.9   CON    CON
+KEC                Kelowna Centre            Okanagan  4.3   0.0   5.1    0.2   CON    CON
+NEC                 Nechako Lakes  Interior and North  5.3   0.0  -4.1    2.2   CON    CON
+NOH       North Coast-Haida Gwaii  Interior and North  0.0   9.7  -3.5   -3.1   NDP    NDP
+NVL      North Vancouver-Lonsdale     Metro Vancouver  0.0  11.4 -17.9   11.8   NDP    NDP
+RCB           Richmond-Bridgeport     Metro Vancouver  3.2   0.0  -3.1    5.7   CON    CON
+RCC               Richmond Centre     Metro Vancouver  0.0   6.0  -2.9    4.4   CON    CON
+RCQ        Richmond-Queensborough     Metro Vancouver  0.0   7.6 -10.7   10.3   CON    CON
+RCS            Richmond-Steveston     Metro Vancouver  3.4   0.0  -9.3   12.0   NDP    CON
+SRC            Surrey City Centre     Metro Vancouver  6.1   0.0  -2.5    2.7   NDP    CON
+SUP               Surrey-Panorama     Metro Vancouver  0.0   5.1 -14.6   12.9   CON    CON
+SUS                  Surrey South     Metro Vancouver  0.0   5.0 -19.0   14.6   CON    CON
+SWR             Surrey-White Rock     Metro Vancouver  0.0   7.7 -16.4   13.2   CON    CON
+VRL                  Vernon-Lumby            Okanagan  0.0   6.9  -4.9    8.4   NDP    CON
+WKP        West Kelowna-Peachland            Okanagan  0.0   8.0   1.8    3.2   CON    CON
+flips with Green entry/exit: ['Burnaby Centre', 'Burnaby North', 'Coquitlam-Burke Mountain', 'Delta North', 'Richmond-Steveston', 'Surrey City Centre', 'Vernon-Lumby']
+flips with 2024 IND>=3: [['Burnaby North', 3.74], ['Ladysmith-Oceanside', 16.31], ['North Vancouver-Seymour', 5.84], ['Richmond-Steveston', 10.09], ['Surrey-Newton', 3.4400000000000004], ['Vernon-Lumby', 15.38]]

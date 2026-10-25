@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+# private working files
+/check/
+/post/
+/preview.html
+# rebuilt by slides/make_slides.py; the JPG copies are kept
+/slides/out/*.png
+/slides/slides.html
+/slides/out/contact-sheet.jpg
+# earlier slide drafts
+/slides/values.py
+/slides/make_slides_draft1.py
+# only the eight photos on the published slides are kept (credited in NOTICE)
+/slides/photos/*
+!/slides/photos/legislature3.jpg
+!/slides/photos/d1.jpg
+!/slides/photos/nanaimo.jpg
+!/slides/photos/richmond.jpg
+!/slides/photos/rowhouses.jpg
+!/slides/photos/vancouver2.jpg
+!/slides/photos/metrotown.jpg
+!/slides/photos/legislature2.jpg
+# raw downloads go in each thread's raw/ folder (see REPRODUCE.md)
+/analysis/*/raw/
+/slides/values.json

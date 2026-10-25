@@ -1,0 +1,94 @@
+ed_code,district,region,votes_counted,actual_leader,act_NDP,act_CON,act_GRN,act_CENTRE,act_ONEBC,act_OTH,uni_leader,uni_tier,uni_hit,uni_miss_NDP,uni_miss_CON,uni_miss_GRN,uni_miss_CENTRE,uni_miss_ONEBC,uni_miss_OTH,uni_abs_miss_sum,prop_leader,prop_tier,prop_hit,prop_miss_NDP,prop_miss_CON,prop_miss_GRN,prop_miss_CENTRE,prop_miss_ONEBC,prop_miss_OTH,prop_abs_miss_sum
+ABM,Abbotsford-Mission,Rest of BC,20902,CON,35.8,56.7,0.0,3.5,2.6,1.4,CON,likely,True,0.5,11.9,0.0,-3.9,-2.0,-6.5,12.4,CON,likely,True,0.7,12.1,0.0,-4.0,-2.0,-6.8,12.8
+ABS,Abbotsford South,Rest of BC,17367,CON,29.9,63.5,0.0,0.0,6.6,0.0,CON,safe,True,-3.6,2.6,0.0,0.0,1.0,0.0,3.6,CON,safe,True,-3.9,2.9,0.0,0.0,1.0,0.0,3.9
+ABW,Abbotsford West,Rest of BC,15652,CON,28.8,61.9,0.0,9.2,0.0,0.0,CON,safe,True,-5.8,5.3,0.0,0.4,0.0,0.0,5.8,CON,safe,True,-5.9,5.6,0.0,0.3,0.0,0.0,5.9
+BDS,Boundary-Similkameen,Rest of BC,21828,CON,40.6,52.5,0.0,0.0,6.8,0.0,CON,lean,True,-2.9,2.0,0.0,0.0,0.8,0.0,2.9,CON,lean,True,-2.8,1.9,0.0,0.0,0.8,0.0,2.8
+BLS,Bulkley Valley-Stikine,Rest of BC,8489,CON,45.6,51.0,0.0,0.0,0.0,3.3,CON,safe,True,3.7,-7.1,0.0,0.0,0.0,3.3,7.0,CON,safe,True,4.7,-5.4,0.0,0.0,0.0,0.5,5.3
+BNC,Burnaby Centre,Metro Vancouver,13987,CON,41.6,47.7,8.2,2.5,0.0,0.0,NDP,toss-up,False,-1.7,6.7,-4.4,-0.6,0.0,0.0,6.7,NDP,toss-up,False,-1.0,6.0,-4.4,-0.6,0.0,0.0,6.0
+BNE,Burnaby East,Metro Vancouver,17436,NDP,44.4,43.0,9.6,0.0,3.0,0.0,CON,toss-up,False,4.9,2.8,-4.1,0.0,-3.6,0.0,7.7,CON,toss-up,False,5.3,2.9,-4.5,0.0,-3.7,0.0,8.2
+BNN,Burnaby-New Westminster,Metro Vancouver,13906,NDP,55.7,44.3,0.0,0.0,0.0,0.0,NDP,safe,True,-2.0,2.0,0.0,0.0,0.0,0.0,2.0,NDP,likely,True,-1.1,1.1,0.0,0.0,0.0,0.0,1.1
+BNO,Burnaby North,Metro Vancouver,17747,CON,42.1,46.4,9.1,0.0,2.3,0.0,CON,toss-up,True,2.4,5.1,-3.5,0.0,-4.1,0.0,7.5,CON,toss-up,True,2.8,4.7,-3.4,0.0,-4.2,0.0,7.5
+BNS,Burnaby South-Metrotown,Metro Vancouver,13083,NDP,44.4,43.9,8.8,0.0,2.9,0.0,CON,lean,False,6.2,1.6,-3.9,0.0,-3.9,0.0,7.8,CON,lean,False,5.9,1.3,-3.2,0.0,-4.0,0.0,7.2
+CBC,Cariboo-Chilcotin,Rest of BC,18441,CON,16.9,77.1,6.0,0.0,0.0,0.0,CON,safe,True,-9.2,14.5,-5.2,0.0,0.0,0.0,14.4,CON,safe,True,-9.6,14.9,-5.3,0.0,0.0,0.0,14.9
+CHC,Chilliwack-Cultus Lake,Rest of BC,21142,CON,39.9,60.1,0.0,0.0,0.0,0.0,CON,likely,True,-5.0,5.0,0.0,0.0,0.0,0.0,5.0,CON,likely,True,-4.9,4.9,0.0,0.0,0.0,0.0,4.9
+CHN,Chilliwack North,Rest of BC,17647,CON,33.0,59.5,0.0,7.5,0.0,0.0,CON,safe,True,-3.4,5.0,0.0,-1.6,0.0,0.0,5.0,CON,safe,True,-3.5,5.2,0.0,-1.7,0.0,0.0,5.2
+CLR,Columbia River-Revelstoke,Rest of BC,16935,CON,36.0,52.5,11.5,0.0,0.0,0.0,CON,lean,True,-6.9,5.1,1.7,0.0,0.0,0.0,6.8,CON,lean,True,-6.9,4.9,2.0,0.0,0.0,0.0,6.9
+CQB,Coquitlam-Burke Mountain,Metro Vancouver,18665,CON,39.3,52.6,6.0,2.2,0.0,0.0,CON,likely,True,1.9,5.7,-6.6,-0.9,0.0,0.0,7.5,CON,likely,True,2.0,5.3,-6.4,-0.9,0.0,0.0,7.3
+CQM,Coquitlam-Maillardville,Metro Vancouver,19411,CON,41.5,49.6,8.9,0.0,0.0,0.0,NDP,toss-up,False,-1.8,6.5,-4.7,0.0,0.0,0.0,6.5,CON,toss-up,True,-2.0,6.0,-4.1,0.0,0.0,0.0,6.0
+CRC,Courtenay-Comox,Rest of BC,29705,NDP,45.1,42.7,9.7,2.5,0.0,0.0,CON,toss-up,False,10.7,7.2,-12.0,-5.9,0.0,0.0,17.9,CON,toss-up,False,11.2,7.7,-13.1,-5.8,0.0,0.0,18.9
+CWV,Cowichan Valley,Rest of BC,25895,CON,42.3,42.9,14.5,0.0,0.0,0.4,NDP,toss-up,False,2.6,5.3,-8.3,0.0,0.0,0.4,8.3,NDP,toss-up,False,4.1,6.6,-8.9,0.0,0.0,-1.7,10.7
+DLN,Delta North,Metro Vancouver,18279,CON,40.6,53.6,0.0,5.8,0.0,0.0,NDP,toss-up,False,-7.8,5.8,0.0,2.0,0.0,0.0,7.8,CON,toss-up,True,-7.5,5.5,0.0,2.0,0.0,0.0,7.5
+DLS,Delta South,Metro Vancouver,24176,CON,28.6,59.9,8.2,0.0,3.3,0.0,CON,safe,True,-2.3,9.2,-4.0,0.0,-2.9,0.0,9.2,CON,safe,True,-2.8,9.3,-3.6,0.0,-2.9,0.0,9.3
+ESC,Esquimalt-Colwood,Capital Region,25325,NDP,43.3,29.2,22.8,4.8,0.0,0.0,NDP,safe,True,-3.8,-1.0,3.4,1.5,0.0,0.0,4.8,NDP,safe,True,-3.6,-1.2,3.4,1.5,0.0,0.0,4.8
+FRN,Fraser-Nicola,Rest of BC,16148,CON,28.2,58.8,13.1,0.0,0.0,0.0,CON,safe,True,-6.7,5.0,1.8,0.0,0.0,0.0,6.8,CON,safe,True,-6.9,5.1,1.9,0.0,0.0,0.0,7.0
+JFM,Juan de Fuca-Malahat,Capital Region,21106,CON,38.2,41.7,17.3,0.0,2.5,0.3,CON,lean,True,10.6,10.4,-1.1,0.0,-19.6,-0.2,20.9,CON,lean,True,10.4,10.4,-0.9,0.0,-19.6,-0.2,20.8
+KAC,Kamloops Centre,Rest of BC,22063,CON,30.6,53.3,11.2,0.0,3.7,1.1,CON,lean,True,-3.6,11.5,0.5,0.0,-1.2,-7.3,12.1,CON,lean,True,-3.5,11.7,0.5,0.0,-1.2,-7.6,12.2
+KAN,Kamloops-North Thompson,Rest of BC,26518,CON,28.7,65.0,0.0,0.0,6.3,0.0,CON,safe,True,-3.9,3.5,0.0,0.0,0.4,0.0,3.9,CON,safe,True,-4.2,3.8,0.0,0.0,0.4,0.0,4.2
+KEC,Kelowna Centre,Rest of BC,22323,CON,47.7,48.3,0.0,0.0,3.9,0.0,CON,toss-up,True,1.4,0.9,0.0,0.0,-2.4,0.0,2.4,CON,toss-up,True,1.5,0.8,0.0,0.0,-2.4,0.0,2.4
+KLC,Kelowna-Lake Country-Coldstream,Rest of BC,22246,CON,32.6,47.5,8.5,0.0,11.4,0.0,CON,safe,True,-1.5,-6.5,2.3,0.0,5.7,0.0,8.0,CON,safe,True,-2.0,-6.8,3.2,0.0,5.6,0.0,8.8
+KLM,Kelowna-Mission,Rest of BC,23128,CON,27.8,58.8,10.2,0.0,3.3,0.0,CON,safe,True,-5.1,4.8,3.1,0.0,-2.7,0.0,7.8,CON,safe,True,-5.7,4.6,3.9,0.0,-2.7,0.0,8.4
+KOC,Kootenay Central,Rest of BC,19275,NDP,39.5,37.1,19.6,0.0,3.8,0.0,NDP,lean,True,-0.2,4.8,-2.5,0.0,-2.1,0.0,4.8,NDP,lean,True,0.4,5.1,-3.5,0.0,-2.0,0.0,5.5
+KOM,Kootenay-Monashee,Rest of BC,17512,NDP,47.9,37.4,10.3,0.0,4.3,0.0,NDP,likely,True,-0.1,1.2,-0.2,0.0,-1.0,0.0,1.2,NDP,likely,True,0.2,0.9,-0.2,0.0,-1.1,0.0,1.2
+KOR,Kootenay-Rockies,Rest of BC,16212,CON,27.2,56.3,7.2,4.0,5.3,0.0,CON,safe,True,3.3,6.1,-1.1,-6.8,-1.4,0.0,9.3,CON,safe,True,2.3,6.2,-0.2,-6.9,-1.4,0.0,8.5
+LAO,Ladysmith-Oceanside,Rest of BC,30112,CON,44.3,44.6,11.2,0.0,0.0,0.0,NDP,lean,False,-3.7,2.9,0.9,0.0,0.0,0.0,3.8,NDP,lean,False,-3.8,2.5,1.4,0.0,0.0,0.0,3.8
+LFH,Langford-Highlands,Capital Region,19514,NDP,44.8,38.9,13.1,2.2,0.0,1.1,NDP,likely,True,-2.4,0.8,2.3,-1.0,0.0,0.5,3.5,NDP,likely,True,-2.1,0.3,2.4,-1.1,0.0,0.5,3.2
+LLA,Langley-Abbotsford,Metro Vancouver,21945,CON,23.7,61.4,8.5,0.0,5.0,1.4,CON,safe,True,1.1,6.3,-3.3,0.0,-1.7,-2.4,7.4,CON,safe,True,-1.5,6.8,-1.7,0.0,-1.6,-2.0,6.8
+LWG,Langley-Walnut Grove,Metro Vancouver,21648,CON,31.6,56.8,7.2,4.4,0.0,0.0,CON,safe,True,-2.6,6.0,-4.5,1.1,0.0,0.0,7.1,CON,safe,True,-3.8,5.4,-2.7,1.1,0.0,0.0,6.5
+LWI,Langley-Willowbrook,Metro Vancouver,18994,CON,36.0,52.5,7.8,0.0,3.7,0.0,CON,safe,True,3.5,5.0,-5.6,0.0,-2.9,0.0,8.5,CON,likely,True,3.0,5.4,-5.5,0.0,-2.9,0.0,8.4
+MAE,Maple Ridge East,Metro Vancouver,22418,CON,37.3,53.6,7.6,0.0,0.0,1.5,CON,likely,True,1.3,5.3,-5.3,0.0,0.0,-1.3,6.6,CON,likely,True,0.7,5.2,-4.6,0.0,0.0,-1.4,6.0
+MAP,Maple Ridge-Pitt Meadows,Metro Vancouver,21203,CON,44.3,48.6,0.0,3.6,3.5,0.0,CON,toss-up,True,0.5,2.5,0.0,0.3,-3.3,0.0,3.3,CON,lean,True,1.1,2.0,0.0,0.3,-3.5,0.0,3.5
+MPR,Mid Island-Pacific Rim,Rest of BC,25415,NDP,46.9,40.5,12.6,0.0,0.0,0.0,NDP,likely,True,-0.4,1.7,-1.3,0.0,0.0,0.0,1.7,NDP,likely,True,-0.0,1.6,-1.6,0.0,0.0,0.0,1.6
+NAI,Nanaimo-Gabriola Island,Rest of BC,23033,NDP,48.1,35.9,16.0,0.0,0.0,0.0,NDP,safe,True,-3.2,2.0,1.2,0.0,0.0,0.0,3.2,NDP,safe,True,-2.6,1.8,0.8,0.0,0.0,0.0,2.6
+NAL,Nanaimo-Lantzville,Rest of BC,24791,NDP,46.7,43.2,9.9,0.0,0.0,0.3,NDP,likely,True,0.7,7.8,0.1,0.0,0.0,-8.5,8.6,NDP,likely,True,1.2,7.6,0.3,0.0,0.0,-8.9,9.0
+NEC,Nechako Lakes,Rest of BC,9323,CON,23.1,63.9,0.0,0.0,0.0,13.1,CON,safe,True,-1.9,-1.6,0.0,0.0,0.0,3.6,3.5,CON,safe,True,-2.4,-0.8,0.0,0.0,0.0,3.3,3.2
+NMC,New Westminster-Coquitlam,Metro Vancouver,18440,NDP,50.4,34.2,15.4,0.0,0.0,0.0,NDP,safe,True,0.7,2.0,-2.7,0.0,0.0,0.0,2.7,NDP,safe,True,3.2,2.9,-6.1,0.0,0.0,0.0,6.1
+NOH,North Coast-Haida Gwaii,Rest of BC,6593,NDP,61.4,28.8,9.7,0.0,0.0,0.0,NDP,safe,True,3.7,-2.3,-1.5,0.0,0.0,0.0,3.8,NDP,safe,True,4.3,-2.8,-1.7,0.0,0.0,0.0,4.4
+NOI,North Island,Rest of BC,24648,CON,42.7,48.0,7.9,0.0,0.0,1.3,CON,toss-up,True,3.0,5.6,-1.2,0.0,0.0,-7.5,8.7,CON,toss-up,True,3.2,5.6,-0.9,0.0,0.0,-7.9,8.8
+NVL,North Vancouver-Lonsdale,Metro Vancouver,21936,NDP,47.0,41.6,11.4,0.0,0.0,0.0,NDP,safe,True,-4.9,6.5,-1.6,0.0,0.0,0.0,6.5,NDP,likely,True,-3.7,5.6,-1.8,0.0,0.0,0.0,5.5
+NVS,North Vancouver-Seymour,Metro Vancouver,26252,CON,37.4,46.8,10.8,5.0,0.0,0.0,NDP,lean,False,-7.0,7.6,-2.1,1.5,0.0,0.0,9.1,NDP,lean,False,-7.4,6.9,-0.9,1.4,0.0,0.0,8.3
+OBG,Oak Bay-Gordon Head,Capital Region,24841,NDP,37.0,30.6,21.9,10.4,0.0,0.0,NDP,likely,True,-7.8,0.7,-0.2,7.1,0.0,0.0,7.9,NDP,likely,True,-7.6,0.6,-0.2,7.1,0.0,0.0,7.8
+PCN,Peace River North,Rest of BC,10446,CON,0.0,85.7,0.0,0.0,0.0,14.3,CON,safe,True,0.0,11.9,0.0,0.0,0.0,-11.9,11.9,CON,safe,True,0.0,7.5,0.0,0.0,0.0,-7.5,7.5
+PCS,Peace River South,Rest of BC,7812,CON,15.4,77.7,0.0,0.0,0.0,6.9,CON,safe,True,11.9,12.6,0.0,0.0,0.0,-24.5,24.5,CON,safe,True,10.0,8.2,0.0,0.0,0.0,-18.2,18.2
+PES,Penticton-Summerland,Rest of BC,25430,CON,41.2,45.6,8.0,0.0,5.3,0.0,CON,toss-up,True,-0.8,1.4,0.4,0.0,-0.8,0.0,1.7,CON,toss-up,True,-1.1,1.0,1.1,0.0,-0.9,0.0,2.1
+POC,Port Coquitlam,Metro Vancouver,21519,NDP,45.3,43.6,8.5,0.0,0.0,2.6,NDP,lean,True,0.5,1.9,-5.0,0.0,0.0,2.6,5.0,NDP,toss-up,True,0.9,1.6,-4.4,0.0,0.0,1.9,4.4
+POM,Port Moody-Burquitlam,Metro Vancouver,22857,CON,42.1,46.9,8.2,2.8,0.0,0.0,CON,toss-up,True,0.9,5.3,-5.7,-0.5,0.0,0.0,6.2,CON,toss-up,True,1.3,5.2,-6.1,-0.5,0.0,0.0,6.5
+POR,Powell River-Sunshine Coast,Rest of BC,25964,NDP,49.1,39.0,11.9,0.0,0.0,0.0,NDP,likely,True,0.4,3.6,-4.0,0.0,0.0,0.0,4.0,NDP,likely,True,1.0,3.5,-4.5,0.0,0.0,0.0,4.5
+PRM,Prince George-Mackenzie,Rest of BC,14975,CON,23.6,66.3,10.1,0.0,0.0,0.0,CON,safe,True,-3.7,4.4,-0.6,0.0,0.0,0.0,4.4,CON,safe,True,-4.3,4.7,-0.4,0.0,0.0,0.0,4.7
+PRO,Prince George-North Cariboo,Rest of BC,16750,CON,20.2,70.4,9.4,0.0,0.0,0.0,CON,safe,True,0.5,-2.1,1.6,0.0,0.0,0.0,2.1,CON,safe,True,-0.9,-1.8,2.7,0.0,0.0,0.0,2.7
+PRV,Prince George-Valemount,Rest of BC,12900,CON,29.3,51.1,11.6,0.0,8.0,0.0,CON,safe,True,-2.3,-0.6,0.3,0.0,2.7,0.0,3.0,CON,safe,True,-2.6,-0.4,0.3,0.0,2.7,0.0,3.0
+RCB,Richmond-Bridgeport,Metro Vancouver,13748,CON,31.7,68.3,0.0,0.0,0.0,0.0,CON,safe,True,2.7,-2.7,0.0,0.0,0.0,0.0,2.7,CON,safe,True,0.4,-0.4,0.0,0.0,0.0,0.0,0.4
+RCC,Richmond Centre,Metro Vancouver,12862,CON,33.9,57.6,6.0,0.0,0.0,2.5,CON,safe,True,8.6,6.3,-7.0,0.0,0.0,-7.9,14.9,CON,safe,True,6.1,6.0,-6.8,0.0,0.0,-5.2,12.1
+RCQ,Richmond-Queensborough,Metro Vancouver,16271,CON,33.4,59.1,7.5,0.0,0.0,0.0,CON,safe,True,-0.4,6.5,-6.1,0.0,0.0,0.0,6.5,CON,safe,True,-1.1,6.8,-5.7,0.0,0.0,0.0,6.8
+RCS,Richmond-Steveston,Metro Vancouver,20012,CON,35.0,54.2,0.0,8.0,0.0,2.8,CON,likely,True,-2.4,5.9,0.0,4.3,0.0,-7.8,10.2,CON,likely,True,-4.2,5.2,0.0,4.3,0.0,-5.3,9.5
+SAN,Saanich North and the Islands,Capital Region,29864,GRN,17.5,31.7,48.5,2.3,0.0,0.0,GRN,lean,True,-11.1,0.3,11.8,-1.0,0.0,0.0,12.1,GRN,lean,True,-11.8,0.7,12.1,-1.0,0.0,0.0,12.8
+SAS,Saanich South,Capital Region,26847,CON,34.7,39.3,26.0,0.0,0.0,0.0,NDP,likely,False,-12.2,4.7,7.5,0.0,0.0,0.0,12.2,NDP,likely,False,-12.0,4.5,7.5,0.0,0.0,0.0,12.0
+SHU,Salmon Arm-Shuswap,Rest of BC,26618,CON,28.3,54.9,8.2,3.5,5.2,0.0,CON,safe,True,0.6,5.4,-0.4,-5.2,-0.2,0.0,5.9,CON,safe,True,0.1,5.5,-0.0,-5.3,-0.2,0.0,5.5
+SKE,Skeena,Rest of BC,10940,CON,37.5,51.5,8.4,0.0,2.6,0.0,CON,lean,True,-3.7,3.0,3.6,0.0,-2.8,0.0,6.5,CON,lean,True,-4.1,2.4,4.5,0.0,-2.9,0.0,6.9
+SRC,Surrey City Centre,Metro Vancouver,12029,CON,44.2,47.5,0.0,3.5,4.8,0.0,CON,likely,True,5.3,-2.6,0.0,-0.1,-2.6,0.0,5.3,CON,likely,True,4.9,-2.3,0.0,-0.0,-2.6,0.0,4.9
+SRD,Surrey-Cloverdale,Metro Vancouver,17426,CON,33.5,52.5,7.5,3.4,3.1,0.0,CON,likely,True,0.8,6.0,-3.7,0.3,-3.4,0.0,7.1,CON,likely,True,-0.2,5.6,-2.3,0.3,-3.4,0.0,5.9
+SRF,Surrey-Fleetwood,Metro Vancouver,17103,CON,38.1,50.7,6.0,2.3,2.9,0.0,CON,lean,True,2.8,7.7,-6.2,-0.8,-3.5,0.0,10.5,CON,lean,True,2.5,7.5,-5.6,-0.8,-3.6,0.0,10.0
+SRG,Surrey-Guildford,Metro Vancouver,15239,CON,41.1,50.6,6.3,0.0,0.0,2.0,CON,likely,True,3.2,0.4,-5.1,0.0,0.0,1.5,5.1,CON,likely,True,2.2,-0.3,-2.5,0.0,0.0,0.5,2.8
+SRN,Surrey-Newton,Metro Vancouver,13438,CON,40.7,54.5,0.0,4.8,0.0,0.0,CON,lean,True,-5.3,4.2,0.0,1.0,0.0,0.0,5.2,CON,lean,True,-5.1,4.0,0.0,1.0,0.0,0.0,5.0
+SUN,Surrey North,Metro Vancouver,12850,CON,32.9,57.9,4.4,2.5,1.9,0.5,CON,safe,True,2.0,8.9,-5.8,-0.6,-4.6,0.2,11.1,CON,safe,True,0.8,8.6,-3.3,-0.6,-4.7,-0.7,9.3
+SUP,Surrey-Panorama,Metro Vancouver,14600,CON,33.5,58.7,5.1,2.6,0.0,0.0,CON,likely,True,-2.1,10.3,-7.7,-0.5,0.0,0.0,10.3,CON,likely,True,-2.3,10.2,-7.5,-0.5,0.0,0.0,10.2
+SUR,Surrey-Serpentine River,Metro Vancouver,17377,CON,32.6,58.1,0.0,5.1,3.4,0.7,CON,likely,True,-4.5,6.9,0.0,1.8,-3.5,-0.8,8.8,CON,likely,True,-4.4,7.3,0.0,1.8,-3.5,-1.3,9.2
+SUS,Surrey South,Metro Vancouver,20446,CON,22.2,61.4,5.0,10.1,0.0,1.3,CON,safe,True,-5.6,7.0,-7.2,7.1,0.0,-1.3,14.1,CON,safe,True,-6.5,7.5,-6.8,7.2,0.0,-1.3,14.7
+SWR,Surrey-White Rock,Metro Vancouver,24638,CON,28.9,58.2,7.7,2.1,2.4,0.7,CON,safe,True,-1.8,10.8,-4.3,-0.8,-3.7,-0.2,10.8,CON,safe,True,-2.1,11.2,-3.9,-0.8,-3.7,-0.8,11.2
+VFV,Vancouver-Fraserview,Metro Vancouver,16221,CON,41.7,44.1,14.2,0.0,0.0,0.0,NDP,likely,False,-6.1,5.0,1.0,0.0,0.0,0.0,6.0,NDP,lean,False,-5.8,4.2,1.6,0.0,0.0,0.0,5.8
+VHA,Vancouver-Hastings,Metro Vancouver,18904,NDP,51.3,25.3,18.9,2.4,0.0,2.1,NDP,safe,True,-2.1,-0.5,1.4,-0.9,0.0,2.1,3.5,NDP,safe,True,1.0,0.3,-1.9,-0.9,0.0,1.6,2.9
+VKE,Vancouver-Kensington,Metro Vancouver,15572,NDP,46.7,35.9,17.4,0.0,0.0,0.0,NDP,safe,True,-4.9,2.0,2.8,0.0,0.0,0.0,4.8,NDP,safe,True,-3.7,1.7,2.0,0.0,0.0,0.0,3.7
+VLA,Vancouver-Langara,Metro Vancouver,14170,CON,39.0,50.5,7.9,2.6,0.0,0.0,CON,likely,True,1.4,3.4,-4.1,-0.7,0.0,0.0,4.8,CON,likely,True,0.7,2.7,-2.8,-0.7,0.0,0.0,3.5
+VLM,Vancouver-Little Mountain,Metro Vancouver,20634,NDP,49.1,34.3,16.6,0.0,0.0,0.0,NDP,safe,True,-3.7,1.3,2.3,0.0,0.0,0.0,3.6,NDP,safe,True,-2.6,0.9,1.8,0.0,0.0,0.0,2.6
+VNP,Vancouver-Point Grey,Metro Vancouver,18173,NDP,43.0,40.0,13.5,3.6,0.0,0.0,NDP,likely,True,-2.8,4.3,-1.7,0.3,0.0,0.0,4.5,NDP,likely,True,-1.5,4.5,-3.2,0.3,0.0,0.0,4.8
+VNQ,Vancouver-Quilchena,Metro Vancouver,19905,CON,26.5,55.0,9.3,5.2,4.0,0.0,CON,safe,True,-0.3,5.1,-4.3,2.1,-2.5,0.0,7.1,CON,safe,True,-1.6,6.2,-4.4,2.2,-2.4,0.0,8.4
+VNR,Vancouver-Renfrew,Metro Vancouver,14102,NDP,54.6,31.3,11.9,2.2,0.0,0.0,NDP,safe,True,2.5,-0.6,-0.8,-1.1,0.0,0.0,2.5,NDP,safe,True,3.1,-1.5,-0.3,-1.2,0.0,0.0,3.0
+VNS,Vancouver-South Granville,Metro Vancouver,21982,NDP,47.4,29.5,18.9,3.3,0.8,0.0,NDP,safe,True,-2.4,4.9,2.8,0.2,-5.6,0.0,8.0,NDP,safe,True,0.2,5.5,-0.4,0.2,-5.7,0.0,6.0
+VNT,Vancouver-Strathcona,Metro Vancouver,17214,NDP,55.1,14.7,29.0,0.0,0.0,1.3,NDP,safe,True,-4.7,-4.8,8.5,0.0,0.0,1.1,9.6,NDP,safe,True,0.2,-3.4,3.3,0.0,0.0,0.1,3.5
+VNW,Vancouver-West End,Metro Vancouver,16777,NDP,51.6,30.5,17.9,0.0,0.0,0.0,NDP,safe,True,-2.5,0.8,1.7,0.0,0.0,0.0,2.5,NDP,safe,True,-0.5,1.0,-0.5,0.0,0.0,0.0,1.0
+VNY,Vancouver-Yaletown,Metro Vancouver,14310,CON,41.0,46.9,8.8,3.4,0.0,0.0,CON,lean,True,2.1,2.5,-4.6,0.1,0.0,0.0,4.6,CON,lean,True,2.0,2.3,-4.4,0.1,0.0,0.0,4.4
+VRL,Vernon-Lumby,Rest of BC,24993,CON,37.8,50.8,6.9,0.0,4.5,0.0,NDP,toss-up,False,-3.6,10.3,-5.5,0.0,-1.2,0.0,10.3,NDP,toss-up,False,-3.5,10.2,-5.6,0.0,-1.2,0.0,10.2
+VTB,Victoria-Beacon Hill,Capital Region,22785,NDP,45.7,14.0,40.3,0.0,0.0,0.0,NDP,likely,True,1.1,-6.9,5.7,0.0,0.0,0.0,6.9,NDP,likely,True,1.1,-6.6,5.5,0.0,0.0,0.0,6.6
+VTS,Victoria-Swan Lake,Capital Region,21191,NDP,43.7,21.1,35.2,0.0,0.0,0.0,NDP,safe,True,-10.1,-1.0,11.0,0.0,0.0,0.0,11.1,NDP,safe,True,-9.8,-0.9,10.8,0.0,0.0,0.0,10.8
+WKP,West Kelowna-Peachland,Rest of BC,23197,CON,29.7,62.4,8.0,0.0,0.0,0.0,CON,safe,True,0.1,5.9,-5.9,0.0,0.0,0.0,6.0,CON,safe,True,-0.3,6.3,-5.9,0.0,0.0,0.0,6.2
+WVC,West Vancouver-Capilano,Metro Vancouver,21865,CON,20.5,66.9,10.8,0.0,1.8,0.0,CON,safe,True,0.5,9.6,-3.7,0.0,-6.4,0.0,10.1,CON,safe,True,-4.0,11.6,-1.5,0.0,-6.2,0.0,11.7
+WVS,West Vancouver-Sea to Sky,Rest of BC,22080,GRN,10.3,38.4,47.6,3.7,0.0,0.0,GRN,lean,True,-12.1,6.7,9.9,-4.5,0.0,0.0,16.6,GRN,likely,True,-11.6,8.0,7.8,-4.2,0.0,0.0,15.8

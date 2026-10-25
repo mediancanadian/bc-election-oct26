@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+geopandas
+shapely
+pyproj
+topojson
+pillow
+playwright
+openpyxl
+xlrd
+pypdf

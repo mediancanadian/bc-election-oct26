@@ -1,0 +1,93 @@
+district_code,name,region,ptype
+ABM,Abbotsford-Mission,Fraser Valley,3 Car suburb
+ABS,Abbotsford South,Fraser Valley,3 Car suburb
+ABW,Abbotsford West,Fraser Valley,3 Car suburb
+BDS,Boundary-Similkameen,Interior and North,4 Exurban and rural
+BLS,Bulkley Valley-Stikine,Interior and North,4 Exurban and rural
+BNC,Burnaby Centre,Metro Vancouver,2 Transit suburb
+BNE,Burnaby East,Metro Vancouver,2 Transit suburb
+BNN,Burnaby-New Westminster,Metro Vancouver,2 Transit suburb
+BNO,Burnaby North,Metro Vancouver,2 Transit suburb
+BNS,Burnaby South-Metrotown,Metro Vancouver,2 Transit suburb
+CBC,Cariboo-Chilcotin,Interior and North,4 Exurban and rural
+CHC,Chilliwack-Cultus Lake,Fraser Valley,4 Exurban and rural
+CHN,Chilliwack North,Fraser Valley,3 Car suburb
+CLR,Columbia River-Revelstoke,Interior and North,4 Exurban and rural
+CQB,Coquitlam-Burke Mountain,Metro Vancouver,4 Exurban and rural
+CQM,Coquitlam-Maillardville,Metro Vancouver,2 Transit suburb
+CRC,Courtenay-Comox,Rest of Vancouver Island and Coast,4 Exurban and rural
+CWV,Cowichan Valley,Rest of Vancouver Island and Coast,4 Exurban and rural
+DLN,Delta North,Metro Vancouver,2 Transit suburb
+DLS,Delta South,Metro Vancouver,3 Car suburb
+ESC,Esquimalt-Colwood,Capital Region (Victoria),1 Active core
+FRN,Fraser-Nicola,Interior and North,4 Exurban and rural
+JFM,Juan de Fuca-Malahat,Capital Region (Victoria),4 Exurban and rural
+KAC,Kamloops Centre,Interior and North,3 Car suburb
+KAN,Kamloops-North Thompson,Interior and North,4 Exurban and rural
+KEC,Kelowna Centre,Okanagan,1 Active core
+KLC,Kelowna-Lake Country-Coldstream,Okanagan,4 Exurban and rural
+KLM,Kelowna-Mission,Okanagan,4 Exurban and rural
+KOC,Kootenay Central,Interior and North,4 Exurban and rural
+KOM,Kootenay-Monashee,Interior and North,4 Exurban and rural
+KOR,Kootenay-Rockies,Interior and North,4 Exurban and rural
+LAO,Ladysmith-Oceanside,Rest of Vancouver Island and Coast,4 Exurban and rural
+LFH,Langford-Highlands,Capital Region (Victoria),3 Car suburb
+LLA,Langley-Abbotsford,Metro Vancouver,3 Car suburb
+LWG,Langley-Walnut Grove,Metro Vancouver,3 Car suburb
+LWI,Langley-Willowbrook,Metro Vancouver,3 Car suburb
+MAE,Maple Ridge East,Metro Vancouver,3 Car suburb
+MAP,Maple Ridge-Pitt Meadows,Metro Vancouver,4 Exurban and rural
+MPR,Mid Island-Pacific Rim,Rest of Vancouver Island and Coast,4 Exurban and rural
+NAI,Nanaimo-Gabriola Island,Rest of Vancouver Island and Coast,3 Car suburb
+NAL,Nanaimo-Lantzville,Rest of Vancouver Island and Coast,3 Car suburb
+NEC,Nechako Lakes,Interior and North,4 Exurban and rural
+NMC,New Westminster-Coquitlam,Metro Vancouver,2 Transit suburb
+NOH,North Coast-Haida Gwaii,Interior and North,4 Exurban and rural
+NOI,North Island,Rest of Vancouver Island and Coast,4 Exurban and rural
+NVL,North Vancouver-Lonsdale,Metro Vancouver,1 Active core
+NVS,North Vancouver-Seymour,Metro Vancouver,3 Car suburb
+OBG,Oak Bay-Gordon Head,Capital Region (Victoria),1 Active core
+PCS,Peace River South,Interior and North,4 Exurban and rural
+PES,Penticton-Summerland,Okanagan,4 Exurban and rural
+POC,Port Coquitlam,Metro Vancouver,3 Car suburb
+POM,Port Moody-Burquitlam,Metro Vancouver,2 Transit suburb
+POR,Powell River-Sunshine Coast,Rest of Vancouver Island and Coast,4 Exurban and rural
+PRM,Prince George-Mackenzie,Interior and North,4 Exurban and rural
+PRO,Prince George-North Cariboo,Interior and North,4 Exurban and rural
+PRV,Prince George-Valemount,Interior and North,4 Exurban and rural
+RCB,Richmond-Bridgeport,Metro Vancouver,2 Transit suburb
+RCC,Richmond Centre,Metro Vancouver,2 Transit suburb
+RCQ,Richmond-Queensborough,Metro Vancouver,2 Transit suburb
+RCS,Richmond-Steveston,Metro Vancouver,2 Transit suburb
+SAN,Saanich North and the Islands,Capital Region (Victoria),4 Exurban and rural
+SAS,Saanich South,Capital Region (Victoria),3 Car suburb
+SHU,Salmon Arm-Shuswap,Interior and North,4 Exurban and rural
+SKE,Skeena,Interior and North,4 Exurban and rural
+SRC,Surrey City Centre,Metro Vancouver,2 Transit suburb
+SRD,Surrey-Cloverdale,Metro Vancouver,3 Car suburb
+SRF,Surrey-Fleetwood,Metro Vancouver,2 Transit suburb
+SRG,Surrey-Guildford,Metro Vancouver,2 Transit suburb
+SRN,Surrey-Newton,Metro Vancouver,2 Transit suburb
+SUN,Surrey North,Metro Vancouver,2 Transit suburb
+SUP,Surrey-Panorama,Metro Vancouver,2 Transit suburb
+SUR,Surrey-Serpentine River,Metro Vancouver,3 Car suburb
+SUS,Surrey South,Metro Vancouver,3 Car suburb
+SWR,Surrey-White Rock,Metro Vancouver,3 Car suburb
+VFV,Vancouver-Fraserview,Metro Vancouver,2 Transit suburb
+VHA,Vancouver-Hastings,Metro Vancouver,1 Active core
+VKE,Vancouver-Kensington,Metro Vancouver,2 Transit suburb
+VLA,Vancouver-Langara,Metro Vancouver,2 Transit suburb
+VLM,Vancouver-Little Mountain,Metro Vancouver,1 Active core
+VNP,Vancouver-Point Grey,Metro Vancouver,1 Active core
+VNQ,Vancouver-Quilchena,Metro Vancouver,2 Transit suburb
+VNR,Vancouver-Renfrew,Metro Vancouver,2 Transit suburb
+VNS,Vancouver-South Granville,Metro Vancouver,1 Active core
+VNT,Vancouver-Strathcona,Metro Vancouver,1 Active core
+VNW,Vancouver-West End,Metro Vancouver,1 Active core
+VNY,Vancouver-Yaletown,Metro Vancouver,1 Active core
+VRL,Vernon-Lumby,Okanagan,4 Exurban and rural
+VTB,Victoria-Beacon Hill,Capital Region (Victoria),1 Active core
+VTS,Victoria-Swan Lake,Capital Region (Victoria),1 Active core
+WKP,West Kelowna-Peachland,Okanagan,4 Exurban and rural
+WVC,West Vancouver-Capilano,Metro Vancouver,2 Transit suburb
+WVS,West Vancouver-Sea to Sky,Rest of Vancouver Island and Coast,4 Exurban and rural

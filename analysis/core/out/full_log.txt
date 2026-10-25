@@ -1,0 +1,388 @@
+== PROVINCE (initial count 20261025T115814Z )
+         votes26  share26  share24  lead26  seats24  polls  change  count_minus_polls  votes_per_seat
+CON     861258.0    48.05    43.28      64       44  43.84    4.77               4.21         13457.0
+NDP     669901.0    37.38    44.87      27       47  38.87   -7.49              -1.49         24811.0
+GRN     196593.0    10.97     8.24       2        2  12.00    2.73              -1.03         98296.0
+CENTRE   28998.0     1.62      NaN       0        0   1.71     NaN              -0.09             NaN
+ONEBC    26991.0     1.51      NaN       0        0   2.40     NaN              -0.89             NaN
+OTH       8494.0     0.47     3.62       0        0   1.18   -3.15              -0.71             NaN
+total valid 1792235 | boxes 7237 / 7268
+
+== FLIPS 22
+                                   name                     region win24 lead26  margin24_pts  margin26_pts  margin26_votes  con_swing  ndp_swing
+district_code                                                                                                                                    
+JFM                Juan de Fuca-Malahat  Capital Region (Victoria)   NDP    CON           0.6           3.5             768        3.4       -0.6
+SAS                       Saanich South  Capital Region (Victoria)   NDP    CON          17.3           4.6            1227        6.8      -15.0
+BNC                      Burnaby Centre            Metro Vancouver   NDP    CON          14.6           6.0             842        4.9      -15.7
+BNO                       Burnaby North            Metro Vancouver   NDP    CON          10.3           4.3             769        3.4      -11.1
+CQB            Coquitlam-Burke Mountain            Metro Vancouver   NDP    CON           1.7          13.3            2476        3.4      -11.6
+CQM             Coquitlam-Maillardville            Metro Vancouver   NDP    CON          12.2           8.1            1569       10.0      -10.3
+DLN                         Delta North            Metro Vancouver   NDP    CON          12.5          13.0            2371       13.4      -12.1
+MAP            Maple Ridge-Pitt Meadows            Metro Vancouver   NDP    CON           9.8           3.8             850        3.2      -10.3
+NVS             North Vancouver-Seymour            Metro Vancouver   NDP    CON          17.0           9.4            2466       11.0      -15.3
+POM               Port Moody-Burquitlam            Metro Vancouver   NDP    CON          11.6           4.7            1079        6.4       -9.9
+RCS                  Richmond-Steveston            Metro Vancouver   NDP    CON           2.1          19.2            3841       12.0       -9.3
+SRC                  Surrey City Centre            Metro Vancouver   NDP    CON           1.6           3.3             395        2.4       -2.5
+SRF                    Surrey-Fleetwood            Metro Vancouver   NDP    CON           3.7          12.7            2169        5.8      -10.5
+SRG                    Surrey-Guildford            Metro Vancouver   NDP    CON           0.1           9.6            1472        3.8       -5.9
+SRN                       Surrey-Newton            Metro Vancouver   NDP    CON           8.2          13.8            1858       11.5      -10.5
+VFV                Vancouver-Fraserview            Metro Vancouver   NDP    CON          20.6           2.4             387        7.5      -15.5
+VLA                   Vancouver-Langara            Metro Vancouver   NDP    CON           2.4          11.6            1650        4.5       -9.5
+VNY                  Vancouver-Yaletown            Metro Vancouver   NDP    CON           6.4           5.9             844        3.5       -8.8
+VRL                        Vernon-Lumby                   Okanagan   NDP    CON           1.7          13.0            3254        9.8       -4.9
+CWV                     Cowichan Valley   Rest of Vancouver Island   NDP    CON           2.9           0.6             150        5.3        1.8
+LAO                 Ladysmith-Oceanside   Rest of Vancouver Island   NDP    CON           6.0           0.3              89        9.1        2.8
+CRC                     Courtenay-Comox   Rest of Vancouver Island   CON    NDP           0.3           2.4             696        3.9        6.5
+win24  lead26  region                   
+CON    NDP     Rest of Vancouver Island      1
+NDP    CON     Capital Region (Victoria)     2
+               Metro Vancouver              16
+               Okanagan                      1
+               Rest of Vancouver Island      2
+dtype: int64
+
+== REGIONS
+                           ridings  CON24  CON26  NDP24  NDP26  GRN24  GRN26  CON_seats24  CON_seats26  NDP_seats24  NDP_seats26  GRN_seats26
+region                                                                                                                                       
+Capital Region (Victoria)        8   29.2   30.9   46.7   37.2   23.8   29.0            0            2            7            5            1
+Fraser Valley                    5   56.7   60.2   40.3   33.9    1.1    0.0            5            5            0            0            0
+Interior and North              20   51.8   56.0   33.0   29.0    9.2   10.3           16           16            3            3            1
+Metro Vancouver                 46   42.3   48.4   50.6   39.2    4.9    8.8           16           32           30           14            0
+Okanagan                         6   46.9   52.2   36.9   36.2    3.1    7.0            5            6            1            0            0
+Rest of Vancouver Island         8   38.5   42.2   45.7   45.6   12.8   11.6            2            3            6            5            0
+
+== TURNOUT (election-night comparable)
+      registered  votes_counted_on_night    pct
+2024     3609288               1843088.0  51.07
+2026     3738182               1792235.0  47.94
+turnout change: median -3.4 by region
+region
+Capital Region (Victoria)   -1.4
+Fraser Valley               -5.7
+Interior and North          -5.4
+Metro Vancouver             -3.5
+Okanagan                    -3.5
+Rest of Vancouver Island    -2.6
+Name: night_turn_change, dtype: float64
+rose in 11 ridings
+corr turnout change vs con swing -0.1
+
+== DEMOGRAPHICS (quartiles of ridings, unweighted means)
+                  measure  low_quarter_median  high_quarter_median  con26_low  con26_high  con_swing_low  con_swing_high  ndp_swing_low  ndp_swing_high  r_con_swing  r_ndp_swing  r_con_swing_metro
+        Median home value           424000.00           1290000.00      54.75       48.20           3.73            6.33          -3.09          -12.85         0.25        -0.55               0.21
+University degree (25-64)               18.38                49.77      57.11       44.49           4.17            4.94          -2.84          -10.75         0.09        -0.53              -0.05
+               Immigrants               10.11                51.60      54.39       51.26           3.93            6.57          -2.39           -9.44         0.25        -0.46               0.14
+  Median household income            72000.00            104000.00      45.43       55.18           3.26            7.07          -4.34          -11.57         0.37        -0.45               0.44
+         Visible minority                5.32                74.79      51.33       50.68           4.62            6.27          -2.16           -9.68         0.23        -0.44               0.11
+               Indigenous                1.59                14.43      49.67       55.77           6.46            4.07         -10.93           -2.07        -0.35         0.41              -0.35
+        Recent immigrants                1.00                 7.54      51.33       47.70           4.60            5.83          -1.90          -10.02         0.15        -0.41              -0.08
+          English at home               53.83                96.48      51.15       51.32           6.16            4.81          -9.61           -1.96        -0.25         0.39              -0.18
+          Transit commute                1.37                20.77      54.26       41.41           4.53            4.37          -2.82          -10.42         0.01        -0.39              -0.35
+        Shelter cost 30%+               14.98                32.61      54.41       44.95           3.89            4.48          -2.81           -9.46         0.06        -0.38              -0.09
+                  Density                2.05              5230.40      53.88       39.81           3.11            4.43          -2.98          -10.69        -0.03        -0.31              -0.25
+                  Age 65+               14.54                27.13      50.86       46.86           5.56            4.86          -9.38           -4.94         0.01         0.31               0.25
+                  Chinese                0.60                31.82      54.04       47.34           4.73            5.17          -1.65          -10.20         0.13        -0.29              -0.07
+                 Filipino                0.85                 7.00      51.89       47.68           4.94            5.82          -2.11           -9.91         0.12        -0.28              -0.10
+              South Asian                1.34                16.13      50.87       52.79           4.71            5.78          -1.61          -10.04         0.22        -0.27               0.28
+               Median age               38.60                50.00      50.96       49.09           5.46            5.67          -8.84           -4.77         0.04         0.27               0.25
+                Christian               27.89                40.75      41.13       54.93           3.60            5.41          -8.96           -5.82         0.02         0.26              -0.11
+                Age 20-34               13.88                26.54      50.06       40.80           5.83            3.52          -4.76           -9.26        -0.14        -0.26              -0.41
+              No religion               42.89                62.72      54.41       40.71           6.36            2.45         -10.41           -5.43        -0.29         0.26              -0.32
+         Mandarin at home                0.06                 8.21      52.89       50.96           4.33            6.30          -1.51          -10.11         0.19        -0.24               0.07
+                  Renters               18.88                45.92      55.06       37.36           4.78            2.97          -5.75           -9.41        -0.21        -0.23              -0.40
+                     Sikh                0.46                 9.52      42.14       54.56           3.61            5.65          -4.42           -9.81         0.21        -0.23               0.29
+        Cantonese at home                0.07                 7.88      53.86       45.47           4.34            4.93          -2.00           -9.72         0.08        -0.20              -0.11
+          Punjabi at home                0.18                 5.65      42.06       54.02           4.15            5.17          -7.13           -9.22         0.20        -0.19               0.29
+                      Men               47.72                50.95      45.48       53.66           5.33            4.35          -9.17           -5.80        -0.17         0.18              -0.22
+             Unemployment                6.95                 9.70      48.06       46.41           5.11            3.33          -9.93           -7.00        -0.06         0.17              -0.04
+               Low income                7.05                14.50      51.49       46.11           5.33            2.92          -9.28           -6.51        -0.20         0.16              -0.24
+Population growth 2016-21                2.32                12.90      48.80       52.54           3.83            4.77          -7.72           -7.25        -0.04        -0.06              -0.11
+
+== OLS ndp_swing (n=93, R2=0.53)
+                      coef_pts_per_sd     t
+hh_income_median                -3.61 -4.59
+pct_immigrants                  -0.45 -0.43
+pct_hh_renter                   -1.88 -2.16
+pct_indigenous                  -0.28 -0.41
+pct_rel_none_secular             0.01  0.01
+median_age                      -1.36 -1.76
+metro                           -0.97 -0.97
+ndp24                           -1.93 -3.29
+
+== OLS con_swing (n=93, R2=0.42)
+                      coef_pts_per_sd     t
+hh_income_median                 0.99  1.58
+pct_immigrants                   0.19  0.22
+pct_hh_renter                    0.22  0.31
+pct_indigenous                  -0.79 -1.44
+pct_rel_none_secular            -0.59 -1.20
+median_age                       1.24  2.02
+metro                            1.43  1.80
+ndp24                           -2.11 -4.51
+
+== FEDERAL 2025 LEAD
+            ridings  ndp_swing  con_swing  con_lead26  ndp_lead26  flips
+fed_lead25                                                              
+CPC              47       -4.3        4.3          39           8      7
+LPC              46      -10.7        5.1          25          19     15
+lead26      CON  GRN  NDP
+fed_lead25               
+CPC          39    0    8
+LPC          25    2   19
+corr LPC25 share vs NDP swing -0.59 | NDP25 share vs ndp swing 0.26
+
+== HISTORY columns ['year', 'election_date', 'seats_in_house', 'total_valid_votes', 'first_count_note', 'multi_member_districts', 'seats_CON', 'seats_SC', 'seats_COAL', 'seats_LIB', 'seats_BCLIB', 'seats_LEFT']
+
+== POLLS VS COUNT BY REGION
+            region party  poll  n_pollsters  count  count_minus_poll
+0  Metro Vancouver   NDP  40.4            7   39.2              -1.2
+1  Metro Vancouver   CON  44.0            7   48.4               4.4
+2  Metro Vancouver   GRN  11.5            2    8.8              -2.7
+3   Capital Region   NDP  42.2            7   41.5              -0.6
+4   Capital Region   CON  34.9            7   36.8               1.9
+5   Capital Region   GRN  18.7            6   19.9               1.3
+estimate right: uniform 81 proportional 83
+missed (uniform):
+                                  name proj_uni lead26  margin26_pts
+district_code                                                       
+BNC                     Burnaby Centre      NDP    CON           6.0
+BNE                       Burnaby East      CON    NDP           1.4
+BNS            Burnaby South-Metrotown      CON    NDP           0.5
+CQM            Coquitlam-Maillardville      NDP    CON           8.1
+CRC                    Courtenay-Comox      CON    NDP           2.4
+CWV                    Cowichan Valley      NDP    CON           0.6
+DLN                        Delta North      NDP    CON          13.0
+LAO                Ladysmith-Oceanside      NDP    CON           0.3
+NVS            North Vancouver-Seymour      NDP    CON           9.4
+SAS                      Saanich South      NDP    CON           4.6
+VFV               Vancouver-Fraserview      NDP    CON           2.4
+VRL                       Vernon-Lumby      NDP    CON          13.0
+toss-ups went {'CON': 11, 'NDP': 2}
+
+== CENTRE: ran in 35 ridings, share where ran 4.24 | best: {'OBG': 10.4, 'SUS': 10.1, 'ABW': 9.2}
+  ridings where its vote exceeded the winning margin: CON-led ['Surrey City Centre'] | NDP-led ['Courtenay-Comox', 'Oak Bay-Gordon Head', 'Vancouver-Point Grey']
+
+== ONEBC: ran in 33 ridings, share where ran 4.13 | best: {'KLC': 11.4, 'PRV': 8.0, 'BDS': 6.8}
+  ridings where its vote exceeded the winning margin: CON-led ['Kelowna Centre', 'Penticton-Summerland', 'Surrey City Centre'] | NDP-led ['Burnaby East', 'Burnaby South-Metrotown', 'Kootenay Central']
+
+== LEADERS RIDINGS
+                district_name            candidate              party  votes  share_pct leading
+            Cariboo-Chilcotin       Lorne Doerkson Conservative Party  14218      77.09       Y
+            Cariboo-Chilcotin        Kathryn Askew             BC NDP   3123      16.93       N
+            Cariboo-Chilcotin         Douglas Gook     BC Green Party   1103       5.98       N
+            Peace River North      Curtis Whitford Conservative Party   8957      85.75       Y
+            Peace River North         Jordan Kealy        Independent   1489      14.25       N
+Saanich North and the Islands          Emily Lowan     BC Green Party  14481      48.48       Y
+Saanich North and the Islands         Ryan Windsor Conservative Party   9464      31.69       N
+Saanich North and the Islands          Kala Bryson             BC NDP   5225      17.49       N
+                 Surrey South         Megan Knight Conservative Party  12557      61.39       Y
+                 Surrey South         Parik Tahlan             BC NDP   4535      22.17       N
+                 Surrey South       Elenore Sturko           CentreBC   2074      10.14       N
+         Vancouver-Point Grey            David Eby             BC NDP   7811      42.97       Y
+         Vancouver-Point Grey        Alex McMillan Conservative Party   7273      40.01       N
+         Vancouver-Point Grey      Beatrice Sharpe     BC Green Party   2448      13.47       N
+          Vancouver-Quilchena         Carson Binda Conservative Party  10956      55.02       Y
+          Vancouver-Quilchena        Callista Ryan             BC NDP   5269      26.46       N
+          Vancouver-Quilchena Douglas Courtemanche     BC Green Party   1844       9.26       N
+
+== INCUMBENTS running 79 leading 58 not 21 unmatched 0
+leading              N   Y
+affiliation               
+BC Green Party       0   1
+BC NDP              17  24
+CentreBC             1   0
+Conservative Party   1  33
+Independent          1   0
+OneBC                1   0
+incumbents trailing:
+ed_code            candidate        affiliation
+    BNC            Anne Kang             BC NDP
+    BNO      Janet Routledge             BC NDP
+    CQB        Jodie Wickens             BC NDP
+    CQM Jennifer Blatherwick             BC NDP
+    CRC          Brennan Day Conservative Party
+    CWV     Debra Toporowski             BC NDP
+    JFM      Dana Lajeunesse             BC NDP
+    LAO  Stephanie Higginson             BC NDP
+    MAP           Lisa Beare             BC NDP
+    NVS          Susie Chant             BC NDP
+    PCN         Jordan Kealy        Independent
+    POM          Rick Glumac             BC NDP
+    SRC            Amna Shah             BC NDP
+    SRF          Jagrup Brar             BC NDP
+    SRG           Garry Begg             BC NDP
+    SRN        Jessie Sunner             BC NDP
+    SUS       Elenore Sturko           CentreBC
+    VLA          Sunita Dhir             BC NDP
+    VNQ        Dallas Brodie              OneBC
+    VNY           Terry Yung             BC NDP
+    VRL     Harwinder Sandhu             BC NDP
+
+== CLOSEST
+                                  name lead26 second26  margin26_votes  margin26_pts win24
+district_code                                                                             
+BNS            Burnaby South-Metrotown    NDP      CON              66          0.51   NDP
+LAO                Ladysmith-Oceanside    CON      NDP              89          0.30   NDP
+KEC                     Kelowna Centre    CON      NDP             132          0.59   CON
+CWV                    Cowichan Valley    CON      NDP             150          0.58   NDP
+BNE                       Burnaby East    NDP      CON             241          1.38   NDP
+POC                     Port Coquitlam    NDP      CON             386          1.79   NDP
+VFV               Vancouver-Fraserview    CON      NDP             387          2.39   NDP
+SRC                 Surrey City Centre    CON      NDP             395          3.28   NDP
+BLS             Bulkley Valley-Stikine    CON      NDP             461          5.43   CON
+KOC                   Kootenay Central    NDP      CON             466          2.41   NDP
+VNP               Vancouver-Point Grey    NDP      CON             538          2.96   NDP
+CRC                    Courtenay-Comox    NDP      CON             696          2.35   CON
+under 1 pt 4 | under 5 pts 18 | 2024 under 5 pts 22
+largest wins
+                                      name lead26  margin26_pts
+district_code                                                  
+PCN                      Peace River North    CON          71.5
+PCS                      Peace River South    CON          62.3
+CBC                      Cariboo-Chilcotin    CON          60.2
+PRO            Prince George-North Cariboo    CON          50.2
+WVC                West Vancouver-Capilano    CON          46.4
+
+== BIGGEST CON SWINGS
+                                      name              region  con24  con26  con_swing  ndp_swing win24 lead26
+district_code                                                                                                  
+WVC                West Vancouver-Capilano     Metro Vancouver   46.7   66.9       20.2       -6.6   CON    CON
+KOR                       Kootenay-Rockies  Interior and North   42.7   56.3       13.6        5.4   CON    CON
+PRO            Prince George-North Cariboo  Interior and North   56.8   70.4       13.6        3.1   CON    CON
+DLN                            Delta North     Metro Vancouver   40.2   53.6       13.4      -12.1   NDP    CON
+RCS                     Richmond-Steveston     Metro Vancouver   42.2   54.2       12.0       -9.3   NDP    CON
+SRN                          Surrey-Newton     Metro Vancouver   43.0   54.5       11.5      -10.5   NDP    CON
+WKP                 West Kelowna-Peachland            Okanagan   50.9   62.4       11.5        1.8   CON    CON
+PCN                      Peace River North  Interior and North   74.4   85.7       11.4       -5.5   CON    CON
+NVS                North Vancouver-Seymour     Metro Vancouver   35.8   46.8       11.0      -15.3   NDP    CON
+RCB                    Richmond-Bridgeport     Metro Vancouver   58.2   68.3       10.1       -3.1   CON    CON
+
+== BIGGEST NDP DROPS
+                                    name                     region  ndp24  ndp26  ndp_swing  con_swing  grn_change
+district_code                                                                                                      
+SUS                         Surrey South            Metro Vancouver   41.2   22.2      -19.0        2.6         5.0
+NVL             North Vancouver-Lonsdale            Metro Vancouver   64.9   47.0      -17.9        6.5        11.4
+VNS            Vancouver-South Granville            Metro Vancouver   64.3   47.4      -16.9        4.6         8.1
+SWR                    Surrey-White Rock            Metro Vancouver   45.3   28.9      -16.4        5.9         7.7
+DLS                          Delta South            Metro Vancouver   44.9   28.6      -16.3        4.8         8.2
+WVS            West Vancouver-Sea to Sky         Interior and North   26.3   10.3      -16.0        2.8         9.5
+BNC                       Burnaby Centre            Metro Vancouver   57.3   41.6      -15.7        4.9         8.2
+VFV                 Vancouver-Fraserview            Metro Vancouver   57.2   41.7      -15.5        7.5         8.0
+NVS              North Vancouver-Seymour            Metro Vancouver   52.8   37.4      -15.3       11.0         5.2
+SAS                        Saanich South  Capital Region (Victoria)   49.8   34.7      -15.0        6.8         8.2
+
+== GREEN
+                                        name  grn24  grn26 lead26
+district_code                                                    
+SAN            Saanich North and the Islands   36.2   48.5    GRN
+WVS                West Vancouver-Sea to Sky   38.1   47.6    GRN
+VTB                     Victoria-Beacon Hill   33.5   40.3    NDP
+VTS                       Victoria-Swan Lake   23.2   35.2    NDP
+VNT                     Vancouver-Strathcona   13.1   29.0    NDP
+SAS                            Saanich South   17.8   26.0    CON
+ridings where CON vote fell 9 | NDP vote rose 10
+
+== TWO-PARTY SWING (CON / (CON+NDP))
+province two-party: 2024 49.1 2026 56.2
+ridings with comparable field 56
+                           count  mean  min   max
+region                                           
+Capital Region (Victoria)    8.0   6.3 -5.3  16.4
+Fraser Valley                5.0   5.6  4.3   6.9
+Interior and North          20.0   4.0 -9.1  21.3
+Metro Vancouver             46.0   9.0  1.0  15.2
+Okanagan                     6.0   3.2 -1.2   8.4
+Rest of Vancouver Island     8.0   2.3 -1.5   4.8
+                  measure  low_quarter_median  high_quarter_median  tp_swing_low  tp_swing_high  r_tp_swing  r_tp_swing_same_field  r_tp_swing_metro  r_tp26_level
+  Median household income            72000.00            104000.00          3.86          10.96        0.57                   0.62              0.70          0.37
+        Median home value           424000.00           1290000.00          3.18          11.06        0.55                   0.43              0.34         -0.07
+               Indigenous                1.59                14.43          9.35           2.67       -0.48                  -0.33             -0.19          0.12
+               Immigrants               10.11                51.60          2.95           8.57        0.43                   0.33             -0.23         -0.14
+University degree (25-64)               18.38                49.77          3.19           8.11        0.41                   0.25             -0.04         -0.35
+         Visible minority                5.32                74.79          3.85           8.59        0.39                   0.31             -0.19         -0.10
+          English at home               53.83                96.48          8.52           3.83       -0.37                  -0.30              0.18          0.05
+        Recent immigrants                1.00                 7.54          3.68           8.30        0.33                   0.27             -0.36         -0.18
+              No religion               42.89                62.72          9.41           4.02       -0.33                  -0.32             -0.25         -0.19
+              South Asian                1.34                16.13          3.24           8.72        0.31                   0.28              0.23          0.11
+                     Sikh                0.46                 9.52          4.01           8.71        0.28                   0.27              0.27          0.16
+        Shelter cost 30%+               14.98                32.61          3.39           7.06        0.28                   0.09             -0.30         -0.32
+         Mandarin at home                0.06                 8.21          2.72           9.01        0.27                   0.17             -0.12          0.05
+               Low income                7.05                14.50          8.56           4.86       -0.27                  -0.32             -0.48         -0.22
+          Punjabi at home                0.18                 5.65          5.99           8.12        0.24                   0.24              0.23          0.15
+                  Chinese                0.60                31.82          2.82           8.28        0.24                   0.15             -0.28         -0.11
+                      Men               47.72                50.95          8.09           5.07       -0.23                  -0.01             -0.34          0.18
+                 Filipino                0.85                 7.00          3.65           8.18        0.20                   0.16             -0.31         -0.18
+          Transit commute                1.37                20.77          3.83           7.41        0.20                   0.10             -0.56         -0.45
+             Unemployment                6.95                 9.70          8.40           5.54       -0.20                  -0.16             -0.43          0.03
+                Christian               27.89                40.75          6.54           6.25       -0.15                  -0.01              0.02          0.28
+                  Density                2.05              5230.40          3.26           7.41        0.13                   0.04             -0.32         -0.40
+Population growth 2016-21                2.32                12.90          5.71           7.09        0.13                   0.04              0.08          0.00
+                  Age 65+               14.54                27.13          7.97           5.73       -0.12                  -0.23              0.35         -0.02
+        Cantonese at home                0.07                 7.88          2.96           7.54        0.12                   0.06             -0.35         -0.17
+               Median age               38.60                50.00          7.09           6.24       -0.08                  -0.20              0.36          0.02
+                  Renters               18.88                45.92          6.13           6.01       -0.05                  -0.14             -0.48         -0.54
+                Age 20-34               13.88                26.54          6.25           6.26        0.01                   0.05             -0.55         -0.33
+
+OLS tp_swing (n=93, R2=0.52)
+                         coef_pts_per_sd     t
+hh_income_median                    3.28  4.85
+pct_immigrants                      1.36  1.73
+pct_hh_renter                       0.81  0.97
+median_age                          1.95  3.18
+pct_bachelor_plus_25_64             0.43  0.59
+metro                               0.39  0.50
+same-field only (n=56, R2=0.48)
+                         coef_pts_per_sd     t
+hh_income_median                    3.24  3.35
+pct_immigrants                      1.12  1.36
+pct_hh_renter                       0.65  0.49
+median_age                          0.94  1.15
+pct_bachelor_plus_25_64             0.52  0.59
+metro                              -0.40 -0.49
+
+OLS tp_swing (n=93, R2=0.53)
+                    coef_pts_per_sd     t
+hh_income_median               3.47  5.92
+pct_vm_south_asian             1.02  2.26
+pct_vm_chinese                 0.63  1.19
+pct_hh_renter                  1.44  2.37
+median_age                     2.45  4.36
+metro                          0.96  1.44
+same-field only (n=56, R2=0.48)
+                    coef_pts_per_sd     t
+hh_income_median               3.76  4.91
+pct_vm_south_asian             0.91  1.69
+pct_vm_chinese                 0.28  0.43
+pct_hh_renter                  1.74  2.03
+median_age                     1.62  2.15
+metro                          0.13  0.18
+fed_lead25
+CPC    4.5
+LPC    8.7
+Name: tp_swing, dtype: float64
+top two-party swings
+                                        name                     region  tp24  tp26  tp_swing  same_field lead26
+district_code                                                                                                   
+WVS                West Vancouver-Sea to Sky         Interior and North  57.5  78.8      21.3        True    GRN
+SAN            Saanich North and the Islands  Capital Region (Victoria)  48.1  64.4      16.4        True    GRN
+NVS                  North Vancouver-Seymour            Metro Vancouver  40.4  55.6      15.2       False    CON
+SUS                             Surrey South            Metro Vancouver  58.8  73.5      14.6       False    CON
+DLN                              Delta North            Metro Vancouver  43.3  56.9      13.6       False    CON
+SAS                            Saanich South  Capital Region (Victoria)  39.5  53.1      13.6        True    CON
+WVC                  West Vancouver-Capilano            Metro Vancouver  63.2  76.5      13.3       False    CON
+SWR                        Surrey-White Rock            Metro Vancouver  53.6  66.8      13.2       False    CON
+SUP                          Surrey-Panorama            Metro Vancouver  50.8  63.7      12.9       False    CON
+SUR                  Surrey-Serpentine River            Metro Vancouver  51.1  64.0      12.9        True    CON
+DLS                              Delta South            Metro Vancouver  55.1  67.7      12.6       False    CON
+CBC                        Cariboo-Chilcotin         Interior and North  69.6  82.0      12.4       False    CON
+smallest
+                                          name                     region  tp24  tp26  tp_swing  same_field
+district_code                                                                                              
+PCS                          Peace River South         Interior and North  92.6  83.5      -9.1       False
+VTB                       Victoria-Beacon Hill  Capital Region (Victoria)  28.8  23.5      -5.3        True
+BLS                     Bulkley Valley-Stikine         Interior and North  57.4  52.8      -4.6       False
+NOH                    North Coast-Haida Gwaii         Interior and North  35.1  31.9      -3.1       False
+CRC                            Courtenay-Comox   Rest of Vancouver Island  50.2  48.7      -1.5        True
+KLC            Kelowna-Lake Country-Coldstream                   Okanagan  60.5  59.3      -1.2       False
+KEC                             Kelowna Centre                   Okanagan  50.1  50.3       0.2       False
+PRO                Prince George-North Cariboo         Interior and North  76.9  77.7       0.8       False

@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noai, noimageai">
+<title>B.C. Election 2026</title>
+__VPMETA__
+<meta name="description" content="B.C.'s 2026 provincial election in numbers: the Conservative majority against 2024, where the vote moved, and what the Conservatives promised. Find your riding and explore every chart.">
+<link rel="icon" href="logo-icon.png">
+<style>
+/* An explore-first page: find your riding, then every chapter's interactive picture speaks to it. Text is short; detail sits in closed "More about this" blocks. */
+:root{--bg:#f4f6f9;--card:#ffffff;--text:#16202e;--muted:#5f6b7c;--line:#dde2e9;--soft:#eef1f5;--kick:#b0102a;--focus:#1f5fbf;
+--CON:#1f5fbf;--NDP:#e07a1f;--GRN:#2e8b57;--LIB:#7b5ea7;--OTH:#8a919c;--LPC:#c8202f;--metro:#c98a00;--hi:#fff1c2;--you:#111827;
+--pt1:#6b5b95;--pt2:#1f8a7f;--pt3:#c99a2e;--pt4:#7d8aa3;--land:#e3e6eb;--water:#b9d3ea;--border:rgba(255,255,255,.95);--shadow:0 10px 30px rgba(20,32,50,.08)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1218;--card:#161d26;--text:#e9edf2;--muted:#9aa4b2;--line:#29323e;--soft:#1e2631;--kick:#ff6b7d;--focus:#6ea8ff;
+--CON:#6ea8ff;--NDP:#ff9a3c;--GRN:#5cc879;--LIB:#b69ae6;--OTH:#9aa3ae;--LPC:#ff6b6b;--metro:#ffc14d;--hi:#4a3d12;--you:#ffffff;
+--pt1:#a593d6;--pt2:#4cc1b4;--pt3:#e7c060;--pt4:#a8b3c7;--land:#323c4a;--water:#14293d;--border:rgba(255,255,255,.3);--shadow:0 10px 30px rgba(0,0,0,.35);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1218;--card:#161d26;--text:#e9edf2;--muted:#9aa4b2;--line:#29323e;--soft:#1e2631;--kick:#ff6b7d;--focus:#6ea8ff;
+--CON:#6ea8ff;--NDP:#ff9a3c;--GRN:#5cc879;--LIB:#b69ae6;--OTH:#9aa3ae;--LPC:#ff6b6b;--metro:#ffc14d;--hi:#4a3d12;--you:#ffffff;
+--pt1:#a593d6;--pt2:#4cc1b4;--pt3:#e7c060;--pt4:#a8b3c7;--land:#323c4a;--water:#14293d;--border:rgba(255,255,255,.3);--shadow:0 10px 30px rgba(0,0,0,.35);color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--card);z-index:30}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:12px}
+header.top img{height:42px;width:auto;display:block}
+.wm-dark{display:none!important}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .wm-light{display:none!important}:root:not([data-theme="light"]) .wm-dark{display:block!important}}
+:root[data-theme="dark"] .wm-light{display:none!important}:root[data-theme="dark"] .wm-dark{display:block!important}
+.tag{font-size:13px;color:var(--muted);font-weight:700;letter-spacing:.04em;text-align:right}
+main{padding-block:0 32px}
+.kick{font-size:13px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--kick)}
+/* hero */
+.hero{padding-block:8px 6px}
+.hero h1{font-size:clamp(36px,7vw,60px);line-height:1.02;letter-spacing:-.025em;margin:8px 0 10px;text-wrap:balance}
+.hero .lead{font-size:clamp(18px,2.6vw,22px);font-weight:600;margin:0 0 16px;max-width:720px;text-wrap:pretty}
+.score{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.score div{background:var(--card);border-radius:14px;padding:10px 12px;box-shadow:var(--shadow);min-width:0;border-top:5px solid var(--line)}
+.score b{display:block;font-size:clamp(30px,6vw,42px);line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.score span{display:block;font-size:13px;color:var(--muted);line-height:1.3}
+@media (max-width:520px){.score{gap:8px}.score div{padding:9px 10px}.score span{font-size:12.5px}}
+.score .pn{font-weight:800;font-size:14px;color:var(--text)}
+.seatbar{position:relative;display:flex;gap:1px;height:22px;margin:14px 0 4px}
+.seatbar i{display:block;flex:1 1 0;min-width:0;height:100%;border-radius:1px}
+.seatbar i.me{outline:2px solid var(--you);outline-offset:1px;position:relative;z-index:1}
+.seatbar em{position:absolute;top:-6px;bottom:-6px;width:3px;background:var(--text);border-radius:2px}
+.finder{background:var(--card);border-radius:18px;box-shadow:var(--shadow);padding:16px;margin:16px 0 8px}
+.finder label{display:block;font-size:20px;font-weight:800;letter-spacing:-.01em;margin:0 0 8px}
+.finder input{width:100%;font:inherit;font-size:18px;color:var(--text);background:var(--soft);border:2px solid var(--line);border-radius:12px;padding:12px 14px;min-height:52px}
+.finder input:focus{border-color:var(--focus);outline:none}
+.hits{display:grid;gap:6px;margin-top:8px}
+.hit{display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left;width:100%;min-height:46px}
+.hit small{color:var(--muted);font-size:13px;font-weight:600}
+.hit .dot{flex:none}
+.quick{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:10px;font-size:14px;color:var(--muted)}
+.mine{display:grid;gap:4px;margin-top:10px;padding:12px 14px;border-radius:14px;background:var(--soft);border-left:6px solid var(--line)}
+.mine b{font-size:20px;line-height:1.2}
+.mine .row{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.jump a{font-size:14px;font-weight:700;text-decoration:none;padding:9px 12px;border-radius:999px;background:var(--card);box-shadow:var(--shadow);min-height:40px;display:inline-flex;align-items:center}
+/* sticky "your riding" bar */
+.youbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--card);border-bottom:1px solid var(--line);box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.youbar .wrap{display:flex;align-items:center;gap:10px;min-height:54px;padding-block:6px}
+.youbar .yb{flex:1 1 auto;min-width:0;display:flex;align-items:center;gap:10px;background:none;border:0;border-radius:10px;padding:4px 6px 4px 0;text-align:left;font-weight:400}
+.youbar .who{flex:1 1 auto;min-width:0;font-size:14px;line-height:1.25}
+.youbar .who b,.youbar .who span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.youbar .who b{font-size:15px}.youbar .who span{color:var(--muted)}
+.youbar .chg{flex:none;font-size:13px;font-weight:700;color:var(--muted);text-decoration:underline}
+@media (max-width:480px){.youbar .chg{display:none}}
+.youbar #ybclear{flex:none;width:44px;padding:0}
+/* chapters */
+section.ch{padding-block:30px 8px;scroll-margin-top:64px}
+.ch h2{font-size:clamp(28px,4.6vw,40px);line-height:1.08;letter-spacing:-.02em;margin:8px 0 8px;text-wrap:balance}
+.ch .line{font-size:clamp(17px,2.3vw,20px);font-weight:600;margin:0 0 14px;max-width:720px;text-wrap:pretty}
+.you{display:flex;gap:10px;align-items:flex-start;background:var(--card);border-radius:14px;padding:12px 14px;margin:14px 0 0;box-shadow:var(--shadow);font-size:16px;line-height:1.45}
+.you::before{content:"";flex:none;width:10px;height:10px;border-radius:50%;margin-top:7px;background:var(--you)}
+.you.none{color:var(--muted)}
+.you.none::before{background:var(--line)}
+.viz{background:var(--card);border-radius:18px;padding:14px;box-shadow:var(--shadow);min-width:0}
+.viz + .viz{margin-top:14px}
+.hint{font-size:13px;font-weight:700;color:var(--muted);margin:2px 0 8px;display:flex;align-items:center;gap:6px}
+.hint::before{content:"";width:18px;height:18px;border-radius:50%;border:2px solid currentColor;flex:none;opacity:.7}
+.say{font-size:16px;max-width:680px;margin:12px 0 0;text-wrap:pretty}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px;align-items:center}
+button,select{font:inherit;font-size:15px;color:var(--text);background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:8px 14px;min-height:40px;max-width:100%}
+select{border-radius:12px}
+button{cursor:pointer;font-weight:600}
+button.on{background:var(--text);color:var(--card);border-color:var(--text)}
+button.link{background:none;border:0;padding:0 4px;min-height:40px;text-decoration:underline;font-weight:700}
+button .sw,.dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:0}
+details.more{margin:14px 0 0;border-top:1px solid var(--line)}
+details.more>summary{cursor:pointer;font-weight:800;font-size:15px;padding:12px 0;min-height:44px;list-style:none;display:flex;align-items:center;gap:8px;color:var(--muted)}
+details.more>summary::-webkit-details-marker{display:none}
+details.more>summary::before{content:"+";display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;border:2px solid currentColor;font-weight:800;line-height:1}
+details.more[open]>summary::before{content:"−"}
+details.more p,details.more li{max-width:760px}
+.note{color:var(--muted);font-size:14px}
+sup.c a{text-decoration:none;color:var(--muted);font-size:11px;font-weight:600}
+svg{display:block;max-width:100%;height:auto}
+.tip{position:fixed;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px;box-shadow:0 6px 20px rgba(0,0,0,.18);display:none;z-index:40;max-width:260px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--muted);margin-top:8px}
+.legend span{display:inline-flex;align-items:center;gap:6px}.legend i{display:inline-block;width:14px;height:12px;border-radius:3px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:6px;border-bottom:1px solid var(--line);vertical-align:top}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.tscroll{overflow-x:auto}
+/* how */
+.years{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.years button{padding:6px 10px;font-size:14px;font-variant-numeric:tabular-nums}
+.ycard{margin-top:10px;padding:12px 14px;border-radius:14px;background:var(--soft)}
+.ycard b.y{font-size:20px}
+.ybars{display:grid;gap:6px;margin-top:8px}
+.ybar{display:grid;gap:3px;font-size:14px}.ybar .yl{display:flex;justify-content:space-between;gap:8px}
+.ybar .tr{height:10px;border-radius:5px;background:var(--line);overflow:hidden}.ybar .tr i{display:block;height:100%;border-radius:5px}
+.strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:12px}
+.strip div{border-top:8px solid var(--line);padding-top:6px;min-width:0}
+.strip b{display:block;font-size:13px;color:var(--muted)}.strip span{display:block;font-size:14px;font-weight:800;line-height:1.2}.strip small{display:block;font-size:12px;color:var(--muted);line-height:1.25}
+/* map */
+.mapwrap{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:14px;align-items:start}.mapwrap>div{min-width:0}
+@media (max-width:780px){.mapwrap{grid-template-columns:1fr}}
+.map{background:transparent;touch-action:manipulation;border:1px solid var(--line);border-radius:12px}
+.chips{display:contents}
+.zoom{margin:10px 0 0}
+.map .land path{stroke:none;cursor:pointer}
+.map .land path:hover{filter:brightness(1.12)}
+.map .maskg path,.map .water path{fill:var(--water);stroke:none;pointer-events:none}
+.map .borders{fill:none;stroke:var(--border);stroke-width:.7;stroke-linejoin:round;pointer-events:none}
+.map .selline{fill:none;stroke:var(--you);stroke-width:2.6;stroke-linejoin:round;pointer-events:none}
+.panel{background:var(--soft);border-radius:14px;padding:14px;font-size:15px;min-width:0}
+.panel h3{margin:0 0 2px;font-size:22px;line-height:1.15}
+.panel .big{font-size:18px;font-weight:800;margin:8px 0 6px}
+.cbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 8px;font-size:14px;margin:4px 0}
+.cbar .tr{grid-column:1/-1;height:10px;border-radius:5px;background:var(--line);overflow:hidden}.cbar .tr i{display:block;height:100%}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+.facts div{background:var(--card);border-radius:10px;padding:8px 10px;min-width:0}.facts small{display:block;color:var(--muted);font-size:12px}.facts b{font-size:15px}
+/* who */
+.cards3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.pcard{border-radius:14px;padding:12px;background:var(--soft);min-width:0;border-top:6px solid var(--line)}
+.pcard.me{background:var(--card);outline:2px solid var(--you)}
+.pcard .ph b{display:block;font-size:15px;line-height:1.2}.pcard .ph span{font-size:13px;color:var(--muted)}
+.pcard .pr{margin-top:12px}.pcard .bigv{font-size:clamp(20px,4.4vw,32px);font-weight:800;line-height:1;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.pcard .pl{font-size:13px;color:var(--muted);line-height:1.3;margin-top:3px}
+@media (max-width:520px){.pcard{padding:9px 8px}.pcard .ph b{font-size:13px}.pcard .pl{font-size:12px}}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+.cell{border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;background:var(--card);text-align:left;font:inherit;color:inherit;border-radius:12px}
+.cell.on{outline:2px solid var(--text)}
+.cell b{display:block;font-size:24px;line-height:1.1}.cell small{display:block;color:var(--muted);font-size:13px}
+/* why */
+.worries{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.worries button{display:grid;grid-template-columns:40px minmax(0,1fr);gap:10px;align-items:start;text-align:left;width:100%;border-radius:14px;padding:12px 14px;background:var(--soft);border:1px solid var(--line)}
+.worries button[aria-expanded="true"]{background:var(--card);outline:2px solid var(--text)}
+.worries .rank{font-size:30px;font-weight:800;line-height:1;color:var(--muted)}.worries b{font-size:19px;line-height:1.2}
+.worries .pct{margin:4px 0 8px;color:var(--muted);font-size:14px}.worries .pct span{font-size:26px;font-weight:800;color:var(--text);margin-right:6px}
+.worries .det{font-size:14px;color:var(--muted);margin-top:8px;font-weight:400}
+.chip{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;border:2px solid var(--line);border-radius:999px;padding:3px 12px;max-width:100%}
+.chip i{flex:none;display:inline-block;width:12px;height:12px;border-radius:50%}
+.callout{border-left:5px solid var(--CON);background:var(--soft);border-radius:12px;padding:12px 14px;margin:14px 0 0}
+/* majority and swingometer */
+.swing{margin-top:12px;padding:14px;border-radius:14px;background:var(--soft)}
+.swing label{display:block;font-weight:800;font-size:17px}
+.swing input[type=range]{-webkit-appearance:none;appearance:none;width:100%;margin:14px 0 4px;height:40px;background:transparent;cursor:pointer}
+.swing input[type=range]::-webkit-slider-runnable-track{height:10px;border-radius:5px;background:linear-gradient(90deg,var(--CON),var(--line) 50%,var(--NDP))}
+.swing input[type=range]::-moz-range-track{height:10px;border-radius:5px;background:linear-gradient(90deg,var(--CON),var(--line) 50%,var(--NDP))}
+.swing input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:30px;height:30px;margin-top:-10px;border-radius:50%;background:var(--card);border:3px solid var(--text);box-shadow:0 2px 6px rgba(0,0,0,.25)}
+.swing input[type=range]::-moz-range-thumb{width:24px;height:24px;border-radius:50%;background:var(--card);border:3px solid var(--text)}
+.swingends{display:flex;justify-content:space-between;gap:16px;font-size:13px;font-weight:700}
+.swingends .sh{display:none}
+@media (max-width:480px){.swingends .lg{display:none}.swingends .sh{display:inline}}
+.readout{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:10px}
+.readout div{background:var(--card);border-radius:12px;padding:8px 10px;border-top:5px solid var(--line)}
+.readout b{display:block;font-size:26px;line-height:1.05;font-variant-numeric:tabular-nums}.readout span{font-size:13px;color:var(--muted)}
+.status{font-size:17px;font-weight:800;margin-top:10px}
+/* promises */
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.promise{text-align:left;width:100%;border-radius:14px;padding:12px 14px;background:var(--soft);border:1px solid var(--line);display:grid;gap:6px;align-content:start}
+.promise[aria-expanded="true"]{background:var(--card);outline:2px solid var(--text)}
+.promise .wt{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.promise b{font-size:17px;line-height:1.25}
+.promise .det{font-size:14px;color:var(--muted);font-weight:400}
+.promise .pg{font-size:13px;color:var(--muted);font-weight:600}
+.stat{display:inline-block;font-size:12px;font-weight:800;padding:2px 9px;border-radius:999px;background:var(--card);border:1px solid var(--line);justify-self:start}
+.watch{display:grid;gap:6px;margin-top:10px}
+.wrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:center;text-align:left;width:100%;border-radius:12px;padding:8px 12px;background:var(--soft);border:1px solid var(--line);min-height:48px}
+.wrow.me{outline:2px solid var(--you);background:var(--card)}
+.pin{margin-top:10px;font-size:13px;font-weight:700;color:var(--muted)}
+.rlist{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.rchip small{font-weight:600;color:var(--muted);margin-left:6px;font-variant-numeric:tabular-nums}.legend .lh{font-weight:700}.rchip{font-size:14px;padding:6px 12px;font-weight:600}.rmore{font-size:14px;padding:6px 12px}.rchip.on{background:var(--card);color:var(--text);outline:2px solid var(--you)}
+.wrow b{font-size:15px}.wrow small{color:var(--muted);font-size:13px;font-weight:600}
+.wrow .tr{grid-column:1/-1;height:6px;border-radius:3px;background:var(--line);overflow:hidden}.wrow .tr i{display:block;height:100%}
+.new{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:0 6px;border-radius:999px;border:1px solid currentColor;margin-left:6px;vertical-align:1px}
+.refs li{margin:4px 0;font-size:14px;word-break:break-word}
+footer .wrap{padding-block:20px 40px;color:var(--muted);font-size:14px;display:flex;gap:12px;align-items:center}
+footer img{width:40px;height:40px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a href="https://mediancanadian.ca/"><img class="wm-light" src="logo.png" alt="The Median Canadian"><img class="wm-dark" src="logo-dark.png" alt="The Median Canadian"></a>
+<span class="tag">Week 3 · October 25, 2026</span></div></header>
+<div class="youbar" id="youbar" hidden><div class="wrap"><button class="yb" id="ybchange" aria-label="Your riding. Tap to change it"><span class="dot" id="ybdot"></span><span class="who" id="ybwho"></span><span class="chg">Change</span></button>
+<button id="ybclear" aria-label="Clear your riding">✕</button></div></div>
+<main>
+<div class="wrap">
+<section class="hero" id="result">
+<div class="kick">B.C. election, October 24, 2026</div>
+<h1 id="h-result"></h1>
+<p class="lead" id="l-result"></p>
+<div class="score" id="score"></div>
+<div class="seatbar" id="seatbar" role="img"></div><div class="note" id="seatnote"></div>
+<div class="finder" id="finder">
+<label for="find">Find your riding</label>
+<input type="search" id="find" autocomplete="off" placeholder="Riding, city or town" aria-describedby="findhelp">
+<div class="hits" id="hits"></div>
+<div class="quick" id="findhelp">Try <button class="try" data-q="Surrey">Surrey</button><button class="try" data-q="Kelowna">Kelowna</button><button class="try" data-q="Nanaimo">Nanaimo</button> or <button class="link" id="tomap">pick it on the map</button></div>
+<div id="mine"></div>
+</div>
+<nav class="jump" aria-label="Chapters" id="jump"></nav>
+</section>
+
+<section class="ch" id="majority"><div class="kick">The result</div><h2 id="h-majority"></h2><p class="line" id="l-majority"></p>
+<div class="viz"><b>Seats and share of the vote after each election</b><div class="hint">Tap a seat to choose its riding</div>
+<svg id="vschart" role="img" aria-label="The 93 seats after the 2024 and 2026 B.C. elections, coloured by the party elected, with each party's share of the vote"></svg>
+<div class="note" id="vsnote" style="text-align:center;margin-top:4px"></div>
+<div class="swing"><label for="swing">What if the 2026 vote had moved?</label><div class="note">Drag to move votes between the Conservatives and the NDP in every riding. The 2026 seats redraw.</div>
+<input type="range" id="swing" min="-10" max="10" step="0.1" value="0" aria-describedby="swingout">
+<div class="swingends"><span style="color:var(--CON)"><span class="lg">← Toward the Conservatives</span><span class="sh">← Conservatives</span></span><span style="color:var(--NDP);text-align:right"><span class="lg">Toward the NDP →</span><span class="sh">NDP →</span></span></div>
+<svg id="swingscale" aria-hidden="true"></svg>
+<div class="status" id="swingout" aria-live="polite"></div><div class="readout" id="readout"></div>
+<div class="controls" style="margin:10px 0 0"><button id="swingreset">Back to the results</button></div></div></div>
+<div class="you" id="you-majority"></div>
+<p class="say" id="say-majority"></p>
+<details class="more"><summary>More about this</summary><div id="more-majority"></div><div class="controls"><select id="idxsel" aria-label="Election measure"></select></div><svg id="idxchart" role="img" aria-label="Election measures since 1928"></svg><p class="note" id="idxdef"></p></details></section>
+
+<section class="ch" id="how"><div class="kick">How they got here</div><h2 id="h-how"></h2><p class="line" id="l-how"></p>
+<div class="viz"><div class="controls" id="howbtn"><button data-hv="recent" class="on">2001 to 2026</button><button data-hv="all">Every election since 1928</button></div>
+<div class="hint">Tap an election</div>
+<svg id="howchart" role="img" aria-label="Share of the vote by party at each election"></svg><div class="note" id="howkey"></div>
+<div class="years" id="years"></div><div class="ycard" id="ycard"></div></div>
+<div class="you" id="you-how"></div>
+<p class="say" id="say-how"></p>
+<details class="more"><summary>More about this</summary><div id="more-how"></div></details></section>
+
+<section class="ch" id="where"><div class="kick">Where it changed</div><h2 id="h-where"></h2><p class="line" id="l-where"></p>
+<div class="viz"><div class="controls"><span class="chips" id="layers"></span><select id="layer" aria-label="More map measures"></select></div>
+<div class="hint">Tap a riding to make it yours</div>
+<div class="mapwrap"><div><svg id="map" class="map" viewBox="0 0 640 560" role="img" aria-label="Map of B.C. ridings"></svg>
+<div class="controls zoom" id="zooms"><button data-z="metro" class="on" aria-pressed="true">Metro Vancouver</button><button data-z="vic" aria-pressed="false">Victoria area</button><button data-z="okan" aria-pressed="false">Okanagan</button><button data-z="bc" aria-pressed="false">All of B.C.</button></div>
+<div id="maplegend"></div></div><div class="panel" id="panel"></div></div></div>
+<div class="viz"><b>Every riding by type of place</b><div class="hint">Tap a dot to choose its riding</div>
+<svg id="ptchart" role="img" aria-label="Swing in each riding, grouped by type of place"></svg><div class="note" id="ptnote" style="margin-top:6px"></div></div>
+<div class="you" id="you-where"></div>
+<p class="say" id="say-where"></p>
+<details class="more"><summary>More about this</summary><div id="more-where"></div><div class="controls" id="regbtn" style="margin-top:10px"></div><div id="regchart" class="tscroll"></div></details></section>
+
+<section class="ch" id="who"><div class="kick">By household income</div><h2 id="h-who"></h2><p class="line" id="l-who"></p>
+<div class="viz"><b>Swing to the Conservatives, 2024 to 2026, by riding income</b><div class="note" id="incsub" style="margin:2px 0 6px"></div><div class="hint">Each dot is a riding. Tap one to make it yours.</div>
+<svg id="incchart" role="img" aria-label="Swing toward the Conservatives in each riding, in four groups by median household income, with each group's average"></svg><div class="note" id="incnote" style="margin-top:6px"></div></div>
+<div class="you" id="you-who"></div>
+<p class="say" id="say-who"></p>
+<div class="viz" style="margin-top:14px"><b>Compare your riding</b><div class="note" style="margin:2px 0 10px">2021 Census</div><div id="cmpchart" class="cards3"></div><div class="note" id="cmpnote" style="margin-top:8px"></div></div>
+<div class="viz"><b>Other census measures: do they go with the swing?</b><div class="controls" id="xchips" style="margin-top:8px"></div>
+<div class="controls"><select id="xvar" aria-label="More census measures"></select></div>
+<div class="hint">Each dot is a riding. Tap one.</div>
+<svg id="scatter" role="img" aria-label="Census measure against the swing"></svg><div class="note" id="scstat"></div></div>
+<details class="more"><summary>More about this</summary><div id="more-who"></div><div class="grid2" id="iegrid"></div><div id="ielist" class="note" style="margin-top:8px"></div><div id="quart" class="tscroll" style="margin-top:10px"></div></details></section>
+
+<section class="ch" id="middle"><div class="kick">The middle ground</div><h2 id="h-middle"></h2><p class="line" id="l-middle"></p>
+<div class="viz"><b id="grptitle">Provincial vote in ridings that voted Liberal federally</b><div class="note" id="grpsub" style="margin:2px 0 10px"></div>
+<div class="controls"><span class="note" style="font-weight:700">Voted federally:</span><span class="chips" id="grpbtn"></span></div><div class="hint">Pick a group; tap a line for its numbers</div>
+<svg id="grpchart" role="img" aria-label="Share of the provincial vote for the NDP, the Conservatives and the Greens in 2024 and 2026, in ridings grouped by the 2025 federal vote"></svg>
+<div id="grpseats" class="note" style="margin-top:6px"></div><div id="grplist" class="note"></div></div>
+<div class="viz"><b>Which ridings changed party</b><div class="note" style="margin:2px 0 10px">Party elected provincially in 2024 and in 2026, for the same three groups</div>
+<div class="controls"><span class="note" style="font-weight:700">Voted federally:</span><span class="chips" id="midbtn"></span></div><div class="hint">Tap a band to list its ridings</div>
+<svg id="midchart" role="img" aria-label="Ridings flowing from the party elected provincially in 2024 to the party elected provincially in 2026, grouped by the 2025 federal vote"></svg><div id="midlist" class="note"></div></div>
+<div class="you" id="you-middle"></div>
+<p class="say" id="say-middle"></p>
+<details class="more"><summary>More about this</summary><div id="more-middle"></div><svg id="flowsvg" role="img" aria-label="Estimated provincial vote of each federal party's voters"></svg><div id="flownote"></div><svg id="fedsc" role="img" aria-label="Federal Liberal share against the change in provincial NDP share"></svg><div id="fedlegend"></div></details></section>
+
+<section class="ch" id="why"><div class="kick">Before the vote</div><h2 id="h-why"></h2><p class="line" id="l-why"></p>
+<div class="viz"><div class="hint">Tap a worry for the poll behind it</div><ol class="worries" id="whychart"></ol><div class="callout" id="tfc"></div></div>
+<div class="viz"><b>The polls against the count</b><div class="controls" id="pollbtn" style="margin-top:8px"></div><div class="controls" id="pollrange"></div><div class="hint">Tap a party to show or hide it; tap a dot for its poll</div><svg id="polls" role="img" aria-label="Polls over time"></svg></div>
+<div class="you" id="you-why"></div>
+<p class="say" id="say-why"></p>
+<details class="more"><summary>More about this</summary><div id="more-why"></div><div id="polltbl" class="tscroll"></div></details></section>
+
+
+<section class="ch" id="promises"><div class="kick">What comes next</div><h2 id="h-promises"></h2><p class="line" id="l-promises"></p>
+<div class="viz"><div class="controls" id="pfilter"></div><div class="hint">Tap a promise for the platform's words and page</div><div class="pgrid" id="pgrid"></div></div>
+<div class="viz"><b>Closest margins</b><div class="note" id="watchnote" style="margin:2px 0 6px"></div>
+<label class="note" for="watchn" id="watchlab"></label><input type="range" id="watchn" min="100" max="1500" step="50" value="400" style="width:100%;height:40px;accent-color:var(--text)">
+<div class="watch" id="watch"></div></div>
+<div class="you" id="you-promises"></div>
+<p class="say" id="say-promises"></p>
+<details class="more"><summary>More about this</summary><div id="more-promises"></div></details></section>
+
+<section class="ch" id="methods"><div class="kick">Data and methods</div><h2>How this was made</h2>
+<details class="more"><summary>Methods</summary><div id="methodtext"></div></details>
+<details class="more"><summary>Sources</summary><ol class="refs" id="refs"></ol></details>
+<p class="note">Text and charts: CC BY 4.0 (share and adapt with credit to The Median Canadian). Code: Apache License 2.0. Data belongs to its publishers: contains information licenced under the Elections BC Open Data Licence, and information licensed under the Open Government Licence - British Columbia and the Open Government Licence - Canada; census figures adapted from Statistics Canada, 2021 Census of Population, which does not constitute an endorsement by Statistics Canada. Photos on the Instagram slides are licensed separately by their authors.</p></section>
+</div>
+</main>
+<footer><div class="wrap"><img src="logo-icon.png" alt=""><div>The Median Canadian · A curious Canadian explaining Canada through numbers, every week.<br>Text and charts CC BY 4.0 · Code Apache 2.0</div></div></footer>
+<div class="tip" id="tip"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+const S = __SITE__;
+const T = __STORY__;
+const TOPO = __TOPO__;
+const DETAIL = __DETAIL__;
+const REFS = __REFS__;
+</script>
+<script>
+__JS__
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+2026-10-24T10:02:56Z 200 21196145 https://elections.bc.ca/docs/rpt/1871-1986_ElectoralHistoryofBC.pdf -> hist_1871_1986/1871-1986_ElectoralHistoryofBC.pdf
+2026-10-24T10:02:56Z 200 127221 https://elections.bc.ca/docs/rpt/ElectoralHistoryofBritishColumbia1871-1986Errata.pdf -> hist_1871_1986_errata/ElectoralHistoryofBritishColumbia1871-1986Errata.pdf
+2026-10-24T10:02:57Z 200 569581 https://elections.bc.ca/docs/rpt/1987-2001-ElectionHistory.pdf -> hist_1987_2001/1987-2001-ElectionHistory.pdf
+2026-10-24T10:02:58Z 200 1797406 https://elections.bc.ca/docs/rpt/2002-2013-ElectionHistory.pdf -> hist_2002_2013/2002-2013-ElectionHistory.pdf
+2026-10-24T10:02:59Z 200 15585792 https://elections.bc.ca/docs/rpt/2001GEResults/2001ResultsxED.xls -> ge2001_xls/2001ResultsxED.xls
+2026-10-24T10:03:02Z 200 57243731 https://elections.bc.ca/docs/rpt/2001GEResults/2001-SOVGeneralElection.pdf -> ge2001_sov/2001-SOVGeneralElection.pdf
+2026-10-24T10:03:03Z 200 1100800 https://elections.bc.ca/docs/rpt/2005GEResults/2005GE_Results_Excel.xls -> ge2005_xls/2005GE_Results_Excel.xls
+2026-10-24T10:03:04Z 200 21473321 https://elections.bc.ca/docs/rpt/2005GEResults/SOV-GEcomplete.pdf -> ge2005_sov/SOV-GEcomplete.pdf
+2026-10-24T10:03:05Z 200 36486 https://elections.bc.ca/docs/rpt/2005-Errata.pdf -> ge2005_errata/2005-Errata.pdf
+2026-10-24T10:03:06Z 200 1205248 https://elections.bc.ca/docs/rpt/2009GE/2009GE-Results-Excel.xls -> ge2009_xls/2009GE-Results-Excel.xls
+2026-10-24T10:03:09Z 200 55994672 https://elections.bc.ca/docs/rpt/2009GE/2009-GE-SOV.pdf -> ge2009_sov/2009-GE-SOV.pdf
+2026-10-24T10:03:10Z 200 1366016 https://elections.bc.ca/docs/rpt/2013GE/2013GE-Results-Excel.xls -> ge2013_xls/2013GE-Results-Excel.xls
+2026-10-24T10:03:14Z 200 56995440 https://elections.bc.ca/docs/rpt/2013GE/2013-GE-SOV.pdf -> ge2013_sov/2013-GE-SOV.pdf
+2026-10-24T10:03:15Z 200 680813 https://elections.bc.ca/docs/rpt/2017-election-report/xlsx/2017-provincial-general-election-sov.xlsx -> ge2017_xlsx/2017-provincial-general-election-sov.xlsx
+2026-10-24T10:03:16Z 200 7141581 https://elections.bc.ca/docs/rpt/2017-election-report/pdf/2017-provincial-general-election-sov.pdf -> ge2017_sov/2017-provincial-general-election-sov.pdf
+2026-10-24T10:03:17Z 200 4050858 https://elections.bc.ca/docs/rpt/statement-of-votes-2020-provincial-general-election.pdf -> ge2020_sov/statement-of-votes-2020-provincial-general-election.pdf
+2026-10-24T10:03:18Z 200 3857759 https://elections.bc.ca/docs/rpt/statement-of-votes-2024-provincial-election.pdf -> ge2024_sov/statement-of-votes-2024-provincial-election.pdf
+2026-10-24T10:03:18Z 200 176681 https://elections.bc.ca/docs/EBC-Open-Data-Licence.pdf -> licence/EBC-Open-Data-Licence.pdf
+2026-10-24T10:03:19Z 200 189957 https://elections.bc.ca/resources/results/voter-turnout/ -> turnout_page/voter-turnout
+2026-10-24T10:07:53Z 200 32398629 https://elections.bc.ca/docs/rpt/2017-General-Election-Report.pdf -> ceo2017/2017-General-Election-Report.pdf
+2026-10-24T10:08:05Z 200 67950900 https://www.elections.bc.ca/docs/rpt/2020-provincial-general-election-report.pdf -> ceo2020/2020-provincial-general-election-report.pdf
+2026-10-24T10:08:07Z 200 16855336 https://www.elections.bc.ca/docs/rpt/Report_of_the_CEO_PGE2024.pdf -> ceo2024/Report_of_the_CEO_PGE2024.pdf
+2026-10-24T10:10:29Z https://www.leg.bc.ca/node/50 -> leg_premiers/node50.html
+2026-10-24T10:10:47Z 404 https://www.leg.bc.ca/content-peo/Learning-Resources/Premiers-Fact-Sheet-English-French.pdf -> leg_premiers_factsheet/Premiers-Fact-Sheet-English-French.pdf
+2026-10-24T10:11:11Z 200 https://www.leg.bc.ca/members/executive-council -> leg_exec_council/executive-council.html
+2026-10-24T10:12:30Z 200 https://archive.news.gov.bc.ca/releases/news_releases_2020-2024/2024PREM0061-001579.htm -> govbc_news_2024PREM0061/2024PREM0061-001579.htm
+2026-10-24T10:16:24Z 200 https://lims.leg.bc.ca/hdms/file/Index/41st2nd/names.htm -> lims_index_41st2nd/names.htm
+2026-10-24T10:16:25Z 200 https://lims.leg.bc.ca/hdms/file/Index/42nd1st/names.htm -> lims_index_42nd1st/names.htm
+2026-10-24T10:16:25Z 200 https://lims.leg.bc.ca/hdms/file/Index/42nd3rd/names.htm -> lims_index_42nd3rd/names.htm
+2026-10-24T10:16:26Z 200 https://lims.leg.bc.ca/hdms/file/Index/43rd1st/names.htm -> lims_index_43rd1st/names.htm
+2026-10-24T10:16:40Z 200 https://lims.leg.bc.ca/hdms/file/Index/40th1st/names.htm -> lims_index_40th1st/names.htm
+2026-10-24T10:16:40Z 200 https://lims.leg.bc.ca/hdms/file/Index/41st1st/names.htm -> lims_index_41st1st/names.htm
+2026-10-24T10:16:41Z 200 https://lims.leg.bc.ca/hdms/file/Index/39th1st/names.htm -> lims_index_39th1st/names.htm
+2026-10-24T10:16:41Z 200 https://lims.leg.bc.ca/hdms/file/Index/38th1st/names.htm -> lims_index_38th1st/names.htm
+2026-10-24T10:16:42Z 200 https://lims.leg.bc.ca/hdms/file/Index/37th1st/names.htm -> lims_index_37th1st/names.htm

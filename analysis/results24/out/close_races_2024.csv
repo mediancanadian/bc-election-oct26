@@ -1,0 +1,23 @@
+ed_code,ed_name,winner_party,winner,second_party,second,margin_votes,margin_pts,turnout_pct,judicial_recount,recount_note
+SRG,Surrey-Guildford,NDP,"Begg, Garry",CON,"Randhawa, Honveer Singh",22,0.12,50.76,True,Recount request declined; judicial recount Nov 7-8 (Justice Loo); margin 27 -> 22
+KEC,Kelowna Centre,CON,"Loewen, Kristina",NDP,"Wooldridge, Loyal",40,0.16,56.49,True,DEO partial recount (accepted request); judicial recount Nov 7-8 (Justice Beames); margin 38 -> 40
+CRC,Courtenay-Comox,CON,"Day, Brennan",NDP,"Leonard, Ronna-Rae",93,0.27,68.71,False,Recount request declined
+MAE,Maple Ridge East,CON,"Mok, Lawrence",NDP,"D'Eith, Bob",97,0.38,57.95,False,Recount request declined
+JFM,Juan de Fuca-Malahat,NDP,"Lajeunesse, Dana",CON,"Sapozhnikov, Marina",141,0.59,64.81,False,"DEO full recount (automatic, margin <=100 at initial count); two uncounted quarantined boxes counted first under CEO Order; confirmed initial outcome"
+PES,Penticton-Summerland,CON,"Boultbee, Amelia",NDP,"Lee, Tina",317,1.13,61.49,False,
+SUP,Surrey-Panorama,CON,"Tepper, Bryan",NDP,"Sims, Jinny",263,1.49,53.91,False,
+SRC,Surrey City Centre,NDP,"Shah, Amna",CON,"Wahla, Zeeshan",232,1.62,44.82,False,"DEO full recount (automatic, margin <=100 at initial count); confirmed initial outcome"
+CQB,Coquitlam-Burke Mountain,NDP,"Wickens, Jodie",CON,"Frolek, Stephen",368,1.7,54.69,False,
+VRL,Vernon-Lumby,NDP,"Sandhu, Harwinder",CON,"Giesbrecht, Dennis",476,1.72,60.65,False,
+RCS,Richmond-Steveston,NDP,"Greene, Kelly",CON,"Mollineaux, Michelle",484,2.07,59.87,False,
+NOI,North Island,CON,"Kindy, Anna",NDP,"Babchuk, Michele",639,2.14,62.15,False,
+SUR,Surrey-Serpentine River,CON,"Hepner, Linda",NDP,"Dhillon, Baltej Singh",435,2.21,54.49,False,
+VLA,Vancouver-Langara,NDP,"Dhir, Sunita",CON,"Breguet, Bryan",419,2.38,51.83,False,
+WVS,West Vancouver-Sea to Sky,GRN,"Valeriote, Jeremy",CON,"Fulmer, Yuri",676,2.47,61.96,False,
+SRD,Surrey-Cloverdale,CON,"Sturko, Elenore",NDP,"Starchuk, Mike",586,2.75,55.87,False,
+CWV,Cowichan Valley,NDP,"Toporowski, Debra",CON,"Koury, John",849,2.92,63.52,False,
+CLR,Columbia River-Revelstoke,CON,"McInnis, Scott",NDP,"Dunlop, Andrea",670,3.66,58.46,False,
+SRF,Surrey-Fleetwood,NDP,"Brar, Jagrup",CON,"Gill, Avtar",753,3.69,54.14,False,
+LWI,Langley-Willowbrook,CON,"Toor, Jody",NDP,"Mercier, Andrew",867,3.81,55.44,False,
+SAN,Saanich North and the Islands,GRN,"Botterell, Rob",NDP,"Riddell, Sarah",1350,3.96,68.95,False,
+LWG,Langley-Walnut Grove,CON,"Van Popta, Misty",NDP,"Dykeman, Megan",1172,4.79,58.0,False,

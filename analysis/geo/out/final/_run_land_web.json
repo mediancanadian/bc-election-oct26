@@ -1,0 +1,94 @@
+{
+ "settings": {
+  "start_mult": {
+   "NOH": 0.42,
+   "NOI": 0.55,
+   "LAO": 0.8,
+   "NAI": 0.8
+  },
+  "target_pct": 0.98,
+  "budget": 0.005,
+  "maxdrop": 5.0,
+  "K": 0.02765,
+  "TMIN": 10,
+  "TMAX": 4000,
+  "step4326": 1e-05,
+  "coarse4326": 10,
+  "step3005": 1.0,
+  "limit": 400000,
+  "K_final": 0.02765
+ },
+ "district_multipliers": {
+  "ABW": 0.746,
+  "CHC": 0.269,
+  "CRC": 0.7,
+  "KOR": 0.789,
+  "LAO": 0.56,
+  "MPR": 0.666,
+  "NAI": 0.661,
+  "NOH": 0.186,
+  "NOI": 0.247,
+  "POR": 0.809,
+  "SKE": 0.565,
+  "SRG": 0.911,
+  "VHA": 0.93,
+  "VNP": 0.456,
+  "VTB": 0.873,
+  "WVS": 0.681
+ },
+ "repair": {
+  "arcs_split": 65,
+  "chunks_reduced": 111
+ },
+ "bytes": {
+  "geojson_4326": 365794,
+  "topojson_4326": 197103,
+  "geojson_3005": 356972
+ },
+ "parts_master": 28179,
+ "parts_dropped": 27802,
+ "islet_km2_dropped": 515.186,
+ "check_geojson_4326": {
+  "file": "FINAL_ed2023_land_web_4326.geojson",
+  "n": 93,
+  "valid": 93,
+  "empty": 0,
+  "overlap_m2": 0.0,
+  "internal_gap_m2": 0.0,
+  "max_abs_area_diff_pct": 0.963,
+  "worst": "NOH",
+  "districts_over_1pct": [],
+  "vertices": 16204,
+  "parts": 377
+ },
+ "valid_in_native_crs_geojson_4326": true,
+ "check_topojson_4326": {
+  "file": "FINAL_ed2023_land_web_4326.topojson",
+  "n": 93,
+  "valid": 93,
+  "empty": 0,
+  "overlap_m2": 0.0,
+  "internal_gap_m2": 0.0,
+  "max_abs_area_diff_pct": 0.963,
+  "worst": "NOH",
+  "districts_over_1pct": [],
+  "vertices": 16204,
+  "parts": 377
+ },
+ "valid_in_native_crs_topojson_4326": true,
+ "check_geojson_3005": {
+  "file": "FINAL_ed2023_land_web_3005.geojson",
+  "n": 93,
+  "valid": 93,
+  "empty": 0,
+  "overlap_m2": 0.0,
+  "internal_gap_m2": 0.0,
+  "max_abs_area_diff_pct": 0.964,
+  "worst": "NOH",
+  "districts_over_1pct": [],
+  "vertices": 16204,
+  "parts": 377
+ },
+ "valid_in_native_crs_geojson_3005": true,
+ "master_parts_ge_maxdrop_missing": []
+}

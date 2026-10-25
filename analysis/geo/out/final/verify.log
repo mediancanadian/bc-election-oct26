@@ -1,0 +1,15 @@
+FINAL_ed2023_land_lakes_slide720_3005.geojson 490184 valid True ovl 0.0 spur 0 maxdiff 0.966 VLA >1% 0 miss 0 labels 93
+FINAL_ed2023_land_lakes_slide720_3005.topojson 260300 valid True ovl 0.0 spur 0 maxdiff 0.966 VLA >1% 0 miss 0 labels 93
+FINAL_ed2023_land_lakes_slide720_4326.geojson 495444 valid True ovl 0.0 spur 0 maxdiff 0.959 NOI >1% 0 miss 0 labels 93
+FINAL_ed2023_land_lakes_slide720_4326.topojson 262815 valid True ovl 0.0 spur 0 maxdiff 0.959 NOI >1% 0 miss 0 labels 93
+FINAL_ed2023_land_lakes_web_3005.geojson 377167 valid True ovl 0.0 spur 0 maxdiff 0.966 VLA >1% 0 miss 0 labels 93
+FINAL_ed2023_land_lakes_web_4326.geojson 373667 valid True ovl 0.0 spur 0 maxdiff 0.931 NOH >1% 0 miss 0 labels 93
+FINAL_ed2023_land_lakes_web_4326.topojson 210096 valid True ovl 0.0 spur 0 maxdiff 0.931 NOH >1% 0 miss 0 labels 93
+FINAL_ed2023_land_slide720_3005.geojson 391618 valid True ovl 0.0 spur 0 maxdiff 0.969 NOI >1% 0 miss 0 labels 93
+FINAL_ed2023_land_slide720_3005.topojson 205188 valid True ovl 0.0 spur 0 maxdiff 0.969 NOI >1% 0 miss 0 labels 93
+FINAL_ed2023_land_slide720_4326.geojson 398394 valid True ovl 0.0 spur 0 maxdiff 0.969 NOI >1% 0 miss 0 labels 93
+FINAL_ed2023_land_slide720_4326.topojson 206896 valid True ovl 0.0 spur 0 maxdiff 0.969 NOI >1% 0 miss 0 labels 93
+FINAL_ed2023_land_web_3005.geojson 356972 valid True ovl 0.0 spur 0 maxdiff 0.964 NOH >1% 0 miss 0 labels 93
+FINAL_ed2023_land_web_4326.geojson 365794 valid True ovl 0.0 spur 0 maxdiff 0.963 NOH >1% 0 miss 0 labels 93
+FINAL_ed2023_land_web_4326.topojson 197103 valid True ovl 0.0 spur 0 maxdiff 0.963 NOH >1% 0 miss 0 labels 93
+VERIFY_DONE

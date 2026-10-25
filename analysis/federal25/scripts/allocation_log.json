@@ -1,0 +1,86 @@
+{
+ "polls_by_kind": {
+  "ordinary": 8825,
+  "advance": 1160,
+  "mobile": 664,
+  "svr": 86,
+  "special_pd": 69
+ },
+ "combined_source_polls": 1088,
+ "combined_source_votes_nonzero": 0,
+ "official_bc": {
+  "LPC": 1105033,
+  "CPC": 1088655,
+  "NDP": 343670,
+  "GPC": 79255,
+  "OTH": 27456,
+  "valid": 2644069,
+  "rejected": 15430,
+  "electors": 3844085
+ },
+ "pollfile_bc": {
+  "LPC": 1105033,
+  "CPC": 1088655,
+  "NDP": 343670,
+  "GPC": 79255,
+  "OTH": 27456,
+  "rejected": 15430,
+  "electors": 3844085
+ },
+ "riding_valid_mismatches_vs_table12": 0,
+ "db_count": 52423,
+ "db_blank_population_in_gaf": 103,
+ "db_pop_total": 5000879.0,
+ "db_pop_captured_in_pd_ed_pieces": 5000555.127056675,
+ "pd_polygons_no_ed_overlap_nearest": 0,
+ "geo_polls_without_polygon": 2,
+ "mobile_polls_without_polygon": [
+  "59019-502 (0 votes)",
+  "59040-500 (0 votes)"
+ ],
+ "geo_reporting_units_by_weight_method": {
+  "population": 8714,
+  "area": 4
+ },
+ "area_fallback_units": [
+  "59004-95-3",
+  "59021-4-1",
+  "59021-73-1",
+  "59031-2-2"
+ ],
+ "electors_on_advance_or_svr_rows": 19943,
+ "advance_svr_party_fallback_to_all_votes": 0,
+ "alloc_totals": {
+  "LPC": 1105033.0,
+  "CPC": 1088655.0,
+  "NDP": 343670.0,
+  "GPC": 79255.0,
+  "OTH": 27456.0,
+  "rej": 15430.0,
+  "electors": 3844085.0,
+  "valid": 2644069.0
+ },
+ "n_feds_contributing": {
+  "count": 93.0,
+  "mean": 3.827956989247312,
+  "std": 1.5785495262504816,
+  "min": 1.0,
+  "25%": 3.0,
+  "50%": 4.0,
+  "75%": 4.0,
+  "max": 10.0
+ },
+ "rounded_totals": {
+  "LPC": 1105031,
+  "CPC": 1088656,
+  "NDP": 343665,
+  "GPC": 79257,
+  "OTH": 27456
+ },
+ "eds_led": {
+  "CPC": 44,
+  "LPC": 42,
+  "NDP": 6,
+  "GPC": 1
+ }
+}

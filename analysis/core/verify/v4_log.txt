@@ -1,0 +1,21 @@
+all 93
+   hh_income_median  pct_immigrants  pct_hh_renter  median_age  pct_bachelor_plus_25_64  metro
+b              3.28            1.36           0.81        1.95                     0.43   0.39
+t              4.85            1.73           0.97        3.18                     0.59   0.50
+   hh_income_median  pct_vm_south_asian  pct_vm_chinese  pct_hh_renter  median_age  metro
+b              3.47                1.02            0.63           1.44        2.45   0.96
+t              5.92                2.26            1.19           2.37        4.36   1.44
+all excl PCN 92
+   hh_income_median  pct_immigrants  pct_hh_renter  median_age  pct_bachelor_plus_25_64  metro
+b              3.22            1.37           0.76        1.98                     0.49   0.45
+t              4.71            1.74           0.90        3.24                     0.67   0.57
+   hh_income_median  pct_vm_south_asian  pct_vm_chinese  pct_hh_renter  median_age  metro
+b              3.42                1.07            0.63           1.44        2.51   1.04
+t              5.80                2.34            1.18           2.36        4.44   1.55
+same-field 56
+   hh_income_median  pct_immigrants  pct_hh_renter  median_age  pct_bachelor_plus_25_64  metro
+b              3.24            1.12           0.65        0.94                     0.52  -0.40
+t              3.35            1.36           0.49        1.15                     0.59  -0.49
+   hh_income_median  pct_vm_south_asian  pct_vm_chinese  pct_hh_renter  median_age  metro
+b              3.76                0.91            0.28           1.74        1.62   0.13
+t              4.91                1.69            0.43           2.03        2.15   0.18

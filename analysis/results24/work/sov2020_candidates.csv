@@ -1,0 +1,333 @@
+ed_name,ballot_name,member_of_previous_parliament,affiliation_sov,votes,pct
+Abbotsford-Mission,Aeriol Alderking,False,CHP,595,2.36
+Abbotsford-Mission,Pam Alexis,False,NDP,10364,41.07
+Abbotsford-Mission,Stephen Fowler,False,GP,2667,10.57
+Abbotsford-Mission,Simon Gibson,True,LIB,9620,38.12
+Abbotsford-Mission,Trevor Hamilton,False,CP,1989,7.88
+Abbotsford South,Bruce Banman,False,LIB,9730,44.69
+Abbotsford South,Aird Flavelle,False,GP,2617,12.02
+Abbotsford South,Inder Johal,False,NDP,7706,35.39
+Abbotsford South,Laura-Lynn Thompson,False,CHP,1720,7.90
+Abbotsford West,Michael de Jong,True,LIB,8880,45.51
+Abbotsford West,Kevin Eastwood,False,GP,1671,8.56
+Abbotsford West,Sukhi Gill,False,BCV,75,0.38
+Abbotsford West,Michael Henshall,False,CP,1766,9.05
+Abbotsford West,Preet Rai,False,NDP,7119,36.49
+Boundary-Similkameen,Arlyn Greig,False,WEX,474,2.25
+Boundary-Similkameen,Roly Russell,False,NDP,10500,49.85
+Boundary-Similkameen,Darryl Seres,False,CP,2354,11.18
+Boundary-Similkameen,Petra Veintimilla,False,LIB,7735,36.72
+Burnaby-Deer Lake,Glynnis Hoi Sum Chan,False,LIB,5163,31.81
+Burnaby-Deer Lake,Mehreen Chaudry,False,GP,1878,11.57
+Burnaby-Deer Lake,Anne Kang,True,NDP,9190,56.62
+Burnaby-Edmonds,Tripat Atwal,False,LIB,4754,26.65
+Burnaby-Edmonds,Raj Chouhan,True,NDP,11063,62.01
+Burnaby-Edmonds,Iqbal Parekh,False,GP,2023,11.34
+Burnaby-Lougheed,Katrina Chen,True,NDP,12574,60.25
+Burnaby-Lougheed,Tariq Malik,False,LIB,5386,25.81
+Burnaby-Lougheed,Dominique Paynter,False,LBN,281,1.35
+Burnaby-Lougheed,Andrew Williamson,False,GP,2628,12.59
+Burnaby North,Raymond Dong,False,LIB,6846,30.69
+Burnaby North,Janet Routledge,True,NDP,12894,57.80
+Burnaby North,Norine Shim,False,GP,2568,11.51
+Cariboo-Chilcotin,Scott Andrews,False,NDP,4180,32.46
+Cariboo-Chilcotin,James Buckley,False,LBN,263,2.04
+Cariboo-Chilcotin,Lorne Doerkson,False,LIB,6600,51.25
+Cariboo-Chilcotin,David Laing,False,GP,1379,10.71
+Cariboo-Chilcotin,Katya Potekhina,False,IND,457,3.55
+Cariboo North,Scott Elliott,False,NDP,3809,34.36
+Cariboo North,Douglas Gook,False,GP,707,6.38
+Cariboo North,Coralee Oakes,True,LIB,5367,48.42
+Cariboo North,Kyle Townsend,False,CP,1201,10.84
+Chilliwack,Josue Anderson,False,IND,257,1.45
+Chilliwack,Andrew Coombes,False,LBN,177,1.00
+Chilliwack,Tim Cooper,False,GP,1888,10.68
+Chilliwack,Dan Coulter,False,NDP,7349,41.56
+Chilliwack,Diane Janzen,False,CP,2910,16.46
+Chilliwack,John Martin,True,LIB,5102,28.85
+Chilliwack-Kent,Eli Gagné,False,LBN,278,1.22
+Chilliwack-Kent,Jeff Hammersmark,False,GP,1822,8.03
+Chilliwack-Kent,Jason Lum,False,IND,5370,23.65
+Chilliwack-Kent,Kelli Paddon,False,NDP,8268,36.42
+Chilliwack-Kent,Laurie Throness,True,LIB,6964,30.68
+Columbia River-Revelstoke,Samson Boyer,False,GP,1904,13.00
+Columbia River-Revelstoke,Nicole Cherlet,False,NDP,5708,38.97
+Columbia River-Revelstoke,Doug Clovechok,True,LIB,7034,48.03
+Coquitlam-Burke Mountain,Adam Bremner-Akins,False,GP,2033,8.85
+Coquitlam-Burke Mountain,Fin Donnelly,False,NDP,12627,54.94
+Coquitlam-Burke Mountain,Joan Isaacs,True,LIB,8324,36.22
+Coquitlam-Maillardville,Will Davis,False,LIB,5882,28.60
+Coquitlam-Maillardville,Selina Robinson,True,NDP,12278,59.70
+Coquitlam-Maillardville,Nicola Spurling,False,GP,2405,11.69
+Courtenay-Comox,Gillian Anderson,False,GP,5681,19.59
+Courtenay-Comox,Brennan Day,False,LIB,8655,29.85
+Courtenay-Comox,Ronna-Rae Leonard,True,NDP,14663,50.56
+Cowichan Valley,Rob Douglas,False,NDP,11875,40.20
+Cowichan Valley,Sonia Furstenau,True,GP,13059,44.21
+Cowichan Valley,Tanya Kaul,False,LIB,4606,15.59
+Delta North,Ravi Kahlon,True,NDP,12215,56.78
+Delta North,Neema Manral,False,GP,2120,9.85
+Delta North,Jet Sunner,False,LIB,7179,33.37
+Delta South,Ian Paton,True,LIB,12828,51.70
+Delta South,Bruce Reid,False,NDP,8404,33.87
+Delta South,Peter van der Velden,False,GP,3581,14.43
+Esquimalt-Metchosin,Mitzi Dean,True,NDP,15070,59.32
+Esquimalt-Metchosin,Andy MacKinnon,False,GP,6140,24.17
+Esquimalt-Metchosin,Desta McPherson,False,IND,254,1.00
+Esquimalt-Metchosin,RJ Senko,False,LIB,3940,15.51
+Fraser-Nicola,Dennis Adamson,False,IND,438,3.20
+Fraser-Nicola,Mike Bhangu,False,IND,343,2.51
+Fraser-Nicola,Aaron Sumexheltza,False,NDP,5414,39.58
+Fraser-Nicola,Jackie Tegart,True,LIB,5696,41.64
+Fraser-Nicola,Jonah Timms,False,GP,1788,13.07
+Kamloops-North Thompson,Dennis Giesbrecht,False,CP,1928,8.46
+Kamloops-North Thompson,Sadie Hunter,False,NDP,9145,40.13
+Kamloops-North Thompson,Thomas Martin,False,GP,2224,9.76
+Kamloops-North Thompson,Peter Milobar,True,LIB,9341,40.99
+Kamloops-North Thompson,Brandon Russell,False,IND,149,0.65
+Kamloops-South Thompson,Dan Hines,False,GP,4276,16.26
+Kamloops-South Thompson,Todd Graham Stone,True,LIB,13453,51.14
+Kamloops-South Thompson,Anna Thomas,False,NDP,8575,32.60
+Kelowna-Lake Country,Kyle Geronazzo,False,LBN,515,1.96
+Kelowna-Lake Country,John Janmaat,False,GP,3833,14.55
+Kelowna-Lake Country,Justin Kulik,False,NDP,7121,27.04
+Kelowna-Lake Country,Norm Letnick,True,LIB,14679,55.73
+Kelowna-Lake Country,Silverado Brooks Socrates,False,IND,190,0.72
+Kelowna-Mission,Renee Merrifield,False,LIB,13483,50.76
+Kelowna-Mission,Amanda Poon,False,GP,4476,16.85
+Kelowna-Mission,Krystal Smith,False,NDP,8605,32.39
+Kelowna West,Matt Badura,False,LBN,474,1.82
+Kelowna West,Spring Hawes,False,NDP,8854,34.00
+Kelowna West,Magee Mitchell,False,IND,446,1.71
+Kelowna West,Ben Stewart,True,LIB,12991,49.89
+Kelowna West,Peter A. Truch,False,GP,3274,12.57
+Kootenay East,Tom Shypitka,True,LIB,9897,57.90
+Kootenay East,Wayne Stetski,False,NDP,5499,32.17
+Kootenay East,Kerri Wall,False,GP,1697,9.93
+Kootenay West,Glen Byle,False,CP,1447,8.18
+Kootenay West,Katrine Conroy,True,NDP,10822,61.15
+Kootenay West,Andrew Duncan,False,GP,3040,17.18
+Kootenay West,Corbin Kelley,False,LIB,1975,11.16
+Kootenay West,Fletcher Quince,False,IND,189,1.07
+Kootenay West,Ed Varney,False,IND,224,1.27
+Langford-Juan de Fuca,Gord Baird,False,GP,4437,16.67
+Langford-Juan de Fuca,Kelly Darwin,False,LIB,3980,14.95
+Langford-Juan de Fuca,John Horgan,True,NDP,18073,67.89
+Langford-Juan de Fuca,Tyson Riel Strandlund,False,COMM,130,0.49
+Langley,Shelly Jan,False,CP,1936,8.24
+Langley,Bill Masse,False,GP,2469,10.50
+Langley,Andrew Mercier,False,NDP,11089,47.17
+Langley,Mary Polak,True,LIB,8014,34.09
+Langley East,Megan Dykeman,False,NDP,13169,42.56
+Langley East,Alex Joehl,False,LBN,231,0.75
+Langley East,Margaret Kunst,False,LIB,10385,33.56
+Langley East,Tara Reeve,False,IND,195,0.63
+Langley East,Ryan Warawa,False,CP,3428,11.08
+Langley East,Cheryl Wiens,False,GP,3533,11.42
+Maple Ridge-Mission,Bob D'Eith,True,NDP,13915,55.27
+Maple Ridge-Mission,Chelsa Meadus,False,LIB,8412,33.41
+Maple Ridge-Mission,Matt Trenholm,False,GP,2849,11.32
+Maple Ridge-Pitt Meadows,Cheryl Ashlie,False,LIB,9163,36.59
+Maple Ridge-Pitt Meadows,Lisa Beare,True,NDP,15877,63.41
+Mid Island-Pacific Rim,Robert Alexander Clarke,False,LBN,370,1.51
+Mid Island-Pacific Rim,Graham Hughes,False,IND,610,2.48
+Mid Island-Pacific Rim,Evan Jolicoeur,False,GP,4991,20.32
+Mid Island-Pacific Rim,Josie Osborne,False,NDP,14298,58.22
+Mid Island-Pacific Rim,Helen Poon,False,LIB,4291,17.47
+Nanaimo,Kathleen Jones,False,LIB,5903,22.42
+Nanaimo,Sheila Malcolmson,True,NDP,14344,54.49
+Nanaimo,Lia Marie Constance Versaevel,False,GP,6078,23.09
+Nanaimo-North Cowichan,Chris Istace,False,GP,7700,29.80
+Nanaimo-North Cowichan,Duck (don) Paterson,False,LIB,5354,20.72
+Nanaimo-North Cowichan,Doug Routley,True,NDP,12787,49.48
+Nechako Lakes,Margo Maley,False,IND,368,4.17
+Nechako Lakes,Jon Rempel,False,LBN,403,4.57
+Nechako Lakes,John Rustad,True,LIB,4611,52.24
+Nechako Lakes,Anne Marie Sam,False,NDP,3031,34.34
+Nechako Lakes,Dan Stuart,False,CHP,413,4.68
+Nelson-Creston,Brittny Anderson,False,NDP,7296,41.78
+Nelson-Creston,Nicole Charlwood,False,GP,5611,32.13
+Nelson-Creston,Tanya Finley,False,LIB,4171,23.89
+Nelson-Creston,Terry Tiessen,False,LBN,384,2.20
+New Westminster,Lorraine Brett,False,LIB,4291,16.26
+New Westminster,Benny Ogden,False,CP,912,3.46
+New Westminster,Cyrus Sy,False,GP,5020,19.02
+New Westminster,Jennifer Whiteside,False,NDP,15903,60.25
+New Westminster,Donald Wilson,False,LBN,269,1.02
+North Coast,Jody Craven,False,LBN,267,4.28
+North Coast,Roy S Jones Jr,False,LIB,1429,22.90
+North Coast,Jennifer Rice,True,NDP,4544,72.82
+North Island,Michele Babchuk,False,NDP,12467,50.75
+North Island,Norm Facey,False,LIB,5904,24.04
+North Island,Alexandra Morton,False,GP,4731,19.26
+North Island,John Twigg,False,CP,1462,5.95
+North Vancouver-Lonsdale,Lyn Anglin,False,LIB,7274,27.43
+North Vancouver-Lonsdale,Christopher Hakes,False,GP,3369,12.70
+North Vancouver-Lonsdale,Bowinn Ma,True,NDP,15878,59.87
+North Vancouver-Seymour,Susie Chant,False,NDP,12891,46.84
+North Vancouver-Seymour,Harrison Johnston,False,GP,4514,16.40
+North Vancouver-Seymour,Jane Thornthwaite,True,LIB,9827,35.70
+North Vancouver-Seymour,Clayton Welwood,False,LBN,291,1.06
+Oak Bay-Gordon Head,Florian Castle,False,COMM,142,0.49
+Oak Bay-Gordon Head,Nicole Duncan,False,GP,7362,25.52
+Oak Bay-Gordon Head,Roxanne Helme,False,LIB,6597,22.87
+Oak Bay-Gordon Head,Murray Rankin,False,NDP,14748,51.12
+Parksville-Qualicum,Rob Lyon,False,GP,5227,16.62
+Parksville-Qualicum,Don Purdey,False,CP,1404,4.46
+Parksville-Qualicum,John St John,False,IND,454,1.44
+Parksville-Qualicum,Michelle Stilwell,True,LIB,11155,35.47
+Parksville-Qualicum,Adam Walker,False,NDP,13207,42.00
+Peace River North,Trevor Bolin,False,CP,4150,34.30
+Peace River North,Dan Davies,True,LIB,6746,55.76
+Peace River North,Danielle Monroe,False,NDP,1202,9.94
+Peace River South,Mike Bernier,True,LIB,3862,51.19
+Peace River South,Kathleen Connolly,False,CP,2303,30.53
+Peace River South,Cory Grizz Longley,False,NDP,1180,15.64
+Peace River South,Dorothy Sharon Smith,False,WEX,199,2.64
+Penticton,Dan Ashton,True,LIB,13217,48.19
+Penticton,Toni Boot,False,NDP,10343,37.71
+Penticton,Keith MacIntyre,False,LBN,717,2.61
+Penticton,Ted Shumaker,False,GP,3152,11.49
+Port Coquitlam,Lewis Clarke Dahlby,False,LBN,563,2.35
+Port Coquitlam,Mike Farnworth,True,NDP,15370,64.14
+Port Coquitlam,Erik Minty,False,GP,3023,12.61
+Port Coquitlam,Mehran Zargham,False,LIB,5009,20.90
+Port Moody-Coquitlam,Brandon Fonseca,False,CP,800,3.36
+Port Moody-Coquitlam,Rick Glumac,True,NDP,12783,53.75
+Port Moody-Coquitlam,John Latimer,False,GP,2802,11.78
+Port Moody-Coquitlam,James Robertson,False,LIB,7253,30.50
+Port Moody-Coquitlam,Logan Smith,False,LBN,144,0.61
+Powell River-Sunshine Coast,Kim Darwin,False,GP,8104,32.47
+Powell River-Sunshine Coast,Nicholas Simons,True,NDP,12701,50.88
+Powell River-Sunshine Coast,Sandra Stoddart-Hansen,False,LIB,4156,16.65
+Prince George-Mackenzie,Joan Atkinson,False,NDP,5717,33.99
+Prince George-Mackenzie,Catharine Kendall,False,GP,1935,11.51
+Prince George-Mackenzie,Dee Kranz,False,CHP,336,2.00
+Prince George-Mackenzie,Mike Morris,True,LIB,8543,50.80
+Prince George-Mackenzie,Raymond Rodgers,False,LBN,287,1.71
+Prince George-Valemount,Shirley Bond,True,LIB,9703,55.62
+Prince George-Valemount,MacKenzie Kerr,False,GP,2597,14.89
+Prince George-Valemount,Laura Parent,False,NDP,4717,27.04
+Prince George-Valemount,Sean Robson,False,LBN,428,2.45
+Richmond North Centre,Jaeden Dela Torre,False,NDP,5964,39.83
+Richmond North Centre,Vernon Wang,False,GP,1333,8.90
+Richmond North Centre,Teresa Wat,True,LIB,7675,51.26
+Richmond-Queensborough,Earl Einarson,False,GP,1496,7.58
+Richmond-Queensborough,Kay Hale,False,CP,1108,5.61
+Richmond-Queensborough,Jas Johal,True,LIB,7728,39.15
+Richmond-Queensborough,Aman Singh,False,NDP,9406,47.65
+Richmond South Centre,Alexa Loo,False,LIB,6564,49.33
+Richmond South Centre,Henry Yao,False,NDP,6743,50.67
+Richmond-Steveston,Kelly Greene,False,NDP,10733,52.07
+Richmond-Steveston,Vince Li,False,IND,483,2.34
+Richmond-Steveston,Matt Pitcairn,False,LIB,9398,45.59
+Saanich North and the Islands,Zeb King,False,NDP,9990,29.01
+Saanich North and the Islands,Adam Olsen,True,GP,17897,51.97
+Saanich North and the Islands,Stephen P Roberts,False,LIB,6547,19.01
+Saanich South,Kate O'Connor,False,GP,5488,20.11
+Saanich South,Lana Popham,True,NDP,15190,55.67
+Saanich South,Rishi Sharma,False,LIB,6608,24.22
+Shuswap,Greg Kyllo,True,LIB,13300,51.35
+Shuswap,Sylvia Lindgren,False,NDP,8816,34.04
+Shuswap,Owen Madden,False,GP,3784,14.61
+Skeena,Nicole Halbauer,False,NDP,4961,44.45
+Skeena,Martin Holzbauer,False,IND,389,3.49
+Skeena,Ellis Ross,True,LIB,5810,52.06
+Stikine,Nathan Cullen,False,NDP,3745,51.77
+Stikine,Darcy Repen,False,RURL,754,10.42
+Stikine,Gordon Sebastian,False,LIB,1904,26.32
+Stikine,Rod Taylor,False,CHP,831,11.49
+Surrey-Cloverdale,Aisha Rehana Bali,False,CP,867,3.48
+Surrey-Cloverdale,Marvin Hunt,True,LIB,8758,35.12
+Surrey-Cloverdale,Rebecca Smith,False,GP,2169,8.70
+Surrey-Cloverdale,Mike Starchuk,False,NDP,12992,52.10
+Surrey-Cloverdale,Marcella Williams,False,IND,149,0.60
+Surrey-Fleetwood,Jagrup Brar,True,NDP,11457,60.93
+Surrey-Fleetwood,Dean McGee,False,GP,1571,8.35
+Surrey-Fleetwood,Garry Thind,False,LIB,5776,30.72
+Surrey-Green Timbers,Dilraj Atwal,False,LIB,5540,40.41
+Surrey-Green Timbers,Rachna Singh,True,NDP,8171,59.59
+Surrey-Guildford,Garry Begg,True,NDP,10403,60.59
+Surrey-Guildford,Dave Hans,False,LIB,5139,29.93
+Surrey-Guildford,Sam Kofalt,False,IND,282,1.64
+Surrey-Guildford,Jodi Murphy,False,GP,1345,7.83
+Surrey-Newton,Harry Bains,True,NDP,8893,62.64
+Surrey-Newton,Paul Boparai,False,LIB,3911,27.55
+Surrey-Newton,Asad Syed,False,GP,1393,9.81
+Surrey-Panorama,Gulzar Cheema,False,LIB,9607,42.89
+Surrey-Panorama,Sophie Shrestha,False,BCV,458,2.04
+Surrey-Panorama,Jinny Sims,True,NDP,12336,55.07
+Surrey South,Stephanie Cadieux,True,LIB,12970,47.36
+Surrey South,Pauline Greaves,False,NDP,11794,43.06
+Surrey South,Tim Ibbotson,False,GP,2623,9.58
+Surrey-Whalley,Ryan Abbott,False,COMM,223,1.44
+Surrey-Whalley,Jag Bhandari,False,BCV,228,1.47
+Surrey-Whalley,Shaukat Khan,False,LIB,4052,26.15
+Surrey-Whalley,Bruce Ralston,True,NDP,10994,70.94
+Surrey-White Rock,Jason Bax,False,LBN,443,1.63
+Surrey-White Rock,Trevor Halford,False,LIB,10718,39.51
+Surrey-White Rock,Beverly (Pixie) Hobby,False,GP,3862,14.24
+Surrey-White Rock,Megan Knight,False,IND,1607,5.92
+Surrey-White Rock,Bryn Smith,False,NDP,10494,38.69
+Vancouver-Fairview,George Affleck,False,LIB,7570,27.32
+Vancouver-Fairview,Sandra Filosof-Schipper,False,LBN,234,0.84
+Vancouver-Fairview,Ian Goldman,False,GP,4368,15.76
+Vancouver-Fairview,George Heyman,True,NDP,15538,56.07
+Vancouver-False Creek,Brenda Bailey,False,NDP,11484,46.77
+Vancouver-False Creek,Naomi Chocyk,False,LBN,280,1.14
+Vancouver-False Creek,Erik Gretland,False,CP,465,1.89
+Vancouver-False Creek,Maayan Kreitzman,False,GP,3108,12.66
+Vancouver-False Creek,Sam Sullivan,True,LIB,9217,37.54
+Vancouver-Fraserview,George Chow,True,NDP,12247,56.37
+Vancouver-Fraserview,David Grewal,False,LIB,7511,34.57
+Vancouver-Fraserview,Françoise Raunet,False,GP,1969,9.06
+Vancouver-Hastings,Gölök Z Buday,False,LBN,321,1.45
+Vancouver-Hastings,Bridget Burns,False,GP,4312,19.54
+Vancouver-Hastings,Kimball Cariou,False,COMM,184,0.83
+Vancouver-Hastings,Alex Read,False,LIB,3885,17.61
+Vancouver-Hastings,Niki Sharma,False,NDP,13362,60.56
+Vancouver-Kensington,Mable Elmore,True,NDP,12481,59.97
+Vancouver-Kensington,Paul Lepage,False,LIB,5255,25.25
+Vancouver-Kensington,Nazanin Moghadami,False,GP,2874,13.81
+Vancouver-Kensington,Salvatore Vetro,False,IND,202,0.97
+Vancouver-Kingsway,Cole Anderson,False,LIB,3919,21.61
+Vancouver-Kingsway,Scott Bernstein,False,GP,1662,9.16
+Vancouver-Kingsway,Adrian Dix,True,NDP,12297,67.81
+Vancouver-Kingsway,Karin Litzcke,False,LBN,257,1.42
+Vancouver-Langara,Stephanie Hendy,False,GP,1840,9.03
+Vancouver-Langara,Michael Lee,True,LIB,9888,48.51
+Vancouver-Langara,Paul Matthews,False,LBN,224,1.10
+Vancouver-Langara,Tesicca Chi-Ying Truong,False,NDP,8431,41.36
+Vancouver-Mount Pleasant,Melanie Mark,True,NDP,14530,66.95
+Vancouver-Mount Pleasant,Kelly Tatham,False,GP,4356,20.07
+Vancouver-Mount Pleasant,George Vassilas,False,LIB,2816,12.98
+Vancouver-Point Grey,Mark Bowen,False,LIB,7712,31.41
+Vancouver-Point Grey,David Eby,True,NDP,12602,51.32
+Vancouver-Point Grey,Devyani Singh,False,GP,4241,17.27
+Vancouver-Quilchena,Michael Barkusky,False,GP,3341,15.40
+Vancouver-Quilchena,Heather McQuillan,False,NDP,6197,28.56
+Vancouver-Quilchena,Andrew Wilkinson,True,LIB,12157,56.04
+Vancouver-West End,Spencer Chandra Herbert,True,NDP,12439,62.31
+Vancouver-West End,Jon Ellacott,False,LIB,4014,20.11
+Vancouver-West End,James Marshall,False,GP,3250,16.28
+Vancouver-West End,Kim McCann,False,LBN,259,1.30
+Vernon-Monashee,Kyle Delfing,False,CP,3472,12.42
+Vernon-Monashee,Eric Foster,True,LIB,9798,35.05
+Vernon-Monashee,Harwinder Sandhu,False,NDP,10222,36.56
+Vernon-Monashee,Keli Westgate,False,GP,4464,15.97
+Victoria-Beacon Hill,Karen Bill,False,LIB,4329,14.35
+Victoria-Beacon Hill,Grace Lore,False,NDP,16474,54.61
+Victoria-Beacon Hill,Jenn Neilson,False,GP,9031,29.93
+Victoria-Beacon Hill,Jordan Reichert,False,IND,335,1.11
+Victoria-Swan Lake,Rob Fleming,True,NDP,14186,59.35
+Victoria-Swan Lake,Annemieke Holthuis,False,GP,6638,27.77
+Victoria-Swan Lake,Walt Parsons,False,COMM,107,0.45
+Victoria-Swan Lake,Jenn Smith,False,IND,241,1.01
+Victoria-Swan Lake,David Somerville,False,LIB,2729,11.42
+West Vancouver-Capilano,Amelia Hill,False,NDP,7194,30.25
+West Vancouver-Capilano,Karin Kirkpatrick,False,LIB,12734,53.55
+West Vancouver-Capilano,Rasoul Narimani,False,GP,3664,15.41
+West Vancouver-Capilano,Anton Shendryk,False,IND,186,0.78
+West Vancouver-Sea to Sky,Keith Murdoch,False,NDP,6197,25.16
+West Vancouver-Sea to Sky,Jordan Sturdy,True,LIB,9249,37.54
+West Vancouver-Sea to Sky,Jeremy Valeriote,False,GP,9189,37.30

@@ -1,0 +1,117 @@
+{
+ "layer": "2025 federal election (BC) re-allocated to 2023 BC provincial electoral districts",
+ "built_by": [
+  "scripts/01_download_db.py",
+  "scripts/02_allocate.py",
+  "scripts/03_manifest.py"
+ ],
+ "notes": "www12.statcan.gc.ca returned HTTP 403 (Cloudflare challenge) on 2026-10-24, so the BC Data Catalogue copies of the StatCan files were used.",
+ "files": [
+  {
+   "path": "raw/ec_results/pollresults_resultatsbureau59.zip",
+   "url": "https://www.elections.ca/res/rep/off/ovrGE45/62/data_donnees/pollresults_resultatsbureau59.zip",
+   "accessed_utc": "2026-10-24T10:07:41Z",
+   "description": "Elections Canada, 45th GE official voting results, poll results (long format), BC 43 ridings",
+   "licence": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada); stated on the open.canada.ca record for the 45th GE boundary files and on earlier Elections Canada poll-by-poll records; not separately confirmed for the 45th GE results record",
+   "sha256": "dc8886490c3ba1b75a1dc0d4522f0586b3d2afed098c88fe1e5770d617e674fc"
+  },
+  {
+   "path": "raw/ec_results/pollbypoll_bureauparbureau59.zip",
+   "url": "https://www.elections.ca/res/rep/off/ovrGE45/62/data_donnees/pollbypoll_bureauparbureau59.zip",
+   "accessed_utc": "2026-10-24T10:07:41Z",
+   "description": "Elections Canada, 45th GE poll-by-poll (wide format), BC; downloaded for reference",
+   "licence": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada); stated on the open.canada.ca record for the 45th GE boundary files and on earlier Elections Canada poll-by-poll records; not separately confirmed for the 45th GE results record",
+   "sha256": "21d312b8e30bc6770b2149b0d0fbdad81651a7918ad36699bf36dc6483b92f2f"
+  },
+  {
+   "path": "raw/ec_results/table_tableau03.csv",
+   "url": "https://www.elections.ca/res/rep/off/ovrGE45/62/data_donnees/table_tableau03.csv",
+   "accessed_utc": "2026-10-24T10:07:44Z",
+   "description": "Table 3, valid/rejected ballots and electors by province (check totals)",
+   "licence": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada); stated on the open.canada.ca record for the 45th GE boundary files and on earlier Elections Canada poll-by-poll records; not separately confirmed for the 45th GE results record",
+   "sha256": "300198af5759df065bd112e2fa3e8b98b683ddae90c1b7372b739b6632b35d63"
+  },
+  {
+   "path": "raw/ec_results/table_tableau07.csv",
+   "url": "https://www.elections.ca/res/rep/off/ovrGE45/62/data_donnees/table_tableau07.csv",
+   "accessed_utc": "2026-10-24T10:07:42Z",
+   "description": "Table 7, candidates by party and gender (reference)",
+   "licence": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada); stated on the open.canada.ca record for the 45th GE boundary files and on earlier Elections Canada poll-by-poll records; not separately confirmed for the 45th GE results record",
+   "sha256": "03be2263f2b92f67bba16a5352e927466f360e909789de1ecdd2aa86bca84e5e"
+  },
+  {
+   "path": "raw/ec_results/table_tableau08.csv",
+   "url": "https://www.elections.ca/res/rep/off/ovrGE45/62/data_donnees/table_tableau08.csv",
+   "accessed_utc": "2026-10-24T10:07:42Z",
+   "description": "Table 8, valid votes by party and province (check totals)",
+   "licence": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada); stated on the open.canada.ca record for the 45th GE boundary files and on earlier Elections Canada poll-by-poll records; not separately confirmed for the 45th GE results record",
+   "sha256": "fce688afcfb1822b6d372ebd417141d2d89039d034b59b323d331e126fda3af1"
+  },
+  {
+   "path": "raw/ec_results/table_tableau11.csv",
+   "url": "https://www.elections.ca/res/rep/off/ovrGE45/62/data_donnees/table_tableau11.csv",
+   "accessed_utc": "2026-10-24T10:07:43Z",
+   "description": "Table 11, results by riding (reference)",
+   "licence": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada); stated on the open.canada.ca record for the 45th GE boundary files and on earlier Elections Canada poll-by-poll records; not separately confirmed for the 45th GE results record",
+   "sha256": "7a406ddd90b4ef9dfc96c718c04addfca5628ccbc657539626de54f26505cf82"
+  },
+  {
+   "path": "raw/ec_results/table_tableau12.csv",
+   "url": "https://www.elections.ca/res/rep/off/ovrGE45/62/data_donnees/table_tableau12.csv",
+   "accessed_utc": "2026-10-24T10:07:43Z",
+   "description": "Table 12, candidate votes by riding (riding check)",
+   "licence": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada); stated on the open.canada.ca record for the 45th GE boundary files and on earlier Elections Canada poll-by-poll records; not separately confirmed for the 45th GE results record",
+   "sha256": "6ec3f8e1d8a555db36366223324bc53d95f4d095914012f27b6d0043cd6f90f9"
+  },
+  {
+   "path": "raw/ec_geo/PollingDivisionBoundaries_2025_SHP.zip",
+   "url": "https://www.elections.ca/res/cir/mapsCorner/vector/PollingDivisionBoundaries_2025_SHP.zip",
+   "accessed_utc": "2026-10-24T10:08:08Z",
+   "description": "Elections Canada polling division boundaries, 45th GE (2025), shapefile; found via open.canada.ca dataset 97a2a33c-54cc-4f2e-82c1-047ad8212f05",
+   "licence": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada); stated on the open.canada.ca record for the 45th GE boundary files and on earlier Elections Canada poll-by-poll records; not separately confirmed for the 45th GE results record",
+   "sha256": "5ab29270de8eca8581be7d7da5256ff4dd03cbda2cb75d7aa0de89c05d4f72b2"
+  },
+  {
+   "path": "raw/ec_geo/package.json",
+   "url": "https://open.canada.ca/data/api/action/package_show?id=97a2a33c-54cc-4f2e-82c1-047ad8212f05",
+   "accessed_utc": "2026-10-24T10:08Z (approx., fetched just before the shapefile)",
+   "description": "open.canada.ca record for the boundary files (licence evidence)",
+   "licence": "Open Government Licence - Canada (https://open.canada.ca/en/open-government-licence-canada); stated on the open.canada.ca record for the 45th GE boundary files and on earlier Elections Canada poll-by-poll records; not separately confirmed for the 45th GE results record",
+   "sha256": "036f8c1c25d65731c9a302deb9b1d5d465ca1666588d812aecc0853289b4ac8a"
+  },
+  {
+   "path": "raw/statcan/2021_92-151_x_bc.csv",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/4ed0c389-43ed-4b00-b1be-7c259f47b6a0/resource/6c8eeb86-bb56-48e8-b734-0d25d6a51a7b/download/2021_92-151_x_bc.csv",
+   "accessed_utc": "2026-10-24T10:09:05Z",
+   "description": "Statistics Canada 2021 Geographic Attribute File (92-151-X), BC extract republished on BC Data Catalogue; source of 2021 dissemination block populations (DBPOP2021)",
+   "licence": "Statistics Canada Open Licence (https://www.statcan.gc.ca/eng/reference/licence)",
+   "sha256": "c641741be401a3e1eae88ecc4c693c6beb5c605f73178bd4415b11c23b7dedfc"
+  },
+  {
+   "path": "raw/bcgw/db2021.geojson",
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_HUMAN_CULTURAL_ECONOMIC.CEN_CENSUS_DISSEM_BLOCKS_SVW&outputFormat=application/json&srsName=EPSG:3005 (paged, count=10000, sortBy=OBJECTID)",
+   "accessed_utc": "2026-10-24T10:10:04Z",
+   "description": "2021 census dissemination block polygons (Statistics Canada, served by BC Geographic Warehouse), 52,423 features",
+   "licence": "Statistics Canada Open Licence (https://www.statcan.gc.ca/eng/reference/licence)",
+   "sha256": "eab30f69a1eea84c1bf875cda821a029e57e61738338554aa701e14291e929fb"
+  },
+  {
+   "path": "analysis/geo/raw/bcgw/ed2023.geojson",
+   "url": "https://openmaps.gov.bc.ca/geo/pub/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub:WHSE_ADMIN_BOUNDARIES.EBC_ELECTORAL_DISTS_BS11_SVW&outputFormat=application/json&srsName=EPSG:3005",
+   "accessed_utc": "2026-10-24T10:03:34Z",
+   "description": "BC provincial electoral districts, 2023 boundaries (93), prepared by the geo thread; not land-clipped",
+   "licence": "Open Government Licence - British Columbia",
+   "sha256": "d87fcd64173b3871dd3c2a295eba7a061f3d29f2616abe435a78807059612fac"
+  }
+ ],
+ "outputs": [
+  {
+   "path": "fed2025_on_ed2023.csv",
+   "sha256": "d4f6cb2a25ffdf6ae34e13e4cad36674a01140eaa6bdea450c0592a1d171fb39"
+  },
+  {
+   "path": "scripts/allocation_log.json",
+   "sha256": "28938935a486961c01e9644afc53e92db53e4c60154e7d7983e694ab60f6ee8a"
+  }
+ ]
+}

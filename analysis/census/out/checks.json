@@ -1,0 +1,32 @@
+{
+ "n_districts": 93,
+ "names_match_elections_bc_2026_and_bcgw_2023": true,
+ "sum_pop_2021_bcstats_districts": 5000870,
+ "bc_total_official": 5000879,
+ "bcstats_bc_column_pop_2021": 5000880,
+ "diff_sum_vs_official": -9,
+ "sum_pop_2021_da_rollup": 5000879.1,
+ "max_abs_diff_bcstats_vs_db_allocation_persons": 549.7,
+ "max_abs_diff_bcstats_vs_db_allocation_pct": 0.914,
+ "worst_district_vs_db": "SRF",
+ "sum_land_area_km2": 920686.58,
+ "bc_land_area_gaf_km2": 920686.55,
+ "sum_pop_2016_approx": 4648053.0,
+ "bc_pop_2016_ada_sum": 4648055.0,
+ "ada_2016_flags": {
+  "none": 794,
+  "5": 213,
+  "1": 1
+ },
+ "ada_2016_missing_value_adas": 1,
+ "da_count": 7848,
+ "da_pop2021_flag1_not_available": 28,
+ "da_crosswalk_rows": 8393,
+ "da_crosswalk_unique_das": 7848,
+ "bcstats_cells_total": 960774,
+ "bcstats_cells_x_suppressed": 19,
+ "bcstats_cells_not_applicable": 48275,
+ "used_cells_x_suppressed": 0,
+ "used_cells_not_applicable": 0,
+ "variables_wide": 205
+}

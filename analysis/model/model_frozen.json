@@ -1,0 +1,135 @@
+{
+ "frozen_utc": "2026-10-24T10:41:31+00:00",
+ "frozen_pacific": "2026-10-24T03:41:31-07:00 (PDT)",
+ "polls_close_utc": "2026-10-25T03:00:00+00:00",
+ "minutes_before_close": 978,
+ "poll_average": {
+  "NDP": 38.87,
+  "CON": 43.84,
+  "GRN": 12.0,
+  "CENTRE": 1.71,
+  "ONEBC": 2.4,
+  "OTH": 1.18
+ },
+ "polls_used": [
+  {
+   "pollster": "Liaison Strategies",
+   "field_start": "2026-10-07",
+   "field_end": "2026-10-08"
+  },
+  {
+   "pollster": "Angus Reid",
+   "field_start": "2026-10-15",
+   "field_end": "2026-10-19"
+  },
+  {
+   "pollster": "Innovative Research",
+   "field_start": "2026-10-15",
+   "field_end": "2026-10-19"
+  },
+  {
+   "pollster": "Pollara",
+   "field_start": "2026-10-15",
+   "field_end": "2026-10-21"
+  },
+  {
+   "pollster": "Leger",
+   "field_start": "2026-10-20",
+   "field_end": "2026-10-22"
+  },
+  {
+   "pollster": "Ipsos",
+   "field_start": "2026-10-20",
+   "field_end": "2026-10-22"
+  },
+  {
+   "pollster": "Pallas Data",
+   "field_start": "2026-10-22",
+   "field_end": "2026-10-22"
+  },
+  {
+   "pollster": "Mainstreet Research",
+   "field_start": "2026-10-21",
+   "field_end": "2026-10-23"
+  },
+  {
+   "pollster": "Research Co.",
+   "field_start": "2026-10-21",
+   "field_end": "2026-10-23"
+  },
+  {
+   "pollster": "Forum Research",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-23"
+  }
+ ],
+ "seats": {
+  "uniform": {
+   "CON": 58,
+   "NDP": 33,
+   "GRN": 2
+  },
+  "proportional": {
+   "CON": 60,
+   "NDP": 31,
+   "GRN": 2
+  }
+ },
+ "majority": 47,
+ "tossups": {
+  "uniform": [
+   "BNC",
+   "BNE",
+   "BNO",
+   "CQM",
+   "CRC",
+   "CWV",
+   "DLN",
+   "KEC",
+   "MAP",
+   "NOI",
+   "PES",
+   "POM",
+   "VRL"
+  ],
+  "proportional": [
+   "BNC",
+   "BNE",
+   "BNO",
+   "CQM",
+   "CRC",
+   "CWV",
+   "DLN",
+   "KEC",
+   "NOI",
+   "PES",
+   "POC",
+   "POM",
+   "VRL"
+  ]
+ },
+ "inputs_sha256": {
+  "results24/out/districts_2024.csv": "d488afa9eae3ed88498c37e5d0db9e16e6e8674b2a25a2644662f0bcc7610526",
+  "results24/out/districts_2024_summary.csv": "8520738a4dbf5034e63d5d2d489216dfbb580d40cabb059c926701952aa4d3d1",
+  "polls/polls.csv": "cb0ba2e1283b3a86f5b84db0d5fe6285a932b13c6f0fe542ea94437a9d16ca93",
+  "live/candidates_2026.csv": "5dc75167926aed9ea9f5b9fee1d635eace15ee4cf252a4f0bf8faad564db04ad",
+  "live/house_changes_2024_2026.csv": "d9e6712867cf1eed6b3733a8a084f3a3fe4b02dda819907609bcc446eb95ae69",
+  "geo/out/da_to_ed2023_detail.csv": "49b2020dfceeb7231ef8fc02f0b50e32adb35305c8d7594e0bdcc16103d6baff"
+ },
+ "outputs_sha256": {
+  "out/districts_projection.csv": "a0772bb91666268c14c05868bcb42424c19bed7499bf77a89a7714b0bf0090ba",
+  "out/poll_average.json": "450a34204b1cfbf403df960af5b7ec16aae9e7881eab367eca143cbff1726a20",
+  "out/polls_used.csv": "17ba778dbf5ce644a6d352872726c66841b8c5de68fc29d57370a82943a04e87",
+  "out/projection_summary.json": "5aee79ff39f9c84dc1d07b7c24ece280146045fbdfd1b5f9392feaf0c3a6d128",
+  "out/regions.csv": "0f131acc9c9946083a54167bf26685d6a4fd9ef95c42e7521c2a1a2889b930ea"
+ },
+ "scripts_sha256": {
+  "scripts/01_regions.py": "b0c425b239c029245900c0cf4d7d3fc9d845673ab6f42a7314ccb567665991ce",
+  "scripts/02_poll_average.py": "3d17fe99df835d3adecb37a91714d1894e93ff4d05af108927bcb2e02aee878c",
+  "scripts/03_project.py": "0140c0ee00c41675833a8f9bdbdc4d19bb2939f1efac5c8530bf428a8b0ec39f",
+  "scripts/04_freeze.py": "033a79a967557d59cc7ed5e398908eaadeee07f0f58617e5c39994a4f316ef17",
+  "scripts/05_results_md.py": "efb828713ca287446853707eee736f34bd8baffefeaf64f46b6b14663e558de9",
+  "scripts/common.py": "bac2cd855b3e5cd833e639d4af09793a440d43b7eb5d34b521c9ea5e46817ee5",
+  "scripts/compare.py": "145b4eb901441a50c3cb09f6112a7cc58d0a1d73e3b3cd4af03ed9ddd3ab58b9"
+ }
+}

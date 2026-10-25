@@ -1,0 +1,158 @@
+{
+ "run_utc": "2026-10-25T07:28:28+00:00",
+ "source": "analysis/live/latest.csv",
+ "districts_with_votes": 93,
+ "of": 93,
+ "note": "counted_share covers only districts with votes; partial counts are not province-wide",
+ "uniform_hits": 81,
+ "prop_hits": 83,
+ "unmatched_district_keys": [],
+ "misses_uniform": [
+  [
+   "BNC",
+   "NDP",
+   "CON",
+   "toss-up"
+  ],
+  [
+   "BNE",
+   "CON",
+   "NDP",
+   "toss-up"
+  ],
+  [
+   "BNS",
+   "CON",
+   "NDP",
+   "lean"
+  ],
+  [
+   "CQM",
+   "NDP",
+   "CON",
+   "toss-up"
+  ],
+  [
+   "CRC",
+   "CON",
+   "NDP",
+   "toss-up"
+  ],
+  [
+   "CWV",
+   "NDP",
+   "CON",
+   "toss-up"
+  ],
+  [
+   "DLN",
+   "NDP",
+   "CON",
+   "toss-up"
+  ],
+  [
+   "LAO",
+   "NDP",
+   "CON",
+   "lean"
+  ],
+  [
+   "NVS",
+   "NDP",
+   "CON",
+   "lean"
+  ],
+  [
+   "SAS",
+   "NDP",
+   "CON",
+   "likely"
+  ],
+  [
+   "VFV",
+   "NDP",
+   "CON",
+   "likely"
+  ],
+  [
+   "VRL",
+   "NDP",
+   "CON",
+   "toss-up"
+  ]
+ ],
+ "party_gap": [
+  {
+   "party": "NDP",
+   "poll_average": 38.87,
+   "counted_share": 37.37,
+   "gap_count_minus_polls": -1.5,
+   "projected_share_same_districts_uniform": 38.89,
+   "gap_count_minus_projection_uniform": -1.52,
+   "projected_share_same_districts_prop": 38.89,
+   "seats_leading_counted": 27,
+   "seats_projected_uniform_same_districts": 33,
+   "seats_projected_prop_same_districts": 31
+  },
+  {
+   "party": "CON",
+   "poll_average": 43.84,
+   "counted_share": 48.06,
+   "gap_count_minus_polls": 4.22,
+   "projected_share_same_districts_uniform": 43.86,
+   "gap_count_minus_projection_uniform": 4.2,
+   "projected_share_same_districts_prop": 43.85,
+   "seats_leading_counted": 64,
+   "seats_projected_uniform_same_districts": 58,
+   "seats_projected_prop_same_districts": 60
+  },
+  {
+   "party": "GRN",
+   "poll_average": 12.0,
+   "counted_share": 10.97,
+   "gap_count_minus_polls": -1.03,
+   "projected_share_same_districts_uniform": 11.99,
+   "gap_count_minus_projection_uniform": -1.01,
+   "projected_share_same_districts_prop": 11.98,
+   "seats_leading_counted": 2,
+   "seats_projected_uniform_same_districts": 2,
+   "seats_projected_prop_same_districts": 2
+  },
+  {
+   "party": "CENTRE",
+   "poll_average": 1.71,
+   "counted_share": 1.62,
+   "gap_count_minus_polls": -0.09,
+   "projected_share_same_districts_uniform": 1.7,
+   "gap_count_minus_projection_uniform": -0.08,
+   "projected_share_same_districts_prop": 1.7,
+   "seats_leading_counted": 0,
+   "seats_projected_uniform_same_districts": 0,
+   "seats_projected_prop_same_districts": 0
+  },
+  {
+   "party": "ONEBC",
+   "poll_average": 2.4,
+   "counted_share": 1.5,
+   "gap_count_minus_polls": -0.9,
+   "projected_share_same_districts_uniform": 2.43,
+   "gap_count_minus_projection_uniform": -0.92,
+   "projected_share_same_districts_prop": 2.44,
+   "seats_leading_counted": 0,
+   "seats_projected_uniform_same_districts": 0,
+   "seats_projected_prop_same_districts": 0
+  },
+  {
+   "party": "OTH",
+   "poll_average": 1.18,
+   "counted_share": 0.47,
+   "gap_count_minus_polls": -0.71,
+   "projected_share_same_districts_uniform": 1.13,
+   "gap_count_minus_projection_uniform": -0.66,
+   "projected_share_same_districts_prop": 1.14,
+   "seats_leading_counted": 0,
+   "seats_projected_uniform_same_districts": 0,
+   "seats_projected_prop_same_districts": 0
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "parties": [
+  "NDP",
+  "CON",
+  "GRN",
+  "CENTRE",
+  "ONEBC",
+  "OTH"
+ ],
+ "poll_average_province": {
+  "NDP": 38.87,
+  "CON": 43.84,
+  "GRN": 12.0,
+  "CENTRE": 1.71,
+  "ONEBC": 2.4,
+  "OTH": 1.18
+ },
+ "result_2024_province": {
+  "NDP": 44.87,
+  "CON": 43.28,
+  "GRN": 8.24,
+  "CENTRE": 0.0,
+  "ONEBC": 0.0,
+  "OTH": 3.62
+ },
+ "regional_targets": {
+  "Metro Vancouver": {
+   "NDP": 40.43,
+   "CON": 44.0,
+   "GRN": 11.5,
+   "CENTRE": 1.71,
+   "ONEBC": 2.4,
+   "OTH": 0.73
+  },
+  "Capital Region": {
+   "NDP": 42.9,
+   "CON": 30.12,
+   "GRN": 24.11,
+   "CENTRE": 1.71,
+   "ONEBC": 2.4,
+   "OTH": 0.11
+  },
+  "Rest of BC": {
+   "NDP": 36.14,
+   "CON": 47.1,
+   "GRN": 9.52,
+   "CENTRE": 1.71,
+   "ONEBC": 2.4,
+   "OTH": 1.94
+  }
+ },
+ "regional_target_source": {
+  "Metro Vancouver": {
+   "NDP": "poll avg (n=7)",
+   "CON": "poll avg (n=7)",
+   "GRN": "poll avg (n=2)",
+   "CENTRE": "2024 + provincial change",
+   "ONEBC": "2024 + provincial change",
+   "OTH": "2024 x (poll avg / 2024), provincial ratio"
+  },
+  "Capital Region": {
+   "NDP": "2024 + Vancouver Island poll change (n=7)",
+   "CON": "2024 + Vancouver Island poll change (n=7)",
+   "GRN": "2024 + Vancouver Island poll change (n=6)",
+   "CENTRE": "2024 + provincial change",
+   "ONEBC": "2024 + provincial change",
+   "OTH": "2024 x (poll avg / 2024), provincial ratio"
+  },
+  "Rest of BC": {
+   "NDP": "residual to match province",
+   "CON": "residual to match province",
+   "GRN": "residual to match province",
+   "CENTRE": "residual to match province",
+   "ONEBC": "residual to match province",
+   "OTH": "2024 x (poll avg / 2024), provincial ratio"
+  }
+ },
+ "result_2024_region": {
+  "Metro Vancouver": {
+   "NDP": 50.63,
+   "CON": 42.27,
+   "GRN": 4.85,
+   "CENTRE": 0.0,
+   "ONEBC": 0.0,
+   "OTH": 2.24
+  },
+  "Capital Region": {
+   "NDP": 46.67,
+   "CON": 29.16,
+   "GRN": 23.82,
+   "CENTRE": 0.0,
+   "ONEBC": 0.0,
+   "OTH": 0.35
+  },
+  "Rest of BC": {
+   "NDP": 38.07,
+   "CON": 47.93,
+   "GRN": 8.05,
+   "CENTRE": 0.0,
+   "ONEBC": 0.0,
+   "OTH": 5.96
+  }
+ },
+ "island_2024_for_capital_proxy": {
+  "NDP": 45.96,
+  "CON": 33.92,
+  "GRN": 18.38,
+  "CENTRE": 0.0,
+  "ONEBC": 0.0,
+  "OTH": 1.73
+ },
+ "island_districts": [
+  "CRC",
+  "CWV",
+  "ESC",
+  "JFM",
+  "LAO",
+  "LFH",
+  "MPR",
+  "NAI",
+  "NAL",
+  "NOI",
+  "OBG",
+  "SAN",
+  "SAS",
+  "VTB",
+  "VTS"
+ ],
+ "region_weights_2024_valid_votes": {
+  "Metro Vancouver": 985622.0,
+  "Capital Region": 224374.0,
+  "Rest of BC": 895345.0
+ },
+ "seats": {
+  "uniform": {
+   "CON": 58,
+   "NDP": 33,
+   "GRN": 2
+  },
+  "proportional": {
+   "CON": 60,
+   "NDP": 31,
+   "GRN": 2
+  }
+ },
+ "tier_counts": {
+  "uniform": {
+   "CON-safe": 30,
+   "NDP-safe": 14,
+   "CON-likely": 11,
+   "NDP-likely": 10,
+   "CON-lean": 9,
+   "CON-toss-up": 8,
+   "NDP-toss-up": 5,
+   "NDP-lean": 4,
+   "GRN-lean": 2
+  },
+  "proportional": {
+   "CON-safe": 29,
+   "CON-likely": 12,
+   "NDP-safe": 12,
+   "NDP-likely": 11,
+   "CON-lean": 10,
+   "CON-toss-up": 9,
+   "NDP-toss-up": 4,
+   "NDP-lean": 4,
+   "GRN-lean": 1,
+   "GRN-likely": 1
+  }
+ },
+ "tossups": {
+  "uniform": [
+   {
+    "ed_code": "BNC",
+    "district": "Burnaby Centre",
+    "leader": "NDP",
+    "second": "CON",
+    "margin": 2.3
+   },
+   {
+    "ed_code": "BNE",
+    "district": "Burnaby East",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 0.7
+   },
+   {
+    "ed_code": "BNO",
+    "district": "Burnaby North",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 1.6
+   },
+   {
+    "ed_code": "CQM",
+    "district": "Coquitlam-Maillardville",
+    "leader": "NDP",
+    "second": "CON",
+    "margin": 0.2
+   },
+   {
+    "ed_code": "CRC",
+    "district": "Courtenay-Comox",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 1.0
+   },
+   {
+    "ed_code": "CWV",
+    "district": "Cowichan Valley",
+    "leader": "NDP",
+    "second": "CON",
+    "margin": 2.1
+   },
+   {
+    "ed_code": "DLN",
+    "district": "Delta North",
+    "leader": "NDP",
+    "second": "CON",
+    "margin": 0.6
+   },
+   {
+    "ed_code": "KEC",
+    "district": "Kelowna Centre",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 1.1
+   },
+   {
+    "ed_code": "MAP",
+    "district": "Maple Ridge-Pitt Meadows",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 2.2
+   },
+   {
+    "ed_code": "NOI",
+    "district": "North Island",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 2.7
+   },
+   {
+    "ed_code": "PES",
+    "district": "Penticton-Summerland",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 2.1
+   },
+   {
+    "ed_code": "POM",
+    "district": "Port Moody-Burquitlam",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 0.5
+   },
+   {
+    "ed_code": "VRL",
+    "district": "Vernon-Lumby",
+    "leader": "NDP",
+    "second": "CON",
+    "margin": 0.9
+   }
+  ],
+  "proportional": [
+   {
+    "ed_code": "BNC",
+    "district": "Burnaby Centre",
+    "leader": "NDP",
+    "second": "CON",
+    "margin": 0.9
+   },
+   {
+    "ed_code": "BNE",
+    "district": "Burnaby East",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 1.0
+   },
+   {
+    "ed_code": "BNO",
+    "district": "Burnaby North",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 2.3
+   },
+   {
+    "ed_code": "CQM",
+    "district": "Coquitlam-Maillardville",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 0.1
+   },
+   {
+    "ed_code": "CRC",
+    "district": "Courtenay-Comox",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 1.1
+   },
+   {
+    "ed_code": "CWV",
+    "district": "Cowichan Valley",
+    "leader": "NDP",
+    "second": "CON",
+    "margin": 1.9
+   },
+   {
+    "ed_code": "DLN",
+    "district": "Delta North",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 0.1
+   },
+   {
+    "ed_code": "KEC",
+    "district": "Kelowna Centre",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 1.3
+   },
+   {
+    "ed_code": "NOI",
+    "district": "North Island",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 2.9
+   },
+   {
+    "ed_code": "PES",
+    "district": "Penticton-Summerland",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 2.3
+   },
+   {
+    "ed_code": "POC",
+    "district": "Port Coquitlam",
+    "leader": "NDP",
+    "second": "CON",
+    "margin": 2.4
+   },
+   {
+    "ed_code": "POM",
+    "district": "Port Moody-Burquitlam",
+    "leader": "CON",
+    "second": "NDP",
+    "margin": 0.9
+   },
+   {
+    "ed_code": "VRL",
+    "district": "Vernon-Lumby",
+    "leader": "NDP",
+    "second": "CON",
+    "margin": 0.7
+   }
+  ]
+ },
+ "check_projected_province_share": {
+  "uniform": {
+   "NDP": 38.85,
+   "CON": 43.88,
+   "GRN": 11.97,
+   "CENTRE": 1.71,
+   "ONEBC": 2.4,
+   "OTH": 1.19
+  },
+  "proportional": {
+   "NDP": 38.85,
+   "CON": 43.88,
+   "GRN": 11.97,
+   "CENTRE": 1.71,
+   "ONEBC": 2.4,
+   "OTH": 1.19
+  }
+ }
+}
