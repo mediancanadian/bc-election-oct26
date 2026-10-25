@@ -138,14 +138,18 @@ def v_where_map():
     fd = d_poly(frame)
     g = f'<defs><clipPath id="mvclip"><path d="{fd}"/></clipPath></defs><path d="{fd}" fill="{WATER}"/><g clip-path="url(#mvclip)">'
     import pandas as pd
-    party26 = pd.read_csv(os.path.join(HERE, "..", "data", "ridings.csv"), index_col="district_code").lead26.to_dict()
+    rid = pd.read_csv(os.path.join(HERE, "..", "data", "ridings.csv"), index_col="district_code")
+    party26 = rid.lead26.to_dict(); metro = set(rid.index[rid.region == "Metro Vancouver"])
     PALE26 = {"CON": "#5d7290", "NDP": "#c08452", "GRN": "#4f7d5c"}   # same party as 2024: a muted, greyer shade of the party colour
-    g += "".join(f'<path d="{d_poly(r.geometry)}" fill="{COL[SW[r.ed_code]["to"]] if r.ed_code in SW else PALE26.get(party26.get(r.ed_code), LAND)}" fill-rule="evenodd"/>'
-                 for _, r in det.iterrows())
+    OUTSIDE = "#2b313a"                                              # ridings outside Metro Vancouver: land, no party colour
+    def fill(c):
+        if c not in metro: return OUTSIDE
+        return COL[SW[c]["to"]] if c in SW else PALE26.get(party26.get(c), LAND)
+    g += "".join(f'<path d="{d_poly(r.geometry)}" fill="{fill(r.ed_code)}" fill-rule="evenodd"/>' for _, r in det.iterrows())
     g += "".join(f'<path d="{d_line(inner[c])}" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="0.8" stroke-linejoin="round"/>'
-                 for c in inner if c not in SW)
+                 for c in inner if not (c in SW and c in metro))
     g += "".join(f'<path d="{d_line(inner[c])}" fill="none" stroke="#ffffff" stroke-width="1.4" stroke-linejoin="round"/>'
-                 for c in inner if c in SW)
+                 for c in inner if c in SW and c in metro)
     g += "".join(f'<path d="{d_poly(r.geometry)}" fill="{WATER}" fill-rule="evenodd"/>' for _, r in water.iterrows())
     g += f'</g><path d="{fd}" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.2"/>'
     ll = Transformer.from_crs(4326, 26910, always_xy=True)
@@ -443,7 +447,7 @@ def build(option):
     SL.append(dict(kicker="Where it changed", head="Vancouver's suburbs went Conservative", key="where",
                    body=f'<p class="lead">Conservatives were elected in {S["vancouver_suburbs"]["con26"]} of {S["vancouver_suburbs"]["n"]} suburban ridings, up from {S["vancouver_suburbs"]["con24"]} in 2024.</p>'
                         '<div class="card"><div class="note">Metro Vancouver ridings, 2026. Suburbs: those outside the City of Vancouver.</div>'
-                        '<div class="lg"><span><i style="background:#5b9dff"></i>Switched to Conservative</span><span><i style="background:#5d7290"></i>Conservative both years</span><span><i style="background:#c08452"></i>NDP both years</span><span><i style="background:#4f7d5c"></i>Green both years</span></div>'
+                        '<div class="lg"><span><i style="background:#5b9dff"></i>Switched to Conservative</span><span><i style="background:#5d7290"></i>Conservative both years</span><span><i style="background:#c08452"></i>NDP both years</span></div>'
                         + v_where_map()
                         + f'<p class="foot">All {S["surrey"]["n"]} Surrey ridings elected Conservatives, up from {S["surrey"]["con24"]} in 2024. Outside Metro Vancouver, five more ridings switched to the Conservatives, and Courtenay-Comox to the NDP.</p></div>',
                    source=f"Elections BC, 2024 and 2026 ({asof.split(', 1:')[0]}) · Charts CC BY 4.0"))
@@ -453,7 +457,7 @@ def build(option):
                         '<p class="foot">Swing: change in the Conservative share of the Conservative and NDP vote. These describe the places, and say nothing about how any one person voted.</p></div>',
                    source="2021 Census (StatCan, BC Stats); Elections BC 2024 and 2026 · Charts CC BY 4.0"))
     SL.append(dict(kicker="The middle ground", head="Federal Liberal areas swung Conservative", key="middle",
-                   body='<p class="lead">Three of every four seats the Conservatives added were in these ridings.</p>'
+                   body='<p class="lead">Three of every four provincial seats the Conservatives added were in these ridings.</p>'
                         f'<div class="card"><div class="note">Provincial vote in the {S["middle_pooled"]["LPC"]["n"]} ridings where the Liberals came first in the April 28, 2025 federal election</div>'
                         f'{v_middle_cross()}<p class="foot">The Greens rose from {r1(S["middle_pooled"]["LPC"]["y2024"]["GRN"])}% to {r1(S["middle_pooled"]["LPC"]["y2026"]["GRN"])}% in these ridings. Federal votes were allocated to provincial ridings by population.</p></div>',
                    source="Elections Canada 2025; Elections BC 2024 and 2026 · Charts CC BY 4.0"))

@@ -70,14 +70,16 @@ for code, r in x.iterrows():
         margin=int(r.margin26_votes), margin_pts=f(r.margin26_pts), boxes=[int(c26.boxes_reported.iloc[0]), int(c26.boxes_total.iloc[0])],
         c26=[[n, pcode(p, pa), int(v), hu(100 * v / c26.votes.sum())] for n, p, pa, v in zip(c26.candidate, c26.party_code, c26.party, c26.votes)],   # shares from votes, rounded once, half up
         c24=[[n, p, int(v), f(s, 1)] for n, p, v, s in zip(c24.candidate, c24.party, c24.votes, c24.vote_share_pct)],
-        s26={p: f(r[f'{p.lower()}26'], 4) for p in ('CON', 'NDP', 'GRN')}, s24={p: f(r[f'{p.lower()}24'], 4) for p in ('CON', 'NDP', 'GRN')},
-        tp=f(r.tp_swing, 4) if code != 'PCN' else None, con_swing=f(r.con_swing, 4), ndp_swing=f(r.ndp_swing, 4),
+        # shares and swings carried at 8 decimals, so the page rounds each value once (4 decimals turned 55.6499 into 55.65, shown 55.7)
+        s26={p: f(r[f'{p.lower()}26'], 8) for p in ('CON', 'NDP', 'GRN')}, s24={p: f(r[f'{p.lower()}24'], 8) for p in ('CON', 'NDP', 'GRN')},
+        tp=f(r.tp_swing, 8) if code != 'PCN' else None, con_swing=f(r.con_swing, 8), ndp_swing=f(r.ndp_swing, 8),
         fed={'LPC': f(r.lpc25, 2), 'CPC': f(r.cpc25, 2), 'NDP': f(r.ndp25, 2), 'GPC': f(r.gpc25, 2)},   # as published in the allocation file
         same_field=bool(r.same_field), pop=int(r.pop_2021) if not pd.isna(r.pop_2021) else None,
-        census={k: f(r[k], 4) for k, *_ in CENSUS},
+        census={k: f(r[k], 8) for k, *_ in CENSUS},
         ptype=ptype(code), fedwin=fedwin[code], nw20=t20.notional_winner_2020.get(code),
-        s20={k: f(t20[f'{k}_pct'].get(code), 1) for k in ('LIB', 'CON', 'NDP', 'GRN')},
-        tp24=f(r.tp24, 4), tp26=f(r.tp26, 4), grn_change=f(r.grn_change, 4))
+        # 2020 shares from the transposed votes, rounded once (the file's two-decimal shares rounded a second time were 0.1 off)
+        s20={k: (hu(100 * t20[k].get(code) / t20.total_valid.get(code)) if code in t20.index and t20.total_valid.get(code) else None) for k in ('LIB', 'CON', 'NDP', 'GRN')},
+        tp24=f(r.tp24, 8), tp26=f(r.tp26, 8), grn_change=f(r.grn_change, 8))
 
 # income group of each riding: the same rule as analysis/story.py (rank by median household income, ties in file order,
 # four groups of 23; Peace River North, with no NDP candidate in 2026, left out), checked against story.json
@@ -99,7 +101,8 @@ for r in hist.itertuples():
     H.append(dict(year=int(r.year), seats=int(r.seats_in_house), turnout=f(r.turnout_pct_registered, 1), premier=full_dates(r.premier),
                   gov=full_dates(r.governing_party_after_vote), share={k: f(getattr(r, f'share_{k}'), 2) for k in fam if not pd.isna(getattr(r, f'share_{k}'))},
                   won={k: int(getattr(r, f'seats_{k}')) for k in fam if not pd.isna(getattr(r, f'seats_{k}')) and getattr(r, f'seats_{k}') > 0}))
-H[0]['share']['CON'] = 53.30   # Conservative Party alone (Electoral History of BC 1871-1986, p.159)
+# 1928: the Conservative Party alone (Electoral History of BC 1871-1986, p.159); the Independent Conservatives' share moves to Other
+H[0]['share']['OTH'] = round(H[0]['share'].get('OTH', 0) + H[0]['share']['CON'] - 53.30, 2); H[0]['share']['CON'] = 53.30
 d01 = pd.read_csv(AN + 'history/districts_2001_2017.csv'); d01 = d01[d01.year == 2001]
 con01 = round(float(100 * d01[d01.party == 'CP'].votes.sum() / d01.drop_duplicates('ed_code').total_valid_votes.sum()), 2)
 h01 = next(h for h in H if h['year'] == 2001); h01['share']['CON'] = con01; h01['share']['OTH'] = round(h01['share']['OTH'] - con01, 2)

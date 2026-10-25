@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write METHODOLOGY.md: the method by chapter and a table of every published number, filled from data/story.json,
+"""Write METHODOLOGY.md: the method by chapter and a table of the published numbers, filled from data/story.json,
 the same file the slides and the page read."""
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -24,5 +24,5 @@ rows = build_rows(S, r0, r1, span)
 head = open(os.path.join(ROOT, 'methods', 'methodology_head.md')).read()
 tbl = '| ID | Number | As published | Where | Source file | How it is computed |\n|---|---|---|---|---|---|\n'
 tbl += ''.join(f"| N{i} | {a} | {b} | {c} | `{d}` | {e} |\n" if d and not d.startswith('http') else f"| N{i} | {a} | {b} | {c} | {d} | {e} |\n" for i, (a, b, c, d, e) in enumerate(rows, 1))
-open(os.path.join(ROOT, 'METHODOLOGY.md'), 'w').write(head + '\n## Every published number\n\nFilled by `methods/build_methodology.py` from `data/story.json`, the file the slides and the page read.\n\n' + tbl)
+open(os.path.join(ROOT, 'METHODOLOGY.md'), 'w').write(head + '\n## Published numbers\n\nFilled by `methods/build_methodology.py` from `data/story.json`, the file the slides and the page read.\n\n' + tbl)
 print('METHODOLOGY.md', len(rows), 'numbers')

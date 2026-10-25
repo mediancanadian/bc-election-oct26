@@ -37,3 +37,15 @@ Every slide number was recomputed from the raw files and found correct. Fixes ma
 - In the ridings where the main race was between the NDP and the Greens, each riding's description gives the race as it was.
 - The federal grouping is marked as an estimate where the federal margin is 0.5 point or less (five ridings).
 - Smaller fixes: the 2024 comparison of ballots left to the final count names the ballot types; the poll release is "a weighted sample of 1,000"; independents are named as such; platform pages 7, 61 and 64; "will seek to amend the party's rules"; dates in full; the 2001 Conservative share (0.15%) is plotted from Elections BC's 2001 results by district.
+
+## 6. The published set: `analysis/check/final-check-4.md`
+
+Every slide number was recomputed again and found correct, along with the 1928 claim, the seats to spare, the suburban count, the income groups, the ringed seats and the five close federal margins. Fixes made after it:
+
+- Slide 4's map colours only the Metro Vancouver ridings its note describes; the ridings around them are drawn as plain land.
+- Slide 6's line says "provincial seats", so the slide names both levels.
+- Regions: Boundary-Similkameen is in the Okanagan and Fraser-Nicola in the Fraser Valley, where most of their people live.
+- The page rounds the remaining shares once (Langley-Abbotsford in 2024, nine 2020 riding figures, and the 1928 "Other", which includes Independent Conservatives).
+- The swingometer's riding notes give the exact shift at which a seat changes hands and the party it goes to.
+- Labels no longer overlap in the changed-party chart or, at phone width, on the history chart.
+- METHODOLOGY.md: the Green races are described as they were, Kelowna-Mission's federal margin is 0.01 point (5 votes), the federal totals match Elections Canada's within 5 votes per party, and the table is described as the published numbers.

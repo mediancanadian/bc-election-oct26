@@ -2,7 +2,7 @@ district_code,name,region,ptype
 ABM,Abbotsford-Mission,Fraser Valley,3 Car suburb
 ABS,Abbotsford South,Fraser Valley,3 Car suburb
 ABW,Abbotsford West,Fraser Valley,3 Car suburb
-BDS,Boundary-Similkameen,Interior and North,4 Exurban and rural
+BDS,Boundary-Similkameen,Okanagan,4 Exurban and rural
 BLS,Bulkley Valley-Stikine,Interior and North,4 Exurban and rural
 BNC,Burnaby Centre,Metro Vancouver,2 Transit suburb
 BNE,Burnaby East,Metro Vancouver,2 Transit suburb
@@ -20,7 +20,7 @@ CWV,Cowichan Valley,Rest of Vancouver Island and Coast,4 Exurban and rural
 DLN,Delta North,Metro Vancouver,2 Transit suburb
 DLS,Delta South,Metro Vancouver,3 Car suburb
 ESC,Esquimalt-Colwood,Capital Region (Victoria),1 Active core
-FRN,Fraser-Nicola,Interior and North,4 Exurban and rural
+FRN,Fraser-Nicola,Fraser Valley,4 Exurban and rural
 JFM,Juan de Fuca-Malahat,Capital Region (Victoria),4 Exurban and rural
 KAC,Kamloops Centre,Interior and North,3 Car suburb
 KAN,Kamloops-North Thompson,Interior and North,4 Exurban and rural

@@ -43,6 +43,10 @@ x['name'] = dist.district_name
 x['region3'] = reg3
 x['region'] = rd.regional_district.map(region6)
 x.loc[x.index.isin(['MAP', 'MRP']) | x.name.str.contains('Maple Ridge'), 'region'] = 'Metro Vancouver'
+# two ridings whose representative point sits outside the regional district where most of their people live
+# (2021 dissemination-block populations, geo/out/db_to_ed2023.csv): Boundary-Similkameen, 72% in Okanagan-Similkameen;
+# Fraser-Nicola, 55% in the Fraser Valley
+x.loc['BDS', 'region'] = 'Okanagan'; x.loc['FRN', 'region'] = 'Fraser Valley'
 x['win24'] = s24.winner_party; x['lead26'] = dist.leader; x['second26'] = dist.second
 x['margin26_votes'] = dist.margin_votes; x['margin26_pts'] = dist.margin_pts
 x['margin24_pts'] = s24.margin_pts

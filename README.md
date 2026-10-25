@@ -9,7 +9,7 @@ The 2026 numbers are Elections BC's results as of October 25, 2026, 1:49 a.m. Pa
 
 Everything behind the page and the Instagram slides is here: every analysis script, every output table, the independent checks and the steps to rebuild it from the official sources. Nothing is hidden, so anyone can reproduce or challenge any number.
 
-- **[METHODOLOGY.md](METHODOLOGY.md):** what was measured and how, and a table of every published number (N1 to N33) with the file it comes from and how it is computed.
+- **[METHODOLOGY.md](METHODOLOGY.md):** what was measured and how, and a table of the published numbers (N1 to N33) with the file it comes from and how it is computed.
 - **[REPRODUCE.md](REPRODUCE.md):** environment, downloads and run order.
 - **[data/SOURCES.md](data/SOURCES.md):** every source with its link and licence.
 - **[methods/verification.md](methods/verification.md):** the independent checks of every claim and what they changed.

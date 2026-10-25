@@ -43,15 +43,15 @@ def build_rows(S, r0, r1, span):
          f"Elections BC Statements of Votes and the Electoral History of British Columbia. The 2001 Conservative share is from Elections BC's 2001 results by district (2,417 votes), since the series counts it under Other. 2026 {asof}."),
         ('Ridings the BC Liberals would have held in 2020 that elected a Conservative in 2026', f"{S['rise']['lib_ridings_2020_con_lead']} of {S['rise']['lib_ridings_2020']}",
          'Site', 'analysis/results24/out/transposed_2020_on_2023_eds.csv',
-         '2020 results moved onto the 2023 ridings by voting area, weighted by 2024 registered voters; the 2020 winner on the new map compared with the 2026 winner. West Vancouver-Sea to Sky, where the BC Liberals finished first in 2020 on the old map by 0.2 points, has a Green plurality once moved onto the new map (Green 38.2%, BC Liberal 36.1%), and elected a Green in 2026.'),
+         '2020 results moved onto the 2023 ridings by voting area, weighted by 2024 registered voters; the party first in 2020 on the new map compared with the party elected in 2026. West Vancouver-Sea to Sky, where the BC Liberals finished first in 2020 on the old map by 0.2 points, has a Green plurality once moved onto the new map (Green 38.2%, BC Liberal 36.1%), and elected a Green in 2026.'),
         # slide 4
         ('Suburban ridings that elected a Conservative', f"{VS['con26']} of {VS['n']} (2024: {VS['con24']})", 'Slide 4 (line), site', 'data/ridings.csv',
-         f'Metro Vancouver ridings outside the City of Vancouver (names that do not start with "Vancouver-"); 2026 winner {asof}, and the 2024 certified winner.'),
+         f'Metro Vancouver ridings outside the City of Vancouver (names that do not start with "Vancouver-"); the party elected in 2026 ({asof}) and the 2024 certified winner.'),
         ('Surrey ridings that elected a Conservative', f"{S['surrey']['con26']} of {S['surrey']['n']} (2024: {S['surrey']['con24']})", 'Slide 4 (foot), site', 'data/ridings.csv',
-         f'Ridings whose names begin with Surrey; 2026 winner {asof}, and the 2024 certified winner.'),
+         f'Ridings whose names begin with Surrey; the party elected in 2026 ({asof}) and the 2024 certified winner.'),
         ('Ridings that changed party', f"{S['n_switched']}: {n_con} to the Conservatives and {S['n_switched'] - n_con} to the NDP; {S['n_switched_metro']} in Metro Vancouver, "
          f"{sum(1 for d in S['switched'] if d['region'] != 'Metro Vancouver' and d['to'] == 'CON')} more to the Conservatives elsewhere", 'Slide 2 (ringed seats), slide 4 (map and foot), site', 'data/ridings.csv',
-         '2026 winner compared with the 2024 certified winner.'),
+         'The party elected in 2026 compared with the 2024 certified winner.'),
         ('Swing: suburbs against active cores and rural ridings', f"{r1(S['suburb_swing'])} against {r1(S['core_rural_swing'])} points", 'Site',
          'analysis/core/meta/place_types.csv', 'Change in the Conservative share of the Conservative and NDP vote, 2024 to 2026, averaged over ridings of each place type (commuting method of the Canadian Suburbs project, Queen\'s University, applied to whole ridings with the density test first); Peace River North left out.'),
         # slide 5
@@ -71,10 +71,10 @@ def build_rows(S, r0, r1, span):
          f"{G['n']} ridings. Vote: NDP {r1(G['y2024']['NDP'])}% to {r1(G['y2026']['NDP'])}%, Conservative {r1(G['y2024']['CON'])}% to {r1(G['y2026']['CON'])}%, Green {r1(G['y2024']['GRN'])}% to {r1(G['y2026']['GRN'])}%. "
          f"Seats: Conservative {G['seats24']['CON']} to {G['seats26']['CON']}, NDP {G['seats24']['NDP']} to {G['seats26']['NDP']}, Green {G['seats24']['GRN']} to {G['seats26']['GRN']}",
          'Slide 6 (chart, note and foot), site', 'analysis/results24/out/districts_2024.csv; ' + res + '; ' + fed,
-         f'Party votes over all valid votes, summed over the provincial ridings where the Liberals had the most votes in the April 28, 2025 federal election. Federal votes are allocated to provincial ridings by 2021 block population, so the grouping is an estimate: five ridings are within 0.5 point (Kelowna-Mission, Liberal by 0.02, is in the group; without it the 41 ridings go NDP 50.4% to 39.6% and Conservative 38.8% to 44.3%). 2024: final count; 2026: {asof}.'),
+         f'Party votes over all valid votes, summed over the provincial ridings where the Liberals had the most votes in the April 28, 2025 federal election. Federal votes are allocated to provincial ridings by 2021 block population, so the grouping is an estimate: five ridings are within 0.5 point (Kelowna-Mission, Liberal by 0.01 point or 5 votes, is in the group; without it the 41 ridings go NDP 50.4% to 39.6% and Conservative 38.8% to 44.3%). 2024: final count; 2026: {asof}.'),
         ('Conservative seats added, and how many were in ridings where the Liberals came first federally',
          f"{S['seats']['CON'] - S['seats24']['CON']} more than in 2024 ({S['seats24']['CON']} to {S['seats']['CON']}); {G['seats26']['CON'] - G['seats24']['CON']} of them in the {G['n']} ridings where the Liberals came first federally: three of every four",
-         'Slide 6 (line), site', 'data/ridings.csv', 'Net change in Conservative seats (21 gained, Courtenay-Comox to the NDP), 2024 certified winners against 2026 winners; the federal group is the party with the most votes in the April 28, 2025 federal election.'),
+         'Slide 6 (line), site', 'data/ridings.csv', 'Net change in Conservative seats (21 gained, Courtenay-Comox to the NDP), 2024 certified winners against the members elected in 2026; the federal group is the party with the most votes in the April 28, 2025 federal election.'),
         ('Ridings that changed to the Conservatives where the Liberals came first federally', f"{S['middle_flows']['LPC']['NDP>CON']} of {n_con}", 'Site', fed,
          'The 2025 federal party with the most votes in each riding that changed from NDP to Conservative.'),
         ('Provincial seats by 2025 federal group', '; '.join(f"{lab} first federally ({S['middle'][g]['n']}): Conservative {S['middle'][g]['y2024']['CON']} to {S['middle'][g]['y2026']['CON']}, NDP {S['middle'][g]['y2024']['NDP']} to {S['middle'][g]['y2026']['NDP']}"
@@ -93,7 +93,7 @@ def build_rows(S, r0, r1, span):
         ('Platform promises', '; '.join(i['short'] for b in P for i in b['items']), 'Slide 8 (the first promise for each worry), site', S['platform']['url'],
          'Quoted or summarised from the platform, with page numbers on the site; the pledge not to raise taxes is from the party\'s plan page.'),
         # site only
-        ('Votes and seats', '; '.join(f"{p} {r0(v['votes'])}% of votes, {r0(v['seats'])}% of seats" for p, v in S['votes_seats'].items()), 'Site', 'data/ridings.csv', 'Seats over 93.'),
+        ('Votes and seats', '; '.join(f"{p} {r1(v['votes'])}% of votes, {r1(v['seats'])}% of seats" for p, v in S['votes_seats'].items()), 'Site', 'data/ridings.csv', 'Seats over 93.'),
         ('Ridings decided by 150 votes or fewer', str(S['n_within_150']), 'Site', 'data/ridings.csv', f'Margin of the first candidate over the second, {asof}.'),
         ('Voters switching that would remove the majority', f"{S['tipping']['voters']:,} in {S['tipping']['seats_to_lose']} ridings", 'Site', 'data/ridings.csv',
          'Half of each margin plus one, summed over the narrowest Conservative seats until the party falls below 47.'),

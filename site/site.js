@@ -13,6 +13,7 @@ const fc = p => ({LPC: css('LPC'), CPC: css('CON'), NDP: css('NDP'), GPC: css('G
 const R = S.ridings, codes = Object.keys(R), N = codes.length, MAJ = T.majority;
 const fmt = d3.format(',');
 const f1 = v => v == null || isNaN(v) ? 'n/a' : (Math.round((Math.abs(v) + 1e-9) * 10) / 10 * (v < 0 ? -1 : 1)).toFixed(1);   // round half up
+const f2 = v => v == null || isNaN(v) ? 'n/a' : (Math.round((Math.abs(v) + 1e-9) * 100) / 100 * (v < 0 ? -1 : 1)).toFixed(2);   // two decimals, half up
 const sgn = v => (v > 0 ? '+' : v < 0 ? '−' : '') + f1(Math.abs(v));
 const rr2 = v => (v < 0 ? '−' : '') + Math.abs(v).toFixed(2);
 const WORD = ['None', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
@@ -68,6 +69,20 @@ let rz, lastW = innerWidth; addEventListener('resize', () => { if (innerWidth ==
 const txt = (g, x, y, s, o = {}) => g.append('text').attr('x', x).attr('y', y).attr('font-size', o.size || 12).attr('font-weight', o.weight || 400)
   .attr('fill', o.fill || css('text')).attr('text-anchor', o.anchor || 'start').text(s);
 const halo = t => t.attr('paint-order', 'stroke').attr('stroke', css('card')).attr('stroke-width', 3).attr('stroke-linejoin', 'round');
+// a label at the first candidate spot ([x, y, anchor]) that overlaps no other text in the chart, extra boxes or the chart's edges;
+// otherwise at the spot with the least overlap, or left out when opt.drop is set (the riding is named in the key)
+function putLabel(parent, cands, text, o = {}, opt = {}) {
+  const svgEl = parent.node().ownerSVGElement || parent.node(), sb = svgEl.getBoundingClientRect();
+  const rects = [...svgEl.querySelectorAll('text')].map(n => n.getBoundingClientRect()).filter(r => r.width).concat(opt.extra || []);
+  const t = halo(txt(parent, cands[0][0], cands[0][1], text, o));
+  const score = () => { const b = t.node().getBoundingClientRect(); let sc = b.left < sb.left + 1 || b.right > sb.right - 1 || b.top < sb.top || b.bottom > sb.bottom ? 1e6 : 0;
+    rects.forEach(r => { const ox = Math.min(b.right, r.right) - Math.max(b.left, r.left) + 2, oy = Math.min(b.bottom, r.bottom) - Math.max(b.top, r.top) + 1; if (ox > 0 && oy > 0) sc += ox * oy; });
+    return sc; };
+  let best = null;
+  for (const [x, y, an] of cands) { t.attr('x', x).attr('y', y).attr('text-anchor', an || o.anchor || 'start'); const sc = score(); if (!best || sc < best.sc) best = {sc, x, y, an}; if (!sc) break; }
+  if (best.sc && opt.drop) { t.remove(); return null; }
+  return t.attr('x', best.x).attr('y', best.y).attr('text-anchor', best.an || o.anchor || 'start').style('pointer-events', 'none');
+}
 const axis = (g, a) => g.call(a).attr('color', css('muted')).attr('font-size', 12);
 // taps and hovers go to the nearest dot, so small dots are easy to hit on a phone
 function nearest(svg, pts, onPick, onMiss, hover, maxD = 26) {
@@ -241,8 +256,10 @@ function drawHow() {
       svg.append('path').datum(pts).attr('fill', 'none').attr('stroke', col).attr('stroke-width', 2.5).attr('stroke-dasharray', '6 4').attr('d', ln);
       svg.append('g').selectAll('circle').data(pts).join('circle').attr('cx', d => x(d[0])).attr('cy', d => y(d[i])).attr('r', 5)
         .attr('fill', solid ? col : css('card')).attr('stroke', solid ? css('card') : col).attr('stroke-width', solid ? 1.5 : 2.5); });
-    const p0 = rv[0], hiR = p0[1] >= p0[2];
-    halo(txt(svg, x(2020) - 9, y(hiR ? p0[1] : p0[2]) - 6, R[you].name, {anchor: 'end', size: 12, weight: 800})); }
+    const p0 = rv[0], hiR = p0[1] >= p0[2], yv = y(hiR ? p0[1] : p0[2]), yl = y(hiR ? p0[2] : p0[1]);
+    const xa = x(2020) - 9, xb = x(2020) + 9;
+    putLabel(svg, [[xa, yv - 6, 'end'], [xa, yv - 22, 'end'], [xa, yv + 18, 'end'], [xa, yl + 18, 'end'], [xa, yl - 6, 'end'], [xb, yv - 10, 'start'], [xb, yl + 18, 'start'], [m.l + 6, m.t - 8, 'start']],
+      R[you].name, {size: 12, weight: 800}, {extra: [{left: 0, right: svg.node().getBoundingClientRect().left + m.l, top: -1e5, bottom: 1e5}], drop: nar}); }
   // the chosen election
   const xs = x(howYear);
   svg.append('line').attr('x1', xs).attr('x2', xs).attr('y1', m.t).attr('y2', h - m.b).attr('stroke', css('you')).attr('stroke-width', 2.5).attr('pointer-events', 'none');
@@ -397,13 +414,13 @@ function drawPT() {
   const rows = T.place_types.map(d => { const pts = all.filter(c => R[c].ptype === d.type).map(c => ({c, x: x(R[c].tp)})).sort((a, b) => a.x - b.x); return {d, pts, spread: dodge(pts, 2 * r + 1)}; });
   let yy = 2; rows.forEach(o => { o.y0 = yy; o.cy = yy + 40 + o.spread + r; o.h = 48 + 2 * (o.spread + r); yy += o.h; });
   const {svg, w, h} = frame('#ptchart', yy + 42);
-  svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 36).attr('y2', yy).attr('stroke', css('muted')).attr('stroke-dasharray', '3 4');
   const P2 = [];
   rows.forEach(({d, pts, y0, cy, h: rh}) => {
     const g = svg.append('g');
     g.append('rect').attr('x', 0).attr('y', y0).attr('width', w).attr('height', rh - 4).attr('rx', 8).attr('fill', ptHi === d.type ? css('hi') : 'transparent');
     txt(g, 6, y0 + 16, d.type, {size: 13, weight: 800});
     txt(g, 6, y0 + 32, w < 360 ? `${d.n} ridings · ${d.switched} changed · average ${sgn(d.swing)}` : `${d.n} ridings · ${d.switched} changed party · average ${sgn(d.swing)} points`, {size: 12, fill: css('muted')});
+    g.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', y0 + 38).attr('y2', y0 + rh - 4).attr('stroke', css('muted')).attr('stroke-dasharray', '3 4');   // zero, below the row's captions
     g.append('line').attr('x1', x(d.swing)).attr('x2', x(d.swing)).attr('y1', y0 + 38).attr('y2', y0 + rh - 6).attr('stroke', css('text')).attr('stroke-width', 2.5);
     g.selectAll('circle').data(pts).join('circle').attr('cx', p => p.x).attr('cy', p => cy + p.dy).attr('r', r)
       .attr('fill', ptc(d.type)).attr('fill-opacity', p => R[p.c].flip ? 1 : .5).attr('stroke', p => R[p.c].flip ? css('text') : 'none').attr('stroke-width', 1.6);
@@ -411,7 +428,9 @@ function drawPT() {
   });
   const me = P2.find(p => p.c === you);
   if (me) { svg.append('circle').attr('cx', me.x).attr('cy', me.y).attr('r', r + 5).attr('fill', 'none').attr('stroke', css('you')).attr('stroke-width', 3);
-    halo(txt(svg, Math.min(w - 4, Math.max(4, me.x)), me.y - r - 9, R[me.c].name, {anchor: me.x > w * .7 ? 'end' : me.x < w * .3 ? 'start' : 'middle', size: 12, weight: 800})); }
+    const an = me.x > w * .7 ? 'end' : me.x < w * .3 ? 'start' : 'middle', mx = Math.min(w - 4, Math.max(4, me.x));
+    putLabel(svg, [[mx, me.y - r - 9, an], [mx, me.y + r + 19, an], [me.x - r - 9, me.y + 4, 'end'], [me.x + r + 9, me.y + 4, 'start'], [mx, me.y - r - 23, an], [mx, me.y + r + 33, an]],
+      R[me.c].name, {size: 12, weight: 800}); }
   axis(svg.append('g').attr('transform', `translate(0,${yy + 2})`), d3.axisBottom(x).ticks(w < 500 ? 5 : 8).tickFormat(v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v)));
   txt(svg, w - 4, h - 4, w < 520 ? 'Swing to the Conservatives (points)' : 'Swing toward the Conservatives, 2024 to 2026 (points)', {anchor: 'end', size: 12, fill: css('muted')});
   nearest(svg, P2, p => setYou(p.c), e => { const [, my] = d3.pointer(e); const row = rows.find(o => my >= o.y0 && my <= o.y0 + o.h); if (!row) return;
@@ -661,13 +680,20 @@ function drawMid() {
         .on('click', e => { e.stopPropagation(); const ch = g.k !== midSel; midSel = g.k; midBand = midBand === key && on ? null : key; midOpen = false; if (ch) { grpOpen = false; drawGrp(); } drawMid(); })
         .on('mousemove', e => showTip(e, `<b>${g.label}</b><br>${swd ? `Provincially ${PN[a]} in 2024, ${PN[c2]} in 2026` : `Provincially ${PN[a]} in 2024 and 2026`}: ${n} ${n === 1 ? 'riding' : 'ridings'}${list.length <= 8 ? '<br>' + list.map(c => R[c].name).join(', ') : ''}`)).on('mouseleave', hideTip);
       const mine = you && list.includes(you) ? (() => { const i = list.indexOf(you); return (y0 + y1) / 2 + (i + .5) * k; })() : null;
-      if (swd && on) { let ly2 = (y0 + y1) / 2 + t / 2 + 4; if (mine != null && Math.abs(mine - (ly2 - 4)) < 11) ly2 = mine + 17;
-        labels.push([xm, ly2, n >= 3 ? `${n} switched` : and(list.map(c => R[c].name))]); }
-      if (mine != null) labels.push(['you', xm, mine, R[you].name, (y0 + y1) / 2]);
+      if (swd && on) labels.push({band: true, y0, y1, t, text: n >= 3 ? `${n} switched` : and(list.map(c => R[c].name)), short: `${n} switched`});
+      if (mine != null) labels.push({band: false, dotY: mine, text: R[you].name});
     }));
-    labels.forEach(l => { if (l[0] === 'you') { gg.append('circle').attr('cx', l[1]).attr('cy', l[2]).attr('r', 6).attr('fill', css('you')).attr('stroke', css('card')).attr('stroke-width', 2).style('pointer-events', 'none');
-        halo(txt(gg, l[1], Math.min(l[2] - 10, l[4] - 5), l[3], {anchor: 'middle', size: 12, weight: 800})).style('pointer-events', 'none'); }
-      else halo(txt(gg, l[0], l[1], l[2], {anchor: 'middle', size: 12, weight: 800})).style('pointer-events', 'none'); });
+    // labels never print over each other, the block's heading lines or your riding's dot
+    const bx = u => (1 - u) ** 3 * x0 + 3 * (1 - u) * u * xm + u ** 3 * x1;   // the band's centre line (cubic with both control points at xm)
+    const by = (a, c2, u) => a + (c2 - a) * (3 * u * u - 2 * u ** 3);
+    const dots = labels.filter(l => !l.band).map(l => gg.append('circle').attr('cx', xm).attr('cy', l.dotY).attr('r', 6).attr('fill', css('you')).attr('stroke', css('card')).attr('stroke-width', 2).style('pointer-events', 'none'));
+    const extra = () => dots.map(d => d.node().getBoundingClientRect());
+    const LO = {size: 12, weight: 800, anchor: 'middle'};
+    // your riding's name first, then the band labels, which have more places to go
+    labels.filter(l => !l.band).forEach(l => putLabel(gg, [[xm, l.dotY - 11], [xm, l.dotY + 21], [xm - 12, l.dotY + 4, 'end'], [xm + 12, l.dotY + 4, 'start'], [xm - 80, l.dotY + 4, 'end'], [xm + 80, l.dotY + 4, 'start'], [xm, l.dotY - 27], [xm, l.dotY + 37]], l.text, LO, {extra: extra()}));
+    labels.filter(l => l.band).forEach(l => { const C = [.5, .34, .66, .24, .76, .42, .58, .16, .84].flatMap(u => [0, -13, 13, -26, 26].map(d => [bx(u), by(l.y0, l.y1, u) + l.t / 2 + 4 + d]));
+      // a riding's name gives way to "1 switched" where space is short; on a narrow screen with no free spot the band stays unlabelled (tap it to list its ridings)
+      if (!putLabel(gg, C, l.text, LO, {extra: extra(), drop: true})) putLabel(gg, C, l.short, LO, {extra: extra(), drop: w < 500}); });
   });
   groupChips('#midbtn');
   const G = AG.find(g => g.k === midSel), chip = c => `<button class="rchip${c === you ? ' on' : ''}" data-sel="${c}"><span class="dot" style="background:${pc(R[c].lead)}"></span>${esc(R[c].name)}</button>`;
@@ -806,9 +832,16 @@ const seatsAt = s => { const n = {CON: 0, NDP: 0, GRN: 0, OTH: 0}; codes.forEach
 // where the Conservative majority ends, and where an NDP majority begins
 const scan = d3.range(0, 1001).map(i => i / 50);
 const conEnds = scan.find(s => seatsAt(s).CON < MAJ), ndpStarts = scan.find(s => seatsAt(s).NDP >= MAJ);
-function flipAt(c) {   // smallest shift, either way, at which the riding changes hands
-  const L = R[c].lead; const up = scan.find(s => leaderAt(c, s) !== L), dn = scan.find(s => leaderAt(c, -s) !== L);
-  return {up, dn};
+function flipAt(c) {   // the exact shift, each way, at which the riding changes hands, and who takes it
+  const v = VT[c], L = R[c].lead, out = {}; if (!v.NDP || !v.CON) return out;
+  const t2 = v.CON + v.NDP, k = t2 / 100;
+  [[1, 'up'], [-1, 'dn']].forEach(([dir, key]) => {   // dir 1: toward the NDP; -1: toward the Conservatives
+    const fall = dir === 1 ? v.CON : v.NDP, rise = dir === 1 ? v.NDP : v.CON, cand = [];
+    const sx = 50 * (fall - rise) / t2; if (sx > 0) cand.push(sx);                         // the two main parties cross
+    if (v.ob) { const a = (fall - v.ob) / k, b = (v.ob - rise) / k; if (a > 0) cand.push(a); if (b > 0) cand.push(b); }   // the largest other candidate is passed or passes
+    for (const t of cand.sort((p, q) => p - q)) { const p = leaderAt(c, dir * (t + 1e-7)); if (p !== L) { out[key] = {s: t, to: p}; break; } }
+  });
+  return out;
 }
 let swingS = 0, SEATS = [];
 // both seat charts share one layout: seats fill from the left (NDP) to the right (Conservative), and within a party the closest races sit nearest the middle
@@ -882,12 +915,12 @@ function drawScale() {
 $('#swing').addEventListener('input', e => { swingS = +e.target.value; drawVS(); });
 $('#swingreset').onclick = () => { swingS = 0; $('#swing').value = 0; drawVS(); };
 draw(drawVS); ON_YOU.push(drawVS);
-YOU.majority = c => { const r = R[c], f = flipAt(c), at = swingS === 0 ? '' : ` At this setting it is ${PN[leaderAt(c, swingS)]}.`;
+YOU.majority = c => { const r = R[c], at = swingS === 0 ? '' : ` At this setting it is ${PN[leaderAt(c, swingS)]}.`;
   if (r.tp == null) return `<b>${esc(r.name)}</b> had no NDP candidate in 2026, so the slider leaves it ${PN[r.lead]}.`;
-  const toN = f.up, toC = f.dn, other = r.lead === 'CON' ? 'NDP' : 'Conservatives';
-  const need = r.lead === 'CON' ? toN : r.lead === 'NDP' ? toC : Math.min(toN ?? 99, toC ?? 99);
-  return need != null && need <= 20 ? `<b>${esc(r.name)}</b> changes hands at a shift of ${f1(need)} points toward the ${r.lead === 'GRN' ? (toN != null && toN <= (toC ?? 99) ? 'NDP' : 'Conservatives') : other}.${at}${ref('ebc26')}`
-    : `<b>${esc(r.name)}</b> stays ${PN[r.lead]} even with a shift of 20 points.${at}${ref('ebc26')}`; };
+  const f = flipAt(c), o = [f.up && {...f.up, dir: 'NDP'}, f.dn && {...f.dn, dir: 'Conservatives'}].filter(q => q && q.s <= 20).sort((p, q) => p.s - q.s)[0];
+  if (!o) return `<b>${esc(r.name)}</b> stays ${PN[r.lead]} even with a shift of 20 points.${at}${ref('ebc26')}`;
+  const main = (r.lead === 'CON' && o.to === 'NDP') || (r.lead === 'NDP' && o.to === 'CON');   // a third candidate can take the seat first (the Greens in two Victoria ridings)
+  return `<b>${esc(r.name)}</b> ${main ? 'changes hands' : `goes ${PN[o.to]}`} at a shift of ${f2(o.s)} points toward the ${o.dir}.${at}${ref('ebc26')}`; };
 const VS = T.votes_seats, TP = T.tipping, WT = T.votes_where_trailing;
 const gap24 = SH24.NDP - SH24.CON, gap26 = T.share.CON - T.share.NDP, net = T.seats.CON - T.seats24.CON;
 $('#say-majority').innerHTML = `The Conservative share rose ${f1(T.share.CON - SH24.CON)} points and the NDP's fell ${f1(SH24.NDP - T.share.NDP)}. Each riding elects the candidate who finishes first, so ${net} seats moved, net, from the NDP to the Conservatives.${ref('ebc24')}${ref('ebc26')}`;
@@ -950,7 +983,7 @@ YOU.promises = c => { const r = R[c], k = codes.filter(x => x !== c && R[x].marg
 $('#say-promises').innerHTML = `Each card is a promise from the Conservative platform on one of the three top worries before the vote.${ref('platform')}${ref('ar')} Return Day, when the results become official, is ${NX.return_day}.${ref('ebcdates')}`;
 $('#more-promises').innerHTML = `<p>${and(T.promises.map(w => w.worry.toLowerCase())).replace(/^./, s => s.toUpperCase())} were British Columbians' top three worries.${ref('ar')} The cards quote or summarize the Conservative platform, with its page.${ref('platform')} On housing, the platform sets no number of homes and no target for rents or prices; its timeline is for approvals.${ref('platform')} The platform, "${PLAT.title}", is the version posted on the party's website on October 19, 2026. It adds $${PLAT.new_spending_full_year_billion} billion a year in new spending at full cost and $${PLAT.tax_relief_four_years_billion} billion in tax relief over four years, and projects a deficit of $${PLAT.deficit_2029_30_billion} billion in 2029/30.${ref('platform')}</p>
 <ul><li>Final count: ${NX.final_count}.${ref('ebcdates')}${ref('ebcnight')}</li>
-<li>In the 2024 B.C. election, the kinds of ballots left to the 2026 final count (vote-by-mail, assisted telephone and absentee ballots on Final Voting Day) gave the Conservatives ${f1(LT.con_two_party_late)}% of the Conservative and NDP vote, against ${f1(LT.con_two_party_rest)}% in all other ballots.${ref('ebc24')}</li>
+<li>In the 2024 B.C. election, three of the four kinds of ballots left to the 2026 final count (vote-by-mail, assisted telephone and absentee ballots on Final Voting Day) gave the Conservatives ${f1(LT.con_two_party_late)}% of the Conservative and NDP vote, against ${f1(LT.con_two_party_rest)}% in all other ballots.${ref('ebc24')}</li>
 <li>Return Day, when the results become official: ${NX.return_day}.${ref('ebcdates')}</li>
 <li>Swearing-in of the premier and cabinet: ${NX.swearing_in} as of October 25, 2026.</li>
 <li>Lorne Doerkson, the Conservatives' interim leader, is expected to become premier. The party's board says he will remain leader and that it will seek to amend the party's rules.${ref('cpcboard')}${ref('cpcconst')}</li></ul>
@@ -963,12 +996,12 @@ $('#methodtext').innerHTML = `<p><b>Results.</b> 2026 numbers are Elections BC's
 <p><b>2020 on the 2026 ridings.</b> Elections BC's 2020 results by voting area were moved onto the 2023 boundaries, which both the 2024 and 2026 elections use, weighted by 2024 registered voters.${ref('ebc20')}</p>
 <p><b>Swing.</b> The Conservative share of the Conservative and NDP vote in 2026 minus the same share in 2024. It reduces the effect of 2024 independents and of Green candidates entering or leaving a riding. Peace River North had no NDP candidate in 2026 and is left out of swing measures.</p>
 <p><b>Census and place types.</b> 2021 Census profiles for the ${N} ridings published by BC Stats on the 2023 boundaries.${ref('bcstats')}${ref('statcan')} Place types follow the commuting method of the Canadian Suburbs project, applied in this order: exurban and rural ridings have under 150 people per km²; of the rest, active cores have walking and cycling to work at least 1.5 times the provincial rate, transit suburbs have above-average transit use, and the rest are car suburbs. The project applies the method to census tracts within metropolitan areas and tests walking and cycling first; here it is applied to whole ridings with provincial averages, density first, a simplification.${ref('suburbs')} The profile cards count every household, commuter or resident in each group's ridings together, each over its own census universe, and round the shares to whole percentages. Links between census measures and votes are correlations across ridings. They describe places as a whole and do not show how any one person voted.</p>
-<p><b>Federal vote.</b> Elections Canada's results for the April 28, 2025 federal election, poll by poll, allocated to provincial ridings by the share of each polling division's 2021 population inside each riding (dissemination blocks). Advance and special ballots, which have no polling division, are spread within each federal riding by its election-day pattern. Totals match Elections Canada's B.C. totals.${ref('ecan25')}${ref('bcdc')} The estimates of how each federal party's voters voted provincially regress each provincial party's riding shares on the federal shares (non-negative least squares) and resample the ridings 400 times; the ranges run from the 5th to the 95th percentile.${ref('goodman')}</p>
+<p><b>Federal vote.</b> Elections Canada's results for the April 28, 2025 federal election, poll by poll, allocated to provincial ridings by the share of each polling division's 2021 population inside each riding (dissemination blocks). Advance and special ballots, which have no polling division, are spread within each federal riding by its election-day pattern. Totals match Elections Canada's B.C. totals within 5 votes per party.${ref('ecan25')}${ref('bcdc')} The estimates of how each federal party's voters voted provincially regress each provincial party's riding shares on the federal shares (non-negative least squares) and resample the ridings 400 times; the ranges run from the 5th to the 95th percentile.${ref('goodman')}</p>
 <p><b>History and measures.</b> Province-wide shares and seats from Elections BC's Electoral History of British Columbia and Statements of Votes, 1928 to 2024. The ${H28y} Conservative share counts that party's own candidates (${f1(H28.share.CON)}%).${ref('ebchist')} Disproportionality, the effective number of parties and volatility use party families (Conservative, Social Credit, Coalition, Liberal, BC Liberal, CCF and NDP, Green, Reform, others).${ref('gallagher')}${ref('laakso')}${ref('pedersen')}</p>
 <p><b>Polls.</b> Each poll is taken from the pollster's own release where it could be opened; the final-poll average uses the last campaign poll from each pollster, fixed before polls closed. A party is shown as rated best only when its gap over the other is larger than the 95% margin of error that a probability sample of the same size would have on the gap between two shares; the pollster notes that a margin of error cannot be calculated for its online panel.${ref('polls')}${ref('ar')}${ref('irg')}${ref('ipsos')}</p>
 <p><b>Promises.</b> Quoted or summarized from the Conservative platform, with page numbers.${ref('platform')} The pledge not to raise taxes comes from the party's plan page and its September 27, 2026 release.</p>
 <p><b>Map.</b> Official 2023 electoral district boundaries, clipped to land with lakes over 50 km² removed, simplified without gaps for the province view.${ref('bcdc')} The Metro Vancouver, Victoria area and Okanagan views use the full-resolution boundaries, lightly smoothed, with B.C. waters out to the international boundary, lakes over 1 km² and rivers over 50 hectares from the BC Freshwater Atlas drawn as water; areas outside B.C. are left blank.</p>
-<p>The full methodology, every script and a table of every published number are in the project's repository: <a href="https://github.com/mediancanadian/bc-election-oct26">github.com/mediancanadian/bc-election-oct26</a>.</p>`;
+<p>The full methodology, every script and a table of the published numbers are in the project's repository: <a href="https://github.com/mediancanadian/bc-election-oct26">github.com/mediancanadian/bc-election-oct26</a>.</p>`;
 $('#refs').innerHTML = REFS.map((r, i) => `<li id="ref-${i + 1}">${r.title}.${r.url ? ` <a href="${r.url}" rel="noopener">${r.url.replace(/^https?:\/\//, '')}</a>` : ''}</li>`).join('');
 // a reference link opens its closed block first
 document.addEventListener('click', e => { const a = e.target.closest('a[href^="#ref-"]'); if (!a) return; const li = $(a.getAttribute('href')); if (!li) return; const d = li.closest('details'); if (d && !d.open) d.open = true; });
